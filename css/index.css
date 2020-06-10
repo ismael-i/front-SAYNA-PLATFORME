@@ -1,0 +1,38 @@
+body{
+    background-color: #E9EAEF;
+}
+
+.new-logo{
+    position: absolute;
+    width: 320px;
+    height: 102px;
+    left: 60px;
+    top: 55px;
+}
+.menu {
+    position: absolute;
+    width: 971px;
+    height: 73px;
+    left: 889px;
+    top: 56px;
+}
+.boxPrinc{
+
+    position: absolute;
+    width: 1008.97px;
+    height: 888.75px;
+    left: -89px;
+    top: -45px;
+}
+
+.forme-2{
+    position: absolute;
+    width: 776px;
+    height: 776px;
+    left: 1483px;
+    top: 308px;
+    
+    background: #FFCC00;
+}
+
+
