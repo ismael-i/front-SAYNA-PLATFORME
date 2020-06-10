@@ -1,0 +1,47 @@
+/*background*/
+#background-body{
+     background: #E5E5E5;
+}
+/* Forme 1 */
+
+.form1{position: absolute;
+    left: -2.35%;
+    right: 52.02%;
+    top: -0.43%;
+    bottom: 92.37%;
+    
+    /* background: #FFCC00;
+    transform: rotate(3deg); */
+}
+/* Logo_Sayna */
+
+.logo1{
+position: absolute;
+width: 320px;
+height: 102px;
+left: 60px;
+top: 55px;
+}
+/* Une école. Une agence. C’est tout ! */
+
+.agency-text{
+position: absolute;
+width: 749px;
+height: 461px;
+left: 116px;
+top: 255px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 800;
+font-size: 126px;
+line-height: 101.02%;
+/* or 127px */
+
+letter-spacing: -0.045em;
+
+color: #000000;
+}
+.agency-text-white{
+    color: #F2F2F7;
+}
