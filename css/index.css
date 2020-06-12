@@ -782,3 +782,127 @@ a{
 
     color: #EBEBF1;   
 }
+
+
+
+/* notre communauté */
+
+.notre-communaute{
+
+    position: absolute;
+    width: 289px;
+    height: 36px;
+    /* left: calc(50% - 289px/2 + 322.5px);
+    top: calc(50% - 36px/2 + 2586.5px); */
+    top: 7771px;
+    left: 1138px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    
+    color: #FB5875;
+    
+}
+
+
+/* Nous rassemblons la Communauté digitale la plus qualifiée d’Afrique. */
+
+.rassemblons-communaute{
+
+    position: absolute;
+    width: 679px;
+    height: 194px;
+    left: 1139px;
+    top: 7825px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 51px;
+    line-height: 62px;
+    
+    color: #000000;
+}
+
+/* Profitez dès maintenant de l’expertise de nos 150+ talents formés. Notre communauté constituée d’anciens étudiants, de freelances, d’experts thématiques. */
+
+.profitez-maintenant{
+
+    position: absolute;
+    width: 609px;
+    height: 98px;
+    left: 1139px;
+    top: 8033px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 148.87%;
+    /* or 30px */
+    
+    letter-spacing: -0.025em;
+    
+    color: #000000;
+    
+}
+
+/* Rectangle 27 */
+
+.rectangle-27{
+ 
+    position: absolute;
+    width: 284px;
+    height: 58px;
+    left: 1129px;
+    top: 8165px;
+
+    background: #FB5875;
+    border-radius: 100px;   
+}
+
+
+/* M'inscrire */
+
+.rejoindre{
+
+    /* position: absolute; */
+    width: 239px;
+    height: 55px;
+    left: 1129px;
+    top: 8169px;
+    
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+    
+    color: #EBEBF1;
+}
+
+
+/* Rectangle 1921 */
+
+.rectangle-1921{
+
+    position: absolute;
+    width: 9px;
+    height: 533px;
+    left: 1112px;
+    top: 7741px;
+    
+    background: #FFCC00;
+}
