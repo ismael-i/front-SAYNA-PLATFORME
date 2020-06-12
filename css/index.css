@@ -228,8 +228,8 @@ a{
 
 .groupe-12{
     position: absolute;
-    width: 1299.26px;
-    height: 901.2px;
+    /* width: 1299.26px;
+    height: 901.2px; */
     left: 1035px;
     top: 2770px;
 }
@@ -318,18 +318,20 @@ a{
 }
 .voir-detail{
 
-    position: absolute;
+    /* position: absolute; */
     left: 2.34%;
     right: 19.49%;
     top: 1.85%;
     bottom: -1.85%;
     
+    margin-left: auto;
+    margin-right: auto;
     font-family: Sofia Pro;
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
     line-height: 30px;
-    display: flex;
+    /* display: flex; */
     align-items: center;
     text-align: center;
     text-transform: uppercase;
@@ -359,7 +361,7 @@ a{
 /* Rectangle 16 */
 
 .rectangle-16{
-
+    
 }
 
 /* suivi des étudiants */
@@ -388,11 +390,11 @@ a{
 
 .tenons{
 
-/* 
+
     left: 25px;
-    top: 71px; */
-    left: 198px;
-    top: 3812px;
+    top: 155px;
+    /* left: 198px;
+    top: 3812px; */
     position: absolute;
     width: 455px;
     height: 353px;
@@ -449,7 +451,7 @@ a{
 .milieu-professionnel{
 
     left: 22px;
-    top: 71px;
+    top: 155px;
     position: absolute;
     width: 467px;
     height: 353px;
@@ -498,9 +500,8 @@ a{
     position: absolute;
     width: 451px;
     height: 138px;
-    /* 
-    left: 1272px;*/
-    top: 71px; 
+    left: 29px;
+    top: 177px; 
     
     font-family: Inter;
     font-style: normal;
@@ -512,4 +513,272 @@ a{
     text-align: center;
     
     color: #ABADB6;
+}
+
+
+
+
+
+
+/* Groupe SANS CONTENT */
+
+.Groupe-SANS-CONTENT{
+
+    position: absolute;
+    width: 626px;
+    height: 174.99px;
+    left: 100px;
+    top: 6332px;
+}
+
+/* NOS OFFRES AGENCE */
+
+.NOS-OFFRES-AGENCE{
+
+    position: absolute;
+    width: 289px;
+    height: 22.25px;
+
+    /* left: calc(50% - 289px/2 - 715.5px);
+    top: calc(50% - 22.25px/2 + 1140.62px); */
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    
+    color: #FB5875;
+}
+
+/* Placement en CDI FREELANCE. */
+
+.placement-CDI{
+
+    left: 18px;
+    position: absolute;
+    width: 605px;
+    height: 119.88px;
+    /* left: 121px;
+    top: 6387.1px; */
+    top: 32.85px; 
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 51px;
+    line-height: 62px;
+    
+    color: #000000;
+}
+
+/* SAYNA Agency place en remote les meilleurs talents digitaux Africains dans le monde entier : en CDD, en CDI, FREELANCE,  pour un jour ou plusieurs années. Chacun des talents placés a suivi un parcours de formation de 3 à 6 mois avant d'être proposé sur une mission, et est accompagné d'un senior. */
+
+.SAYNA-Agency-place{
+
+    position: absolute;
+    width: 640px;
+    height: 218px;
+    left: 122px;
+    top: 6526px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 156.02%;
+    /* or 30px */
+    
+    text-align: justify;
+    
+    color: #000000;
+}
+
+.rectangle-147{
+    background-color: rgb(255, 204, 0,0.57) ;
+}
+
+/* Au delà de nos tarifs attractifs, 82% de la facturation reviens au talent, un modèle juste et équitable loin des sociétés de service classiques. */
+
+.nos-tarifs-attractifs{
+
+    position: absolute;
+    width: 582px;
+    height: 307px;
+    left: 1216px;
+    top: 6589px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 156.02%;
+    /* or 30px */
+    
+    text-align: justify;
+    
+    color: #000000;
+}
+
+.gras{
+    font-weight: bolder;
+    font-size: 120px;
+}
+
+
+
+/* NOS OFFRES AGENCE */
+
+.NOS-OFFRES-AGENCE-1{
+
+    position: absolute;
+    width: 289px;
+    height: 22.25px;
+    top:6986.29px;
+    left:  816px;
+    /* 
+    left: calc(50% - 289px/2 + 0.5px);
+    top: calc(50% - 22.25px/2 + 1794.91px); */
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    
+    color: #FB5875;
+}
+/* MVP Projet clé en main. */
+
+
+.MVP-Projet{
+
+    position: absolute;
+    width: 605px;
+    height: 119.88px;
+    left: 659px;
+    top: 7036.89px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 51px;
+    line-height: 62px;
+    text-align: center;
+    
+    color: #000000;
+    
+}
+/* SAYNA Factory rassemble pour vous une équipe de freelances en adéquation avec vos besoins dans un cadre forfaitaire et vous accompagne de la conception à la livraison jusqu’à la maintenance. Engagés au forfait,nous sommes en charge de toute la réalisation du projet. Des premières spécifications jusqu'au livrable final, en passant par le MVP, les itérations et les tests. */
+
+.SAYNA-Factory-rassemble{
+
+    position: absolute;
+    width: 620.75px;
+    height: 198.78px;
+    left: 650.98px;
+    top: 7195.39px;
+    text-align: center;
+    
+}
+
+
+
+/* Ellipse 169 */
+ 
+.ellipse-169{
+
+    position: absolute;
+    /* width: 694.33px;
+    height: 696.52px; */
+    top: 6703px;
+    
+    border-radius: 20px;
+} 
+
+/* Polygon 5 */
+
+.Polygon-5 {
+
+    position: absolute;
+    /* width: 207.89px;
+    height: 246.31px; */
+    left: 32px;
+    top: 7141.9px;
+    
+    border-radius: 20px;
+    /* transform: rotate(83.71deg); */
+}
+
+/* Ellipse 170 */
+
+.ellipse-170{
+
+    position: absolute;
+    /* width: 377.73px;
+    height: 378.92px; */
+    left: 1592px;
+    top: 6725.29px;
+    
+    border-radius: 20px;
+    /* transform: rotate(19.43deg); */
+}
+
+/* Polygon 6 */
+
+.Polygon-6{
+
+    position: absolute;
+    /* width: 113.1px;
+    height: 134px; */
+    left: 1778.07px;
+    top: 6837.07px;
+    
+    /* background: #FB5875; */
+    border-radius: 20px;
+   /*  transform: rotate(-101.81deg); */
+}
+
+/* Rectangle 1922 */
+
+.rectangle-1922{
+
+    position: absolute;
+    width: 220px;
+    height: 58px;
+    left: 851px;
+    top: 7449px;
+    
+    background: #FB5875;
+    border-radius: 100px;
+}
+
+/* M'inscrire */
+
+.inscrire{
+    
+    /* position: absolute; */
+    width: 182px;
+    height: 53px;
+    left: 851px;
+    top: 7454px;
+
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+
+    color: #EBEBF1;   
 }
