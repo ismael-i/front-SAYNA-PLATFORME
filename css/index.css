@@ -1,3 +1,4 @@
+/*--------header---------*/
 /*background*/
 #background-body{
      background: #E5E5E5;
@@ -13,6 +14,7 @@
     /* background: #FFCC00;
     transform: rotate(3deg); */
 }
+
 /* Logo_Sayna */
 
 .logo1{
@@ -45,3 +47,145 @@ color: #000000;
 .agency-text-white{
     color: #F2F2F7;
 }
+
+/*--------header---------*/
+
+
+         /*-----------partenaire------------*/
+
+.partner{
+    position: absolute;
+width: 1136px;
+height: 136.88px;
+left: 393px;
+top: 1186px;
+
+}
+/*text1*/
+.partner-text1{
+    /* position: absolute;
+width: 359px; */
+/* height: 52px; */
+left: calc(50% - 359px/2 - 0.5px);
+top: calc(50% - 52px/2 - 3990.5px);
+
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+letter-spacing: 0.017em;
+text-transform: uppercase;
+
+color: #FB5875;
+
+}
+/*text2*/
+.partner-text2{
+    /* position: absolute;
+width: 627px; */
+/* height: 64px; */
+left: 647px;
+top: 1215px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+letter-spacing: -0.03em;
+text-transform: uppercase;
+
+color: #6E6E6E;
+
+}
+
+/*partenaire logo*/
+.partner-logo{
+
+/* position: absolute; */
+width: 1136px;
+height: 67.88px;
+left: 393px;
+top: 1255px;
+
+}
+.partner-list li{
+    list-style: none;
+    float: left;
+}
+.logo-maltme{
+
+/* position: absolute; */
+ width: 189.57px;
+height: 49.19px; 
+left: 393px;
+top: 1261.89px;
+
+background: url("../image/logo_maltem_groupe-HD-e1473777081392.png") no-repeat;
+}
+.logo-orange{
+
+    /* position: absolute; */
+    width: 63.58px;
+    height: 58.04px;
+    left: 594.34px;
+    top: 1256.97px;
+    
+    background: url("../image/1022px-Orange_logo\ 1.png") no-repeat;
+}
+.logo-accessbanque{
+    /* position: absolute; */
+width: 249.03px;
+height: 62.96px;
+left: 670.64px;
+top: 1255px;
+
+background: url("../image/AccèsBanque Madagascar.png");
+}
+.logo-axiangroup{
+    /* position: absolute; */
+width: 136.7px;
+height: 60.99px;
+left: 932.39px;
+top: 1261.89px;
+
+background: url("../image/Axian.png");
+}
+.logo-groupeBanqueMoandial{
+    /* position: absolute; */
+width: 439.78px;
+height: 52.14px;
+left: 1089.22px;
+top: 1261.89px;
+
+background: url("../image/logo-wb-header-fr-newsletter.png");
+}
+
+         /*-----partenaire------*/
+         
+         
+         
+.form3{
+position: absolute;
+width: 584px;
+height: 584px;
+left: 1258px;
+top: 1287px;
+        
+/* background: #FFCC00; */
+}
+.image-businessman{
+position: absolute;
+width: 1921px;
+height: 1083px;
+left: 608px;
+top: 1077px;
+
+background: url("../image/Vieux\ Businessman.png");
+}
+
+
+
