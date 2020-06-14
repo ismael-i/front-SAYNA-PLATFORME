@@ -4,36 +4,162 @@ body{
 
 .new-logo{
     position: absolute;
-    width: 320px;
-    height: 102px;
-    left: 60px;
-    top: 55px;
+    width: 220px;
+    height: 82px;
+    left: 35px;
+    top: 13px;
 }
 .menu {
     position: absolute;
-    width: 971px;
-    height: 73px;
-    left: 889px;
-    top: 56px;
+width: 749px;
+height: 461px;
+left: 116px;
+top: 255px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 800;
+font-size: 126px;
+line-height: 101.02%;
+/* or 127px */
+
+letter-spacing: -0.045em;
+
+color: #000000;
+
 }
 .boxPrinc{
 
+   
+position: absolute;
+width: 749px;
+height: 461px;
+font-family: Inter;
+font-style: normal;
+font-weight: 800;
+font-size: 126px;
+line-height: 101.02%;
+
+
+letter-spacing: -0.045em;
+
+color: #000000;
+
+
+}
+.Forme1{
     position: absolute;
-    width: 1008.97px;
-    height: 888.75px;
-    left: -89px;
-    top: -45px;
+left: -2.35%;
+right: 52.02%;
+top: -0.43%;
+bottom: 92.37%;
+
+background: #FFCC00;
+transform: rotate(3deg);
 }
 
-.forme-2{
+.form-2{
+
+   position: absolute;
+   /* width: 400px;
+    height: 400px; */
+    left: 71%;
+    right: 52.02%;
+    top: 44%;
+    /* bottom: 10%; */
+    background: #FFCC00;
+    transform: rotate(3deg);
+}
+.logo-sayna{
+    position: absolute;
+width: 1520px;
+height: 0px;
+
+
+border: 1px solid #000000;
+}
+
+.Menu{
+    position: absolute;
+    width: 550px;
+    height: 60px;
+    left: 750px;
+    top: 56px;
+}
+.Femme{
     position: absolute;
     width: 776px;
     height: 776px;
-    left: 1483px;
+    left: 503px;
     top: 308px;
     
-    background: #FFCC00;
+    /* background: #FFCC00; */
 }
+.ECOLE{
+    position: absolute;
+    top: 1000px;
 
+font-style: normal;
+font-weight: bold;
+font-size: 35px;
+line-height: 44px;
+/* identical to box height */
 
+letter-spacing: -0.01em;
+text-transform: uppercase;
 
+color: #6E6E6E;
+
+    
+}
+.Mail{
+    position: absolute;
+    top: 1100px;
+    left: 50px;
+    font-family: Sofia Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.015em;
+
+color: rgba(110, 110, 110, 0.51);
+
+}
+.Inscription{
+    position: absolute;
+    top: 1090px;
+    left: 250px;
+    font-family: Sofia Pro;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 28px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #6E6E6E;
+
+}
+.Garantie{
+    position: absolute;
+    top: 1108px;
+    left: 250px; 
+    font-family: Antipasto Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 6px;
+line-height: 16px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #6E6E6E;
+
+}
