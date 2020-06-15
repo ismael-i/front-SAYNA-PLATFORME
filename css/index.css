@@ -906,3 +906,202 @@ a{
     
     background: #FFCC00;
 }
+
+/* MéDIAS */
+
+.media{
+
+    left: 121px ;
+    top: 8574px ;
+    position: absolute;
+    width: 231px;
+    height: 22px;
+    /* left: calc(50% - 231px/2 - 723.5px);
+    top: calc(50% - 22px/2 + 3382.5px); */
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    
+    color: #FB5875;
+    
+}
+
+/* Découvrez-nous à travers la Presse, TV ... */
+
+.decouvrez-nous{
+
+    position: absolute;
+    width: 753px;
+    height: 120px;
+    left: 122px;
+    top: 8620px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 51px;
+    line-height: 62px;
+    
+    color: #000000;
+}
+
+/* SAYNA veut faire connaître ses actions sur tous les médias pour toucher le plus grand nombre. Découvrez nos interviews, reportages, articles et tous les autres contenus. */
+
+.sayna-faire-connaitre{
+ 
+    position: absolute;
+    width: 640px;
+    height: 95px;
+    left: 123px;
+    top: 8767px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 156.02%;
+    /* or 30px */
+
+    text-align: justify;
+
+    color: #000000;   
+}
+/* Component 2 */
+
+.component-2a{
+
+    position: absolute;
+    width: 608px;
+    height: 109px;
+    left: 123px;
+    top: 8899px;
+
+    
+    background: #FB5875;
+    border-radius: 20px;
+    
+}
+/* ils parlent de nous */
+
+.ils-parlent-de-nous{
+
+    /* position: absolute; */
+    left: 0%;
+    right: 10.37%;
+    top: 2.8%;
+    bottom: -1.87%;
+    
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #E9EAEF;
+}
+
+/* IMG_4281 1 */
+
+.img-4281{
+
+    position: absolute;
+    width: 837px;
+    height: 554px;
+    left: 960px;
+    top: 8574px;
+    
+    background: url(IMG_4281.jpg);
+    border-radius: 20px;
+}
+
+
+/* attendez, ne partez pas ! */
+
+.attendez-ne-partez{
+
+    top: 9221px;
+    left: 123px;
+    position: absolute;
+    width: 568px;
+    height: 61px;
+   /*  left: calc(50% - 568px/2 - 553px);
+    top: calc(50% - 61px/2 + 4049px); */
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    
+    color: #FB5875;
+    
+}
+
+/* Nous sommes aussi présents sur YOUTUBE ! */
+
+.nous-sommes-aussi{
+
+    position: absolute;
+    width: 1193px;
+    height: 55px;
+    left: 121px;
+    top: 9277px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 51px;
+    line-height: 62px;
+    
+    color: #000000;
+}
+
+
+
+/* youtube-2433301 1 */
+
+.youtube-2433301{
+
+    position: absolute;
+    width: 95px;
+    height: 95px;
+    left: 913px;
+    top: 9396px;
+}
+
+
+/* Slider #2 */
+
+.slider-2{
+
+    position: absolute;
+    left: 4.9%;
+    right: 5.26%;
+    top: 90.79%;
+    bottom: 4.26%;
+    
+}
+
+/* Rectangle */
+
+.rectangle{
+
+    position: absolute;
+    width: 2814px;
+    height: 470px;
+    left: 0px;
+    top: 9935px;
+    
+    background: #000000;
+}
