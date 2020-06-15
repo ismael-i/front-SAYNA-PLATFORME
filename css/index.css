@@ -55,7 +55,167 @@ color: #000000;
 .agency-text-white{
     color: #F2F2F7;
 }
+.btn{
+    padding: 0px !important;
+}
+.menu{
 
+position: absolute;
+width: 996px;
+height: 73px;
+left: 889px;
+top: 56px;
+
+}
+.btn-connexion{
+    /* position: absolute; */
+width: 228px;
+height: 70px;
+left: 1523px;
+top: 126px;
+margin-left: 36px;
+
+background-color: #FB5875;
+border-radius: 50px !important;
+/* transform: matrix(1, 0, 0, -1, 0, 0); */
+}
+.btn-school{
+
+/* position: absolute; */
+width: 174px;
+height: 70px;
+left: 890px;
+top: 56px;
+
+background-color: #F2F2F7;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+border-radius: 20px !important;
+}
+.btn-agency{
+
+    /* position: absolute; */
+    width: 174px;
+    height: 70px;
+    left: 890px;
+    top: 56px;
+    margin-left: 37px;
+    
+    background-color: #F2F2F7;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 20px !important;
+    }
+ .btn-factory-menu{
+
+        /* position: absolute; */
+        width: 174px;
+        height: 70px;
+        left: 890px;
+        top: 56px;
+        margin-left: 37px;
+        
+        background-color: #F2F2F7;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+        border-radius: 20px !important;
+        }
+.txt-btn{
+
+/* position: absolute; */
+width: 170px;
+height: 68px;
+/* left: 889px;
+top: 60px; */
+
+font-family: Sofia Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 24px;
+display: inline-grid;
+align-items: center;
+text-align: center;
+letter-spacing: -0.025em;
+text-transform: uppercase;
+
+color: #575F6B;
+}
+.txt-agency{
+
+/* position: absolute; */
+width: 169px;
+height: 70px;
+left: calc(50% - 169px/2 + 228.5px);
+top: calc(50% - 70px/2 - 5108.5px);
+
+font-family: Sofia Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 24px;
+display: inline-grid;
+align-items: center;
+text-align: center;
+letter-spacing: -0.025em;
+text-transform: uppercase;
+
+color: #575F6B;
+
+}
+.txt-connexion{
+/* 
+position: absolute; */
+width: 191px;
+height: 70px;
+left: calc(50% - 191px/2 + 657.5px);
+top: calc(50% - 70px/2 - 5108.5px);
+
+font-family: Sofia Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 24px;
+display: inline-grid;
+align-items: center;
+text-align: center;
+letter-spacing: -0.05em;
+text-transform: uppercase;
+
+color: #E9EAEF;
+
+}
+.vector{
+
+/* position: absolute; */
+width: 17px;
+height: 17px;
+left: 1706px;
+top: 83px;
+margin-left: 184px;
+}
+.btn-dropdonw{
+    /* position: absolute; */
+width: 72px;
+height: 70px;
+left: 1788px;
+top: 56px;
+margin-left: 37px;
+
+background: #F2F2F7;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+border-radius: 20px !important;
+}
+.form2{
+    position: absolute;
+width: 259.3px;
+height: 776px;
+left: 1663px;
+}
+.dame-qui-saute{
+
+position: absolute;
+left: 57.34%;
+right: -4.26%;
+
+}
 /*--------header---------*/
 
 
@@ -201,6 +361,14 @@ left: 0px;
 top: 2214px;
 
 background: url(image.png);
+}
+.pantalon1{
+ position: absolute;
+ width: 425px;
+ height: 397px;
+ left: 197px;
+ top: 2623px;
+
 }
 
 /*nos formations*/

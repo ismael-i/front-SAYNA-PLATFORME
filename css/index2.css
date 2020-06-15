@@ -1,193 +1,4 @@
-li{
-   list-style: none;
-}
-/* Rectangle 7 */
 
-.rectangle-7{
-   position: absolute;
-   width: 72px;
-   height: 70px;
-   left: 1788px;
-   top: 56px;
-   
-   background: #F2F2F7;
-   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-   border-radius: 20px;    
-}
-a{
-   text-decoration: none;   
-}
-/* Rectangle 2 */
-.rectangle-2{
-
-   position: absolute;
-   width: 174px;
-   height: 70px;
-   left: 890px;
-   top: 56px;
-   
-   background: #F2F2F7;
-   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-   border-radius: 20px;
-}
-
-/* school */
-
-.school{
-
-   width: 170px;
-   height: 68px;
-   left: calc(50% - 170px/2 + 14px);
-   top: calc(50% - 68px/2 - 5108.5px);
-   
-   font-family: Sofia Pro;
-   font-style: normal;
-   font-weight: bold;
-   font-size: 24px;
-   line-height: 24px;
-   display: flex;
-   align-items: center;
-   text-align: center;
-   letter-spacing: -0.025em;
-   text-transform: uppercase;
-   
-   color: #575F6B;
-}
-
-/* Rectangle 3 */
-
-.rectangle-3{
-
-   position: absolute;
-   width: 174px;
-   height: 70px;
-   left: 1101px;
-   top: 56px;
-   
-   background: #F2F2F7;
-   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-   border-radius: 20px;
-}
-
-/* agency */
-
-.agency{
-   width: 169px;
-   height: 70px;
-   left: calc(50% - 169px/2 + 228.5px);
-   top: calc(50% - 70px/2 - 5108.5px);
-
-   font-family: Sofia Pro;
-   font-style: normal;
-   font-weight: bold;
-   font-size: 24px;
-   line-height: 24px;
-   display: flex;
-   align-items: center;
-   text-align: center;
-   letter-spacing: -0.025em;
-   text-transform: uppercase;
-
-   color: #575F6B;
-}
-
-/* Rectangle 4 */
-
-.rectangle-4{
-
-   position: absolute;
-   width: 174px;
-   height: 70px;
-   left: 1312px;
-   top: 56px;
-   
-   background: #F2F2F7;
-   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-   border-radius: 20px;
-}
-
-/* factory */
-.factory{
-
-   width: 169px;
-   height: 56px;
-   left: calc(50% - 169px/2 + 437.5px);
-   top: calc(50% - 56px/2 - 5108.5px);
-   
-   font-family: Sofia Pro;
-   font-style: normal;
-   font-weight: bold;
-   font-size: 24px;
-   line-height: 24px;
-   display: flex;
-   align-items: center;
-   text-align: center;
-   letter-spacing: -0.025em;
-   text-transform: uppercase;
-   
-   color: #575F6B;
-}
-
-/* Rectangle 6 */
-
-.rectangle-6{
-
-   position: absolute;
-   width: 228px;
-   height: 70px;
-   left: 1523px;
-   top: 56px;
-   background: #FB5875;
-   border-radius: 50px;
-}
-
-
-/* connexion */
-
-.connection{
-
-   width: 191px;
-   height: 70px;
-   left: calc(50% - 191px/2 + 657.5px);
-   top: calc(50% - 70px/2 - 5108.5px);
-   
-   font-family: Sofia Pro;
-   font-style: normal;
-   font-weight: bold;
-   font-size: 24px;
-   line-height: 24px;
-   display: flex;
-   align-items: center;
-   text-align: center;
-   letter-spacing: -0.05em;
-   text-transform: uppercase;
-   list-style: none;
-   color: #E9EAEF;
-}
-
-/* Menu */
-
-.menu{
-
-   width: 971px;
-   height: 73px;
-   left: 889px;
-   top: 56px;
-   
-}
-/* Group 12 */
-
-.groupe-12{
-  
-/* position: absolute; */
-left: 121.58%;
-right: -57.9%;
-top: 30.46%;
-bottom: 64.01%;
-
-/* background: #FFCC00; */
-/* transform: rotate(134.03deg); */
-}
 /* une pédagogie innovante */
 
 .pedagogie-innovante{
@@ -316,10 +127,6 @@ bottom: 64.01%;
    border-radius: 20px;
 }
 /* Rectangle 16 */
-
-.rectangle-16{
-   
-}
 
 /* suivi des étudiants */
 
@@ -713,7 +520,7 @@ margin-top: 418.61px;
 
 /* Rectangle 1922 */
 
-.rectangle-1922{
+.btn-decouvrir{
 
    position: absolute;
    width: 220px;
@@ -722,10 +529,10 @@ margin-top: 418.61px;
    top: 7449px;
    margin-top: 417.8px;
    border-style: none;
-border-image: none;
+   border-image: none;
    
    background: #FB5875;
-   border-radius: 100px;
+   border-radius: 100px !important;
 }
 
 /* M'inscrire */
@@ -737,14 +544,14 @@ border-image: none;
    height: 53px;
    left: 851px;
    top: 7454px;
-   margin-top: 417.8px;
+   /* margin-top: 417.8px; */
 
    font-family: Sofia Pro;
    font-style: normal;
    font-weight: bold;
    font-size: 20px;
    line-height: 20px;
-   /* display: flex; */
+    display: inline-grid;
    align-items: center;
    text-align: center;
    letter-spacing: -0.035em;
@@ -829,7 +636,7 @@ border-image: none;
 
 /* Rectangle 27 */
 
-.rectangle-27{
+.btn-join{
 
    position: absolute;
    width: 284px;
@@ -860,7 +667,7 @@ border-image: none;
    font-weight: bold;
    font-size: 20px;
    line-height: 20px;
-   /* display: flex; */
+    display: inline-grid; 
    align-items: center;
    text-align: center;
    letter-spacing: -0.035em;
