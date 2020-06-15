@@ -1,0 +1,908 @@
+/*background*/
+#background-body{
+    background: #E5E5E5;
+}
+/* Forme 1 */
+
+.form1{
+   position: absolute;
+   left: -2.35%; 
+   right:  52.02%; 
+   top: -0.43%; 
+   bottom: 92.37%; 
+   
+   /* background: #FFCC00;
+   transform: rotate(3deg); */
+}
+/* Logo_Sayna */
+
+.logo1{
+   position: absolute;
+   width: 320px;
+   height: 102px;
+   left: 60px;
+   top: 55px;
+}
+/* Une école. Une agence. C’est tout ! */
+
+.agency-text{
+   position: absolute;
+   width: 749px;
+   height: 461px;
+   left: 116px;
+   top: 255px;
+
+   font-family: Inter;
+   font-style: normal;
+   font-weight: 800;
+   font-size: 126px;
+   line-height: 101.02%;
+   /* or 127px */
+
+   letter-spacing: -0.045em;
+
+   color: #000000;
+}
+.agency-text-white{
+   color: #F2F2F7;
+}
+
+li{
+   list-style: none;
+}
+/* Rectangle 7 */
+
+.rectangle-7{
+   position: absolute;
+   width: 72px;
+   height: 70px;
+   left: 1788px;
+   top: 56px;
+   
+   background: #F2F2F7;
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+   border-radius: 20px;    
+}
+a{
+   text-decoration: none;   
+}
+/* Rectangle 2 */
+.rectangle-2{
+
+   position: absolute;
+   width: 174px;
+   height: 70px;
+   left: 890px;
+   top: 56px;
+   
+   background: #F2F2F7;
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+   border-radius: 20px;
+}
+
+/* school */
+
+.school{
+
+   width: 170px;
+   height: 68px;
+   left: calc(50% - 170px/2 + 14px);
+   top: calc(50% - 68px/2 - 5108.5px);
+   
+   font-family: Sofia Pro;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 24px;
+   line-height: 24px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   letter-spacing: -0.025em;
+   text-transform: uppercase;
+   
+   color: #575F6B;
+}
+
+/* Rectangle 3 */
+
+.rectangle-3{
+
+   position: absolute;
+   width: 174px;
+   height: 70px;
+   left: 1101px;
+   top: 56px;
+   
+   background: #F2F2F7;
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+   border-radius: 20px;
+}
+
+/* agency */
+
+.agency{
+   width: 169px;
+   height: 70px;
+   left: calc(50% - 169px/2 + 228.5px);
+   top: calc(50% - 70px/2 - 5108.5px);
+
+   font-family: Sofia Pro;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 24px;
+   line-height: 24px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   letter-spacing: -0.025em;
+   text-transform: uppercase;
+
+   color: #575F6B;
+}
+
+/* Rectangle 4 */
+
+.rectangle-4{
+
+   position: absolute;
+   width: 174px;
+   height: 70px;
+   left: 1312px;
+   top: 56px;
+   
+   background: #F2F2F7;
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+   border-radius: 20px;
+}
+
+/* factory */
+.factory{
+
+   width: 169px;
+   height: 56px;
+   left: calc(50% - 169px/2 + 437.5px);
+   top: calc(50% - 56px/2 - 5108.5px);
+   
+   font-family: Sofia Pro;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 24px;
+   line-height: 24px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   letter-spacing: -0.025em;
+   text-transform: uppercase;
+   
+   color: #575F6B;
+}
+
+/* Rectangle 6 */
+
+.rectangle-6{
+
+   position: absolute;
+   width: 228px;
+   height: 70px;
+   left: 1523px;
+   top: 56px;
+   background: #FB5875;
+   border-radius: 50px;
+}
+
+
+/* connexion */
+
+.connection{
+
+   width: 191px;
+   height: 70px;
+   left: calc(50% - 191px/2 + 657.5px);
+   top: calc(50% - 70px/2 - 5108.5px);
+   
+   font-family: Sofia Pro;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 24px;
+   line-height: 24px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   letter-spacing: -0.05em;
+   text-transform: uppercase;
+   list-style: none;
+   color: #E9EAEF;
+}
+
+/* Menu */
+
+.menu{
+
+   width: 971px;
+   height: 73px;
+   left: 889px;
+   top: 56px;
+   
+}
+/* Group 12 */
+
+.groupe-12{
+   position: absolute;
+   /* width: 1299.26px;
+   height: 901.2px; */
+   left: 1035px;
+   top: 2770px;
+}
+/* une pédagogie innovante */
+
+.pedagogie-innovante{
+
+   width: 380px;
+   height: 36px;
+   left: calc(50% - 380px/2 - 647px);
+   top: calc(50% - 36px/2 - 1993.5px);
+   
+   font-family: Inter;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 29px;
+   letter-spacing: -0.025em;
+   text-transform: uppercase;
+   
+   color: #FB5875;
+}
+
+/* Du sourcing à la formation continue en passant par le placement, on s’occupe de tout. */
+
+.sourcing-formation{
+
+   width: 887px;
+   height: 194px;
+   left: 123px;
+   top: 3237px;
+   
+   font-family: Inter;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 50px;
+   line-height: 119.52%;
+   /* or 60px */
+   
+   letter-spacing: 0.01em;
+   
+   color: #000000;
+}
+/* 3) Sourcing et Placement */
+
+.sourcing-placement{
+
+   position: absolute;
+   width: 887px;
+   height: 431px;
+   left: 123px;
+   top: 3191px;
+}
+
+/* Rectangle 149 */
+
+.rectangle-149{
+   position: relative;
+   background: rgba(255, 204, 0, 0.6);
+
+}
+/* LayingDoodle 1 */
+
+.layingDoodle-1{
+
+   position: absolute;
+   width: 729px;
+   height: 547px;
+   left: 1086px;
+   top: 3422px;
+}
+
+/* voir le détail */
+/* Component 2 */
+
+.component-2{
+
+   position: absolute;
+   width: 513px;
+   height: 108px;
+   bottom:  0px;
+   
+   background: #FB5875;
+   border-radius: 20px;
+   
+}
+.voir-detail{
+
+   /* position: absolute; */
+   left: 2.34%;
+   right: 19.49%;
+   top: 1.85%;
+   bottom: -1.85%;
+   
+   margin-left: auto;
+   margin-right: auto;
+   font-family: Sofia Pro;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 30px;
+   line-height: 30px;
+   /* display: flex; */
+   align-items: center;
+   text-align: center;
+   text-transform: uppercase;
+   
+   color: #E9EAEF;
+}
+/* Boxes Détails Formation */
+
+.boxes-details{
+
+   position: absolute;
+   width: 1580px;
+   height: 424px;
+   left: 171px;
+   top: 3741px;
+   
+}
+.li-rect{
+
+   position: absolute;
+   width: 507px;
+   height: 424px;
+   
+   background: #F7F7F9;
+   border-radius: 20px;
+}
+/* Rectangle 16 */
+
+.rectangle-16{
+   
+}
+
+/* suivi des étudiants */
+
+.suivie{
+
+   position: absolute;
+   width: 380px;
+   height: 36px;
+   
+   font-family: Inter;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 29px;
+   text-align: center;
+   letter-spacing: -0.02em;
+   text-transform: uppercase;
+   top: 71px;    
+   left: 41px;
+   color: #FB5875;
+}
+
+
+/* Nous tenons à suivre l’évolution de nos étudiants pour leur réussite. Ils profitent alors d’un accompagnement personnalisé par : - Un mentor dédié - Un Teacher dédié - Un Gestionnaire de carrière - Un Coach spécialisé en neuro-science - … */
+
+.tenons{
+
+
+   left: 25px;
+   top: 155px;
+   /* left: 198px;
+   top: 3812px; */
+   position: absolute;
+   width: 455px;
+   height: 353px;
+   
+   /* display: flex; */
+   font-family: Inter;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 19px;
+   line-height: 23px;
+   align-items: center;
+   text-align: center;
+   color: #ABADB6;
+
+
+   
+}
+/* Rectangle 17 */
+.rectangle-17{
+   left: 536px;
+}
+/* Soft skills */
+
+.soft{
+
+   top: 71px;    
+   left: 41px;
+   position: absolute;
+   width: 380px;
+   height: 36px;
+   /* left: calc(50% - 380px/2 + 3px);
+   top: calc(50% - 36px/2 - 1395.5px); */
+   
+   font-family: Inter;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 29px;
+   text-align: center;
+   letter-spacing: -0.02em;
+   text-transform: uppercase;
+   
+   color: #FB5875;
+} 
+
+
+/* Rectangle 17 */
+.rectangle-18{
+   left: 1074px;
+}
+
+/* Si dans le milieu professionnel nous attendons des salariés qu’ils excellent par leurs compétences et connaissances, il est tout aussi important de permettre à l’étudiant de comprendre les rouages de la vie professionnelle. Des SoftCamps sont donnés à tous nos étudiants pour qu’ils puissent évoluer sans difficultés. */
+
+.milieu-professionnel{
+
+   left: 22px;
+   top: 155px;
+   position: absolute;
+   width: 467px;
+   height: 353px;
+   
+   
+   font-family: Inter;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 19px;
+   line-height: 23px;
+   /* display: flex; */
+   align-items: center;
+   text-align: center;
+   
+   color: #ABADB6;
+   
+}
+/* blended learning */
+
+.blended{
+
+   left: 29px;
+   top: 71px;
+   position: absolute;
+   width: 380px;
+   height: 36px;
+   /* left: calc(50% - 380px/2 + 535px);
+   top: calc(50% - 36px/2 - 1395.5px); */
+   
+   font-family: Inter;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 29px;
+   text-align: center;
+   letter-spacing: -0.03em;
+   text-transform: uppercase;
+   
+   color: #FB5875;
+}
+
+/* Le numérique c’est important, l’humain l’est encore plus lorsqu’il s’agit d’apprentissage. Le mimétisme, l’acculturation, la validation sociale, que des termes qui ne sont pas appris en ligne. */
+
+.numerique-important{
+
+   position: absolute;
+   width: 451px;
+   height: 138px;
+   left: 29px;
+   top: 177px; 
+   
+   font-family: Inter;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 19px;
+   line-height: 23px;
+   /* display: flex; */
+   align-items: center;
+   text-align: center;
+   
+   color: #ABADB6;
+}
+
+
+
+
+
+
+/* Groupe SANS CONTENT */
+
+.Groupe-SANS-CONTENT{
+
+   position: absolute;
+   width: 626px;
+   height: 174.99px;
+   left: 100px;
+   top: 6332px;
+}
+
+/* NOS OFFRES AGENCE */
+
+.NOS-OFFRES-AGENCE{
+
+   position: absolute;
+   width: 289px;
+   height: 22.25px;
+
+   /* left: calc(50% - 289px/2 - 715.5px);
+   top: calc(50% - 22.25px/2 + 1140.62px); */
+   
+   font-family: Inter;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 29px;
+   text-align: center;
+   letter-spacing: -0.02em;
+   text-transform: uppercase;
+   
+   color: #FB5875;
+}
+
+/* Placement en CDI FREELANCE. */
+
+.placement-CDI{
+
+   left: 18px;
+   position: absolute;
+   width: 605px;
+   height: 119.88px;
+   /* left: 121px;
+   top: 6387.1px; */
+   top: 32.85px; 
+   
+   font-family: Inter;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 51px;
+   line-height: 62px;
+   
+   color: #000000;
+}
+
+/* SAYNA Agency place en remote les meilleurs talents digitaux Africains dans le monde entier : en CDD, en CDI, FREELANCE,  pour un jour ou plusieurs années. Chacun des talents placés a suivi un parcours de formation de 3 à 6 mois avant d'être proposé sur une mission, et est accompagné d'un senior. */
+
+.SAYNA-Agency-place{
+
+   position: absolute;
+   width: 640px;
+   height: 218px;
+   left: 122px;
+   top: 6526px;
+   
+   font-family: Inter;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 19px;
+   line-height: 156.02%;
+   /* or 30px */
+   
+   text-align: justify;
+   
+   color: #000000;
+}
+
+.rectangle-147{
+   background-color: rgb(255, 204, 0,0.57) ;
+}
+
+/* Au delà de nos tarifs attractifs, 82% de la facturation reviens au talent, un modèle juste et équitable loin des sociétés de service classiques. */
+
+.nos-tarifs-attractifs{
+
+   position: absolute;
+   width: 582px;
+   height: 307px;
+   left: 1216px;
+   top: 6589px;
+   
+   font-family: Inter;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 19px;
+   line-height: 156.02%;
+   /* or 30px */
+   
+   text-align: justify;
+   
+   color: #000000;
+}
+
+.gras{
+   font-weight: bolder;
+   font-size: 120px;
+}
+
+
+
+/* NOS OFFRES AGENCE */
+
+.NOS-OFFRES-AGENCE-1{
+
+   position: absolute;
+   width: 289px;
+   height: 22.25px;
+   top:6986.29px;
+   left:  816px;
+   /* 
+   left: calc(50% - 289px/2 + 0.5px);
+   top: calc(50% - 22.25px/2 + 1794.91px); */
+   
+   font-family: Inter;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 29px;
+   text-align: center;
+   letter-spacing: -0.02em;
+   text-transform: uppercase;
+   
+   color: #FB5875;
+}
+/* MVP Projet clé en main. */
+
+
+.MVP-Projet{
+
+   position: absolute;
+   width: 605px;
+   height: 119.88px;
+   left: 659px;
+   top: 7036.89px;
+   
+   font-family: Inter;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 51px;
+   line-height: 62px;
+   text-align: center;
+   
+   color: #000000;
+   
+}
+/* SAYNA Factory rassemble pour vous une équipe de freelances en adéquation avec vos besoins dans un cadre forfaitaire et vous accompagne de la conception à la livraison jusqu’à la maintenance. Engagés au forfait,nous sommes en charge de toute la réalisation du projet. Des premières spécifications jusqu'au livrable final, en passant par le MVP, les itérations et les tests. */
+
+.SAYNA-Factory-rassemble{
+
+   position: absolute;
+   width: 620.75px;
+   height: 198.78px;
+   left: 650.98px;
+   top: 7195.39px;
+   text-align: center;
+   
+}
+
+
+
+/* Ellipse 169 */
+
+.ellipse-169{
+
+   position: absolute;
+   /* width: 694.33px;
+   height: 696.52px; */
+   top: 6703px;
+   
+   border-radius: 20px;
+} 
+
+/* Polygon 5 */
+
+.Polygon-5 {
+
+   position: absolute;
+   /* width: 207.89px;
+   height: 246.31px; */
+   left: 32px;
+   top: 7141.9px;
+   
+   border-radius: 20px;
+   /* transform: rotate(83.71deg); */
+}
+
+/* Ellipse 170 */
+
+.ellipse-170{
+
+   position: absolute;
+   /* width: 377.73px;
+   height: 378.92px; */
+   left: 1592px;
+   top: 6725.29px;
+   
+   border-radius: 20px;
+   /* transform: rotate(19.43deg); */
+}
+
+/* Polygon 6 */
+
+.Polygon-6{
+
+   position: absolute;
+   /* width: 113.1px;
+   height: 134px; */
+   left: 1778.07px;
+   top: 6837.07px;
+   
+   /* background: #FB5875; */
+   border-radius: 20px;
+  /*  transform: rotate(-101.81deg); */
+}
+
+/* Rectangle 1922 */
+
+.rectangle-1922{
+
+   position: absolute;
+   width: 220px;
+   height: 58px;
+   left: 851px;
+   top: 7449px;
+   
+   background: #FB5875;
+   border-radius: 100px;
+}
+
+/* M'inscrire */
+
+.inscrire{
+   
+   /* position: absolute; */
+   width: 182px;
+   height: 53px;
+   left: 851px;
+   top: 7454px;
+
+   font-family: Sofia Pro;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 20px;
+   line-height: 20px;
+   /* display: flex; */
+   align-items: center;
+   text-align: center;
+   letter-spacing: -0.035em;
+   text-transform: uppercase;
+
+   color: #EBEBF1;   
+}
+
+
+
+/* notre communauté */
+
+.notre-communaute{
+
+   position: absolute;
+   width: 289px;
+   height: 36px;
+   /* left: calc(50% - 289px/2 + 322.5px);
+   top: calc(50% - 36px/2 + 2586.5px); */
+   top: 7771px;
+   left: 1138px;
+   
+   font-family: Inter;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 29px;
+   display: flex;
+   align-items: center;
+   letter-spacing: -0.02em;
+   text-transform: uppercase;
+   
+   color: #FB5875;
+   
+}
+
+
+/* Nous rassemblons la Communauté digitale la plus qualifiée d’Afrique. */
+
+.rassemblons-communaute{
+
+   position: absolute;
+   width: 679px;
+   height: 194px;
+   left: 1139px;
+   top: 7825px;
+   
+   font-family: Inter;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 51px;
+   line-height: 62px;
+   
+   color: #000000;
+}
+
+/* Profitez dès maintenant de l’expertise de nos 150+ talents formés. Notre communauté constituée d’anciens étudiants, de freelances, d’experts thématiques. */
+
+.profitez-maintenant{
+
+   position: absolute;
+   width: 609px;
+   height: 98px;
+   left: 1139px;
+   top: 8033px;
+   
+   font-family: Inter;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 20px;
+   line-height: 148.87%;
+   /* or 30px */
+   
+   letter-spacing: -0.025em;
+   
+   color: #000000;
+   
+}
+
+/* Rectangle 27 */
+
+.rectangle-27{
+
+   position: absolute;
+   width: 284px;
+   height: 58px;
+   left: 1129px;
+   top: 8165px;
+
+   background: #FB5875;
+   border-radius: 100px;   
+}
+
+
+/* M'inscrire */
+
+.rejoindre{
+
+   /* position: absolute; */
+   width: 239px;
+   height: 55px;
+   left: 1129px;
+   top: 8169px;
+   
+   font-family: Sofia Pro;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 20px;
+   line-height: 20px;
+   /* display: flex; */
+   align-items: center;
+   text-align: center;
+   letter-spacing: -0.035em;
+   text-transform: uppercase;
+   
+   color: #EBEBF1;
+}
+
+
+/* Rectangle 1921 */
+
+.rectangle-1921{
+
+   position: absolute;
+   width: 9px;
+   height: 533px;
+   left: 1112px;
+   top: 7741px;
+   
+   background: #FFCC00;
+}
