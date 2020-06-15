@@ -78,7 +78,6 @@ top: 91px;
 
 }
 
-}
 
 .column-layout {
   display: table;
@@ -87,7 +86,7 @@ top: 91px;
 }
 #rectangle-foot > div {
   display: table-cell;
-  width: 100%/2
+  width: 100%/2;
   padding: 0px;
   border: none;
 
