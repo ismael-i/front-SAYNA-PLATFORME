@@ -10,7 +10,7 @@
     right:  52.02%; 
     top: -0.43%; 
     bottom: 92.37%; 
-    
+    color: #FFCC00;
     /* background: #FFCC00;
     transform: rotate(3deg); */
 }
@@ -230,7 +230,11 @@ a{
     /* width: 1299.26px;
     height: 901.2px; */
     left: 1035px;
-    top: 2770px;
+    top: 2770px;    
+    /* left: 954px;
+    top: 2746px;
+ */
+    color: #FFCC00;
 }
 /* une pédagogie innovante */
 
