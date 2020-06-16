@@ -3,6 +3,7 @@
      background: #E5E5E5;
 }
 /* Forme 1 */
+@import url('https://rsms.me/inter/inter.css');
 
 .form1{
     position: absolute;
@@ -215,14 +216,16 @@ a{
 
 /* Menu */
 
+
 .menu{
 
-    width: 971px;
+    position: absolute;
+    width: 996px;
     height: 73px;
     left: 889px;
     top: 56px;
     
-}
+    }
 /* Group 12 */
 
 .groupe-12{
@@ -1211,4 +1214,405 @@ a{
     line-height: 62px;
     
     color: #000000;
+}
+
+
+.pager-container1 {
+    /* text-align: center; */
+    position: absolute; 
+    width: 100%;
+    bottom: 60px;
+    /* left: 0; */
+    display: block;
+    z-index: 3333;
+    height: 12px;
+    padding: 0px;
+    left: 863px ;
+    top: 9895px;
+
+}
+.pager-container1 a {
+list-style-type: none;
+display: inline-block;
+width: 12px;
+height: 12px;
+border-radius: 50%;
+background-color: #929292;
+margin-right: 23px;
+    position: relative;
+}
+.pager-container1 a.active,
+.pager-container1 a:hover {
+background: #FB5875;
+border-color: #FB5875;
+}
+
+
+
+.txt-btn{
+
+    /* position: absolute; */
+    width: 170px;
+    height: 68px;
+    /* left: 889px;
+    top: 60px; */
+    
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    display: inline-grid;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.025em;
+    text-transform: uppercase;
+    
+    color: #575F6B;
+    }
+    .txt-agency{
+    
+    /* position: absolute; */
+    width: 169px;
+    height: 70px;
+    left: calc(50% - 169px/2 + 228.5px);
+    top: calc(50% - 70px/2 - 5108.5px);
+    
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    display: inline-grid;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.025em;
+    text-transform: uppercase;
+    
+    color: #575F6B;
+    
+    }
+.txt-connexion{
+    /* 
+    position: absolute; */
+    width: 191px;
+    height: 70px;
+    left: calc(50% - 191px/2 + 657.5px);
+    top: calc(50% - 70px/2 - 5108.5px);
+    
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    display: inline-grid;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+    
+    color: #E9EAEF;
+    
+    }
+
+
+
+.btn{
+    padding: 0px !important;
+}
+.btn-connexion{
+    /* position: absolute; */
+    width: 228px;
+    height: 70px;
+    left: 1523px;
+    top: 126px;
+    margin-left: 36px;
+
+    background-color: #FB5875;
+    border-radius: 50px !important;
+/* transform: matrix(1, 0, 0, -1, 0, 0); */
+}
+.btn-school{
+
+    /* position: absolute; */
+    width: 174px;
+    height: 70px;
+    left: 890px;
+    top: 56px;
+    
+    background-color: #F2F2F7;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 20px !important;
+    }
+.btn-agency{
+
+    /* position: absolute; */
+    width: 174px;
+    height: 70px;
+    left: 890px;
+    top: 56px;
+    margin-left: 37px;
+    
+    background-color: #F2F2F7;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 20px !important;
+    }
+.btn-factory-menu{
+
+    /* position: absolute; */
+    width: 174px;
+    height: 70px;
+    left: 890px;
+    top: 56px;
+    margin-left: 37px;
+    
+    background-color: #F2F2F7;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 20px !important;
+    }
+
+
+.btn-dropdonw{
+        /* position: absolute; */
+    width: 72px;
+    height: 70px;
+    left: 1788px;
+    top: 56px;
+    margin-left: 37px;
+    
+    background: #F2F2F7;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 20px !important;
+}
+/* Group 8 */
+
+.Groupe-8{
+
+    /* position: absolute; */
+    width: 40px;
+    height: 28px;
+    left: 1803px;
+    top: 77px;
+    font-size:48px
+}
+    /* Groupe 294 1 */
+
+.groupe-294{
+    position: absolute;
+    width: 1024px;
+    height: 768px;
+    left: 800px;
+    top: 126px;
+
+}
+
+/* nous formons des héros. */
+
+.formons-des-heros{
+
+    position: absolute; 
+    width: 1797px;
+    height: 596px;
+    left: 114px;
+    top: 440px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 135px;
+    line-height: 144px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.des-heros{
+    position: absolute;
+    width: 1797px;
+    height: 596px;
+    left: 114px;
+    top: 819px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 185px;
+    line-height: 95.02%;
+    /* or 176px */
+
+    /* display: flex; */
+    align-items: center;
+    letter-spacing: -0.045em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.heros{
+    color: #FFCC00;
+
+}
+
+
+.fdh{
+    
+}
+/* @font-face {
+    font-family: 'Antipasto Pro';
+    src: url('Zetafonts - AntipastoPro-DemiBold.otf') format('Antipasto Pro');
+    } */
+/* intégre la meilleure école digitale de madagascar. */
+
+.integre-la-meilleure{
+
+    top: 1005px;
+    left: 117px;
+    position: absolute;
+    width: 1227px;
+    height: 41px;
+    /* left: calc(50% - 1227px/2 - 229.5px);
+    top: calc(50% - 41px/2 - 3724.5px); */
+    
+    /* font-family: Antipasto Pro; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 43px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    
+    color: #6E6E6E;
+     
+}
+
+
+/* Tu as hâte de nous rencontrer ? Nous aussi ! */
+
+.hate-de-nous-rencontrer{
+
+    position: absolute;
+    width: 1165px;
+    height: 194px;
+    left: 377px;
+    top: 1169px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 61px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    
+    color: #000000;
+    
+}
+
+
+
+/* Group 5 */
+
+.groupe-5{
+
+    position: absolute;
+    width: 335px;
+    height: 187px;
+    left: 309px;
+    top: 1360px;
+}
+
+/* étape 1 */
+
+.etape-1{
+
+    position: absolute;
+    width: 335px;
+    height: 64px;
+    /* left: 309px;
+    top: 1360px; */
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 61px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+
+
+/* je choisis mon parcours */
+
+.choisis-parcours{
+    
+    position: absolute;
+    width: 239px;
+    height: 52px;
+    left: 44px;
+    top: 74px;
+    /* left: calc(50% - 239px/2 - 483.5px);
+    top: calc(50% - 52px/2 - 3282px); */
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.017em;
+    text-transform: uppercase;
+
+    color: #FB5875;   
+}
+
+
+/* étape 2 */
+
+.etape-2{
+
+    position: absolute;
+    width: 335px;
+    height: 64px;
+    left: 765px;
+    top: 1360px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 61px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+
+/* je remplis mon formulaire de candidature */
+
+.rempis-mon-formulaire{
+
+    
+    position: absolute;
+    width: 410px;
+    height: 88px;
+    /* left: calc(50% - 410px/2 - 28px);
+    top: calc(50% - 88px/2 - 3282px); */
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.017em;
+    text-transform: uppercase;
+    
+    color: #FB5875;
+    
 }
