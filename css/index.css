@@ -1108,3 +1108,107 @@ a{
     
     background: #000000;
 }
+
+
+/* Bg */
+
+.Bg{
+    position: absolute;
+    left: 237px;
+    top: 9450px;
+    
+}
+
+/* Bg 1 */
+
+.Bg-1{
+
+    position: absolute;
+    left: 94px;
+    top: 9510px;
+    
+    background: #EEF2F4;
+    border-radius: 5px;
+}
+/* Bg 2 */
+
+.Bg-2{
+    position: absolute;
+    left: 604px;
+    top: 9469px;
+
+    color: #D1DBE3;
+    /* box-shadow: 0px 40px 80px rgba(0, 0, 0, 0.2); */
+    border-radius: 5px;
+}
+
+/* Bg 3 */
+
+.Bg-3{
+
+    position: absolute;
+    left: 1264px;
+    top: 9510px;
+    
+    background: #EEF2F4;
+    border-radius: 5px;
+}
+
+/* miniature 1 */
+
+.miniature-1{
+
+    position: absolute;
+    width: 283px;
+    height: 62px;
+    left: 212px;
+    top: 9643px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 51px;
+    line-height: 62px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+
+/* miniature 2 */
+
+.miniature-2{
+
+    position: absolute;
+    width: 299px;
+    height: 63px;
+    left: 803px;
+    top: 9643px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 51px;
+    line-height: 62px;
+    
+    color: #000000;
+}
+
+/* miniature 3 */
+
+.miniature-3{
+
+    position: absolute;
+    width: 315px;
+    height: 74px;
+    left: 1389px;
+    top: 9643px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 51px;
+    line-height: 62px;
+    
+    color: #000000;
+}
