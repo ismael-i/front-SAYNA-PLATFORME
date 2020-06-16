@@ -387,3 +387,98 @@ top: 37px;
     background: #FB5875;
     border-color: #FB5875;
 }
+
+
+
+
+/* ********** parallax animation************* */
+.slider-parallax-group{
+    position: absolute;
+width: 1165px;
+height: 826px;
+left: 383px;
+top: 4324px;
+
+}
+.head-parallax{
+    /* nos modalités de financement */
+
+/* width: 460px; */
+height: 36px;
+left: calc(50% - 460px/2 + 4px);
+top: calc(50% - 36px/2 - 860.5px);
+
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+letter-spacing: -0.03em;
+text-transform: uppercase;
+
+color: #FB5875;
+}
+.head-txt-parallax{
+    /* Plusieurs financements possibles car ici tout le monde a le droit à l’éducation. */
+
+
+/* position: absolute; */
+width: 1165px;
+height: 194px;
+left: 383px;
+top: 4382px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 900;
+font-size: 50px;
+line-height: 61px;
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #000000;
+}
+.parallax{
+    display: flex;
+}
+.center-parallax{
+    /* Rectangle 19 */
+
+
+ position: relative;
+width: 419px;
+height: 605px;
+/* left: 755px; */
+top: -33px;
+
+background: #FFCC00;
+background-attachment: fixed;
+box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.15);
+border-radius: 20px;
+}
+.left-parallax{
+    /* Rectangle 24 */
+
+
+position: relative;
+width: 372px;
+height: 539px;
+/* left: 383px;
+top: 4574px; */
+
+background: #F7F7F9;
+border-radius: 20px 0px 0px 20px;
+}
+.right-parallax{
+
+position: relative;
+width: 374px;
+height: 543px;
+/* left: 1174px;
+top: 4574px; */
+
+background: #F7F7F9;
+border-radius: 0px 20px 20px 0px;
+}
+/* ********** parallax animation************* */
