@@ -951,3 +951,52 @@ left: -415px;
 top: 2770px;
 
 }
+/*-----------SLIDE PHOTOS ----------*/
+.container-slide {
+    position: relative;
+    left: -810px;
+    top: 8191px;
+
+    overflow: hidden;
+
+   }
+
+
+.slideshow:hover{
+    position: relative;
+    left: 0px;
+    -webkit-animation: moveSlideshow 20s linear infinite;
+    -moz-animation: moveSlideshow 20s linear infinite;
+}
+
+/*.container-slide:hover .slideshow{
+    left: 0;
+}*/
+
+.student-image {
+  
+width: 303px;
+height: 453px;
+left: 766px;
+top: 7781px;
+/* margin-left: 55px; */
+border-radius: 20px;
+
+}
+
+@-webkit-keyframes moveSlideshow {
+    0% {
+        -webkit-transform: translateX(0);
+    }
+    100% {
+        -webkit-transform: translateX(100%);
+    }
+}
+@-moz-keyframes moveSlideshow {
+    0% {
+        -moz-transform: translateX(0);
+    }
+    100% {
+        -moz-transform: translateX(100%);
+    }
+}
