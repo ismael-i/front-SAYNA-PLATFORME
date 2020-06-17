@@ -457,6 +457,104 @@ background-attachment: fixed;
 box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.15);
 border-radius: 20px;
 }
+.header-center{
+    /* upfront */
+
+
+position: relative;
+width: 419px;
+height: 30px;
+/* left: 755px;
+top: 4578px; */
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 30px;
+/* display: flex; */
+align-items: center;
+text-align: center;
+letter-spacing: -0.025em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.price-center{
+    /* 3600k Ar */
+
+
+position: relative;
+width: 419px;
+height: 101px;
+/* left: 755px;
+top: 4608px; */
+
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 60px;
+line-height: 72px;
+/* display: flex; */
+align-items: center;
+text-align: center;
+letter-spacing: -0.05em;
+
+color: #FFFFFF;
+}
+.txt-center-par{
+    /* Je paie ma formation directement jusqu’à 3 fois sans frais. */
+
+
+position: absolute;
+width: 326px;
+height: 52px;
+top: 146px;
+margin-top: 27px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 31px;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+}
+.btn-center-para{
+
+position: relative;
+width: 154px;
+height: 50px;
+left: 141px;
+top: 458px;
+
+background: #FB5875;
+border-radius: 100px !important;
+}
+.label-center-para{
+    /* je m’inscris */
+
+
+position: relative;
+width: 120px;
+height: 23px;
+/* left: 906px;
+top: 5094px; */
+top: 14px;
+
+font-family: Sofia Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 17px;
+text-align: center;
+letter-spacing: -0.035em;
+text-transform: uppercase;
+
+color: #EBEBF1;
+}
 .left-parallax{
     /* Rectangle 24 */
 
@@ -470,6 +568,119 @@ top: 4574px; */
 background: #F7F7F9;
 border-radius: 20px 0px 0px 20px;
 }
+.content-left{
+    position: absolute;
+width: 372px;
+height: 472px;
+/* left: 383px;
+top: 4615px; */
+}
+.header-left{
+    /* remboursement AGENCY */
+
+
+    position: relative;
+    width: 348px;
+    height: 66px;
+    left: 24px;
+    top: 24px;
+
+font-family: Sofia Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 130.89%;
+/* or 33px */
+
+/* display: flex; */
+align-items: center;
+text-align: center;
+letter-spacing: -0.035em;
+text-transform: uppercase;
+
+color: #000000;
+}
+.price-left{
+    /* 4000k Ar */
+
+
+position: relative;
+width: 348px;
+height: 101px;
+/* left: 407px;
+top: 4670px; */
+
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 60px;
+line-height: 72px;
+/* display: flex; */
+align-items: center;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+}
+.txt-left-par{
+    /* Engagez-vous à rembourser votre formation après avoir trouvé un emploi. Versement de 18% de votre salaire jusqu’à remboursement de votre formation et 15% pour les frais de placement. */
+
+
+position: absolute;
+width: 372px;
+height: 242px;
+/* left: 383px; */
+top: 146px;
+margin-top: 27px;
+    padding: 45px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.005em;
+
+color: #000000;
+
+
+}
+.btn-left-para{
+
+    position: relative;
+    width: 154px;
+    height: 50px;
+    left: 117px;
+    top: 458px;
+
+background: #E9EAEF;
+box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.1);
+border-radius: 100px !important;
+}
+.label-left-para{
+    /* je m’inscris */
+
+ position: relative;
+width: 124px;
+height: 23px;
+/* left: 523px;
+ */
+ top: 14px;
+
+font-family: Sofia Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 17px;
+text-align: center;
+text-transform: uppercase;
+
+color: #FB5875;
+}
 .right-parallax{
 
 position: relative;
@@ -480,5 +691,46 @@ top: 4574px; */
 
 background: #F7F7F9;
 border-radius: 0px 20px 20px 0px;
+}
+.content-right{
+
+position: absolute;
+width: 374px;
+height: 543px;
+/* left: 1174px;
+top: 4574px; */
+
+}
+.btn-right-para{
+
+    position: relative;
+    width: 154px;
+    height: 50px;
+    left: 117px;
+    top: 366px;
+    
+
+background: #E9EAEF;
+box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.1);
+border-radius: 100px !important;
+}
+.label-right-para{
+
+position: relative;
+width: 124px;
+height: 23px;
+/* left: 1286px;
+top: 5060px; */
+top: 14px;
+
+font-family: Sofia Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 17px;
+text-align: center;
+text-transform: uppercase;
+
+color: #FB5875;
 }
 /* ********** parallax animation************* */
