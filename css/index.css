@@ -1,1002 +1,379 @@
-/*--------header---------*/
+
+html {
+    background: #E5E5E5;
+}
+
+
 /*background*/
+
+
 #background-body{
-
-position: absolute;
-width: 1920px;
-height: 10405px;
-left: 0px;
-top: 0px;
-
-
-background: #E9EAEF;
+     background: #E5E5E5;
 }
 /* Forme 1 */
 
-.form1{position: absolute;
-    left: -2.35%;
-    right: 52.02%;
-    top: -0.43%;
-    bottom: 92.37%;
-    
-    /* background: #FFCC00;
-    transform: rotate(3deg); */
-}
-
-/* Logo_Sayna */
-
-.logo1{
-position: absolute;
-width: 320px;
-height: 102px;
-left: 60px;
-top: 55px;
-}
-/* Une école. Une agence. C’est tout ! */
-
-.agency-text{
-position: absolute;
-width: 749px;
-height: 461px;
-left: 116px;
-top: 255px;
-
-font-family: Inter;
-font-style: normal;
-font-weight: 800;
-font-size: 126px;
-line-height: 101.02%;
-/* or 127px */
-
-letter-spacing: -0.045em;
-
-color: #000000;
-}
-.agency-text-white{
-    color: #F2F2F7;
-}
-.btn{
-    padding: 0px !important;
-}
-.menu{
-
-position: absolute;
-width: 996px;
-height: 73px;
-left: 889px;
-top: 56px;
-
-}
-.btn-connexion{
-    /* position: absolute; */
-width: 228px;
-height: 70px;
-left: 1523px;
-top: 126px;
-margin-left: 36px;
-
-background-color: #FB5875;
-border-radius: 50px !important;
-/* transform: matrix(1, 0, 0, -1, 0, 0); */
-}
-.btn-school{
-
-/* position: absolute; */
-width: 174px;
-height: 70px;
-left: 890px;
-top: 56px;
-
-background-color: #F2F2F7;
-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-border-radius: 20px !important;
-}
-.btn-agency{
-
-    /* position: absolute; */
-    width: 174px;
-    height: 70px;
-    left: 890px;
-    top: 56px;
-    margin-left: 37px;
-    
-    background-color: #F2F2F7;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-    border-radius: 20px !important;
-    }
- .btn-factory-menu{
-
-        /* position: absolute; */
-        width: 174px;
-        height: 70px;
-        left: 890px;
-        top: 56px;
-        margin-left: 37px;
-        
-        background-color: #F2F2F7;
-        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-        border-radius: 20px !important;
-        }
-.txt-btn{
-
-/* position: absolute; */
-width: 170px;
-height: 68px;
-/* left: 889px;
-top: 60px; */
-
-font-family: Sofia Pro;
-font-style: normal;
-font-weight: bold;
-font-size: 24px;
-line-height: 24px;
-display: inline-grid;
-align-items: center;
-text-align: center;
-letter-spacing: -0.025em;
-text-transform: uppercase;
-
-color: #575F6B;
-}
-.txt-agency{
-
-/* position: absolute; */
-width: 169px;
-height: 70px;
-left: calc(50% - 169px/2 + 228.5px);
-top: calc(50% - 70px/2 - 5108.5px);
-
-font-family: Sofia Pro;
-font-style: normal;
-font-weight: bold;
-font-size: 24px;
-line-height: 24px;
-display: inline-grid;
-align-items: center;
-text-align: center;
-letter-spacing: -0.025em;
-text-transform: uppercase;
-
-color: #575F6B;
-
-}
-.txt-connexion{
-/* 
-position: absolute; */
-width: 191px;
-height: 70px;
-left: calc(50% - 191px/2 + 657.5px);
-top: calc(50% - 70px/2 - 5108.5px);
-
-font-family: Sofia Pro;
-font-style: normal;
-font-weight: bold;
-font-size: 24px;
-line-height: 24px;
-display: inline-grid;
-align-items: center;
-text-align: center;
-letter-spacing: -0.05em;
-text-transform: uppercase;
-
-color: #E9EAEF;
-
-}
-.vector{
-
-/* position: absolute; */
-width: 17px;
-height: 17px;
-left: 1706px;
-top: 83px;
-margin-left: 184px;
-}
-.btn-dropdonw{
-    /* position: absolute; */
-width: 72px;
-height: 70px;
-left: 1788px;
-top: 56px;
-margin-left: 37px;
-
-background: #F2F2F7;
-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-border-radius: 20px !important;
-}
-.form2{
+/*div parent choixensemble*/
+#patChoix {
     position: absolute;
-width: 259.3px;
-height: 776px;
-left: 1663px;
+    left: -1220px;
 }
-.dame-qui-saute{
 
-position: absolute;
-left: 57.34%;
-right: -4.26%;
+/*choix-ensemble + apprends les*/
 
-}
-/*--------header---------*/
-.news-letter{
-    /* SAYNA Newsletter */
-
-
-position: absolute;
-width: 853px;
-height: 152px;
-left: 185px;
-top: 914px;
-}
-.digital-school{
-    /* sayna, l‘école DIGITALE innovante. */
-
-
-/* position: absolute; */
-width: 853px;
-height: 45px;
-left: 185px;
-top: 914px;
-
-font-family: Antipasto Pro;
-font-style: normal;
-font-weight: bold;
-font-size: 40px;
-line-height: 44px;
-/* identical to box height */
-
-letter-spacing: -0.01em;
-text-transform: uppercase;
-
-color: #6E6E6E;
-
-}
-.form-news-ltr{
-position: relative;
-width: 789px !important;
-height: 83px !important;
-left: 0;
-top: 21px;
-padding-left: 46px !important;
-margin-top: 10px;
-
-background: #FAFAFA;
-box-shadow: inset 4px 4px 10px rgba(0, 0, 0, 0.15) !important;
-border-radius: 40px !important;
-font-family: Sofia Pro;
-font-style: normal;
-font-weight: normal;
-font-size: 29px !important;
-line-height: 29px !important;
- display: block;
- z-index: 1;
-align-items: center;
-/* text-align: center; */
-letter-spacing: -0.015em;
-
-color: rgba(110, 110, 110, 0.51) !important;
-}
-.btn-news-ltr{
- position: relative;
-width: 276px !important;
-height: 84px !important;
-left: 515px;
-top: -62px;
-display: block;
-z-index: 2;
-
-background: #E4E4E4 !important;
-box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.07) !important;
-border-radius: 0px 40px 40px 0px !important;
-}
-.news-form{
+.choix-ensemble{
     position: absolute;
-}
-.label-news-1{
-
-    /* position: absolute; */
-    width: 303px;
-    height: 52px;
-    left: 695px;
-    top: 1003px;
-    margin-bottom: 0px;    
-    font-family: Sofia Pro;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 28px;
-    /* line-height: 28px; */
-    display: block;
-    align-items: center;
-    text-align: center;
-    text-transform: uppercase;
-    
-    color: #6E6E6E;
-}
-.label-news-2{
-    
-/* position: absolute; */
-width: 262px;
-height: 27px;
-left: 712px;
-top: 1022px;
-
-font-family: Antipasto Pro;
-font-style: normal;
-font-weight: normal;
-font-size: 19px;
-/* line-height: 16px; */
-/* display: flex; */
-align-items: center;
-text-align: center;
-text-transform: uppercase;
-
-color: #6E6E6E;
-}
-
-
-
-         /*-----------partenaire------------*/
-
-.partner{
-    position: absolute;
-width: 1136px;
-height: 136.88px;
-left: 393px;
-top: 1186px;
-
-}
-/*text1*/
-.partner-text1{
-    /* position: absolute;
-width: 359px; */
-/* height: 52px; */
-left: calc(50% - 359px/2 - 0.5px);
-top: calc(50% - 52px/2 - 3990.5px);
-font-family: Inter;
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 29px;
-text-align: center;
-letter-spacing: 0.017em;
-text-transform: uppercase;
-
-color: #FB5875;
-}
-/*text2*/
-.partner-text2{
-    /* position: absolute;
-width: 627px; */
-/* height: 64px; */
-left: 647px;
-top: 1215px;
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 29px;
-text-align: center;
-letter-spacing: -0.03em;
-text-transform: uppercase;
-
-color: #6E6E6E;
-
-}
-
-/*partenaire logo*/
-.partner-logo{
-
-/* position: absolute; */
-width: 1136px;
-height: 67.88px;
-left: 393px;
-top: 1255px;
-
-}
-.partner-list li{
-    list-style: none;
-    float: left;
-}
-.logo-maltme{
-
-/* position: absolute; */
- width: 189.57px;
-height: 49.19px; 
-left: 393px;
-top: 1261.89px;
-
-background: url("../image/logo_maltem_groupe-HD-e1473777081392.png") no-repeat;
-}
-.logo-orange{
-
-    /* position: absolute; */
-    width: 63.58px;
-    height: 58.04px;
-    left: 594.34px;
-    top: 1256.97px;
-    
-    background: url("../image/1022px-Orange_logo\ 1.png") no-repeat;
-}
-.logo-accessbanque{
-    /* position: absolute; */
-width: 249.03px;
-height: 62.96px;
-left: 670.64px;
-top: 1255px;
-
-background: url("../image/AccèsBanque Madagascar.png");
-}
-.logo-axiangroup{
-    /* position: absolute; */
-width: 136.7px;
-height: 60.99px;
-left: 932.39px;
-top: 1261.89px;
-
-background: url("../image/Axian.png");
-}
-.logo-groupeBanqueMoandial{
-    /* position: absolute; */
-width: 439.78px;
-height: 52.14px;
-left: 1089.22px;
-top: 1261.89px;
-
-background: url("../image/logo-wb-header-fr-newsletter.png");
-}
-
-         /*-----partenaire------*/
-         
-         
-         
-.form3{
-position: absolute;
-width: 584px;
-height: 584px;
-left: 1258px;
-top: 1287px;
-        
-/* background: #FFCC00; */
-}
-.image-businessman{
-position: absolute;
-width: 1921px;
-height: 1083px;
-left: 608px;
-top: 1077px;
-
-background: url("../image/Vieux\ Businessman.png");
-}
-
-/*gars géant*/
-.image1 {
-position: absolute;
-width: 1090px;
-height: 962px;
-left: 0px;
-top: 2214px;
-
-background: url(image.png);
-}
-.pantalon1{
- position: absolute;
- width: 425px;
- height: 397px;
- left: 197px;
- top: 2623px;
-
-}
-
-/*nos formations*/
-.formation {
-/*	position: absolute;*/
-width: 380px;
-height: 36px;
-left: 1500px;
-top: calc(50% - 36px/2 - 2883.5px);
-
-font-family: Inter;
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 29px;
-letter-spacing: -0.025em;
-text-transform: uppercase;
-
-color: #FB5875;
-
-
-}
-
-/*formation + bootcamps + selection + bouton*/
-.ensemble {
-	
-position: absolute;
-width: 683px;
-height: 612px;
-left: 1139px;
+width: 648px;
+height: 482px;
+left: 1292px;
 top: 2301px;
 }
 
-/*des bootcamps adaptés ..*/
-.bootcamps {
+
+/* choisissez votre parcours */
+.choix-parcours {
+     position: absolute;
+
+width: 380px;
+height: 36px;
+left: 126px;
+top: 2110px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+letter-spacing: -0.025em;
+text-transform: uppercase;
+
+color: #FB5875;
+}
+
+/* Apprends les fondamentaux du métier de développeur web. */
+.apprends-les {
+
 position: absolute;
-width: 815px;
-height: 121px;
-left: 3.5px;
-top: 50px;
+width: 857px;
+height: 141px;
+left: 123px;
+top: 2184px;
 
 font-family: Inter;
 font-style: normal;
 font-weight: 900;
-font-size: 64px;
+font-size: 50px;
 line-height: 61px;
 letter-spacing: 0.02em;
 
 color: #000000;
-
-
 }
 
-/* parcourir le catalogue*/
-.bouton {
+/* LES STRUCTURES DE NOS COURS */
+.structure {
+
 position: absolute;
-height: 104px;
-width: 623px;
-left: 0%;
-right: 0%;
-top: 500px;
-bottom: 0%;
-border-style: none;
-border-image: none;
-
-background: #FB5875;
-border-radius: 20px;
-
-font-family: Sofia Pro;
-font-style: normal;
-font-weight: bold;
-font-size: 30px;
-line-height: 30px;
-/* display: flex; */
-align-items: center;
-text-align: center;
-text-transform: uppercase;
-
-color: #E9EAEF;
-
-
-}
-
-/*sélectionnez votre track ...*/
-.selection {
-	position: absolute;
-width: 821px;
-height: 142px;
-left: 12px;
-top: 212px;
+width: 640px;
+height: 231px;
+left: 123px;
+top: 2325px;
 
 font-family: Inter;
 font-style: normal;
 font-weight: normal;
-font-size: 24px;
+font-size: 19px;
 line-height: 156.02%;
 
 /* or 30px */
 
 color: #000000;
-
 }
 
 
-.group13 {
-	/* Group 13 */
-
-position: relative;
-width: 1099.26px;
-height: 901.2px;
-left: -21.61px;
-top: 4883px;
-
-/*transform: matrix(-1, 0, 0, 1, 0, 0);*/
-
-}
-
-.ellips7 {/* Ellipse 7 */
-
+/* bouton je m'inscris*/
+.jeminscris {
 position: absolute;
-width: 152px;
-height: 152px;
-left: 662.26px;
-top: 5191px;
+width: 297px;
+height: 58px;
+left: 123px;
+top: 2547px;
+background: #FFCC00;
+border-radius: 20px;
+}
+
+/*texte je m'inscris maintenant*(PAGE2)*/
+.jem {
+position: absolute;
+left: 20px;
+right: 13.47%;
+top: 1.72%;
+bottom: -1.72%;
+
+font-family: Sofia Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #000000;
+}
+
+/*vector avec je m'inscris PAGE2*/
+.vector {
+position: absolute;
+left: 86.53%;
+right: 7.74%;
+top: 34.48%;
+bottom: 36.21%;
 
 background: #FFCC00;
-transform: matrix(-1, 0, 0, 1, 0, 0);}
+}
 
-.temoign {
-position: absolute;
-width: 460px;
+
+.di-rect {
+    position: absolute;
+width: 492px;
+height: 454px;
+
+
+background: #F7F7F9;
+border-radius: 20px;
+}
+
+.rectangle-18 {
+    
+    left: 180px;
+top: 5055px;
+}
+
+.rectangle-156 {
+    
+    left: 750px;
+top: 5055px;
+}
+
+.rectangle-157 {
+    
+    left: 1320px;
+top: 5055px;
+}
+
+
+/* STYLE ET POLICE DES TEXTES DANS LES 5 RECTANGLES PAGE2*/
+.rim {
+
+    font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.025em;
+
+color: #898989;
+padding: 20px;
+padding-top: none;
+}
+
+.diez {
+
+  
+width: 492px;
+height: 100px;
+align-content: center;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.025em;
+text-transform: uppercase;
+
+color: #FB5875;
+}
+
+.basesdufrontend {
+   margin-left: 80px;
+    
+}
+.culture-web {
+    margin-left: 140px;
+}
+.soft-skills{
+    margin-left: 150px;
+}
+.lesoutils {
+
+    width: 420px;
+     margin-left: 30px;
+}
+.cybersecurite {
+     margin-left: 110px;
+}
+
+
+.rectangle-158 {
+    
+    left: 450px;
+top: 5575px;
+}
+
+.rectangle-159 {
+    
+    left: 1030px;
+top: 5575px;
+}
+
+.lestechniques {
+   padding-top: 25%;
+}
+
+/*texte specialisation */
+.specialisation {
+    position: absolute;
+width: 213px;
 height: 36px;
-left: 1347px;
-top: 5279px;
-text-align: right;
+left: 1607px;
+top: 3634px;
 
 font-family: Inter;
 font-style: normal;
 font-weight: 600;
 font-size: 24px;
 line-height: 29px;
-letter-spacing: -0.02em;
+letter-spacing: -0.025em;
 text-transform: uppercase;
 
 color: #FB5875;
 }
 
-/*80% de nos étudiants*/
-.pourcent {
+
+/* Spécialise toi avec l’un de nos parcours et deviens un confirmé. */
+.speci {
 position: absolute;
-width: 677px;
-height: 124px;
-left: 1132px;
-top: 5324px;
+width: 1035px;
+height: 182px;
+left: 764px;
+top: 3730px;
 
 font-family: Inter;
 font-style: normal;
 font-weight: 900;
-font-size: 51px;
-line-height: 62px;
+font-size: 50px;
+line-height: 119.52%;
+
+/* or 60px */
+text-align: right;
+letter-spacing: 0.01em;
+
+color: #000000;
+}
+
+/* Après avoir appris les fondamentaux du web,  */
+.apresavoir {
+position: absolute;
+width: 640px;
+height: 116px;
+left: 1158px;
+top: 3866px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 156.02%;
+
+/* or 30px */
 text-align: right;
 
 color: #000000;
 }
 
-
-.li-rect {
-	position: absolute;
-width: 541px;
-height: 685px;
-top: 5670px;
-
-
-background: #F7F7F9;
-border-radius: 20px;
-
-display: flex;
-justify-content: space-around;
-
-}
-
-/*rectangle 27 Cedrick*/
-.rectangle-one {
-left: 122px;
-}
-/*ellipse ced*/
-.ellipse-171 {
-position: absolute;
-width: 140px;
-height: 140px;
-left: 40px;
-top: 50px;
-border-radius :50%;
-  border:4px solid agency-text-white;
-  padding:4px;
-
-background: #FFFFFF;
-}
-
-.cedrick {
-	/* Cédric Maminjanahary */
-
-position: absolute;
-width: 385px;
-height: 48px;
-left: 220px;
-top: 70px;
-
-
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 22px;
-line-height: 165.52%;
-
-/* or 36px */
-letter-spacing: 0.015em;
-
-color: #000000;
-}
-
-.etud1 {
-	/* Etudiant SAYNA #1 Développeur @Accès Banque */
-
-position: absolute;
-width: 334px;
-height: 36px;
-left: 220px;
-top: 120px;
-
-font-family: Inter;
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 24px;
-letter-spacing: 0.03em;
-
-color: #FB5875;
-}
-
-/*temoignage cedrick*/
-.tem1 {
-position: absolute;
-width: 472px;
-height: 412px;
-left: 34px;
-top: 150px;
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 22px;
-line-height: 165.52%;
-
-/* or 36px */
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.02em;
-
-color: #000000;
-}
-
-/*lien cedrick*/
-.de {
-	position: absolute;
-	top: 400px;
-	left: 35px;
-}
-
-/*rectangle sahaza*/
-.rectangle-two{
-left: 688px;
-}
-
-/*ellipse sahaza*/
-.ellipse-6 {
-position: absolute;
-width: 140px;
-height: 140px;
-left: 40px;
-top: 50px;
-border-radius :50%;
-  border:4px solid agency-text-white;
-  padding:4px;
-
-background: #FFFFFF;
-}
-
-.sahaza{
-	/* sahaza henintsoa */
-
-position: absolute;
-width: 385px;
-height: 48px;
-left: 220px;
-top: 70px;
-
-
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 22px;
-line-height: 165.52%;
-
-/* or 36px */
-letter-spacing: 0.015em;
-
-color: #000000;
-}
-
-.etud2 {
-	/* Etudiant SAYNA #1 Développeur @en2roues */
-
-position: absolute;
-width: 334px;
-height: 36px;
-left: 220px;
-top: 120px;
-
-font-family: Inter;
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 24px;
-letter-spacing: 0.03em;
-
-color: #FB5875;
-}
-
-/*temoignage sahaza*/
-.tem2 {
-position: absolute;
-width: 472px;
-height: 412px;
-left: 25px;
-top: 150px;
-
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 165.52%;
-
-/* or 36px */
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.02em;
-
-color: #000000;
-}
-
-/*rectangle jenny*/
-.rectangle-three{
-left: 1255px;
-}
-
-/*ellipse jenny*/
-.ellipse-172 {
-position: absolute;
-width: 140px;
-height: 140px;
-left: 40px;
-top: 50px;
-border-radius :50%;
-  border:4px solid agency-text-white;
-  padding:4px;
-
-background: #FFFFFF;
-}
-
-.jenny{
-	/* jenny*/
-
-position: absolute;
-width: 385px;
-height: 48px;
-left: 220px;
-top: 70px;
-
-
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 22px;
-line-height: 165.52%;
-
-/* or 36px */
-letter-spacing: 0.015em;
-
-color: #000000;
-}
-
-.etud3 {
-	/* Etudiant SAYNA #2 Développeur @Ingedata */
-
-position: absolute;
-width: 334px;
-height: 36px;
-left: 220px;
-top: 120px;
-
-font-family: Inter;
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 24px;
-letter-spacing: 0.03em;
-
-color: #FB5875;
-}
-
-/*temoignage jenny*/
-.tem3 {
-position: absolute;
-width: 472px;
-height: 412px;
-left: 31px;
-top: 150px;
-
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 165.52%;
-
-/* or 36px */
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.02em;
-
-color: #000000;
-}
-.rectangle-28, .rectangle-27, .rectangle-29 {
-	display: flex;
-	justify-content: space-around;
-}
-.assemble-2{
-    /* Group 12 */
-
-
-position: absolute;
-width: 1299.26px;
-height: 901.2px;
-left: 1035px;
-top: 2770px;
-
-}
-.doogles-perso{
-
-position: absolute;
-width: 1920px;
-height: 3533px;
-left: 0px;
-top: 253px;
-
-}
-.GrosCarre{
-
-/* position: absolute; */
-width: 2749.26px;
-height: 3014.2px;
-left: -415px;
-top: 2770px;
-
-}
-/*-----------SLIDE PHOTOS ----------*/
-.container-slide {
-    position: relative;
-    left: -810px;
-    top: 8191px;
-
-    overflow: hidden;
-
-   }
-
-
-.slideshow:hover{
-    position: relative;
-    left: 0px;
-    -webkit-animation: moveSlideshow 20s linear infinite;
-    -moz-animation: moveSlideshow 20s linear infinite;
-}
-
-/*.container-slide:hover .slideshow{
-    left: 0;
-}*/
-
-.student-image {
+.ensembleB {
+    position: absolute;
+  top: 2500px;
   
-width: 303px;
-height: 453px;
-left: 766px;
-top: 7781px;
-/* margin-left: 55px; */
+}
+
+
+/* SitReadingDoodle */
+.sitread {
+
+position: absolute;
+width: 695px;
+height: 520px;
+left: 47px;
+top: 3605px;
+
+/*transform: matrix(-1, 0, 0, 1, 0, 0);*/
+}
+
+ /* Rectangle 189 */
+.rectangle-189 {
+    position: absolute;
+left: -8px;
+top: 4022px;
+
+background: #E5E5E5;
+
+}
+
+/*BOUTON JE M'INSCRIS 2*/ 
+.jeminscris2 {
+    position: absolute;
+width: 297px;
+height: 58px;
+left: 1501px;
+top: 4028px;
+background: #FFCC00;
 border-radius: 20px;
 
 }
 
-@-webkit-keyframes moveSlideshow {
-    0% {
-        -webkit-transform: translateX(0);
-    }
-    100% {
-        -webkit-transform: translateX(100%);
-    }
+.jem2 {
+position: absolute;
+left: 0%;
+right: 13.47%;
+top: 1.72%;
+bottom: -1.72%;
+
+font-family: Sofia Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #000000;
 }
-@-moz-keyframes moveSlideshow {
-    0% {
-        -moz-transform: translateX(0);
-    }
-    100% {
-        -moz-transform: translateX(100%);
-    }
+
+.vector1 {
+    position: absolute;
+left: 86.53%;
+right: 7.74%;
+top: 34.48%;
+bottom: 36.21%;
+
+background: #FFCC00;
 }
+ #patChoix2 {
+    position: absolute;
+ }
+
+.ellipse7-2 {
+
+}
+
+.
