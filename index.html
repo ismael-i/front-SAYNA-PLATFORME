@@ -29,7 +29,10 @@
             <a href="" class=" btn btn-agency"> <span class="txt-agency">Agency</span> </a>
             <a href="" class=" btn btn-factory-menu"> <span class="txt-agency">factory</span> </a>
             <a href="" class=" btn btn-connexion"> <span class="txt-connexion">connexion</span> </a>
-            <a href="" class="btn btn-dropdonw "></a>
+            <a href="" class="btn btn-dropdonw "><div class="groupe-6"><img src="./image/Rectangle 12.png" alt="" class="image-drop">
+            <img src="./image/Rectangle 11.png" alt="" class="image-drop">
+            <img src="./image/Rectangle 10.png" alt="" class="image-drop">
+            </div></a>
         </div>
             <div class="news-letter">
                 <span class="digital-school">
@@ -325,13 +328,7 @@
                                 jusqu’à remboursement de votre formation et 15% pour les <br> frais de placement.</p>
                                    
                         </div>  
-                        <a href="" class="btn btn-left-para"> <label for="" class="label-left-para">je m’inscris</label></a> 
-                             
-                    </div>
-                    <div class="center-parallax">
-                        <h1 class="header-center">upfront <span class="price-center"> <br> 3600k Ar </span> </h1>
-                        <p class="txt-center-par"> Je paie ma formation directement <br> jusqu’à 3 fois sans frais.</p>
-                        <a href="" class="btn btn-center-para"> <label for="" class="label-center-para">je m’inscris</label></a>
+                        <a href="" class="btn btn-left-para"> <label for="" class="label-left-para">je m’inscris</label></a>    
                     </div>
                     <div class="right-parallax">
                         <div class="content-right">
@@ -341,6 +338,11 @@
                                 à la suite de quoi vous intègrerez des missions.</p>
                             <a href="" class="btn btn-right-para"> <label for="" class="label-right-para">je m’inscris</label></a>
                         </div>
+                    </div>
+                    <div class="center-parallax">
+                        <h1 class="header-center">upfront <span class="price-center"> <br> 3600k Ar </span> </h1>
+                        <p class="txt-center-par"> Je paie ma formation directement <br> jusqu’à 3 fois sans frais.</p>
+                        <a href="" class="btn btn-center-para"> <label for="" class="label-center-para">je m’inscris</label></a>
                     </div>
                 </div>
             </div>
@@ -604,7 +606,52 @@ $('.main-slider').bxSlider({
     pause: 6000
 });
 });
-        </script>
+</script>
+<!-- parallax animation -->
+<script>
+            var $left_elements = $('.left-parallax');
+            var $right_elements = $('.right-parallax');
+            var $window = $(window);
+            
+            function check_if_in_view() {
+                var window_height = $window.height();
+                var window_top_position = $window.scrollTop();
+                var window_bottom_position = (window_top_position + window_height);
+            
+                $.each($left_elements, function() {
+                    var $element_left = $(this);
+                    var element_height = $element_left.outerHeight();
+                    var element_top_position = $element_left.offset().top;
+                    var element_bottom_position = (element_top_position + element_height);
+            
+                    //check to see if this current container is within viewport
+                    if ((element_bottom_position >= window_top_position) &&
+                        (element_top_position <= window_bottom_position)) {
+                      $element_left.addClass('in-view-left');
+                    } else {
+                      $element_left.removeClass('in-view-left');
+                    }
+                });
+                $.each($right_elements, function() {
+                    var $element_right = $(this);
+                    var element_height = $element_right.outerHeight();
+                    var element_top_position = $element_right.offset().top;
+                    var element_bottom_position = (element_top_position + element_height);
+            
+                    //check to see if this current container is within viewport
+                    if ((element_bottom_position >= window_top_position) &&
+                        (element_top_position <= window_bottom_position)) {
+                      $element_right.addClass('in-view-right');
+                    } else {
+                      $element_right.removeClass('in-view-right');
+                    }
+                });
+            
+            }
+            
+            $window.on('scroll resize', check_if_in_view);
+            $window.trigger('scroll', check_if_in_view);
+</script>
 
 
 </body>
