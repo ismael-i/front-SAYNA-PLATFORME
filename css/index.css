@@ -308,7 +308,6 @@ a{
     top: 3422px;
 }
 
-/* voir le détail */
 /* Component 2 */
 
 .component-2{
@@ -321,7 +320,11 @@ a{
     background: #FB5875;
     border-radius: 20px;
     
+
 }
+
+/* voir le détail */
+
 .voir-detail{
 
     /* position: absolute; */
@@ -2126,8 +2129,8 @@ border-color: #FB5875;
 
 .service-1-2{
 
-    top: 763.76px;
-    left: 4179px;
+    top: 4154px;
+    left: 718px;
 
 
     position: absolute;
@@ -2137,4 +2140,970 @@ border-color: #FB5875;
     top: calc(50% - 448px/2 - 372px); */
     
     border-radius: 19px;
+}
+
+/* Deviens un développeur Web Full Stack avec NodeJS & React, les tâchons tendances sur le marché et bientôt incontournables. */
+
+.deviens-un-developpeur-nodejs{
+
+    position: absolute;
+    width: 392px;
+    height: 333px;
+    left: 46px;
+    top: 71px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.025em;
+    
+    color: #898989;
+    
+}
+
+/* Service 1 3 */
+
+.service-1-3{
+
+    left: 1258px;
+    top: 4154px;
+    position: absolute;
+    width: 540px;
+    height: 448px;
+    /* left: calc(50% - 540px/2 + 568px);
+    top: calc(50% - 448px/2 - 372px); */
+    
+    border-radius: 19px;
+}
+
+/* Service 1 */
+
+.service-1{
+
+    position: absolute;
+    left: 178px;
+    right: 67.9%;
+    top: 4627px;
+    bottom: 47.3%;
+}
+
+/* data engineer */
+
+.data-engineer{
+
+    position: absolute;
+    left: 102px;
+    top: 71px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FB5875;
+}
+
+/* Service 1 */
+
+.service-2{
+
+    position: absolute;
+    left: 718px;
+    right: 39.78%;
+    top: 4627px;
+    bottom: 47.3%;
+}
+
+.dev-front{
+    margin-top: auto;
+    margin-left: auto;
+}
+
+/* DEVELOPPEUR FRONT END - DESIGNER UX/UI */
+
+.developpeur-front-end{
+
+    position: absolute;
+    left: 44px;
+
+    top: 5.58%;
+    bottom: 62.28%;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FB5875;
+    
+}
+
+/* Service 1 */
+
+.service-3{
+
+    position: absolute;
+    left: 1258px;
+    right: 11.65%;
+    top: 4627px;
+    bottom: 47.3%;
+}
+
+
+/* spécialisation */
+
+.specialisation{
+
+    left: 121px;
+    top: 5072px;
+    position: absolute;
+    width: 213px;
+    height: 36px;
+    /* left: calc(50% - 213px/2 - 732.5px);
+    top: calc(50% - 36px/2 + 340px); */
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.025em;
+    text-transform: uppercase;
+    
+    color: #FB5875;
+}
+
+/* Beaucoup de pratiques, un peu de théories. Et du fun ! */
+
+.beaucoup-de-pratiques{
+
+    position: absolute;
+    width: 1035px;
+    height: 182px;
+    left: 121px;
+    top: 5119px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 119.52%;
+    /* or 60px */
+    
+    letter-spacing: 0.01em;
+    
+    color: #000000;
+}
+
+
+/* Retrouvez l’ensemble de vos challenges, de vos projets et de vos cours sur notre plateforme pédagogique. Accèdez à nos ressources mis à jour continuellement par nos experts. Au programme : du Peer to Peer , des projets pratiques chaque jour, des challenges, un suivi humain personnalisé, du yoga, des ateliers de prise de parole en public. En bref : 20% de théorie et 80% de pratique. */
+
+.retrouvez-l-ensemble{
+
+    position: absolute;
+    width: 640px;
+    height: 211px;
+    left: 123px;
+    top: 5255px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 156.02%;
+    /* or 30px */
+    
+    
+    color: #000000;
+    
+}
+
+/* Component 6 */
+
+.component-6{
+
+    position: absolute;
+    width: 297px;
+    height: 58px;
+    left: 292px;
+    top: 5507px;
+}
+
+/* Rectangle 15 */
+
+.rectangle-15a{
+
+    position: absolute;
+    
+    width: 297px;
+    height: 58px;
+    background: #FFCC00;
+    border-radius: 20px;
+}
+
+/* je m’inscris maintenant */
+
+.je-m-inscris-maintenant{
+
+    /* position: absolute; */
+    left: 0%;
+    right: 13.47%;
+    top: 1.72%;
+    bottom: -1.72%;
+    
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 15px;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+.fleche-inscris{
+    margin-left: 18px;
+    color: #000000;
+}
+
+/* Forme 4 */
+
+.forme4{
+
+    position: absolute;
+    
+    top: 5665px;
+}
+
+/* react group 271 */
+
+.react-group-271{
+
+    position: absolute;
+    left: 306px;
+    right: 53.49%;
+    top: 5720px;
+    bottom: 35.04%;
+    
+}
+
+/* spécialisation */
+
+.specialisation1{
+
+    left: 1587px;
+    top: 5647px;
+    position: absolute;
+    width: 213px;
+    height: 36px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+    letter-spacing: -0.025em;
+    text-transform: uppercase;
+    
+    color: #FB5875;
+}
+/* Atteins l’Excellence dans ton domaine ! */
+
+.atteins-l-excellence{
+
+    position: absolute;
+    width: 1035px;
+    height: 182px;
+    left: 763px;
+    top: 5694px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 119.52%;
+    /* or 60px */
+    
+    text-align: right;
+    letter-spacing: 0.01em;
+    
+    color: #000000;
+    
+}
+
+
+
+/* Notre objectif est de te transmettre la culture de l’excellence. L’objectif de nos parcours est de t’apprendre à maitriser : les hard skills, les compétences de project Management (agilité), les soft skills, la langue française, et la notion d’engagement. Pour mettre plus de fun dans ce parcours, nous avons gamifié le parcours. Chaque semaine est une ‘quête’ qui est composé d’un certain nombre de ‘missions’. Une mission constitue un ensemble de points qui eux même représente des compétences. Tu vas donc devoir accomplir des missions chaque semaine pour valider des compétences. */
+
+.notre-objectif{
+
+    position: absolute;
+    width: 830px;
+    height: 291px;
+    left: 968px;
+    top: 5774px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 156.02%;
+    /* or 30px */
+    
+    text-align: right;
+    
+    color: #000000;
+    
+}
+
+/* Component 7 */
+
+.component-7{
+
+    position: absolute;
+    width: 297px;
+    height: 58px;
+    left: 1383px;
+    top: 6056px;
+}
+
+/* Rectangle 15 */
+
+.rectangle-15b{
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+    background: #FFCC00;
+    border-radius: 20px;
+}
+
+/* Group 41 */
+
+/* .groupe-41{
+
+    position: absolute;
+    width: 216px;
+    height: 70px;
+    left: 513px;
+    top: 6271px;
+} */
+
+/* Rectangle 161 */
+
+.rectangle-161{
+
+    position: absolute;
+    width: 216px;
+    height: 70px;
+    left: 513px;
+    top: 6271px;
+    
+    background: #FB5875;
+    border-radius: 100px;
+}
+
+/* hard skills */
+
+.hard-skills{
+
+    position: absolute; 
+    top: 19px;
+    left: 38px;
+    /* top: 12px;
+    left: 12px; */
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150.02%;
+    /* or 30px */
+    
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.005em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+
+/* Ton code devra être fonctionnel, claire, performant, bien écris, solide, lisible. Tu seras évalué sur 5 niveaux différents : mauvais, pauvre, juste, bon et excellent. */
+
+.code-fonctionnel{
+
+    position: absolute;
+    top: 150px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 150.02%;
+    /* or 29px */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.005em;
+    
+    color: #000000;
+    
+}
+
+/* Rectangle 162 */
+
+.rectangle-162{
+
+    position: absolute;
+    width: 216px;
+    height: 70px;
+    left: 760px;
+    top: 6271px;
+    
+    background: #FB5875;
+    border-radius: 100px;
+}
+
+/* agile pm */
+
+.agile-pm{
+
+    position: absolute;
+    left: 60px;
+    top: 19px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150.02%;
+    /* or 30px */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.005em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    
+}
+
+/* On attendra de toi d’être ouvert, respectueux, courageux, rigoureux et concentré. Tu seras évalué sur 5 niveaux différents : mauvais, pauvre, juste, bon et excellent. */
+
+.attendra-de-toi{
+
+    top: 125px;
+    position: absolute;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 150.02%;
+    /* or 29px */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.005em;
+    
+    color: #000000;
+    
+}
+
+/* Rectangle 163 */
+
+.rectangle-163{
+
+    position: absolute;
+    width: 216px;
+    height: 70px;
+    left: 1007px;
+    top: 6271px;
+    
+    background: #FB5875;
+    border-radius: 100px;
+}
+
+/* soft skills */
+
+.soft-skills{
+
+    left: 45px;
+    top: 19px;
+    position: absolute;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150.02%;
+    /* or 30px */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.005em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    
+}
+
+/* On attendra de toi d’être assidue, professionnel, de travailler en équipe, de communiquer et d’être organisé. Tu seras évalué sur 5 niveaux différents : mauvais, pauvre, juste, bon et excellent. */
+
+.attendra-de-toi-1{
+
+    top: 110px;
+    position: absolute;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 150.02%;
+    /* or 29px */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.005em;
+    
+    color: #000000;
+    
+}
+
+/* Rectangle 164 */
+
+.rectangle-164{
+
+    position: absolute;
+    width: 216px;
+    height: 70px;
+    left: 1254px;
+    top: 6271px;
+    
+    background: #FB5875;
+    border-radius: 100px;
+}
+
+/* langue */
+
+.langue{
+
+    position: absolute;
+    
+    left: 64px;
+    top: 19px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150.02%;
+    /* or 30px */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.005em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+
+/* On attendra de toi d’avoir un bon vocabulaire, parler assez fort, avoir confiance dans ce que tu dis, prononcer correctement et imbattable sur la grammaire et l’orthographe. Tu seras évalué sur 5 niveaux différents : Les bases, travail limité, efficient, professionnel et native bilingue. */
+
+.attendra-de-toi-2{
+
+    position: absolute;
+    top: 69px;
+    width: 216px;
+    height: 414px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 135.52%;
+    /* or 26px */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.005em;
+    
+    color: #000000;
+    
+}
+
+/* Rectangle 165 */
+
+.rectangle-165{
+
+    position: absolute;
+    width: 216px;
+    height: 70px;
+    left: 1501px;
+    top: 6271px;
+    
+    background: #FB5875;
+    border-radius: 100px;
+}
+
+/* engagement */
+
+.engagement{
+
+    position: absolute;
+    left: 43px;
+    top: 19px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150.02%;
+    /* or 30px */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.005em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+
+/* On attendra de toi d’être impliqué, volontaire, concerné, confiant en toi et être proactive. Tu seras évalué sur 5 niveaux différents : Novice, débutant, intermédiaire, avancé et expert. */
+
+.attendra-de-toi-3{
+
+    position: absolute;
+    width: 216px;
+    height: 414px;
+    top: 52px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 150%;
+    /* or 28px */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.005em;
+    
+    color: #000000;
+    
+}
+
+
+
+
+
+
+
+
+/* AGENCY */
+/* Rectangle 3 */
+
+.selection-menu{
+    background: #FFCC00;
+}
+
+.selection-txt{
+    color: #F2F2F7;
+}
+/* Forme 4 */
+
+.forme4-agency{
+    
+    width: 496px;
+    height: 956px;
+    /* left: 222px; */
+    position: absolute;
+    top: 130px;
+}
+
+/* nous plaçons des héros. */
+
+.placons-des-heros{
+
+    position: absolute;
+    left: 5.78%;
+    right: 0.62%;
+    top: 2.63%;
+    bottom: 91.09%;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 135px;
+    line-height: 144px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+
+
+.placons-des-heros{
+
+    position: absolute; 
+    width: 1797px;
+    height: 596px;
+    left: 111px;
+    top: 170px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 135px;
+    line-height: 144px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+
+.des-heros-1{
+    position: absolute;
+    width: 1797px;
+    height: 596px;
+    left: 111px;
+    top: 547px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 185px;
+    line-height: 95.02%;
+    /* or 176px */
+
+    /* display: flex; */
+    align-items: center;
+    letter-spacing: -0.045em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+
+/* Les meilleurs talents Africains de demain chez SAYNA. */
+
+.meilleurs-talents-africains{
+
+    position: absolute;
+    /* width: 1289px;
+    height: 51px; */
+    left: 120px;
+    top: 761px;
+    
+    /* font-family: Antipasto Pro; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 41px;
+    line-height: 43px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    
+    color: #6E6E6E;
+}
+
+/* globe-312668 1 */
+
+.globe-312668-1{
+
+    position: absolute;
+    /* width: 439px;
+    height: 436px; */
+    left: 1242px;
+    top: 279px;
+    
+}
+
+
+/* pourquoi l’agency ? */
+
+.pourquoi-l-agency{
+
+    top: 1057px;
+    left: 122px;
+    position: absolute;
+    width: 279px;
+    height: 36px;
+    /* left: calc(50% - 279px/2 - 698.5px);
+    top: calc(50% - 36px/2 - 3675px); */
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.025em;
+    text-transform: uppercase;
+    
+    color: #FB5875;
+    
+}
+
+
+/* Sayna place les meilleurs talents digitaux Africains pour répondre à vos besoins. */
+
+.sayna-place-les-meilleurs{
+
+    position: absolute;
+    width: 1056px;
+    height: 244px;
+    left: 121px;
+    top: 1104px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 61px;
+    letter-spacing: 0.01em;
+    
+    color: #000000;
+}
+
+/* Grâce à vous, un étudiant pourra rembourser sa formation et devenir indépendant financièrement. La Flexibilité est un élément clé : SAYNA s’adapte à vos demandes, pour une journée de travail ou pour une semaine jusqu’à 2 ans, nous vous mettons à disposition les talents que nous avons formés. La formation c’est bien, mais trouver un travail c’est mieux ! C’est pour cette raison que nous accompagnons tous nos talents sur la durée dans leur insertion professionnelle. */
+
+.grace-a-vous{
+
+    position: absolute;
+    width: 833px;
+    height: 240px;
+    left: 122px;
+    top: 1247px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 156.02%;
+    /* or 30px */
+    
+    text-align: justify;
+    
+    color: #000000;
+    
+}
+
+/* Rectangle 161 */
+
+.rectangle-161{
+
+    position: absolute;
+    width: 216px;
+    height: 70px;
+    left: 123px;
+    top: 1529px;
+    
+    background: #FB5875;
+    border-radius: 100px;
+}
+
+/* nos talents */
+
+.nos-talents{
+
+    /* position: absolute; */
+    /* width: 216px;
+    height: 70px; */
+    left: 123px;
+    top: 1529px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150.02%;
+    /* or 27px */
+    
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.005em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    
+}
+
+/* transparence */
+
+.transparence{
+
+    left: 1606px;
+    top: 1671px;
+    position: absolute;
+    width: 192px;
+    height: 37px;
+    /* left: calc(50% - 192px/2 + 743px);
+    top: calc(50% - 37px/2 - 3060.5px); */
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+    letter-spacing: -0.025em;
+    text-transform: uppercase;
+    
+    color: #FB5875;
+}
+
+/* La transparence : 82 % d’un revenu est là où il doit être , au talent. */
+
+.transparence-82{
+
+    position: absolute;
+    width: 1046px;
+    height: 113px;
+    left: 754px;
+    top: 1711px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 119.52%;
+    /* or 60px */
+    
+    text-align: right;
+    letter-spacing: 0.01em;
+    
+    color: #000000;
 }
