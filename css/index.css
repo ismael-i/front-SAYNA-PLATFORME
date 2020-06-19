@@ -19,10 +19,10 @@
 
 .logo1{
     position: absolute;
-    width: 320px;
-    height: 102px;
-    left: 60px;
-    top: 55px;
+    width: 220.8px;
+    height: 70.38px;
+    left: 41.4px;
+    top: 37.95px;
 }
 /* Une école. Une agence. C’est tout ! */
 
@@ -218,14 +218,13 @@ a{
 
 
 .menu{
-
     position: absolute;
-    width: 996px;
-    height: 73px;
-    left: 889px;
-    top: 56px;
+    width: 687.24px;
+    height: 50.37px;
+    left: 613.41px;
+    top: 38.64px;
+}    
     
-    }
 /* Group 12 */
 
 .groupe-12{
@@ -1338,10 +1337,10 @@ border-color: #FB5875;
 .btn-school{
 
     /* position: absolute; */
-    width: 174px;
-    height: 70px;
-    left: 890px;
-    top: 56px;
+    width: 120.06px;
+    height: 48.3px;
+    left: 614.1px;
+    top: 38.64px;
     
     background-color: #F2F2F7;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
@@ -1350,8 +1349,8 @@ border-color: #FB5875;
 .btn-agency{
 
     /* position: absolute; */
-    width: 174px;
-    height: 70px;
+    width: 120.06px;
+    height: 48.3px;
     left: 890px;
     top: 56px;
     margin-left: 37px;
@@ -1363,8 +1362,8 @@ border-color: #FB5875;
 .btn-factory-menu{
 
     /* position: absolute; */
-    width: 174px;
-    height: 70px;
+    width: 120.06px;
+    height: 48.3px;
     left: 890px;
     top: 56px;
     margin-left: 37px;
@@ -1402,28 +1401,26 @@ border-color: #FB5875;
 
 .groupe-294{
     position: absolute;
-    width: 1024px;
-    height: 768px;
-    left: 800px;
-    top: 126px;
+    width: 706.56px;
+    height: 529.92px;
+    left: 552px;
+    top: 86.94px;
 
 }
 
 /* nous formons des héros. */
 
 .formons-des-heros{
-
-    position: absolute; 
-    width: 1797px;
-    height: 596px;
-    left: 114px;
-    top: 440px;
-    
+    position: absolute;
+    width: 1239.93px;
+    height: 411.24px;
+    left: 78.66px;
+    top: 303.6px;
     font-family: Inter;
     font-style: normal;
     font-weight: 800;
-    font-size: 135px;
-    line-height: 144px;
+    font-size: 93.15px;
+    line-height: 99.36px;
     display: flex;
     align-items: center;
     letter-spacing: -0.08em;
@@ -1433,17 +1430,15 @@ border-color: #FB5875;
 
 .des-heros{
     position: absolute;
-    width: 1797px;
-    height: 596px;
-    left: 114px;
-    top: 819px;
+    width: 1239.93px;
+    height: 411.24px;
+    left: 78.66px;
+    top: 565.11px;
     font-family: Inter;
     font-style: normal;
     font-weight: 800;
-    font-size: 185px;
-    line-height: 95.02%;
-    /* or 176px */
-
+    font-size: 127.65px;
+    line-height: 95%;
     /* display: flex; */
     align-items: center;
     letter-spacing: -0.045em;
@@ -1468,7 +1463,7 @@ border-color: #FB5875;
 
 .integre-la-meilleure{
 
-    top: 1005px;
+    top: 552.75px;
     left: 117px;
     position: absolute;
     width: 1227px;
