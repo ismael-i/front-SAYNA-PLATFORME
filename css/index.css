@@ -3022,7 +3022,7 @@ border-color: #FB5875;
 
 /* Rectangle 161 */
 
-.rectangle-161{
+.rectangle-161a{
 
     position: absolute;
     width: 216px;
@@ -3106,4 +3106,235 @@ border-color: #FB5875;
     letter-spacing: 0.01em;
     
     color: #000000;
+}
+
+/* Loin des modèles traditionnels des sociétés de service, nous sommes là pour revaloriser le talent et son travail. Nous sommes votre tiers de confiance. */
+
+.modeles-traditionnels{
+
+    position: absolute;
+    width: 830px;
+    height: 73px;
+    left: 967px;
+    top: 1860px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 156.02%;
+    /* or 30px */
+    
+    text-align: right;
+    
+    color: #000000;
+}
+
+/* Component 8 */
+
+.component-8{
+
+    position: absolute;
+    
+    left: 1419px;
+    top: 1962px;
+}
+
+/* Rectangle 15 */
+
+.rectangle-15c{
+
+    width: 239px;
+    height: 58px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+    background: #FFCC00;
+    border-radius: 20px;
+    
+}
+
+/* voir nos offres */
+
+.nos-offres{
+
+    /* position: absolute; */
+    left: 0%;
+    right: 15.9%;
+    top: 6.9%;
+    bottom: 0%;
+    
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+
+/* les métiers enseignés chez sayna */
+
+.metiers-enseignes{
+
+    left: 122px;
+    top: 2104px;
+    position: absolute;
+    width: 447px;
+    height: 36px;
+    /* left: calc(50% - 447px/2 - 614.5px);
+    top: calc(50% - 36px/2 - 2628px); */
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.025em;
+    text-transform: uppercase;
+    
+    color: #FB5875;
+    
+}
+
+
+/* Les types de profils que l’on retrouve chez nous. */
+
+.types-de-profils{
+
+    position: absolute;
+    width: 732px;
+    height: 111px;
+    left: 122px;
+    top: 2152px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 119.52%;
+    /* or 60px */
+    
+    letter-spacing: 0.01em;
+    
+    color: #000000;
+    
+}
+
+
+/* Après avoir appris les fondamentaux du web, tu peux aller plus loin et te spécialiser dans un des métiers du digital qui connait le plus de pénurie sur le marché international : développeur, data engineer, marketing digitale et vente... */
+
+.apres-avoir-appris-les-fondamentaux{
+
+    position: absolute;
+    width: 640px;
+    height: 116px;
+    left: 123px;
+    top: 2294px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 156.02%;
+    /* or 30px */
+    
+    text-align: justify;
+    
+    color: #000000;
+}
+
+.unboxingDoodle{
+    /* UnboxingDoodle */
+
+
+    position: absolute;
+    width: 739px;
+    height: 554px;
+    left: 1098px;
+    top: 2036px;
+}
+
+
+
+.service-1-1a{
+ 
+    left: 212.76px;
+    top: 2594.34px;
+    position: absolute;
+    width: 540px;
+    height: 448px;
+    /* left: calc(50% - 540px/2 - 512px);
+    top: calc(50% - 448px/2 - 372px); */
+
+    border-radius: 19px;   
+}
+
+
+.service-1-2a{
+
+    top: 2594.34px;
+    left: 752.76px;
+
+
+    position: absolute;
+    width: 540px;
+    height: 448px;
+    /* left: calc(50% - 540px/2 + 28px);
+    top: calc(50% - 448px/2 - 372px); */
+    
+    border-radius: 19px;
+}
+
+
+
+.service-1-3a{
+
+    left: 1292.76px;
+    top: 2594.34px;
+    position: absolute;
+    width: 540px;
+    height: 448px;
+    /* left: calc(50% - 540px/2 + 568px);
+    top: calc(50% - 448px/2 - 372px); */
+    
+    border-radius: 19px;
+}
+
+
+.service-1a{
+
+    position: absolute;
+    left: 212.76px;
+    right: 67.9%;
+    top: 3042.34px;
+    bottom: 47.3%;
+}
+
+
+.service-2a{
+
+    position: absolute;
+    left: 753.76px;
+    right: 39.78%;
+    top: 3042.34px;
+    bottom: 47.3%;
+}
+
+
+
+.service-3a{
+
+    position: absolute;
+    left: 1292.76px;
+    right: 11.65%;
+    top: 3042.34px;
+    bottom: 47.3%;
 }
