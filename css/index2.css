@@ -1,4 +1,7 @@
 /* onisoa css */
+
+@import url('https://rsms.me/inter/inter.css');
+@import url("https://db.onlinewebfonts.com/c/9e00143409affcb46a1ae58634aa64be?family=Sofia+Pro");
 /* une pédagogie innovante */
 
 .pedagogie-innovante{
@@ -8,7 +11,7 @@
    left: calc(50% - 380px/2 - 647px);
    top: calc(50% - 36px/2 - 1993.5px);
    
-   font-family: Inter;
+   font-family: 'Inter', 'sans-serif';
    font-style: normal;
    font-weight: 600;
    font-size: 24px;
@@ -28,7 +31,7 @@
    left: 123px;
    top: 3237px;
    
-   font-family: Inter;
+   font-family: 'Inter', 'sans-serif';
    font-style: normal;
    font-weight: 900;
    font-size: 50px;
@@ -136,7 +139,7 @@
    width: 380px;
    height: 36px;
    
-   font-family: Inter;
+   font-family: 'Inter', 'sans-serif';
    font-style: normal;
    font-weight: 600;
    font-size: 24px;
@@ -164,7 +167,7 @@
    height: 353px;
    
    /* display: flex; */
-   font-family: Inter;
+   font-family:'Inter', 'sans-serif';
    font-style: normal;
    font-weight: normal;
    font-size: 19px;
@@ -192,7 +195,7 @@
    /* left: calc(50% - 380px/2 + 3px);
    top: calc(50% - 36px/2 - 1395.5px); */
    
-   font-family: Inter;
+   font-family:'Inter', 'sans-serif';
    font-style: normal;
    font-weight: 600;
    font-size: 24px;
@@ -221,7 +224,7 @@
    height: 353px;
    
    
-   font-family: Inter;
+   font-family: 'Inter', 'sans-serif';
    font-style: normal;
    font-weight: normal;
    font-size: 19px;
@@ -245,7 +248,7 @@
    /* left: calc(50% - 380px/2 + 535px);
    top: calc(50% - 36px/2 - 1395.5px); */
    
-   font-family: Inter;
+   font-family: 'Inter', 'sans-serif';
    font-style: normal;
    font-weight: 600;
    font-size: 24px;
@@ -267,7 +270,7 @@
    left: 29px;
    top: 177px; 
    
-   font-family: Inter;
+   font-family: 'Inter', 'sans-serif';
    font-style: normal;
    font-weight: normal;
    font-size: 19px;
@@ -307,7 +310,7 @@
    /* left: calc(50% - 289px/2 - 715.5px);
    top: calc(50% - 22.25px/2 + 1140.62px); */
    
-   font-family: Inter;
+   font-family: 'Inter', 'sans-serif';
    font-style: normal;
    font-weight: 600;
    font-size: 24px;
@@ -331,7 +334,7 @@
    top: 6387.1px; */
    top: 32.85px; 
    
-   font-family: Inter;
+   font-family:'Inter', 'sans-serif';
    font-style: normal;
    font-weight: 900;
    font-size: 51px;
@@ -351,7 +354,7 @@
    top: 6526px;
    margin-top: 404.8px;
    
-   font-family: Inter;
+   font-family:'Inter', 'sans-serif';
    font-style: normal;
    font-weight: normal;
    font-size: 19px;
@@ -374,7 +377,7 @@
    top: 6589px;
    margin-top: 417.8px;
    
-   font-family: Inter;
+   font-family: 'Inter', 'sans-serif';
    font-style: normal;
    font-weight: normal;
    font-size: 19px;
@@ -406,7 +409,7 @@
    left: calc(50% - 289px/2 + 0.5px);
    top: calc(50% - 22.25px/2 + 1794.91px); */
    margin-top: 417.8px;
-   font-family: Inter;
+   font-family: 'Inter', 'sans-serif';
    font-style: normal;
    font-weight: 600;
    font-size: 24px;
@@ -429,7 +432,7 @@
    top: 7036.89px;
    margin-top: 417.8px;
    
-   font-family: Inter;
+   font-family: 'Inter', 'sans-serif';
    font-style: normal;
    font-weight: 900;
    font-size: 51px;
@@ -575,7 +578,7 @@ margin-top: 418.61px;
    left: 1138px;
    margin-top: 417.8px;
    
-   font-family: Inter;
+   font-family: 'Inter', 'sans-serif';
    font-style: normal;
    font-weight: 600;
    font-size: 24px;
@@ -601,7 +604,7 @@ margin-top: 418.61px;
    top: 7825px;
    margin-top: 417.8px;
    
-   font-family: Inter;
+   font-family:'Inter', 'sans-serif';
    font-style: normal;
    font-weight: 900;
    font-size: 51px;
@@ -621,7 +624,7 @@ margin-top: 418.61px;
    top: 8033px;
    margin-top: 417.8px;
    
-   font-family: Inter;
+   font-family: 'Inter', 'sans-serif';
    font-style: normal;
    font-weight: normal;
    font-size: 20px;
@@ -712,7 +715,7 @@ top: 7449px;
    /* left: calc(50% - 231px/2 - 723.5px);
    top: calc(50% - 22px/2 + 3382.5px); */
    
-   font-family: Inter;
+   font-family: 'Inter', 'sans-serif';
    font-style: normal;
    font-weight: 600;
    font-size: 24px;
@@ -734,7 +737,7 @@ top: 7449px;
    left: 122px;
    top: 8620px;
    
-   font-family: Inter;
+   font-family:'Inter', 'sans-serif';
    font-style: normal;
    font-weight: 900;
    font-size: 51px;
@@ -753,7 +756,7 @@ top: 7449px;
    left: 123px;
    top: 8767px;
 
-   font-family: Inter;
+   font-family: 'Inter', 'sans-serif';
    font-style: normal;
    font-weight: normal;
    font-size: 19px;
@@ -831,7 +834,7 @@ top: 7449px;
   /*  left: calc(50% - 568px/2 - 553px);
    top: calc(50% - 61px/2 + 4049px); */
    
-   font-family: Inter;
+   font-family: 'Inter', 'sans-serif';
    font-style: normal;
    font-weight: 600;
    font-size: 24px;
@@ -853,7 +856,7 @@ top: 7449px;
    left: 121px;
    top: 9277px;
    
-   font-family: Inter;
+   font-family:'Inter', 'sans-serif';
    font-style: normal;
    font-weight: 900;
    font-size: 51px;
@@ -956,7 +959,7 @@ top: 7449px;
    left: 212px;
    top: 9643px;
    
-   font-family: Inter;
+   font-family: 'Inter', 'sans-serif';
    font-style: normal;
    font-weight: 900;
    font-size: 51px;
@@ -977,7 +980,7 @@ top: 7449px;
    left: 803px;
    top: 9643px;
    
-   font-family: Inter;
+   font-family:'Inter', 'sans-serif';
    font-style: normal;
    font-weight: 900;
    font-size: 51px;
@@ -996,7 +999,7 @@ top: 7449px;
    left: 1389px;
    top: 9643px;
    
-   font-family: Inter;
+   font-family:'Inter', 'sans-serif';
    font-style: normal;
    font-weight: 900;
    font-size: 51px;
