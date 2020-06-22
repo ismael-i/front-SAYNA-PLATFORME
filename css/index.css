@@ -1,4 +1,7 @@
 /*--------header---------*/
+@import url('https://rsms.me/inter/inter.css');
+@import url("https://db.onlinewebfonts.com/c/9e00143409affcb46a1ae58634aa64be?family=Sofia+Pro");
+@import url("https://db.onlinewebfonts.com/c/62e84f8271d32eb452129a0b7d59540d?family=Antipasto+Pro");
 /*background*/
 #background-body{
 
@@ -40,8 +43,7 @@ width: 749px;
 height: 461px;
 left: 116px;
 top: 255px;
-
-font-family: Inter;
+font-family: 'Inter', 'sans-serif';
 font-style: normal;
 font-weight: 800;
 font-size: 126px;
@@ -255,7 +257,7 @@ top: 914px;
 font-family: Antipasto Pro;
 font-style: normal;
 font-weight: bold;
-font-size: 40px;
+font-size: 52px;
 line-height: 44px;
 /* identical to box height */
 
@@ -334,7 +336,7 @@ height: 27px;
 left: 712px;
 top: 1022px;
 
-font-family: Antipasto Pro;
+/* font-family: Antipasto Pro; */
 font-style: normal;
 font-weight: normal;
 font-size: 19px;
@@ -366,7 +368,7 @@ width: 359px; */
 /* height: 52px; */
 left: calc(50% - 359px/2 - 0.5px);
 top: calc(50% - 52px/2 - 3990.5px);
-font-family: Inter;
+font-family: 'Inter', 'sans-serif';
 font-style: normal;
 font-weight: 600;
 font-size: 24px;
@@ -384,7 +386,7 @@ width: 627px; */
 /* height: 64px; */
 left: 647px;
 top: 1215px;
-font-family: Inter;
+font-family:'Inter', 'sans-serif';
 font-style: normal;
 font-weight: normal;
 font-size: 24px;
@@ -509,7 +511,7 @@ height: 36px;
 left: 1500px;
 top: calc(50% - 36px/2 - 2883.5px);
 
-font-family: Inter;
+font-family:'Inter', 'sans-serif';
 font-style: normal;
 font-weight: 600;
 font-size: 24px;
@@ -540,7 +542,7 @@ height: 121px;
 left: 3.5px;
 top: 50px;
 
-font-family: Inter;
+font-family:'Inter', 'sans-serif';
 font-style: normal;
 font-weight: 900;
 font-size: 64px;
@@ -590,7 +592,7 @@ height: 142px;
 left: 12px;
 top: 212px;
 
-font-family: Inter;
+font-family: 'Inter', 'sans-serif';
 font-style: normal;
 font-weight: normal;
 font-size: 24px;
@@ -635,7 +637,7 @@ left: 1347px;
 top: 5279px;
 text-align: right;
 
-font-family: Inter;
+font-family:'Inter', 'sans-serif';
 font-style: normal;
 font-weight: 600;
 font-size: 24px;
@@ -654,7 +656,7 @@ height: 124px;
 left: 1132px;
 top: 5324px;
 
-font-family: Inter;
+font-family: 'Inter', 'sans-serif';
 font-style: normal;
 font-weight: 900;
 font-size: 51px;
@@ -708,7 +710,7 @@ left: 220px;
 top: 70px;
 
 
-font-family: Inter;
+font-family:'Inter', 'sans-serif';
 font-style: normal;
 font-weight: normal;
 font-size: 22px;
@@ -729,7 +731,7 @@ height: 36px;
 left: 220px;
 top: 120px;
 
-font-family: Inter;
+font-family:'Inter', 'sans-serif';
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
@@ -746,7 +748,7 @@ width: 472px;
 height: 412px;
 left: 34px;
 top: 150px;
-font-family: Inter;
+font-family:'Inter', 'sans-serif';
 font-style: normal;
 font-weight: normal;
 font-size: 22px;
@@ -797,7 +799,7 @@ left: 220px;
 top: 70px;
 
 
-font-family: Inter;
+font-family: 'Inter', 'sans-serif';
 font-style: normal;
 font-weight: normal;
 font-size: 22px;
@@ -818,7 +820,7 @@ height: 36px;
 left: 220px;
 top: 120px;
 
-font-family: Inter;
+font-family: 'Inter', 'sans-serif';
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
@@ -836,7 +838,7 @@ height: 412px;
 left: 25px;
 top: 150px;
 
-font-family: Inter;
+font-family: 'Inter', 'sans-serif';
 font-style: normal;
 font-weight: normal;
 font-size: 24px;
@@ -880,7 +882,7 @@ left: 220px;
 top: 70px;
 
 
-font-family: Inter;
+font-family: 'Inter', 'sans-serif';
 font-style: normal;
 font-weight: normal;
 font-size: 22px;
@@ -901,7 +903,7 @@ height: 36px;
 left: 220px;
 top: 120px;
 
-font-family: Inter;
+font-family: 'Inter', 'sans-serif';
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
@@ -919,7 +921,7 @@ height: 412px;
 left: 31px;
 top: 150px;
 
-font-family: Inter;
+font-family:'Inter', 'sans-serif';
 font-style: normal;
 font-weight: normal;
 font-size: 24px;
