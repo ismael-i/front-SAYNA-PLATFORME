@@ -3343,15 +3343,6 @@ border-color: #FB5875;
 /* Rectangle 161 */
 
 .rectangle-161b{
-    /* position: absolute;
-    width: 216px;
-    height: 70px;
-    left: 852px;
-    top: 3500px;
-    /* margin-left: 36px; * /
- 
-    background-color: #FB5875;
-    border-radius: 50px !important; */
 
     position: absolute;
     width: 216px;
@@ -3945,4 +3936,391 @@ border-color: #FB5875;
     text-align: center;
     
     color: #000000;
+}
+
+
+/* Découvrez nos modalités d’évaluation ! */
+
+.decouvrez-nos-modalites{
+
+   position: absolute;
+   width: 426px;
+   height: 67px;
+   left: 747px;
+   top: 6371px;
+   
+   font-family: Inter;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 35px;
+   line-height: 42px;
+   text-align: center;
+   letter-spacing: 0.01em;
+   
+   color: #000000;
+}
+
+/* Chacun de nos talents sont évalués et validés sur les CINQ verticales ci-dessous; On ne vous présente que des profils se situant entre les niveaux “Juste” et “Excellent”.. */
+
+.chacun-de-nos-talents{
+
+   position: absolute;
+   width: 640px;
+   height: 85px;
+   left: 640px;
+   top: 6499px;
+   
+   font-family: Inter;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 19px;
+   line-height: 156.02%;
+   /* or 30px */
+   
+   text-align: center;
+   
+   color: #000000;
+}
+
+/* Forme 4 */
+
+.forme-4-agency{
+
+   position: absolute;
+   /* left: -28.07%;
+   right: 87.61%; */
+   top: 6676px;
+   
+   color: #FFCC00;
+/*    transform: matrix(0.7, 0.72, 0.72, -0.7, 0, 0); */
+}
+
+/* Forme 5 */
+
+.forme-5-agency{
+
+   position: absolute;
+   left: 1395px;
+   top: 6438px;
+
+   color: #FFCC00;
+   /* transform: rotate(143.7deg); */
+}
+
+/* Rectangle 162 */
+
+.rectangle-162a{
+ 
+   position: absolute;
+   width: 216px;
+   height: 70px;
+   left: 1420px;
+   top: 6755px;
+
+   background: #FB5875;
+   border-radius: 100px !important;  
+}
+
+/* Rectangle 162 */
+
+.rectangle-162b{
+
+   position: absolute;
+   width: 216px;
+   height: 70px;
+   left: 1281px;
+   top: 6891px;
+   
+   background: #FB5875;
+   border-radius: 100px !important;
+}
+
+/* Rectangle 163 */
+
+.rectangle-163a{
+
+   position: absolute;
+   width: 216px;
+   height: 70px;
+   left: 1173px;
+   top: 7029px;
+   
+   background: #FB5875;
+   border-radius: 100px !important;
+}
+
+/* Rectangle 164 */
+
+.rectangle-164a{
+
+   position: absolute;
+   width: 216px;
+   height: 70px;
+   left: 1281px;
+   top: 7167px;
+   
+   background: #FB5875;
+   border-radius: 100px !important;
+}
+
+/* Rectangle 165 */
+
+.rectangle-165a{
+
+   position: absolute;
+   width: 216px;
+   height: 70px;
+   left: 1420px;
+   top: 7305px;
+   
+   background: #FB5875;
+   border-radius: 100px !important;
+}
+
+
+/* une solution à chaque situation */
+
+.une-solution-a-chaque-situation{
+
+   left: 545px;
+   top: 7564px;
+   position: absolute;
+   width: 831px;
+   height: 36px;
+   
+   font-family: Inter;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 29px;
+   text-align: center;
+   letter-spacing: -0.03em;
+   text-transform: uppercase;
+   
+   color: #FB5875;
+}
+
+/* Recruter n’a jamais été aussi FACILE ! */
+
+.recruter{
+
+   position: absolute;
+   width: 1039px;
+   height: 191px;
+   left: 440px;
+   top: 7549px;
+   
+   font-family: Inter;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 50px;
+   line-height: 61px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   letter-spacing: 0.01em;
+   
+   color: #000000;
+}
+
+/* Rectangle 1936 */
+
+.rectangle-1936{
+
+   position: absolute;
+   width: 732px;
+   height: 212px;
+   left: 178px;
+   top: 7842px;
+   
+   background: #FFCC00;
+   border-radius: 20px 20px 0px 0px;
+}
+
+/* offre start-(up) */
+
+.offre-start-up{
+
+   position: absolute;
+   width: 732px;
+   height: 93px;
+   top: 11px;
+   
+   font-family: Sofia Pro;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 48px;
+   line-height: 150.02%;
+   /* or 72px 
+   
+   display: flex;*/
+   align-items: center;
+   text-align: center;
+   letter-spacing: 0.005em;
+   text-transform: uppercase;
+   
+   color: #FFFFFF;
+}
+
+/* L’offre idéale pour commencer avec nous : recrutement immédiat et sur mesure pour staffer un projet ou une petite équipe tech et gérer sa trésorerie. */
+
+.offre-ideale{
+
+   position: absolute;
+   width: 696px;
+   height: 130px;
+   left: 19px;
+   top: 102px;
+   
+   font-family: Inter;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 19px;
+   line-height: 150.02%;
+   /* or 29px */
+   /* 
+   display: flex; */
+   align-items: center;
+   text-align: center;
+   letter-spacing: 0.005em;
+   
+   color: #3D3D3D;
+}
+
+/* Rectangle 1937 */
+
+.rectangle-1937{
+
+   position: absolute;
+   width: 732px;
+   height: 710px;
+   top: 8054px;
+   left: 178px;
+   /* 
+   top: 8054px; */
+   
+   background: #FFFFFF;
+   border-radius: 0px 0px 15px 15px;
+}
+
+/* 18% du TJM du talent reversé à SAYNA jusqu’à ce que la formation soit remboursée 15% du TJM de frais de placement 3% du TJM de frais de gestion : internet, local, environnement 64% du TJM reversé intégralement au développeur, celui qui crée la valeur 45 € de TJM à 150 € de TJM selon les profils Tarif dégressif au fil des jours. */
+
+.du-TJM-du-talent-reverse{
+
+   position: absolute;
+   width: 481px;
+   height: 486px;
+   left: 10px;
+   /* top: 8054px; */
+   
+   font-family: Inter;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 150.02%;
+   /* or 30px */
+   
+  /*  display: flex; */
+   align-items: center;
+   letter-spacing: 0.005em;
+   
+   color: #000000;
+   
+   
+}
+
+/* - Freelances formés, vérifiés et qualifiés par nos soins - Matching en quelques heures - Prise de rendez-vous en ligne avec nos experts - Signature électronique - Facturation et paiements simplifiés - Support en ligne */
+
+.freelances-formes{
+
+   position: absolute;
+   width: 650px;
+   height: 223px;
+   left: 45px;
+   top: 486px;
+   
+   font-family: Sofia Pro;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 150.02%;
+   /* or 27px */
+   
+   display: flex;
+   align-items: center;
+   text-align: center;
+   letter-spacing: 0.005em;
+   
+   color: #898989;
+   
+}
+
+
+/* Rectangle 1938 */
+
+.rectangle-1938{
+
+   position: absolute;
+   width: 732px;
+   height: 212px;
+   left: 1009px;
+   top: 7842px;
+   
+   background: #FFCC00;
+   border-radius: 20px 20px 0px 0px;
+}
+
+
+/* offre corporate */
+
+.offre-corporate{
+
+   position: absolute;
+   width: 732px;
+   height: 93px;
+   left: 1009px;
+   top: 7853px;
+   
+   font-family: Sofia Pro;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 48px;
+   line-height: 150.02%;
+   /* or 72px */
+   
+   display: flex;
+   align-items: center;
+   text-align: center;
+   letter-spacing: 0.005em;
+   text-transform: uppercase;
+   
+   color: #FFFFFF;
+}
+
+/* Rectangle 186 */
+
+.rectangle-186{
+
+   position: absolute;
+   width: 732px;
+   height: 710px;
+   left: 1009px;
+   top: 8053px;
+   
+   background: #FFFFFF;
+   border-radius: 0px 0px 15px 15px;
+}
+
+
+/* GroovyDoodle */
+
+.groovyDoodle{
+
+   position: absolute;
+/*    width: 806.43px;
+   height: 604.38px; */
+   left: 42.58px;
+   top: 6326px;
+   
+   transform: rotate(20.09deg);
 }
