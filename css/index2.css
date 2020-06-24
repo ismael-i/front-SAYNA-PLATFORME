@@ -6,16 +6,15 @@
 
 .pedagogie-innovante{
 
-   width: 380px;
-   height: 36px;
-   left: calc(50% - 380px/2 - 647px);
-   top: calc(50% - 36px/2 - 1993.5px);
-   
+   width: 262.2px;
+   height: 25px;
+   /* left: calc(50% - 380px/2 - 647px); */
+   /* top: calc(50% - 36px/2 - 1993.5px); */
    font-family: 'Inter', 'sans-serif';
    font-style: normal;
    font-weight: 600;
-   font-size: 24px;
-   line-height: 29px;
+   font-size: 16.56px;
+   line-height: 20px;
    letter-spacing: -0.025em;
    text-transform: uppercase;
    
@@ -25,16 +24,14 @@
 /* Du sourcing à la formation continue en passant par le placement, on s’occupe de tout. */
 
 .sourcing-formation{
-
-   width: 887px;
-   height: 194px;
-   left: 123px;
-   top: 3237px;
-   
+   width: 612px;
+   height: 133.86px;
+   left: 84.87px;
+   top: 2233.53px;
    font-family: 'Inter', 'sans-serif';
    font-style: normal;
    font-weight: 900;
-   font-size: 50px;
+   font-size:30.5px;
    line-height: 119.52%;
    /* or 60px */
    
@@ -45,12 +42,12 @@
 /* 3) Sourcing et Placement */
 
 .sourcing-placement{
-    
    position: absolute;
-   width: 887px;
-   height: 431px;
-   left: 123px;
-   top: 3191px;
+   width: 612.03px;
+   height: 297.39px;
+   left: 71.87px;
+   top: 2110px;
+
 }
 
 /* Rectangle 149 */
@@ -63,23 +60,30 @@
 /* LayingDoodle 1 */
 
 .layingDoodle-1{
-
    position: absolute;
-   width: 729px;
-   height: 547px;
-   left: 1086px;
-   top: 3422px;
+   width: 503px;
+   height: 377.43px;
+   left: 713.34px;
+   top: 2271.2px;
 }
 
 /* voir le détail */
+
+.fleche-voir-detail{
+   margin-left: 27px;
+   color: #E9EAEF;
+   font-size: 17px;
+}
 /* Component 2 */
 
 .component-2{
 
    position: absolute;
-   width: 513px;
-   height: 108px;
-   bottom:  0px;
+/*    width: 513px;
+   height: 108px; */
+   width: 299px;
+   height: 65px;
+   bottom: 18px;
    border-style: none;
     border-image: none;
    
@@ -100,8 +104,8 @@
    font-family: Sofia Pro;
    font-style: normal;
    font-weight: bold;
-   font-size: 30px;
-   line-height: 30px;
+   font-size: 20.7px;
+   line-height: 20px;
    /* display: flex; */
    align-items: center;
    text-align: center;
@@ -114,17 +118,17 @@
 .boxes-details{
 
    position: absolute;
-   width: 1580px;
-   height: 424px;
-   left: 171px;
-   top: 3741px;
+   width: 1090.2px;
+   height: 292.56px;
+   left: 75.99px;
+   top: 2491.29px;
    
 }
 .list-rect{
 
    position: absolute;
-   width: 507px;
-   height: 424px;
+   width: 349.83px;
+   height: 292.56px;
    
    background: #F7F7F9;
    border-radius: 20px;
@@ -136,19 +140,18 @@
 .suivie{
 
    position: absolute;
-   width: 380px;
-   height: 36px;
-   
+   width: 189.22px;
+   height: 24.84px;
    font-family: 'Inter', 'sans-serif';
    font-style: normal;
    font-weight: 600;
-   font-size: 24px;
+   font-size: 17px;
    line-height: 29px;
    text-align: center;
    letter-spacing: -0.02em;
    text-transform: uppercase;
-   top: 71px;    
-   left: 41px;
+   top: 49px;
+   left: 72px;
    color: #FB5875;
 }
 
@@ -157,21 +160,17 @@
 
 .tenons{
 
-
-   left: 25px;
-   top: 155px;
-   /* left: 198px;
-   top: 3812px; */
+   left: 17.25px;
+   top: 106.95px;
    position: absolute;
-   width: 455px;
-   height: 353px;
-   
+   width: 313.95px;
+   height: 174.57px;
    /* display: flex; */
-   font-family:'Inter', 'sans-serif';
+   font-family: 'Inter', 'sans-serif';
    font-style: normal;
    font-weight: normal;
-   font-size: 19px;
-   line-height: 23px;
+   font-size: 12px;
+   line-height: 15.87px;
    align-items: center;
    text-align: center;
    color: #ABADB6;
@@ -181,25 +180,21 @@
 }
 /* Rectangle 17 */
 .rectangle-17{
-   left: 536px;
+   left: 369.84px;
 }
 /* Soft skills */
 
 .soft{
-
-   top: 71px;    
-   left: 41px;
+   top: 49px;
+   left: 28.29px;
    position: absolute;
-   width: 380px;
-   height: 36px;
-   /* left: calc(50% - 380px/2 + 3px);
-   top: calc(50% - 36px/2 - 1395.5px); */
-   
-   font-family:'Inter', 'sans-serif';
+   width: 262.2px;
+   height: 24.84px;
+   font-family: 'Inter', 'sans-serif';
    font-style: normal;
    font-weight: 600;
-   font-size: 24px;
-   line-height: 29px;
+   font-size: 17px;
+   line-height: 20px;
    text-align: center;
    letter-spacing: -0.02em;
    text-transform: uppercase;
@@ -210,26 +205,24 @@
 
 /* Rectangle 17 */
 .rectangle-18{
-   left: 1074px;
+   left: 741.06px;
 }
 
 /* Si dans le milieu professionnel nous attendons des salariés qu’ils excellent par leurs compétences et connaissances, il est tout aussi important de permettre à l’étudiant de comprendre les rouages de la vie professionnelle. Des SoftCamps sont donnés à tous nos étudiants pour qu’ils puissent évoluer sans difficultés. */
 
 .milieu-professionnel{
 
-   left: 22px;
-   top: 155px;
+   left: 15.18px;
+   top: 106.95px;
    position: absolute;
-   width: 467px;
-   height: 353px;
-   
-   
+   width: 322.23px;
+   height: 243.57px;
    font-family: 'Inter', 'sans-serif';
    font-style: normal;
    font-weight: normal;
-   font-size: 19px;
-   line-height: 23px;
-   /* display: flex; */
+   font-size: 12px;
+   line-height: 15.87px;
+      /* display: flex; */
    align-items: center;
    text-align: center;
    
@@ -239,20 +232,16 @@
 /* blended learning */
 
 .blended{
-
-   left: 29px;
-   top: 71px;
+   left: 45px;
+   top: 49px;
    position: absolute;
-   width: 380px;
-   height: 36px;
-   /* left: calc(50% - 380px/2 + 535px);
-   top: calc(50% - 36px/2 - 1395.5px); */
-   
+   width: 262.2px;
+   height: 24.84px;
    font-family: 'Inter', 'sans-serif';
    font-style: normal;
    font-weight: 600;
-   font-size: 24px;
-   line-height: 29px;
+   font-size: 17px;
+   line-height: 20px;
    text-align: center;
    letter-spacing: -0.03em;
    text-transform: uppercase;
@@ -265,16 +254,15 @@
 .numerique-important{
 
    position: absolute;
-   width: 451px;
-   height: 138px;
-   left: 29px;
-   top: 177px; 
-   
+   width: 313px;
+   height: 95.22px;
+   left: 20px;
+   top: 122.13px;
    font-family: 'Inter', 'sans-serif';
    font-style: normal;
    font-weight: normal;
-   font-size: 19px;
-   line-height: 23px;
+   font-size: 12px;
+   line-height: 15.87px;
    /* display: flex; */
    align-items: center;
    text-align: center;
@@ -409,11 +397,7 @@
    left: calc(50% - 289px/2 + 0.5px);
    top: calc(50% - 22.25px/2 + 1794.91px); */
    margin-top: 417.8px;
-   font-family: 'Inter', 'sans-serif';
    font-style: normal;
-   font-weight: 600;
-   font-size: 24px;
-   line-height: 29px;
    text-align: center;
    letter-spacing: -0.02em;
    text-transform: uppercase;
@@ -1006,4 +990,24 @@ top: 7449px;
    line-height: 62px;
    
    color: #000000;
+}
+
+
+
+.fleche-connexion{
+   margin-left: -13px;
+   color: #E9EAEF;
+   font-size: 14px;
+}
+
+
+.Groupe-8{
+ 
+   position: absolute; 
+   width: 27.6px;
+   height: 19.32px;
+   left: 604px;
+   top: 9px;
+   font-size:30px;
+   color: #575F6B;
 }
