@@ -689,20 +689,16 @@ top: 7449px;
 /* MéDIAS */
 
 .media{
-
-   left: 121px ;
-   top: 8574px ;
+   left: 77.28px;
+   top: 5916.06px;
    position: absolute;
-   width: 231px;
-   height: 22px;
-   /* left: calc(50% - 231px/2 - 723.5px);
-   top: calc(50% - 22px/2 + 3382.5px); */
-   
+   width: 159.39px;
+   height: 15.18px;
    font-family: Inter;
    font-style: normal;
    font-weight: 600;
-   font-size: 24px;
-   line-height: 29px;
+   font-size: 16.56px;
+   line-height: 20px;
    letter-spacing: -0.02em;
    text-transform: uppercase;
    
@@ -713,20 +709,16 @@ top: 7449px;
 /* Découvrez-nous à travers la Presse, TV ... */
 
 .decouvrez-nous{
-
    position: absolute;
-   width: 753px;
-   height: 120px;
-   left: 122px;
-   top: 8620px;
-   
+   width: 519.57px;
+   height: 82.8px;
+   left: 84.18px;
+   top: 5947.8px;
    font-family: Inter;
    font-style: normal;
-   font-weight: 900;
-   font-size: 51px;
-   line-height: 62px;
-   
-   color: #000000;
+   font-weight: 621;
+   font-size: 35.19px;
+   line-height: 42.78px;   color: #000000;
 }
 
 /* SAYNA veut faire connaître ses actions sur tous les médias pour toucher le plus grand nombre. Découvrez nos interviews, reportages, articles et tous les autres contenus. */
@@ -734,15 +726,14 @@ top: 7449px;
 .sayna-faire-connaitre{
 
    position: absolute;
-   width: 640px;
-   height: 95px;
-   left: 123px;
-   top: 8767px;
-
+   width: 441px;
+   height: 65.55px;
+   left: 85px;
+   top: 6049.23px;
    font-family: Inter;
    font-style: normal;
    font-weight: normal;
-   font-size: 19px;
+   font-size: 14px;
    line-height: 156.02%;
    /* or 30px */
 
@@ -754,14 +745,26 @@ top: 7449px;
 
 .component-2a{
 
-   position: absolute;
-   width: 608px;
-   height: 109px;
-   left: 123px;
-   top: 8899px;
+   /* position: absolute;
+   width: 361px;
+   height: 71px;
+   left: 84.87px;
+   top: 6140px;
    border-style: none;
-   border-image: none;
+   border-image: none; */
 
+
+   position: absolute;
+   left: 84.87px;
+   top: 6140px;
+/*    width: 513px;
+   height: 108px; */
+   width: 299px;
+   height: 65px;
+   bottom: 18px;
+   border-style: none;
+    border-image: none;
+   
    
    background: #FB5875;
    border-radius: 20px !important;
@@ -771,17 +774,13 @@ top: 7449px;
 
 .ils-parlent-de-nous{
 
-   /* position: absolute; */
-   left: 0%;
-   right: 10.37%;
-   top: 2.8%;
-   bottom: -1.87%;
+   
    
    font-family: Sofia Pro;
    font-style: normal;
    font-weight: bold;
-   font-size: 30px;
-   line-height: 30px;
+   font-size: 17px;
+   line-height: 20.7px;
    /* display: flex; */
    align-items: center;
    text-align: center;
@@ -790,15 +789,20 @@ top: 7449px;
    color: #E9EAEF;
 }
 
+.fleche-ils-parlent{
+   margin-left: 13px;
+   color: #E9EAEF;
+   font-size: 17px;
+}
 /* IMG_4281 1 */
 
 .img-4281{
 
    position: absolute;
-   width: 837px;
-   height: 554px;
-   left: 960px;
-   top: 8574px;
+   width: 577.53px;
+   height: 383.26px;
+   left: 662.4px;
+   top: 5916px;
    
    background: url(IMG_4281.jpg);
    border-radius: 20px;
