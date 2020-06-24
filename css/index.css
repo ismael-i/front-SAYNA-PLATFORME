@@ -3,8 +3,8 @@
 #background-body{
 
 position: absolute;
-width: 1920px;
-height: 10405px;
+width: 1324.8px;
+height: 7179.45px;
 left: 0px;
 top: 0px;
 
@@ -278,7 +278,8 @@ margin-left: 184px;
 
     color: rgba(110, 110, 110, 0.51) !important;
 }
-.btn-news-ltr{position: relative;
+.btn-news-ltr{
+    position: relative;
     width: 190.44px !important;
     height: 57.96px !important;
     left: 355.35px;
