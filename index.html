@@ -490,20 +490,21 @@
             <img src="./image/IMG 3697.png" alt="" class="student-image">
             <img src="./image/IMG 3700.png" alt="" class="student-image">
             <img src="./image/IMG 3698.png" alt="" class="student-image">
-            
 
         </div>
-
     </div>
     <script type="text/javascript">
-        s=0; pas=6; max=600;
+        s=0; pas=6; max=680;
+        var container = document.getElementById("container");
         function loop() {
+            function mouseOver(container){
         if ( s != max ) {
              s = s + pas ;
              fenetre.scrollLeft = s ; }
         else {
              pas = pas * -1;
-             if (max==600) max=0; else max=600; }
+             if (max==680) max=0; else max=680; }
+            }
         }
         </script>
 
