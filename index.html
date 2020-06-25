@@ -229,7 +229,6 @@
                     <br>
                     Dès 3 mois de formation
                 </div>
-            <div>
 
             <button class="bouton">
                 <label for="" class="voir-detail">
@@ -242,7 +241,6 @@
                 <!-- <input type="button" value="PARCOURIR LE CATALOGUE " class="bouton"> -->
 
         </section>
-        </div>
         <!-- 2 bootcamps -->
         <!-- les formes gros carré -->
         <section class="GrosCarre">
@@ -484,24 +482,30 @@
         projet. Des premières spécifications jusqu'au livrable final, en passant <br>
         par le MVP, les itérations et les tests.
     </label>
-     <div class="container-slide">
-        <div class="slideshow">
-            <img src="./image/IMG 3697.png" alt="" class="student-image un">
-
-
-            <img src="./image/IMG 3698.png" alt="" class="student-image deux">
-
-
-            <img src="./image/IMG 3696.png" alt="" class="student-image trois">
-
-            <img src="./image/IMG 3700.png" alt="" class="student-image quatre">
-
-            <img src="./image/IMG 3703.png" alt="" class="student-image cinq">
-
-            <img src="./image/IMG 3702.png" alt="" class="student-image six">
+     <div id="fenetre" onscroll="loop()">
+        <div id="container">
+            <img src="./image/IMG 3696.png" alt="" class="student-image"> 
+            <img src="./image/IMG 3703.png" alt="" class="student-image">
+            <img src="./image/IMG 3702.png" alt="" class="student-image ">
+            <img src="./image/IMG 3697.png" alt="" class="student-image">
+            <img src="./image/IMG 3700.png" alt="" class="student-image">
+            <img src="./image/IMG 3698.png" alt="" class="student-image">
+            
 
         </div>
+
     </div>
+    <script type="text/javascript">
+        s=0; pas=6; max=600;
+        function loop() {
+        if ( s != max ) {
+             s = s + pas ;
+             fenetre.scrollLeft = s ; }
+        else {
+             pas = pas * -1;
+             if (max==600) max=0; else max=600; }
+        }
+        </script>
 
     <section class="group-69">
         <a href="" class="btn btn-decouvrir">
@@ -674,6 +678,7 @@ $('.main-slider').bxSlider({
             $window.on('scroll resize', check_if_in_view);
             $window.trigger('scroll', check_if_in_view);
 </script>
+
 
 
 </body>

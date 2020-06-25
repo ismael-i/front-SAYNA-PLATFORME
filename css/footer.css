@@ -1,3 +1,6 @@
+@import url('https://rsms.me/inter/inter.css');
+@import url("https://db.onlinewebfonts.com/c/0033a2fbc0329740fb86c1cfd134cb94?family=Roboto");
+@import url("https://db.onlinewebfonts.com/c/629a55a7e793da068dc580d184cc0e31?family=Open+Sans");
 .vertical-line {
     position: absolute;
     width: 332.5px;
@@ -18,7 +21,7 @@
 
 #rectangle-foot{
     position: absolute;
-    width: 1350px;
+    width: 1216px;
     height: 462.3px;
     left: 0px;
     top: 7038px;;
