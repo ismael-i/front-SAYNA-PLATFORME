@@ -206,7 +206,7 @@ margin-left: 184px;
 }
 .dame-qui-saute{
     position: absolute;
-    left: 51%;
+    left: 111%;
     right: -2.94%;
     top: -37px;
     width: 537px;
@@ -266,7 +266,8 @@ margin-left: 184px;
 
     color: rgba(110, 110, 110, 0.51) !important;
 }
-.btn-news-ltr{position: relative;
+.btn-news-ltr{
+    position: relative;
     width: 190.44px !important;
     height: 57.96px !important;
     left: 355.35px;
@@ -545,7 +546,7 @@ width: 627px; */
     font-weight: bold !important;
     font-size: 20.7px !important;
     line-height: 20.7px !important;
-display: grid !important; 
+
 align-items: center;
 text-align: center;
 text-transform: uppercase;
@@ -631,10 +632,10 @@ transform: matrix(-1, 0, 0, 1, 0, 0);}
 
 
 .li-rect {
-	position: absolute;
-width: 541px;
-height: 685px;
-top: 5670px;
+    position: absolute;
+    width: 354.29px;
+    height: 389px;
+    top: 3912.3px;
 
 
 background: #F7F7F9;
@@ -647,15 +648,15 @@ justify-content: space-around;
 
 /*rectangle 27 Cedrick*/
 .rectangle-one {
-left: 122px;
+left: 47.18px;
 }
 /*ellipse ced*/
 .ellipse-171 {
-position: absolute;
-width: 140px;
-height: 140px;
-left: 40px;
-top: 50px;
+    position: absolute;
+    width: 96.6px;
+    height: 96.6px;
+    left: 27.6px;
+    top: 34.5px;
 border-radius :50%;
   border:4px solid agency-text-white;
   padding:4px;
@@ -666,18 +667,17 @@ background: #FFFFFF;
 .cedrick {
 	/* Cédric Maminjanahary */
 
-position: absolute;
-width: 385px;
-height: 48px;
-left: 220px;
-top: 70px;
+    position: absolute;
+    width: 265.65px;
+    height: 33.12px;
+    left: 151.8px;
+    top: 48.3px;
+    font-family:'Inter', 'sans-serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15.18px;
+    line-height: 165.52%;
 
-
-font-family:'Inter', 'sans-serif';
-font-style: normal;
-font-weight: normal;
-font-size: 22px;
-line-height: 165.52%;
 
 /* or 36px */
 letter-spacing: 0.015em;
@@ -687,34 +687,32 @@ color: #000000;
 
 .etud1 {
 	/* Etudiant SAYNA #1 Développeur @Accès Banque */
-
-position: absolute;
-width: 334px;
-height: 36px;
-left: 220px;
-top: 120px;
-
-font-family:'Inter', 'sans-serif';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 24px;
-letter-spacing: 0.03em;
+    position: absolute;
+    width: 230.46px;
+    height: 24.84px;
+    left: 151.8px;
+    top: 82.8px;
+    font-family:'Inter', 'sans-serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16.56px;
+    letter-spacing: 0.03em;
 
 color: #FB5875;
 }
 
 /*temoignage cedrick*/
 .tem1 {
-position: absolute;
-width: 472px;
-height: 412px;
-left: 34px;
-top: 150px;
-font-family:'Inter', 'sans-serif';
-font-style: normal;
-font-weight: normal;
-font-size: 22px;
+    position: absolute;
+    width: 325.68px;
+    height: 284.28px;
+    left: 23.46px;
+    top: 103.5px;
+    font-family:'Inter', 'sans-serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
 line-height: 165.52%;
 
 /* or 36px */
@@ -728,24 +726,25 @@ color: #000000;
 
 /*lien cedrick*/
 .de {
-	position: absolute;
-	top: 400px;
-	left: 35px;
+    position: absolute;
+   top: 231px;
+    /* left: 35px; */
+    font-size: 10px;
 }
 
 /*rectangle sahaza*/
 .rectangle-two{
-left: 688px;
+    left: 426.72px;
 }
 
 /*ellipse sahaza*/
 .ellipse-6 {
-position: absolute;
-width: 140px;
-height: 140px;
-left: 40px;
-top: 50px;
-border-radius :50%;
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    left: 27.6px;
+    top: 34.5px;
+    border-radius :50%;
   border:4px solid agency-text-white;
   padding:4px;
 
@@ -754,18 +753,17 @@ background: #FFFFFF;
 
 .sahaza{
 	/* sahaza henintsoa */
-
-position: absolute;
-width: 385px;
-height: 48px;
-left: 220px;
-top: 70px;
+    position: absolute;
+    width: 265.65px;
+    height: 33.12px;
+    left: 151.8px;
+    top: 48.3px;
 
 
 font-family: 'Inter', 'sans-serif';
 font-style: normal;
 font-weight: normal;
-font-size: 22px;
+font-size: 15.18px;
 line-height: 165.52%;
 
 /* or 36px */
@@ -776,37 +774,33 @@ color: #000000;
 
 .etud2 {
 	/* Etudiant SAYNA #1 Développeur @en2roues */
-
-position: absolute;
-width: 334px;
-height: 36px;
-left: 220px;
-top: 120px;
-
-font-family: 'Inter', 'sans-serif';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 24px;
-letter-spacing: 0.03em;
+    position: absolute;
+    width: 230.46px;
+    height: 24.84px;
+    left: 151.8px;
+    top: 82.8px;
+    font-family:'Inter', 'sans-serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16.56px;
+    letter-spacing: 0.03em;
 
 color: #FB5875;
 }
 
 /*temoignage sahaza*/
 .tem2 {
-position: absolute;
-width: 472px;
-height: 412px;
-left: 25px;
-top: 150px;
-
-font-family: 'Inter', 'sans-serif';
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 165.52%;
-
+    position: absolute;
+    width: 325.68px;
+    height: 284.28px;
+    left: 17.25px;
+    top: 103.5px;
+    font-family:'Inter', 'sans-serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 165.52%;
 /* or 36px */
 display: flex;
 align-items: center;
@@ -818,16 +812,16 @@ color: #000000;
 
 /*rectangle jenny*/
 .rectangle-three{
-left: 1255px;
+    left: 804.95px;
 }
 
 /*ellipse jenny*/
 .ellipse-172 {
-position: absolute;
-width: 140px;
-height: 140px;
-left: 40px;
-top: 50px;
+    position: absolute;
+    width: 96.6px;
+    height: 96.6px;
+    left: 27.6px;
+    top: 34.5px;
 border-radius :50%;
   border:4px solid agency-text-white;
   padding:4px;
@@ -837,18 +831,17 @@ background: #FFFFFF;
 
 .jenny{
 	/* jenny*/
-
-position: absolute;
-width: 385px;
-height: 48px;
-left: 220px;
-top: 70px;
+    position: absolute;
+    width: 265.65px;
+    height: 33.12px;
+    left: 151.8px;
+    top: 48.3px;
 
 
 font-family: 'Inter', 'sans-serif';
 font-style: normal;
 font-weight: normal;
-font-size: 22px;
+font-size: 15.18px;
 line-height: 165.52%;
 
 /* or 36px */
@@ -859,36 +852,33 @@ color: #000000;
 
 .etud3 {
 	/* Etudiant SAYNA #2 Développeur @Ingedata */
-
-position: absolute;
-width: 334px;
-height: 36px;
-left: 220px;
-top: 120px;
-
-font-family: 'Inter', 'sans-serif';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 24px;
-letter-spacing: 0.03em;
+    position: absolute;
+    width: 230.46px;
+    height: 24.84px;
+    left: 151.8px;
+    top: 82.8px;
+    font-family:'Inter', 'sans-serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
 
 color: #FB5875;
 }
 
 /*temoignage jenny*/
 .tem3 {
-position: absolute;
-width: 472px;
-height: 412px;
-left: 31px;
-top: 150px;
-
-font-family:'Inter', 'sans-serif';
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 165.52%;
+    position: absolute;
+    width: 325.68px;
+    height: 285px;
+    left: 72px;
+    top: 103.5px;
+    font-family:'Inter', 'sans-serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 165.52%;
 
 /* or 36px */
 display: flex;
@@ -915,8 +905,8 @@ color: #000000;
 .doogles-perso{
 
     position: absolute;
-    width: 1324.8px;
-    height: 2437.77px;
+    /* width: 1324.8px;
+    height: 2437.77px; */
     left: 0px;
     top: 174.57px;
 
@@ -924,8 +914,8 @@ color: #000000;
 .GrosCarre{
 
 /* position: absolute; */
-    width: 1896.99px;
-    height: 2080px;
+    /* width: 1896.99px;
+    height: 2080px; */
     left: -286.35px;
     top: 1911.3px;
 
@@ -933,8 +923,8 @@ color: #000000;
 /*-----------SLIDE PHOTOS ----------*/
 .container-slide {
     position: relative;
-    left: -559px;
-    top: 5652.8px;
+    left: -446px;
+    top: 4954.8px;
 
     overflow: hidden;
 
