@@ -1,6 +1,3 @@
-@import url('https://rsms.me/inter/inter.css');
-@import url("https://db.onlinewebfonts.com/c/9e00143409affcb46a1ae58634aa64be?family=Sofia+Pro");
-@import url("https://db.onlinewebfonts.com/c/9d942e0ff1014c476713a855710ce309?family=Lato");
 .header-factory-text{
     /* ce qu’ils disent de sayna */
 
@@ -11,7 +8,7 @@ height: 36px;
 left: calc(50% - 380px/2 - 678px);
 top: calc(50% - 36px/2 - 3757.5px);
 
-font-family: 'Inter', 'sans-serif';
+font-family: Inter;
 font-style: normal;
 font-weight: 600;
 font-size: 24px;
@@ -33,7 +30,7 @@ color: #FB5875;
 width: 800px;
 height: auto;
 left: 92px;
-top: 1427px;
+top: 958px; /* 1427px; */
 }
 .main-slider{
     position: relative;
@@ -56,7 +53,7 @@ padding: 0;
     left: 120px;
     top: 1473px;
     
-    font-family: 'Inter', 'sans-serif';
+    font-family: Inter;
     font-style: normal;
     font-weight: 900;
     font-size: 50px;
@@ -73,7 +70,7 @@ padding: 0;
 width: 781px;
 height: 112px;
 
-font-family:'Inter', 'sans-serif';
+font-family: Inter;
 font-style: normal;
 font-weight: 900;
 font-size: 50px;
@@ -90,7 +87,7 @@ color: #000000;
 width: 674px;
 height: 112px;
 
-font-family: 'Inter', 'sans-serif';
+font-family: Inter;
 font-style: normal;
 font-weight: 900;
 font-size: 50px;
@@ -108,7 +105,7 @@ color: #000000;
 width: 599px;
 height: 112px;
 
-font-family:'Inter', 'sans-serif';
+font-family: Inter;
 font-style: normal;
 font-weight: 900;
 font-size: 50px;
@@ -150,7 +147,7 @@ height: 185px;
 left: 122px;
 top: 1699px;
 
-font-family: 'Inter', 'sans-serif';
+font-family: Inter;
 font-style: normal;
 font-weight: normal;
 font-size: 22px;
@@ -167,7 +164,7 @@ color: #000000;
 width: 778px;
 height: 185px;
 
-font-family: 'Inter', 'sans-serif';
+font-family: Inter;
 font-style: normal;
 font-weight: normal;
 font-size: 22px;
@@ -186,7 +183,7 @@ color: #000000;
 width: 609px;
 height: 304px;
 
-font-family: 'Inter', 'sans-serif';
+font-family: Inter;
 font-style: normal;
 font-weight: normal;
 font-size: 22px;
@@ -205,7 +202,7 @@ color: #000000;
 width: 609px;
 height: 90px;
 
-font-family:'Inter', 'sans-serif';
+font-family: Inter;
 font-style: normal;
 font-weight: normal;
 font-size: 22px;
@@ -232,7 +229,7 @@ height: 29px;
 left: 122px;
 top: 1919px;
 
-font-family: 'Inter', 'sans-serif';
+font-family: Inter;
 font-style: normal;
 font-weight: 600;
 font-size: 22px;
@@ -249,7 +246,7 @@ height: 29px;
 left: 309px;
 top: 1919px;
 
-font-family: 'Inter', 'sans-serif';
+font-family: Inter;
 font-style: normal;
 font-weight: 600;
 font-size: 22px;
@@ -295,7 +292,7 @@ height: 29px;
 left: 562px;
 top: 1919px;
 text-decoration: none;
-font-family:'Inter', 'sans-serif';
+font-family: Inter;
 font-style: normal;
 font-weight: normal;
 font-size: 22px;
@@ -411,7 +408,7 @@ height: 36px;
 left: calc(50% - 460px/2 + 4px);
 top: calc(50% - 36px/2 - 860.5px);
 
-font-family: 'Inter', 'sans-serif';
+font-family: Inter;
 font-style: normal;
 font-weight: 600;
 font-size: 24px;
@@ -432,7 +429,7 @@ height: 194px;
 left: 383px;
 top: 4382px;
 
-font-family:'Inter', 'sans-serif';
+font-family: Inter;
 font-style: normal;
 font-weight: 900;
 font-size: 50px;
@@ -452,7 +449,7 @@ color: #000000;
  position: relative;
 width: 419px;
 height: 605px;
-left: -374px;
+/* left: 755px; */
 top: -33px;
 
 background: #FFCC00;
@@ -470,7 +467,7 @@ height: 30px;
 /* left: 755px;
 top: 4578px; */
 
-font-family: 'Inter', 'sans-serif';
+font-family: Inter;
 font-style: normal;
 font-weight: normal;
 font-size: 25px;
@@ -514,9 +511,8 @@ width: 326px;
 height: 52px;
 top: 146px;
 margin-top: 27px;
-left: 42px;
 
-font-family: 'Inter', 'sans-serif';
+font-family: Inter;
 font-style: normal;
 font-weight: normal;
 font-size: 20px;
@@ -566,8 +562,8 @@ color: #EBEBF1;
 position: relative;
 width: 372px;
 height: 539px;
-left: 374px;
-
+/* left: 383px;
+top: 4574px; */
 
 background: #F7F7F9;
 border-radius: 20px 0px 0px 20px;
@@ -637,9 +633,9 @@ height: 242px;
 /* left: 383px; */
 top: 146px;
 margin-top: 27px;
-    padding: 1px;
+    padding: 45px;
 
-font-family: 'Inter', 'sans-serif';
+font-family: Inter;
 font-style: normal;
 font-weight: normal;
 font-size: 20px;
@@ -690,7 +686,9 @@ color: #FB5875;
 position: relative;
 width: 374px;
 height: 543px;
-/* left: 410px; */
+/* left: 1174px;
+top: 4574px; */
+
 background: #F7F7F9;
 border-radius: 0px 20px 20px 0px;
 }
@@ -734,54 +732,5 @@ text-align: center;
 text-transform: uppercase;
 
 color: #FB5875;
-}
- /* animation styles */
-
-.in-view-left {
-	-webkit-animation: in-view-left 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: in-view-left 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}@-webkit-keyframes in-view-left {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  100% {
-    -webkit-transform: translateX(-374px);
-            transform: translateX(-374px);
-  }
-}
-@keyframes  in-view-left {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  100% {
-    -webkit-transform: translateX(-374px);
-            transform: translateX(-374px);
-  }
-}
-.in-view-right {
-	-webkit-animation: in-view-right 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: in-view-right 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-@-webkit-keyframes in-view-right {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  100% {
-    -webkit-transform: translateX( 410px);
-            transform: translateX( 410px);
-  }
-}
-@keyframes in-view-right {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  100% {
-    -webkit-transform: translateX( 410px);
-            transform: translateX( 410px);
-  }
 }
 /* ********** parallax animation************* */
