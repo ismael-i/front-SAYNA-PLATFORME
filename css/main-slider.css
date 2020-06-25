@@ -327,7 +327,7 @@ color: #FB5875;
     /* Rectangle 15 */
 
 
-/* position: absolute; */
+ position: relative; 
 
 width: 419.5px;
 height: 75.2px;
@@ -336,8 +336,9 @@ right: 0%;
 top: 0%;
 bottom: 0%;
 margin-top: 40px;
-border-style: none;
-border-image: none;
+display: inline-grid !important;
+border-style: none !important;
+border-image: none !important;
 box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
 background-color: #FB5875;
 border-color:#FB5875 ;
@@ -352,33 +353,20 @@ left: 0%;
 right: 7.15%;
 top: 1.9%;
 bottom: -1.29%;
+padding-left: 61px;
 
 font-family: "Lato";
 font-style: normal;
 font-weight: bold;
 font-size: 20.7px;
 line-height: 20.7px;
-/* display: flex; */
+display: flex;
 align-items: center;
 text-align: center;
 text-transform: uppercase;
 
 color: #E9EAEF;
 
-}
-.verctor2{
-    /* Vector */
-
-
-/* position: absolute; */
-size: 10px;
-width: 19px;
-height: 19px;
-left: 505px;
-top: 37px;
-margin-left: 38px;
-
-/* background: #E9EAEF;  */
 }
 .pager-container {
         /* text-align: center; */

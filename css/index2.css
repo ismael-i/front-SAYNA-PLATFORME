@@ -1,7 +1,7 @@
 /* onisoa css */
 
 @import url('https://rsms.me/inter/inter.css');
-@import url("https://db.onlinewebfonts.com/c/9e00143409affcb46a1ae58634aa64be?family=Sofia+Pro");
+@import url("https://db.onlinewebfonts.com/c/9d942e0ff1014c476713a855710ce309?family=Lato");
 /* une pédagogie innovante */
 
 .pedagogie-innovante{
@@ -76,19 +76,21 @@
 }
 /* Component 2 */
 
-.component-2{
+.btn-component-2{
 
-   position: absolute;
+   /* position: absolute; */
 /*    width: 513px;
    height: 108px; */
-   width: 299px;
-   height: 65px;
+   position: relative;
+   width: 299px ;
+   height: 65px ;
    bottom: 18px;
-   border-style: none;
-    border-image: none;
+   border-style: none !important;
+   border-image: none !important ;
+    display: inline-grid !important;
    
    background: #FB5875;
-   border-radius: 20px;
+   border-radius: 20px !important;
    
 }
 .voir-detail{
@@ -101,14 +103,14 @@
    
    margin-left: auto;
    margin-right: auto;
-   font-family: Sofia Pro;
+   font-family: "Lato";
    font-style: normal;
    font-weight: bold;
    font-size: 20.7px;
    line-height: 20px;
-   /* display: flex; */
    align-items: center;
    text-align: center;
+   display: flex;
    text-transform: uppercase;
    
    color: #E9EAEF;
@@ -522,7 +524,7 @@ margin-top: 418.61px;
    left: 587.19px;
    top: 5143.26px;
    /* margin-top: 417.8px; */
-   font-family: Sofia Pro;
+   font-family: "Lato";
    font-style: normal;
    font-weight: bold;
    font-size: 13.8px;
@@ -623,7 +625,7 @@ border-image: none;
    left: 779.01px;
    top: 5636.61px;
    padding-right: 35px;
-   font-family: Sofia Pro;
+   font-family: "Lato";
    font-style: normal;
    font-weight: bold;
    font-size: 13.8px;
@@ -695,7 +697,7 @@ border-image: none;
 
 .sayna-faire-connaitre{
    position: absolute;
-   width: 425px;
+   width: 459px;
    height: 65.55px;
    left: 77px;
    top: 6011.23px;
@@ -711,14 +713,15 @@ border-image: none;
 
 .component-2a{
 
-   position: absolute;
+   position: relative;
    left: 77.87px;
-   top: 6116px;
+   top: 5666px;
    width: 380px;
    height: 65px;
    bottom: 18px;
-   border-style: none;
-   border-image: none;
+   border-style: none !important;
+   border-image: none !important;
+   display: inline-grid !important;
    background: #FB5875;
    border-radius: 20px !important;
    
@@ -729,12 +732,13 @@ border-image: none;
 
    
    
-   font-family: Sofia Pro;
+   font-family: Lato;
    font-style: normal;
    font-weight: bold;
    font-size: 17px;
    line-height: 20.7px;
-   /* display: flex; */
+   padding-left: 72px;
+   display: flex;
    align-items: center;
    text-align: center;
    text-transform: uppercase;
@@ -930,6 +934,29 @@ font-family: 'Inter', 'sans-serif';
    line-height: 62px;   
    color: #000000;
 }
+.youtube-pager{
+   position: relative;
+   left: 88.98%;
+   right: 47.29%;
+   top: 6320.67px;
+   bottom: 4.81%;
+   display: block;
+}
+.youtube-pager li{
+   list-style-type: none;
+   display: inline-block;
+   width: 10px;
+   height: 10px;
+   border-radius: 50%;
+   background-color: #929292;
+   margin-right: 13.8px;
+}
+.youtube-pager li:active,
+.youtube-pager li:hover{
+    background: #FB5875;
+    border-color: #FB5875;
+}
+
 
 
 
