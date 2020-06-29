@@ -1,0 +1,22 @@
+.part-left {
+	width: 40%;
+}
+
+.bas-de-page {
+	width: 100%;
+	 position:absolute;
+
+bottom:0;
+}
+
+.bas-de-page div{
+	display: inline-block;
+}
+
+.part-center {
+	width: 20%;
+}
+
+.part-right {
+	width: 40%;
+}
