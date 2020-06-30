@@ -950,7 +950,8 @@
     position: absolute;
     width: 27.6px;
     height: 19.32px;
-    left: 604px;
+    /* left: 604px; */
+    margin-left: -12px;
     top: 9px;
     font-size: 30px;
     color: #575F6B;
