@@ -20,31 +20,82 @@
     margin-left: 0 !important;
 }
 
+.col-md-12 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.col-md-5 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
 .part-one {
     height: 1000px;
+    width: 100%;
 }
 
 .part-two {
     height: 600px;
+    width: 100%;
+}
+
+.part-three {
+    width: 100%;
 }
 
 .part-four {
     margin-top: 6%;
-    height: 850px;
+    height: 745px;
+    width: 100%;
 }
 
 .part-five {
     margin-right: 0px !important;
     margin-left: 0 !important;
     height: 1000px;
+    width: 100%;
 }
 
 .part-five-1 {
     height: 1000px;
+    width: 100%;
 }
 
 .part-five-2 {
     height: 750px;
+    width: 100%;
+}
+
+.part-five-3 {
+    width: 100%;
+}
+
+.part-five-4 {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    height: 480px;
+    width: 100%;
+}
+
+.five-12-4 {
+    height: 480px;
+}
+
+.part-five-5 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    height: 601px;
+    width: 100%;
+}
+
+.part-five-6 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    height: 477px;
+    width: 100%;
 }
 
 #background-body {
@@ -246,12 +297,12 @@
     position: absolute;
     width: 20%;
     height: 113%;
-    left: 81%;
+    left: 80%;
 }
 
 .dame-qui-saute {
     position: relative;
-    left: 1%;
+    left: -1%;
     width: 84%;
 }
 
@@ -259,6 +310,7 @@
     text-align: right;
     float: right;
     top: -48%;
+    left: 1%;
 }
 
 
@@ -549,7 +601,7 @@
     position: relative;
     width: 100%;
     height: 422.28px;
-    left: 11%;
+    left: 8%;
     margin-top: 3%;
 }
 
@@ -558,7 +610,7 @@
 
 .bootcamps {
     position: absolute;
-    width: 492.35px;
+    width: 100%;
     height: 83.49px;
     left: 2.4px;
     top: 34.5px;
@@ -578,10 +630,10 @@
     position: relative;
     z-index: 2;
     height: 71.76px;
-    width: 86%;
+    width: 76%;
     left: 0%;
     right: 0%;
-    top: 345px;
+    top: 317px;
     bottom: 0%;
     border-style: none;
     border-image: none;
@@ -961,10 +1013,10 @@
 }
 
 .groupe-12 {
-    position: relative;
-    left: 19%;
-    top: -46%;
-    width: 100%;
+    position: absolute;
+    left: 24%;
+    top: -67%;
+    width: 99%;
     height: auto;
 }
 
@@ -989,23 +1041,23 @@
 
 #fenetre {
     position: relative;
-    top: 4936.8px;
-    width: 689px;
+    /* top: 4936.8px; */
+    width: 100%;
     height: 350px;
     overflow-x: scroll;
     /* overflow: hidden; */
 }
 
 .student-image {
-    width: 209.1px;
-    height: 312.6px;
+    width: 15%;
+    height: 0%;
     left: 528.5px;
     top: 5368.9px;
     border-radius: 20px;
-    margin-left: 15px;
+    margin-left: 19px;
     display: inline-block;
 }
 
 #img-container {
-    width: 1369px;
+    width: 1376px;
 }
