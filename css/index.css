@@ -6,7 +6,7 @@
 
 /*background*/
 
-.container {
+.container-fluid {
     padding-right: 0 !important;
     padding-left: 0 !important;
     margin-right: 0 !important;
@@ -18,6 +18,33 @@
     padding-left: 0 !important;
     margin-right: 0px !important;
     margin-left: 0 !important;
+}
+
+.part-one {
+    height: 1000px;
+}
+
+.part-two {
+    height: 600px;
+}
+
+.part-four {
+    margin-top: 6%;
+    height: 850px;
+}
+
+.part-five {
+    margin-right: 0px !important;
+    margin-left: 0 !important;
+    height: 1000px;
+}
+
+.part-five-1 {
+    height: 1000px;
+}
+
+.part-five-2 {
+    height: 750px;
 }
 
 #background-body {
@@ -70,7 +97,7 @@
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
     font-weight: 800;
-    font-size: 6.1em;
+    font-size: 5.1em;
     line-height: 102.7%;
     letter-spacing: -0.045em;
     color: #000000;
@@ -231,7 +258,7 @@
 .woman-img {
     text-align: right;
     float: right;
-    top: -93%;
+    top: -48%;
 }
 
 
@@ -305,7 +332,7 @@
 
 .label-news-1 {
     /* position: absolute; */
-    width: 209.07px;
+    width: 100%;
     height: 35.88px;
     left: 479.55px;
     top: 692px;
@@ -324,7 +351,7 @@
 
 .label-news-2 {
     /* position: absolute; */
-    width: 180.78px;
+    width: 100%;
     height: 18.63px;
     font-family: Antipasto Pro;
     font-style: normal;
@@ -343,40 +370,33 @@
 /*-----------partenaire------------*/
 
 .partner {
-    position: absolute;
-    width: 783.84px;
+    width: 100%;
     height: 94.5px;
-    left: 271.17px;
-    top: 818.34px;
+    top: 10%;
+    /* left: 28%; */
 }
 
 
 /*text1*/
 
 .partner-text1 {
-    /* height: 52px; */
-    /* left: calc(50% - 359px/2 - 0.5px); */
-    /* top: calc(50% - 52px/2 - 3990.5px); */
     font-family: Inter;
     font-style: normal;
     font-weight: 600;
     font-size: 17.56px;
     line-height: 20px;
-    text-align: center;
     letter-spacing: 0.017em;
     text-transform: uppercase;
     color: #FB5875;
+    position: relative;
+    left: 38%;
+    width: 32%;
 }
 
 
 /*text2*/
 
 .partner-text2 {
-    /* position: absolute;
-width: 627px; */
-    /* height: 64px; */
-    left: 446.43px;
-    top: 838.35px;
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
     font-weight: normal;
@@ -386,91 +406,100 @@ width: 627px; */
     letter-spacing: -0.03em;
     text-transform: uppercase;
     color: #6E6E6E;
+    position: relative;
+    left: 26%;
+    width: 50%;
 }
 
 
 /*partenaire logo*/
 
 .partner-logo {
-    width: 783.84px;
-    height: 46.9px;
-    left: 271.2px;
-    top: 865.95px;
+    position: absolute;
+    height: 51.9px;
+    /* left: 271.2px; */
+    /* top: 865.95px; */
+    width: 100%;
 }
 
 .partner-list li {
     list-style: none;
     float: left;
+    margin-right: 3%;
 }
 
 .logo-maltme {
-    /* position: absolute; */
+    position: relative;
     width: 130px;
     height: 33.8px;
-    left: 271px;
-    top: 871.7px;
+    /* left: 271px; */
+    top: 0px;
+    ;
     background: url("../imageModification/logo_maltem_groupe-HD-e1473777081392\ 1.png") no-repeat;
 }
 
 .logo-orange {
-    /* position: absolute; */
+    position: relative;
     width: 43.9px;
     height: 40px;
-    left: 410.1px;
-    top: 867.31px;
+    /* left: 410.1px; */
+    top: 0px;
     background: url("../imageModification/1022px-Orange_logo\ 1\ 1.png") no-repeat;
 }
 
 .logo-accessbanque {
-    /* position: absolute; */
+    position: relative;
     width: 171.8px;
     height: 43.5px;
-    left: 462.74px;
-    top: 865.95px;
+    /* left: 462.74px; */
+    top: 0px;
     background: url("../imageModification/AccèsBanque\ Madagascar\ 1.png");
 }
 
 .logo-axiangroup {
-    /* position: absolute; */
+    position: relative;
     width: 94.3px;
     height: 42.1px;
-    left: 643.35px;
-    top: 870.71px;
+    /* left: 643.35px; */
+    top: 0px;
     background: url("../imageModification/Axian\ 1.png");
 }
 
 .logo-groupeBanqueMoandial {
-    /* position: absolute; */
+    position: absolute;
     width: 303.45px;
     height: 35.98px;
-    left: 751.56px;
-    top: 870.7px;
+    /* left: 751.56px; */
+    top: 0px;
     background: url("../imageModification/logo-wb-header-fr-newsletter\ 1.png");
 }
 
 
 /*-----partenaire------*/
 
+.col-img-businessman {
+    left: 50%;
+    top: -102%
+}
+
 .form3 {
     position: absolute;
-    width: 462.96px;
-    height: 472.96px;
-    left: 741px;
-    top: 915px;
+    width: 65%;
+    height: auto;
+    left: 31%;
+    /* left: 741px; */
+    /* top: 915px;
     /* background: #FFCC00; */
 }
 
 .image-businessman {
-    position: absolute;
-    /*width: 1921px;
-    height: 1083px;
-    left: 608px;
-    top: 1077px;
-    */
-    width: 422.49px;
+    position: relative;
+    left: 34%;
+    width: 61%;
     height: 648.27px;
-    left: 768px;
-    top: 938px;
+    ;
+    /* left: 768px;
+    top: 938px; */
     background: url("../imageModification/Vieux\ Businessman\ 1.png") no-repeat;
     background-position-x: center;
     background-position-y: center;
@@ -481,20 +510,18 @@ width: 627px; */
 /*gars géant*/
 
 .image1 {
-    position: absolute;
-    width: 616.1px;
-    height: 614.78px;
-    left: 0px;
-    top: 1426.66px
+    position: relative;
+    width: 100%;
+    height: auto;
+    left: 2%;
 }
 
 .pantalon1 {
     position: absolute;
-    width: 244.25px;
-    height: 246.93px;
-    left: 109.93px;
-    top: 1686.87px;
-    ;
+    width: 40%;
+    height: auto;
+    left: 20%;
+    top: 42%;
 }
 
 
@@ -508,7 +535,7 @@ width: 627px; */
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
     font-weight: 600;
-    font-size: 16.56px;
+    font-size: 1.1em;
     line-height: 20px;
     letter-spacing: -0.025em;
     text-transform: uppercase;
@@ -519,11 +546,11 @@ width: 627px; */
 /*formation + bootcamps + selection + bouton*/
 
 .ensemble {
-    position: absolute;
-    width: 471.27px;
+    position: relative;
+    width: 100%;
     height: 422.28px;
-    left: 716.91px;
-    top: 1473.69px;
+    left: 11%;
+    margin-top: 3%;
 }
 
 
@@ -538,7 +565,7 @@ width: 627px; */
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
     font-weight: 900;
-    font-size: 34.16px;
+    font-size: 2.1em;
     line-height: 107.6%;
     letter-spacing: 0.02em;
     color: #000000;
@@ -551,14 +578,14 @@ width: 627px; */
     position: relative;
     z-index: 2;
     height: 71.76px;
-    width: 388.87px;
+    width: 86%;
     left: 0%;
     right: 0%;
     top: 345px;
     bottom: 0%;
     border-style: none;
     border-image: none;
-    background: #FB5875;
+    background: #FB5875 !important;
     border-radius: 20px !important;
     font-family: "Lato";
     font-style: normal !important;
@@ -582,7 +609,7 @@ width: 627px; */
     font-family: "Lato";
     font-style: normal;
     font-weight: bold;
-    font-size: 20.7px;
+    font-size: 0.8em;
     line-height: 20px;
     align-items: center;
     text-align: center;
@@ -595,14 +622,14 @@ width: 627px; */
 
 .selection {
     position: absolute;
-    width: 441.49px;
+    width: 100%;
     height: 97.98px;
     left: 8.28px;
     top: 146.28px;
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
     font-weight: normal;
-    font-size: 13.56px;
+    font-size: 1em;
     line-height: 156.02%;
     color: #000000;
 }
@@ -610,10 +637,9 @@ width: 627px; */
 .group13 {
     /* Group 13 */
     position: absolute;
-    /* width: 1099.26px;
-height: 901.2px; */
     left: -15px;
-    top: 3369.27px;
+    top: 400px;
+    z-index: 1;
     /*transform: matrix(-1, 0, 0, 1, 0, 0);*/
 }
 
@@ -630,15 +656,15 @@ height: 901.2px; */
 
 .temoign {
     position: absolute;
-    width: 317.4px;
+    width: 26%;
     height: 24.84px;
-    left: 828.43px;
-    top: 3642.51px;
+    left: 72%;
+    top: 671px;
     text-align: right;
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
     font-weight: 600;
-    font-size: 16.56px;
+    font-size: 1.1em;
     line-height: 20px;
     letter-spacing: -0.02em;
     text-transform: uppercase;
@@ -650,24 +676,24 @@ height: 901.2px; */
 
 .pourcent {
     position: absolute;
-    width: 461px;
+    width: 35%;
     height: 85.56px;
-    left: 686.08px;
-    top: 3673.56px;
+    left: 64%;
+    top: 722px;
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
     font-weight: 900;
-    font-size: 35.2px;
+    font-size: 1.8em;
     line-height: 42.78px;
     text-align: right;
-    color: #000000;
+    color: rgba(0, 0, 19, 9) !important;
 }
 
 .li-rect {
     position: absolute;
-    width: 354.29px;
+    width: 30%;
     height: 389px;
-    top: 3912.3px;
+    /* top: 3912.3px; */
     background: #F7F7F9;
     border-radius: 20px;
     display: flex;
@@ -678,7 +704,7 @@ height: 901.2px; */
 /*rectangle 27 Cedrick*/
 
 .rectangle-one {
-    left: 47.18px;
+    left: 5%;
 }
 
 
@@ -688,7 +714,7 @@ height: 901.2px; */
     position: absolute;
     width: 96.6px;
     height: 96.6px;
-    left: 27.6px;
+    left: 8%;
     top: 34.5px;
     border-radius: 50%;
     border: 4px solid agency-text-white;
@@ -699,16 +725,15 @@ height: 901.2px; */
 .cedrick {
     /* Cédric Maminjanahary */
     position: absolute;
-    width: 184.65px;
+    width: 50%;
     height: 33.12px;
-    left: 151.8px;
+    left: 40%;
     top: 48.3px;
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
     font-weight: normal;
     font-size: 15.18px;
     line-height: 165.52%;
-    /* or 36px */
     letter-spacing: 0.015em;
     color: #000000;
 }
@@ -716,9 +741,9 @@ height: 901.2px; */
 .etud1 {
     /* Etudiant SAYNA #1 Développeur @Accès Banque */
     position: absolute;
-    width: 230.46px;
+    width: 60%;
     height: 24.84px;
-    left: 151.8px;
+    left: 40%;
     top: 82.8px;
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
@@ -734,14 +759,14 @@ height: 901.2px; */
 
 .tem1 {
     position: absolute;
-    width: 325.68px;
+    /* width: 96%; */
     height: 284.28px;
-    left: 23.46px;
+    /* left: 6%; */
     top: 103.5px;
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 0.8em;
     line-height: 165.52%;
     /* or 36px */
     display: flex;
@@ -758,14 +783,14 @@ height: 901.2px; */
     position: absolute;
     top: 231px;
     /* left: 35px; */
-    font-size: 10px;
+    font-size: 0.8em;
 }
 
 
 /*rectangle sahaza*/
 
 .rectangle-two {
-    left: 426.72px;
+    left: 36%;
 }
 
 
@@ -775,7 +800,7 @@ height: 901.2px; */
     position: absolute;
     width: 96px;
     height: 96px;
-    left: 27.6px;
+    left: 8%;
     top: 34.5px;
     border-radius: 50%;
     border: 4px solid agency-text-white;
@@ -786,16 +811,15 @@ height: 901.2px; */
 .sahaza {
     /* sahaza henintsoa */
     position: absolute;
-    width: 159.65px;
+    width: 50%;
     height: 33.12px;
-    left: 151.8px;
+    left: 40%;
     top: 48.3px;
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
     font-weight: normal;
     font-size: 15.18px;
     line-height: 165.52%;
-    /* or 36px */
     letter-spacing: 0.015em;
     color: #000000;
 }
@@ -803,9 +827,9 @@ height: 901.2px; */
 .etud2 {
     /* Etudiant SAYNA #1 Développeur @en2roues */
     position: absolute;
-    width: 230.46px;
+    width: 60%;
     height: 24.84px;
-    left: 151.8px;
+    left: 40%;
     top: 82.8px;
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
@@ -821,14 +845,14 @@ height: 901.2px; */
 
 .tem2 {
     position: absolute;
-    width: 325.68px;
+    /* width: 96%; */
     height: 284.28px;
-    left: 17.25px;
+    /* left: 6%; */
     top: 103.5px;
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 0.8em;
     line-height: 165.52%;
     /* or 36px */
     display: flex;
@@ -842,7 +866,7 @@ height: 901.2px; */
 /*rectangle jenny*/
 
 .rectangle-three {
-    left: 804.95px;
+    left: 67%;
 }
 
 
@@ -852,27 +876,27 @@ height: 901.2px; */
     position: absolute;
     width: 96.6px;
     height: 96.6px;
-    left: 27.6px;
+    left: 8%;
     top: 34.5px;
     border-radius: 50%;
     border: 4px solid agency-text-white;
     padding: 4px;
     background: #FFFFFF;
+    ;
 }
 
 .jenny {
     /* jenny*/
     position: absolute;
-    width: 159.65px;
+    width: 50%;
     height: 33.12px;
-    left: 151.8px;
+    left: 40%;
     top: 48.3px;
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
     font-weight: normal;
     font-size: 15.18px;
     line-height: 165.52%;
-    /* or 36px */
     letter-spacing: 0.015em;
     color: #000000;
 }
@@ -880,9 +904,9 @@ height: 901.2px; */
 .etud3 {
     /* Etudiant SAYNA #2 Développeur @Ingedata */
     position: absolute;
-    width: 230.46px;
+    width: 60%;
     height: 24.84px;
-    left: 151.8px;
+    left: 40%;
     top: 82.8px;
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
@@ -898,14 +922,14 @@ height: 901.2px; */
 
 .tem3 {
     position: absolute;
-    width: 230.68px;
+    /* width: 96%; */
     height: 285px;
-    left: 49px;
+    /* left: 6%; */
     top: 103.5px;
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 0.8em;
     line-height: 165.52%;
     /* or 36px */
     display: flex;
@@ -913,6 +937,10 @@ height: 901.2px; */
     text-align: center;
     letter-spacing: 0.02em;
     color: #000000;
+}
+
+.tem-etudiant {
+    height: 450px;
 }
 
 .rectangle-28,
@@ -924,11 +952,20 @@ height: 901.2px; */
 
 .assemble-2 {
     /* Group 12 */
-    position: absolute;
-    width: 612.31px;
-    height: 477.7px;
-    left: 602px;
-    top: 1792.3px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    /* float: right;*/
+}
+
+.groupe-12 {
+    position: relative;
+    left: 19%;
+    top: -46%;
+    width: 100%;
+    height: auto;
 }
 
 .doogles-perso {
