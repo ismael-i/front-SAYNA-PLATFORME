@@ -17,7 +17,29 @@ height: 7179.45px; */
 }
 
  /* Forme 4 */
+
  
+.forme-4-photo{
+  background: url(../image/Forme\ 4\ \(1\).png);
+  background-repeat: no-repeat;
+  background-size: 300px 100px;
+  margin-top: 12px;
+}
+
+.nous-placons{
+
+  left: 10%;
+  top: 30%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 93.15px;
+  line-height: 144px;
+  align-items: center;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+  color: #000000;
+}
  .forme4-agency{
   margin-left: -4.9%;
   margin-top: 7%;
@@ -275,7 +297,7 @@ height: 7179.45px; */
   font-family: Inter;
   font-style: normal;
   font-weight: 900;
-  font-size: 34.5px;
+  font-size: 31px;
   line-height: 121%;
   letter-spacing: 0.01em;
   color: #000000;
@@ -470,9 +492,9 @@ color: #000000 !important;
   color: #E9EAEF;
  }
 
-/* .rectangle-1942a{
+.rectangle-1942a{
   margin-top: 3% !important; 
-} */
+}
 /* Rectangle 1942 */
 
 .rectangle-1942{
@@ -532,13 +554,33 @@ width: 85%;
   position: absolute;
   margin-top: 16.5%;
   left: 58%;
-  width: 26%;
+  width: 28%;
 
 }
 
 
+.courbe-rdv-1{
+  position: absolute;
+  margin-top: 18%;
+  left: 14%;
+  width: 28%;
+
+}
 
 
+.point-rdv-1{
+  position: absolute;
+  margin-top: 6%;
+  left: 15%;
+  width: 2%;
+  
+}
+.point-rdv-2{
+  position: absolute;
+  margin-top: -1%;
+  left: 23%;
+  width: 4%;
+}
  /* Rectangle 1947 */
  
  .rectangle-1947{
@@ -653,7 +695,7 @@ color: #000000 !important;
 
 .entretenez-vous {
   text-align: right;
-  font-size: 31px;
+  font-size: 28px;
 }
 
 .c-est-l-avant {
@@ -665,3 +707,353 @@ color: #000000 !important;
 .il-ne-vous-reste{
   width: 66%;
 }
+
+
+ /* Découvrez nos modalités d’évaluation ! */
+ 
+ .decouvrez-nos-modalites{
+  font-family: Inter;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 24.15px;
+   line-height: 28.98px;
+   letter-spacing: 0.01em;
+   color: #000000;
+   /* margin-left: 8%; */
+   margin-top: 10%;
+   width: 24%;
+}
+
+
+
+ /* Chacun de nos talents sont évalués et validés sur les CINQ verticales ci-dessous; On ne vous présente que des profils se situant entre les niveaux “Juste” et “Excellent”.. */
+ 
+ .chacun-de-nos-talents{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13.11px;
+  line-height: 156.02%;
+  text-align: justify;
+  color: #000000;
+  width: 34%;
+ }
+
+  /* Forme 4 */
+ 
+  .forme-4-agency{
+    position: absolute;
+    /* top: 6676px; */
+    width: 80%;
+    margin-left: -19%;
+    color: #FFCC00;
+ /*    transform: matrix(0.7, 0.72, 0.72, -0.7, 0, 0); */
+ }
+
+
+ /* GroovyDoodle */
+ 
+ .groovyDoodle{
+  position: absolute;
+    margin-top: -28%;
+    width: 98%;
+    margin-left: -4.12%;
+}
+ 
+
+/* Forme 5 */
+
+.forme-5-agency{
+  position: absolute;
+    /* top: 6676px; */
+    width: 86%;
+    margin-top: 2%;
+    margin-left: 42%;
+    color: #FFCC00;
+  /* transform: rotate(143.7deg); */
+}
+
+
+
+ /* une solution à chaque situation */
+ 
+ .une-solution-a-chaque-situation{
+  margin-top: 62%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ /* Rectangle 1939 */
+ 
+ .rectangle-1939{
+ 
+  position: absolute;
+  width: 1041px;
+  height: 406px;
+  left: 0px;
+  top: 4683px;
+  
+  background: #FFCC00;
+  border-radius: 0px 30px 30px 0px;
+}
+
+/* séléction */
+
+.selection{
+
+  position: absolute;
+  width: 138px;
+  height: 36px;
+  left: 123px;
+  top: 48px;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.025em;
+  text-transform: uppercase;
+  
+  color: #FB5875;
+  
+}
+
+/* Recruter un talent chez SAYNA c’est avoir accès à deux talents. Tout au long de leur mission les talents qui travaillent ont le support d’un talent senior derrière eux. Nous vous ferons une sélection sur mesure suite à vos demandes ! */
+
+.recruter-un-talent{
+width: 52%;
+margin-top: 3%; 
+}
+
+/* Rectangle 1941 */
+
+.rectangle-1941{
+
+
+width: 54%;
+height: 38%;
+margin-top: 3%;
+
+
+background: #F2F2F7;
+border: 11px solid #FB5875;
+box-sizing: border-box;
+box-shadow: 0px 4px 15px rgba(251, 88, 117, 0.3);
+border-right-style: none;
+border-radius: 30px 0px 0px 30px;
+float: right;
+}
+
+/* #4 Entretenez vous avec le talent que vous avez choisi pour en savoir plus sur lui ! */
+
+.entretenez-vous{
+
+ margin-left: -5% !important;
+ text-align: right;
+ /* float: right; */
+ margin-top: 1%;
+ width: 100%;
+}
+
+
+
+.offre-sur-mesure{
+width: 91% !important;
+}
+
+
+/* Chacun de nos talents sont évalués et validés sur les CINQ verticales ci-dessous; On ne vous présente que des profils se situant entre les niveaux “Juste” et “Excellent”.. */
+
+.chacun-de-nos-talents{
+
+width: 29%;
+/* height: 240px; */
+margin-left: 8%;
+margin-top: 3%;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 84%;
+line-height: 156.02%;
+text-align: justify;
+color: #000000;
+}
+
+/* Rectangle 1936 */
+
+.rectangle-1936{
+margin-top: 12%;
+ width: 81%;
+ background: #FFCC00;
+ margin-left: 13%;
+ border-radius: 20px 20px 0px 0px;
+}
+
+/* offre start-(up) */
+
+.offre-start-up{
+ font-family: Lato;
+ padding-top: 2%;
+ font-style: normal;
+ font-weight: 600;
+ font-size: 181%;
+ line-height: 150.02%;
+ align-items: center;
+ text-align: center;
+ letter-spacing: 0.005em;
+ text-transform: uppercase;
+ color: #FFFFFF;
+}
+
+/* L’offre idéale pour commencer avec nous : recrutement immédiat et sur mesure pour staffer un projet ou une petite équipe tech et gérer sa trésorerie. */
+
+.offre-ideale{
+width: 76%;
+/* height: 130%; */
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 90%;
+line-height: 150.02%;
+/* display: flex; */
+align-items: center;
+margin-left: 1%;
+text-align: center;
+letter-spacing: 0.005em;
+color: #3D3D3D;
+padding-bottom: 3%;
+}
+
+
+
+/* 18% du TJM du talent reversé à SAYNA jusqu’à ce que la formation soit remboursée 15% du TJM de frais de placement 3% du TJM de frais de gestion : internet, local, environnement 64% du TJM reversé intégralement au développeur, celui qui crée la valeur 45 € de TJM à 150 € de TJM selon les profils Tarif dégressif au fil des jours. */
+
+.du-TJM-du-talent-reverse{
+padding-top: 5%;
+width: 71%;
+margin-left: 10%;
+/* top: 8054px; */
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 92%;
+line-height: 150.02%;
+/* display: flex; */
+align-items: center;
+letter-spacing: 0.005em;
+color: #000000;
+
+}
+
+.du-TJM-du-talent-reverse li{
+margin-top: 5%;
+}
+
+ul{
+list-style:none;
+}
+.du-TJM-du-talent-reverse .li-1::before {
+content: "•";
+ color: #FFCC00;
+ display: inline-block;
+ width: 1em;
+ padding-top: -14%;
+ margin-left: -6%;
+ font-size: 184%;
+}
+
+
+.du-TJM-du-talent-reverse .li-2::before {
+content: "•";
+ color: #FB5875;
+ display: inline-block;
+ width: 1em;
+ padding-top: -14%;
+ margin-left: -6%;
+ font-size: 184%;
+}
+
+
+/* - Freelances formés, vérifiés et qualifiés par nos soins - Matching en quelques heures - Prise de rendez-vous en ligne avec nos experts - Signature électronique - Facturation et paiements simplifiés - Support en ligne */
+
+.freelances-formes{
+padding-top: 4%;
+font-family: Lato;
+font-style: normal;
+font-weight: 500;
+font-size: 89%;
+line-height: 150.02%;
+align-items: center;
+text-align: center;
+letter-spacing: 0.005em;
+color: #898989;
+padding-bottom: 4%;
+
+}
+
+
+.freelances-formes li::before {
+content: "-";
+}
+
+/* Rectangle 1937 */
+
+.rectangle-1954{
+width: 100%;
+margin-top: unset;
+/* margin-left: 12%; */
+margin-top: 4%;
+/* top: 8054px; */
+background: rgba(242, 242, 242, 0.6);
+border-radius: 0px 0px 15px 15px;
+}
+
+/* Rectangle 1937 */
+
+.rectangle-1937{
+width: 81%;
+margin-top: unset;
+margin-left: 13%;
+margin-top: -2%;
+/* top: 8054px; */
+background: #FFFFFF;
+border-radius: 0px 0px 15px 15px;
+}
+
+
+/* Rectangle 1938 */
+
+.rectangle-1938{
+
+margin-top: 12%;
+ width: 81%;
+ background: #FFCC00;
+ margin-left: 9%;
+ border-radius: 20px 20px 0px 0px;
+}
+
+
+
+/* Rectangle 186 */
+
+.rectangle-186{
+
+width: 81%;
+margin-top: unset;
+margin-left: 9%;
+margin-top: -2%;
+/* top: 8054px; */
+background: #FFFFFF;
+border-radius: 0px 0px 15px 15px;
+}
+
