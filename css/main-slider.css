@@ -298,9 +298,12 @@ top: 1919px; */
     border-radius: 20px !important;
 }
 
+
+/* je suis une entreprise */
+
 .btn-txt {
-    /* je suis une entreprise */
-    /* position: absolute; */
+    /*
+    position: absolute; */
     left: 0%;
     right: 7.15%;
     top: 1.9%;
@@ -309,13 +312,14 @@ top: 1919px; */
     font-family: "Lato";
     font-style: normal;
     font-weight: bold;
-    font-size: 20.7px;
+    font-size: 1.2em;
     line-height: 20.7px;
     display: flex;
     align-items: center;
     text-align: center;
     text-transform: uppercase;
     color: #E9EAEF;
+    ;
 }
 
 .pager-container {
