@@ -1,0 +1,115 @@
+body{
+    background: #E9EAEF;
+}
+.bloc-rectangle-1950{
+   /*  margin-top: 19%; */
+}
+/* Rectangle 1949 */
+
+.rectangle-1949{
+    /* margin-top: 12%; */
+    /* position: absolute; */
+    width: 340px;
+    height: 13px;
+    background: #FFCC00;
+    transform: rotate(-180deg);
+}
+
+.rectangle-1950 {
+    background: #F2F2F7;
+    border-radius: 20px;
+    width: 355px !important;
+    height: 285px;
+    margin-top: 22%; 
+    border-radius: 0px 0px 20px 20px;
+}
+/* Ton code devra être fonctionnel, claire, performant, bien écrit et lisible. Tu seras évalué sur 5 niveaux différents : mauvais, pauvre, juste, bon et excellent. */
+
+.ton-code{
+
+    width: 100%;
+    height: 398px;
+    left: 255px;
+    margin-top: 8px;
+    
+    /* font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150.02%;
+    /* or 45px * /
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.005em;
+    
+    color: #000000; */
+
+font-family: Sofia Pro;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150.02%;
+/* or 45px */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.005em;
+    
+}
+
+
+
+.ul-slid{
+    margin-top: 12%;
+}
+
+li{
+    list-style: none;
+}
+.btn-slid{
+    margin-top: 18%;
+    width: 127px;
+    /* text-align: center !important; */
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    /* font-size: 20px; */
+    line-height: 150.02%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.005em;
+    text-transform: uppercase;
+    /* background: #FB5875; */
+    background: #FB5875 !important;
+    border-radius: 100px !important;
+    border-color: #FB5875 !important;
+}
+
+.btn-slid-0{
+    margin-left: 62%;
+}
+
+.btn-slid-1{
+    margin-left: 22%;
+}
+
+.btn-slid-2{
+   /*  margin-left: 8%; */
+}
+
+.btn-slid-3{
+    margin-left: 20%;
+}
+
+.btn-slid-4{
+    margin-left: 54%;
+}
+
+
+
+.boutton-slid{
+    background: url(../img/Forme\ 5.png);
+
+}
