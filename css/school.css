@@ -63,6 +63,10 @@
     width: 100%;
 }
 
+.S-part-six {
+    width: 100%;
+}
+
 
 /* Logo_Sayna */
 
@@ -1929,6 +1933,53 @@
 
 
 /*skills-groupe*/
+
+.typejournee {
+    position: absolute;
+    width: 77%;
+    height: 36px;
+    font-family: 'Inter', 'sans-serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 29px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #FB5875;
+}
+
+.choisisleparcours {
+    position: absolute;
+    width: 107%;
+    height: 123px;
+    top: 24%;
+    font-family: 'Inter', 'sans-serif';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2em;
+    line-height: 39px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.day-type {
+    height: 167px;
+    left: 6%;
+}
+
+.trace-one {
+    position: absolute;
+    width: 97%;
+    height: 169px;
+    left: -2.68px;
+    top: 11%;
+    background: #FFCC00;
+    border-radius: 20px;
+}
+
+.trace-bottom {
+    height: 600px;
+}
 
 
 /*****************************
