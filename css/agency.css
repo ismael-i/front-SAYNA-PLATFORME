@@ -179,7 +179,14 @@ height: 7179.45px; */
   }
 }
 
-@media(max-width: 1195px) and (min-width:994px){
+@media(max-width: 1195px){
+
+  .courbe-point {
+
+    display: none !important;
+  }
+}
+@media(max-width: 1195px) and (min-width:992px){
 
   .nous-placons{ 
     font-size: 69px;
@@ -195,9 +202,27 @@ height: 7179.45px; */
     font-size: 26px;
     margin-top: -142px;
   }
-  .courbe-point {
+ /*  .courbe-questionnaire {
+    width: 40% !important;
+  }
+ */
+}
 
-    display: none !important;
+@media(max-width: 991px) and (min-width:771px){
+
+  .nous-placons{ 
+    font-size: 69px;
+  }
+  /* nous plaçons des héros. */
+  .des-heros{
+    font-size: 96px;
+  } 
+  .forme-4-photo {
+    background-size: 269px 543px;
+  }
+  .meilleurs-talents-africains {
+    font-size: 26px;
+    margin-top: -200px;
   }
  /*  .courbe-questionnaire {
     width: 40% !important;
@@ -205,16 +230,66 @@ height: 7179.45px; */
  */
 }
 
-@media screen and (max-width: 767px) {
-  .globe-312668-1{
-  
-    display: none;
-    
-  }
+
+
+@media(max-width: 840px){
+.sayna-place-les-meilleurs{
+  width: 100%;
+}
 }
 
 
+@media(max-width: 770px){
 
+  .nous-placons{ 
+    font-size: 69px;
+  }
+  /* nous plaçons des héros. */
+  .des-heros{
+    font-size: 96px;
+  } 
+  .forme-4-photo {
+    background-size: 269px 543px;
+  }
+  .meilleurs-talents-africains {
+    font-size: 26px;
+    margin-top: -200px;
+  }
+ /*  .courbe-questionnaire {
+    width: 40% !important;
+  }
+ */
+}
+
+@media(max-width: 768px){
+
+ 
+  .forme-4-photo{
+    background-size: 100% 100%;
+    /* background: #E9EAEF; */
+  } 
+}
+
+
+/* 
+@media(max-width: 734px) and (min-width:734px){
+
+  .nous-placons{ 
+    font-size: 69px;
+  }
+  /* nous plaçons des héros. * /
+  .des-heros{
+    font-size: 96px;
+  } 
+  .forme-4-photo {
+    background-size: 269px 543px;
+  }
+  .meilleurs-talents-africains {
+    font-size: 26px;
+    margin-top: -200px;
+  }
+}
+ */
 
 
 
@@ -302,7 +377,7 @@ height: 7179.45px; */
  .sayna-place-les-meilleurs{
   margin-left: 5%;
   margin-top: 2%;
-  /* width: 58%; */
+  width: 58%; 
 }
 
 
@@ -378,6 +453,9 @@ color: #000000 !important;
 .loin-des-modeles {
   width: 97%;
 }
+.sayna-place-les-meilleurs{
+  width: 100%;
+}
 }
 
 .transp {
@@ -410,7 +488,7 @@ color: #000000 !important;
 
  /* Après avoir appris les fondamentaux du web, tu peux aller plus loin et te spécialiser dans un des métiers du digital qui connait le plus de pénurie sur le marché international : développeur, data engineer, marketing digitale et vente... */
  
- .apres-avoir-appris-les-fondamentaux{
+.apres-avoir-appris-les-fondamentaux{
   margin-left: 10%;
 }
 
@@ -423,6 +501,40 @@ color: #000000 !important;
 .loin-des-modeles {
   width: 97%;
 }
+}
+/* 
+
+.forme-4-mobile{
+  display: none;
+  width: 12%;
+}
+ */
+
+@media  screen and (max-width:770px){
+  .groovyDoodle {
+    display: none;
+}
+.forme-4-agency {
+  display: none;
+  /* transform: matrix(0.7, 0.72, 0.72, -0.7, 0, 0); */
+}
+
+.forme-5-agency {
+  display: none;
+}
+/* 
+.forme-4-mobile{
+  display: inline;
+} */
+
+}
+@media  screen and (max-width:991px){
+  .globe-312668-1 {
+    display: none;
+  }
+  .boutton-slid{
+    display: none;
+  }
 }
 
 
@@ -1083,3 +1195,15 @@ background: #FFFFFF;
 border-radius: 0px 0px 15px 15px;
 }
 
+
+
+
+@media(max-width: 994px) and (min-width:770px){
+  .forme-5-agency {
+      position: absolute;
+      /* top: 6676px; */
+      width: 40%;
+      margin-top: -9%;
+      margin-left: 89%;
+  }
+}

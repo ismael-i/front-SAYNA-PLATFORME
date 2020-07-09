@@ -61,7 +61,11 @@ letter-spacing: 0.005em;
 
 
 .ul-slid{
-    margin-top: 12%;
+    margin-top: 29%;
+}
+
+.ul-slid-1{
+    margin-top: 50%;
 }
 
 li{
@@ -74,7 +78,7 @@ li{
     font-family: Inter;
     font-style: normal;
     font-weight: 600;
-    /* font-size: 20px; */
+    font-size: 14px; 
     line-height: 150.02%;
     display: flex;
     align-items: center;
@@ -88,11 +92,11 @@ li{
 }
 
 .btn-slid-0{
-    margin-left: 62%;
+    margin-left: 70%;
 }
 
 .btn-slid-1{
-    margin-left: 22%;
+    margin-left: 29%;
 }
 
 .btn-slid-2{
@@ -100,11 +104,11 @@ li{
 }
 
 .btn-slid-3{
-    margin-left: 20%;
+    margin-left: 29%;
 }
 
 .btn-slid-4{
-    margin-left: 54%;
+    margin-left: 70%;
 }
 
 
@@ -113,3 +117,35 @@ li{
     background: url(../img/Forme\ 5.png);
 
 }
+
+.btn-grand{
+
+    width: 150px;
+    height: 46px;
+    font-size: 16px;
+}
+
+
+.ton-code-devra-etre {
+    margin-top: 26px !important;
+    width: 81%;
+}
+
+.on-attendra-de-toi {
+    margin-top: 32px;
+}
+
+.il-te-faudra-etre {
+    margin-top: 22px;
+    width: 78%;
+}
+@media(max-width: 1174px) and (min-width:1047px){
+
+    .btn-slid {
+        width: 82px;
+        font-size: 8px !important;
+    }
+}
+
+
+  
