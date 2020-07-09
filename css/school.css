@@ -67,6 +67,10 @@
     width: 100%;
 }
 
+.S-part-seven {
+    width: 100%;
+}
+
 
 /* Logo_Sayna */
 
@@ -1981,10 +1985,430 @@
     height: 600px;
 }
 
+.ellipse7-2 {
+    position: absolute;
+    width: 152px;
+    height: 152px;
+    left: 65%;
+    top: -4%;
+}
+
+
+/*shift du jour groupe*/
+
+.shift-jour {
+    position: relative;
+    width: 100%;
+    height: 186px;
+    left: -3%;
+    top: -5%;
+    /* transform: skew(-10deg); */
+    /* -ms-transform: skew(-10deg); */
+    background: #E9EAEF;
+    box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+
+.back-jour {
+    position: absolute;
+    width: 18%;
+    height: 185px;
+    left: 4%;
+    top: -1%;
+    transform: skew(-12deg);
+    -ms-transform: skew(-10deg);
+    background: #FB5875;
+    box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+
+.txt-J-S {
+    position: absolute;
+    width: 100%;
+    height: 137px;
+    left: -1%;
+    /* top: 7092px; */
+    font-family: 'Inter', 'sans-serif';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2em;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #323232;
+}
+
+.txt-bottom-J-S {
+    /* #shift à dominante jour - 9 semaines */
+    position: absolute;
+    width: 82%;
+    height: 30px;
+    left: 11%;
+    top: 79%;
+    font-family: 'Inter', 'sans-serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.41em;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.back-one-jour {
+    position: absolute;
+    width: 13%;
+    height: 181px;
+    left: 24%;
+    top: -1%;
+    transform: skew(-12deg);
+    background: #FB5875;
+    box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+
+.on-jour {
+    position: relative;
+    width: 100%;
+    height: 182px;
+    left: -4%;
+    top: -4%;
+    background: #E9EAEF;
+    box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+
+.jour-hours {
+    /* 7h30 --> 8h */
+    position: absolute;
+    width: 78%;
+    height: 24px;
+    left: 21%;
+    top: 20%;
+    font-family: 'Inter', 'sans-serif';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1em;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.one-bottom {
+    /* Morning routine : thé, journaux, veille tech ... */
+    position: absolute;
+    width: 89%;
+    height: 79px;
+    top: 44%;
+    left: 7%;
+    font-family: 'Inter', 'sans-serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.9em;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.back-two-jour {
+    position: absolute;
+    width: 13%;
+    height: 181px;
+    left: 39%;
+    top: -1%;
+    transform: skew(-12deg);
+    background: #FB5875;
+    box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+
+.back-three-jour {
+    position: absolute;
+    width: 13%;
+    height: 181px;
+    left: 54%;
+    top: -1%;
+    transform: skew(-12deg);
+    background: #FB5875;
+    box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+
+.back-four-jour {
+    position: absolute;
+    width: 13%;
+    height: 181px;
+    left: 69%;
+    top: -1%;
+    transform: skew(-12deg);
+    background: #FB5875;
+    box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+
+.four-bottom {
+    /* Morning routine : thé, journaux, veille tech ... */
+    position: absolute;
+    width: 89%;
+    height: 79px;
+    top: 36%;
+    left: 7%;
+    font-family: 'Inter', 'sans-serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.9em;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.back-five-jour {
+    position: absolute;
+    width: 13%;
+    height: 181px;
+    left: 84%;
+    top: -1%;
+    transform: skew(-12deg);
+    background: #FB5875;
+    box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+
+.five-one-hours {
+    position: absolute;
+    width: 78%;
+    height: 24px;
+    left: 21%;
+    top: 12%;
+    font-family: 'Inter', 'sans-serif';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1em;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.five-one-txt {
+    position: absolute;
+    width: 89%;
+    height: 79px;
+    top: 28%;
+    left: 7%;
+    font-family: 'Inter', 'sans-serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.9em;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.five-two-hours {
+    position: absolute;
+    width: 78%;
+    height: 24px;
+    left: 21%;
+    top: 42%;
+    font-family: 'Inter', 'sans-serif';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1em;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.five-two-txt {
+    position: absolute;
+    width: 89%;
+    height: 79px;
+    top: 58%;
+    left: 7%;
+    font-family: 'Inter', 'sans-serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.9em;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+
+/*shift du jour groupe*/
+
+
+/*shift night*/
+
+.trace-two {
+    position: absolute;
+    width: 97%;
+    height: 169px;
+    left: -2.68px;
+    top: 63%;
+    background: #141138;
+    border-radius: 20px;
+}
+
+.back-night {
+    position: absolute;
+    width: 18%;
+    height: 185px;
+    left: 4%;
+    top: -1%;
+    transform: skew(-12deg);
+    -ms-transform: skew(-10deg);
+    background: #FFCC00;
+    box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+
+.back-night-one {
+    position: absolute;
+    width: 13%;
+    height: 181px;
+    left: 26%;
+    top: -1%;
+    transform: skew(-12deg);
+    background: #FFCC00;
+    box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+
+.night-hours {
+    position: absolute;
+    width: 84%;
+    height: 24px;
+    left: 9%;
+    top: 20%;
+    font-family: 'Inter', 'sans-serif';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1em;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.two-bottom {
+    position: absolute;
+    width: 89%;
+    height: 79px;
+    top: 61%;
+    left: 7%;
+    font-family: 'Inter', 'sans-serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.9em;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.back-night-two {
+    position: absolute;
+    width: 13%;
+    height: 181px;
+    left: 42%;
+    top: -1%;
+    transform: skew(-12deg);
+    background: #FFCC00;
+    box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+
+.back-night-three {
+    position: absolute;
+    width: 13%;
+    height: 181px;
+    left: 58%;
+    top: -1%;
+    transform: skew(-12deg);
+    background: #FFCC00;
+    box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+
+.back-night-four {
+    position: absolute;
+    width: 13%;
+    height: 181px;
+    left: 74%;
+    top: -1%;
+    transform: skew(-12deg);
+    background: #FFCC00;
+    box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+
+.night-hours-last {
+    position: absolute;
+    width: 84%;
+    height: 24px;
+    left: 21%;
+    top: 20%;
+    font-family: 'Inter', 'sans-serif';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1em;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.cercle-last-trace {
+    position: absolute;
+    width: 6.5%;
+    height: 45%;
+    left: 90%;
+    top: 27%;
+    border-radius: 50%;
+    /* border-color: #FFCC00; */
+    background: #FFCC00;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.25);
+}
+
+.cercle-in-cercle {
+    position: absolute;
+    width: 77.5%;
+    height: 78%;
+    left: 11%;
+    top: 11%;
+    border-radius: 50%;
+    background: #E9EAEF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25), inset 0px 0px 4px rgba(0, 0, 0, 0.35);
+}
+
 
 /*****************************
 ******************School css****
 ************************************/
+
+.seven-one {
+    height: 600px;
+}
+
+.jump2 {
+    height: 400px;
+}
+
+.jump-img {
+    width: 100%;
+    top: -45%;
+    position: absolute;
+    z-index: 3;
+}
 
 .fleche-connexion {
     margin-left: -20px;
