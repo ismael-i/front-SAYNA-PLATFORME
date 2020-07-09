@@ -3,40 +3,52 @@
 @import url("https://db.onlinewebfonts.com/c/62e84f8271d32eb452129a0b7d59540d?family=Antipasto+Pro");
 @import url("https://db.onlinewebfonts.com/c/9d942e0ff1014c476713a855710ce309?family=Lato");
 
-
+* {
+	padding: 0;
+	margin: 0;
+}
 .btn{
     padding: 10px !important;
     display: inline-flex;
     border: none;
 }
-html {
 
-	width: 100%;
-	
 
+.logo {
+	position: relative;
+	top: 20%;
+	margin-left: 5%;
 }
 #body-all {
 	width: 100%;
 margin-right: none !important;
 	margin-left: none !important;
 	margin-top: none !important;
+	overflow-x: hidden;
 }
 .menu {
 	position: relative;
 	
 	width: 700px margin-right: none !important;
-	margin-left: none !important;
-	margin-top: none !important;;
+	margin-left: auto;
+	margin-right: auto;
+	left: 15%;
+	margin-top: none !important;
 }
 [class*="col"] { 
-   margin-bottom: 20px;
+   margin-bottom: 25px;
+}
+.nos {
+	margin-top: 7%;
 }
 img {
    width: 100%;
-   margin-top: 20px;
+   margin-top: 0px;
 }
 
-
+.container-fluid {
+	padding: 0;
+}
 
 li{
 	list-style: none;
@@ -45,14 +57,14 @@ li{
 }
 
 header {
-	position: relative;
-	background: url("../images/Forme 5.png") ; 
+
+	/*background: url("../images/Forme 5.png") ; 
 background-position: left top ;
   background-repeat: no-repeat;
   background-size: 55%;
   margin-left: 0%;
   margin-top: 0%;
-  
+  */
 }
 
 .fleche-connexion {
@@ -145,7 +157,7 @@ letter-spacing: -0.04em;
 text-transform: uppercase;
 
 color: #000000;
-margin-left: 0%;
+margin-left: 5%;
 }
 
 .vos-projets {
@@ -158,7 +170,7 @@ display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-margin-left: 2%;
+margin-left: 8%;
 color: #000000;
 }
 
@@ -172,7 +184,7 @@ display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-margin-left: 2%;
+margin-left: 8%;
 color: #FFCC00;
 }
 
@@ -182,7 +194,7 @@ font-style: normal;
 font-weight: bold;
 font-size: 24px;
 line-height: 119.52%;
-margin-left: 3%;
+margin-left: 8%;
 /* or 60px */
 letter-spacing: 0.01em;
 text-transform: uppercase;
@@ -192,7 +204,7 @@ color: #6E6E6E;
 
 #choix-factory {
 	padding-top: 50px;
-	margin-left: 30px;
+	margin-left: 8%;
 }
 
 .pourquoi-choix {
@@ -272,7 +284,7 @@ height: 5%;
 
 .forme301 {
 	position: relative;
-	left: 10%;
+	left: 5%;
 }
 
 .number1 {
@@ -341,14 +353,18 @@ color: #000000;
 }
 
 .number2 {
-	width: 25%;
+	
 }
-
+.number2-txt {
+	position: relative;
+}
 
 .number2, .aurai-je {
 	display: inline-block;
 }
-
+.ensemble23 {
+	
+}
 .number2-img {
 	position: absolute;
 	width: 40%;
@@ -387,10 +403,10 @@ font-size: 18px;
 line-height: 29px;
 letter-spacing: -0.025em;
 text-transform: uppercase;
-
+line-height: 99px;
 color: #FB5875;
 padding-bottom: 16px;
-/*left: 230px;*/
+left: 80% !important;
 }
 
 .en48h{
@@ -402,7 +418,7 @@ line-height: 49.52%;
 
 /* or 60px */
 letter-spacing: 0.01em;
-
+line-height: 59px;
 color: #000000;
 padding-bottom: 4px;
 left: 2%;
@@ -421,7 +437,7 @@ letter-spacing: 0.01em;
 
 color: #000000;
 padding-bottom: 4px;
-left: 2%;
+left: 18.3% !important;
 position: relative;
 }
 .au-program {
@@ -431,7 +447,7 @@ font-family: Inter;
 font-style: normal;
 font-weight: normal;
 font-size: 13px;
-line-height: 156.02%;
+line-height: 256.02%;
 
 /* or 30px */
 
@@ -509,15 +525,16 @@ left: 85%;
 
 .number3 {
 	position: relative;
-	width: 100%;
-	height: 100%;
-	left: 10%;
+	width: 80%;
+	height: 80%;
+	left: 23.5%;
+	top: 5%;
 }
 
 
 .col-number4 {
 	float: right;
-	left: -50%;
+	left: -45%;
 	position: relative;
 
 }
@@ -526,6 +543,8 @@ left: 85%;
 	position: absolute;
 	width: 400px;
 	height: 520px;
+	z-index: -1;
+
 }
 
 .valid-dem {
@@ -550,10 +569,12 @@ position: relative;
 border-radius: 20px;
 text-align: center;
 left: 30px;
+margin-top: 20%;
 
 }
 
 .trent {
+	position: relative;
 	background: url("../images/Forme 5(1).png"), url("../images/Forme 6.png");
 	background-repeat: no-repeat;
 	background-size: 61% 100%, 61% 86%;
@@ -562,7 +583,7 @@ left: 30px;
 
 .number5{
 	width: 80%;
-	text-align: right;
+	text-align:left;
 	left: 20%;
 	position: relative;
 
@@ -571,9 +592,9 @@ left: 30px;
 .team-content {
 	position: relative;
 	
-	left: -7%;
+	left: -4%;
 	
-	top: 18%;
+
 }
 
 .x-team {
@@ -587,8 +608,8 @@ text-transform: uppercase;
 
 color: #FB5875;
 padding-bottom: 5px;
-
-left: -20%;
+top: 15%;
+left: -15%;
 position: relative;
 
 }
@@ -599,13 +620,13 @@ font-style: normal;
 font-weight: 900;
 font-size: 29px;
 line-height: 78.52%;
-
+	top: 15% !important;
 /* or 60px */
 letter-spacing: 0.01em;
 
 color: #000000;
 padding-bottom: 11px;
-left: -20%;
+left: -15%;
 position: relative;
 
 }
@@ -618,13 +639,13 @@ font-style: normal;
 font-weight: normal;
 font-size: 13px;
 line-height: 106.02%;
-
+	top: 15% !important;
 /* or 30px */
 
 color: #000000;
 padding-bottom: 400px;
-top: 20%;
-height: 200px;
+margin-top: 3% !important;
+height: 100px;
 position: relative;
 }
 .equi-composant{
@@ -633,12 +654,12 @@ position: relative;
 
 .back-front{
 	position: relative;
-	left: 3.7%;
+	left: 2.7%;
 }
 
 .complet-equipe{
 	position: relative;
-	left: 4.5%;
+	left: 3.8%;
 }
 
 .redacteur-web{
@@ -697,7 +718,7 @@ border-spacing: 15px;
 border-collapse: separate;
 
 }
-
+.
 .un {
 	border-radius: 45px 0px 0px 0px;
 }
@@ -856,9 +877,9 @@ color: #000000;
 .img-form4 {
 	position: relative;
 	float: right;
-	top: -35.5% !important;
+	top: -34% !important;
 	width: 70%;
-	left: 2%;
+	left: 1%;
 }
 .img-glissade {
 	position: relative;
@@ -921,10 +942,11 @@ padding-bottom: 11px;
 
 /* ********** parallax animation************* */
 .slider-parallax-group3{
-   
+   position: relative;
 width: 803.8px;
 height: 570px;
-left: 294.3px;
+left: 7% !important;
+
 
 
 
@@ -984,8 +1006,8 @@ font-style: normal;
 font-weight: bold;
 font-size: 30px;
 line-height: 52px;
-margin-left: 47.5px;
-margin-top: 45px;
+margin-left: 10%;
+margin-top: 10%;
 display: flex;
 align-items: center;
 text-align: center;
@@ -1027,6 +1049,10 @@ top: 156px;
 background: #FB5875;
 border-radius: 100px !important;
 }
+
+.parallax3 label>a {
+	text-decoration-line: none;
+}
 .label-center-para3{
     /* je m’inscris */
 
@@ -1036,6 +1062,7 @@ width: 82.8px;
 height: 16.9px;
 margin-top: none;
 margin-bottom: none;
+text-decoration-line: none !important;
 
 font-family: "Lato";
 font-style: normal;
@@ -1100,7 +1127,7 @@ line-height: 49.7px;
 align-items: center;
 text-align: center;
 letter-spacing: -0.02em;
-
+text-transform: lowercase;
 color: #000000;
 
 }
@@ -1110,7 +1137,7 @@ color: #000000;
     width: 106.2px;
     height: 34.5px;
     left: 80.7px;
-    top: 166px;
+    top: 196px;
 
 background: #E9EAEF;
 box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.1);
@@ -1133,7 +1160,7 @@ font-size: 11.7px;
 line-height: 11.7px;
 text-align: center;
 text-transform: uppercase;
-
+text-decoration: none !important;
 color: #FB5875;
 }
 
@@ -1146,6 +1173,25 @@ height: 374.7px;
 top: 4574px; */
 
 }
+
+.left-parallax3 a{
+	text-decoration-line: none;
+}
+.center-parallax3 a{
+	text-decoration-line: none;
+}
+.right-parallax3 a{
+	text-decoration-line: none;
+}
+
+.haute {
+	background: url("../images/Forme 5.png") ; 
+background-position: left top ;
+  background-repeat: no-repeat;
+  background-size: 55%;
+}
+
+
 .btn-right-para3{
 
     position: relative;
@@ -1227,4 +1273,6 @@ color: #FB5875;
             transform: translateX( 282px);
   }
 }
+}
 /* ********** parallax animation************* */
+
