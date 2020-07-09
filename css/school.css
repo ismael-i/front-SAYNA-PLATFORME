@@ -42,7 +42,7 @@
 
 .S-part-one {
     width: 100%;
-    height: 750px;
+    height: auto;
 }
 
 .S-part-two {
@@ -75,9 +75,7 @@
 /* Logo_Sayna */
 
 #background-body {
-    width: 100%;
-    display: block;
-    background: #E5E5E5;
+    background: #E5E5E5 !important;
 }
 
 .logo1-school {
@@ -248,8 +246,14 @@
 
 .girl-fly {
     float: right;
-    top: -34%;
-    left: -8%;
+    top: -30%;
+    /* left: -8%; */
+}
+
+@media(max-width: 1000px) {
+    .girl-fly {
+        display: none;
+    }
 }
 
 .fdh {
@@ -270,7 +274,7 @@
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
     font-weight: 800;
-    font-size: 5em;
+    font-size: 4.8em;
     line-height: 144px;
     display: flex;
     align-items: center;
@@ -288,7 +292,7 @@
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
     font-weight: 800;
-    font-size: 7em;
+    font-size: 6.5em;
     line-height: 95.02%;
     /* display: flex; */
     align-items: center;
@@ -313,7 +317,7 @@
     font-family: Antipasto Pro;
     font-style: normal;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 1.7em;
     line-height: 43px;
     letter-spacing: -0.03em;
     text-transform: uppercase;
@@ -773,8 +777,8 @@
     right: 0%;
     top: 0%;
     bottom: 0%;
-    width: 62%;
-    height: 54px;
+    width: 58%;
+    height: 53px;
     display: inline-grid !important;
     background: #FB5875 !important;
     border-radius: 20px !important;
@@ -792,9 +796,9 @@
     font-family: 'Lato';
     font-style: normal;
     font-weight: bold;
-    font-size: 1.1em;
-    line-height: 30px;
-    /* display: inline; */
+    font-size: 1em;
+    /* line-height: 30px; */
+    display: flex;
     align-items: center;
     text-align: center;
     text-transform: uppercase;
@@ -886,7 +890,7 @@
 
 .jeminscris {
     position: absolute;
-    width: 37%;
+    width: 23%;
     height: 45px;
     top: 69%;
     left: 8%;
@@ -918,7 +922,8 @@
 
 .fleche-inscription {
     color: #000000;
-    margin-left: 30px;
+    /* margin-left: 30px; */
+    padding: 13%;
 }
 
 
