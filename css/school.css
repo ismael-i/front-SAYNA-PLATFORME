@@ -935,19 +935,26 @@
 }
 
 .di-rect {
-    position: absolute;
-    width: 27%;
+    /* position: absolute; */
+    width: 329px;
     height: 332px;
     background: #F7F7F9;
     border-radius: 20px;
 }
 
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 /* Rectangle 18 */
 
-.rectangle-18 {
+
+/* .rectangle-18 {
     left: 7%;
-}
+} */
 
 .soft-skills-choise {
     width: 50%;
@@ -987,9 +994,11 @@
 
 /*culture web*/
 
+
+/* 
 .rectangle-156 {
     left: 39%;
-}
+} */
 
 .culture-web-choise {
     position: relative;
@@ -1029,9 +1038,10 @@
 
 /*base de front*/
 
-.rectangle-157 {
+
+/* .rectangle-157 {
     left: 70%;
-}
+} */
 
 .bases-frontend {
     position: relative;
