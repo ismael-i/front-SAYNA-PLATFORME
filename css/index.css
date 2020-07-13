@@ -6,12 +6,13 @@
 
 /*background*/
 
-.container-fluid {
+
+/* .container-fluid {
     padding-right: 0 !important;
     padding-left: 0 !important;
     margin-right: 0 !important;
     margin-left: 0 !important;
-}
+} */
 
 .col-md-6 {
     padding-right: 0 !important;
@@ -119,15 +120,53 @@
     transform: rotate(3deg); */
 }
 
+@media(min-width:1000px) and (max-width:1100px) {
+    .agency-text {
+        font-size: 4.4em !important;
+    }
+}
+
+@media(min-width:886px) and (max-width:1000px) {
+    .agency-text {
+        font-size: 3.8em !important;
+    }
+    .form1 {
+        height: 433px;
+    }
+}
+
+@media(min-width:767px) and (max-width:886px) {
+    .agency-text {
+        font-size: 3.3em !important;
+    }
+    .form1 {
+        height: 380px;
+    }
+}
+
+@media(max-width: 767px) {
+    .form1 {
+        height: 400px;
+    }
+    .logo1 {
+        width: 49% !important;
+        /* top: -372.05px !important; */
+    }
+    .agency-text {
+        font-size: 3.1em !important;
+        left: 17% !important;
+    }
+}
+
 
 /* Logo_Sayna */
 
 .logo1 {
-    position: relative;
+    position: absolute;
     width: 31%;
     height: 70.38px;
     left: 9%;
-    top: -468.05px;
+    top: 6%;
 }
 
 
@@ -136,13 +175,13 @@
 .agency-text {
     position: absolute;
     width: 100%;
-    height: 314.09px;
-    left: 19%;
+    height: 262.09px;
+    left: 14%;
     top: 162px;
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
     font-weight: 800;
-    font-size: 5.1em;
+    font-size: 4.8em;
     line-height: 102.7%;
     letter-spacing: -0.045em;
     color: #000000;
@@ -161,67 +200,67 @@
     position: relative;
     width: 100%;
     height: 50.37px;
-    left: 50%;
-    top: -549.36px;
+    top: 3%;
 }
 
 .btn-connexion {
     /* position: absolute; */
     width: 27%;
-    height: 48.3px;
+    height: 38.3px;
     left: 1050.87px;
     top: 86.94px;
+    display: inline-flex !important;
     margin-left: 3%;
     background-color: #FB5875 !important;
     border-radius: 50px !important;
-    /* transform: matrix(1, 0, 0, -1, 0, 0); */
+    /* transform: matrix(1, 0, 0, -1, 0, 0);*/
 }
 
 .btn-school {
     /* position: absolute; */
     width: 16%;
-    height: 48.3px;
+    height: 38.3px;
     left: 614.1px;
     top: 38.64px;
     display: inline-flex !important;
     background-color: #F2F2F7 !important;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-    border-radius: 20px !important;
+    border-radius: 12px !important;
 }
 
 .btn-agency {
     /* position: absolute; */
     width: 16%;
-    height: 48.3px;
+    height: 38.3px;
     left: 614.1px;
     top: 38.64px;
     margin-left: 3%;
     display: inline-flex !important;
     background-color: #F2F2F7 !important;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-    border-radius: 20px !important;
+    border-radius: 12px !important;
 }
 
 .btn-factory-menu {
     /* position: absolute; */
     width: 16%;
-    height: 48.3px;
+    height: 38.3px;
     left: 614.1px;
     top: 38.64px;
     margin-left: 3%;
     display: inline-flex !important;
     background-color: #F2F2F7 !important;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-    border-radius: 20px !important;
+    border-radius: 12px !important;
 }
 
 .txt-btn {
     width: 117.3px;
-    height: 46.92px;
+    /* height: 46.92px; */
     font-family: "Lato";
     font-style: normal;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 0.8em;
     line-height: 16.56px;
     display: inline-grid;
     align-items: center;
@@ -233,11 +272,11 @@
 
 .txt-agency {
     width: 117.3px;
-    height: 46.92px;
+    /* height: 46.92px; */
     font-family: "Lato";
     font-style: normal;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 0.8em;
     line-height: 16.56px;
     display: inline-grid;
     align-items: center;
@@ -248,16 +287,15 @@
 }
 
 .txt-connexion {
-    /* 
-    position: absolute; */
+    /* position: absolute; */
     width: 131.79px;
-    height: 48.3px;
+    /* height: 48.3px; */
     left: calc(50% - 191px/2 + 657.5px);
     top: calc(50% - 70px/2 - 5108.5px);
     font-family: "Lato";
     font-style: normal;
     font-weight: bold;
-    font-size: 0.9em;
+    font-size: 0.8em;
     line-height: 16.56px;
     display: inline-grid;
     align-items: center;
@@ -278,13 +316,21 @@
 
 .btn-dropdonw {
     width: 8%;
-    height: 48.3px;
-    left: 1233.72px;
+    height: 39.3px;
+    left: 1226.72px;
     top: 38.64px;
-    margin-left: 3%;
+    margin-left: 1%;
     background: #F2F2F7;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-    border-radius: 20px !important
+    border-radius: 12px !important;
+}
+
+.dropdown-menu.show {
+    display: block;
+    left: 58% !important;
+    color: #575F6B;
+    background: #E9EAEF !important;
+    text-align: right;
 }
 
 .form2 {
@@ -328,7 +374,7 @@
     font-family: Antipasto Pro;
     font-style: normal;
     font-weight: bold;
-    font-size: 44.6px;
+    font-size: 2em;
     line-height: 30.36px;
     letter-spacing: -0.01em;
     text-transform: uppercase;

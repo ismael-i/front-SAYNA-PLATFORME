@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="./bootstrap-4.5.0-dist/css/bootstrap.css" />
     <link rel="stylesheet" href="./bootstrap-4.5.0-dist/css/bootstrap-grid.css">
     <script type="text/javascript" src="./bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="./js/main-slider1.js"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
     <script type="text/javascript" src="./js/jquery-3.5.1.min.js"></script>
     <script type="text/javascript" src="./js/jquery-1.11.1.min.js"></script>
     <script type="text/javascript" src="./js/jquery.bxslider.min.js"></script>
@@ -21,10 +21,10 @@
 </head>
 
 <body id="background-body">
-    <header class="container-fluid part-one">
-        <div class="row part-one">
-            <div class="col-md-12 part-one">
-                <div class="col-md-6">
+    <div class="container-fluid ">
+        <header class="part-one">
+            <div class="row part-one">
+                <div class="col-md-6 col-sm-6">
                     <img src="./image/Forme 1.png" alt="form1" class="form1">
                     <img src="./image/logo sayna 1.png" alt="logo 1" class="logo1">
                     <div class="agency-text">
@@ -33,7 +33,7 @@
 
                     </div>
                 </div>
-                <div class="col-md-6 menu">
+                <div class="col-md-6 col-sm-6 menu">
                     <a href="" class=" btn btn-school">
                         <span class="txt-btn">school</span>
                     </a>
@@ -47,11 +47,22 @@
                         <span class="txt-connexion">connexion</span>
                         <i class='fas fa-arrow-right fleche-connexion'></i>
                     </a>
-                    <a href="" class="btn btn-dropdonw ">
+                    <!-- <a href="" class="btn btn-dropdonw ">
+                        <i class="fa fa-bars Groupe-8"></i>
+                    </a> -->
+                    <a class="btn btn-dropdonw" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                         <i class="fa fa-bars Groupe-8"></i>
                     </a>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">School</a>
+                        <a class="dropdown-item" href="#">Agency</a>
+                        <a class="dropdown-item" href="#">Factory</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Connexion</a>
+                    </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 col-sm-6">
                     <div class="news-letter">
                         <span class="digital-school">
                             sayna, l‘école DIGITALE innovante.
@@ -73,6 +84,8 @@
                     <img src="./image/Forme 2.png" alt="" class="form2">
                     <img src="./image/Femme qui saute.png" alt="" class="dame-qui-saute">
                 </div>
+            </div>
+            <div class="row">
                 <div class="col-md-9 partner ml-auto mr-auto">
                     <div class="partner-text1">Ils nous font confience</div>
                     <div class="partner-text2">plus de 50 entreprises nous ont déjà rejoint</div>
@@ -100,182 +113,182 @@
 
                 </div>
             </div>
-        </div>
-    </header>
-    <div class="container-fluid part-two">
-        <div class="row part-two">
-            <div class="col-md-12 part-two">
-                <div class="col-md-4">
-                    <section class="slider-factory">
-                        <span class="header-factory-text">ce qu’ils disent de sayna</span>
-                        <div class="main-slider">
-                            <div class="first">
-                                <h1 class="factory1-txt">
-                                    Toute notre équipe <br> a été <mark class="underligne-factory">conquise !</mark></h1>
-                                <div class="logo-accessbanque-factory"></div>
-                                <p class="testimony">« A la recherche désespérée de profils digitaux sachant <br>parler anglais, j’ai découvert les profils atypiques de <br> SAYNA sur LinkedIn. Toute notre équipe a été conquise <br> tant par le projet que par les développeurs
-                                    qui nous ont
-                                    <br> été présentés. »</p>
-                                <p class="factory-equipe">
-                                    <span class="name-factory">
+
+        </header>
+        <div class="container-fluid part-two">
+            <div class="row part-two">
+                <div class="col-md-12 part-two">
+                    <div class="col-md-4">
+                        <section class="slider-factory">
+                            <span class="header-factory-text">ce qu’ils disent de sayna</span>
+                            <div class="main-slider">
+                                <div class="first">
+                                    <h1 class="factory1-txt">
+                                        Toute notre équipe <br> a été <mark class="underligne-factory">conquise !</mark></h1>
+                                    <div class="logo-accessbanque-factory"></div>
+                                    <p class="testimony">« A la recherche désespérée de profils digitaux sachant <br>parler anglais, j’ai découvert les profils atypiques de <br> SAYNA sur LinkedIn. Toute notre équipe a été conquise <br> tant par le projet que par les développeurs
+                                        qui nous ont
+                                        <br> été présentés. »</p>
+                                    <p class="factory-equipe">
+                                        <span class="name-factory">
                                             Mikhail Velichko
                                         </span>
-                                    <span class="post-factory">
+                                        <span class="post-factory">
                                             Directeur Général
                                         </span>
-                                    <a href="" class="ellipse1">
-                                        <img src="./image/Vector.png" alt="vector1" class="vector1">
-                                    </a>
-                                    <!-- <img src="./image/Ellipse 1.png" alt="ellipse" class="ellipse1"> -->
-                                    <a href="" class="regard-video"> Regarder la vidéo</a>
+                                        <a href="" class="ellipse1">
+                                            <img src="./image/Vector.png" alt="vector1" class="vector1">
+                                        </a>
+                                        <!-- <img src="./image/Ellipse 1.png" alt="ellipse" class="ellipse1"> -->
+                                        <a href="" class="regard-video"> Regarder la vidéo</a>
 
-                            </div>
-                            <div class="second">
-                                <h1 class="factory2-txt">
-                                    Nous voulons miser sur les <br> jeunes <mark class="underligne-factory">ressources malgaches</mark>
-                                </h1>
-                                <p class="testimony2">
-                                    « Nous voulons miser sur les jeunes ressources malgaches car ce sont <br> les hommes et les femmes qui sont les ressources premières de <br> l’entreprise. SAYNA nous permet de faire cela. »
-                                </p>
-                                <span class="factory-equipe">
+                                </div>
+                                <div class="second">
+                                    <h1 class="factory2-txt">
+                                        Nous voulons miser sur les <br> jeunes <mark class="underligne-factory">ressources malgaches</mark>
+                                    </h1>
+                                    <p class="testimony2">
+                                        « Nous voulons miser sur les jeunes ressources malgaches car ce sont <br> les hommes et les femmes qui sont les ressources premières de <br> l’entreprise. SAYNA nous permet de faire cela. »
+                                    </p>
+                                    <span class="factory-equipe">
                                     <span class="name-factory">
                                         Valéry Ramonjavelo
                                     </span>
-                                <span class="post-factory">
+                                    <span class="post-factory">
                                         Directeur Ressources Humaines
                                     </span>
-                                <span class="wacht-video">
+                                    <span class="wacht-video">
                                         <a href="" class="ellipse1">
                                             <img src="./image/Vector.png" alt="vector1" class="vector1">
                                         </a>
                                         <a href="" class="regard-video"> Regarder la vidéo</a>
                                     </span>
-                                </span>
+                                    </span>
 
-                            </div>
-                            <div class="third">
-                                <h1 class="factory3-txt">
-                                    Une réponse pertinente à <br> <mark class="underligne-factory">nos besoins</mark>
-                                </h1>
-                                <div class="logo-axian-factory"></div>
-                                <p class="testimony3">
-                                    “ SAYNA apporte une réponse pertinente à nos besoins <br> de ressources « DEV » pour la nouvelle structure IT du <br> groupe, appelée à répondre aux défis technologiques et <br> digitaux des sociétés de notre groupe
-                                    “. <br> Jean-Luc Ramamonjiarisoa <br> Directeur des ressources humaines
-                                    <br> AXIAN & TELMA <br> https://www.youtube.com/watch?v=XdkS_p6VJys
-                                </p>
-                                <span class="factory-equipe">
+                                </div>
+                                <div class="third">
+                                    <h1 class="factory3-txt">
+                                        Une réponse pertinente à <br> <mark class="underligne-factory">nos besoins</mark>
+                                    </h1>
+                                    <div class="logo-axian-factory"></div>
+                                    <p class="testimony3">
+                                        “ SAYNA apporte une réponse pertinente à nos besoins <br> de ressources « DEV » pour la nouvelle structure IT du <br> groupe, appelée à répondre aux défis technologiques et <br> digitaux des sociétés de notre groupe
+                                        “. <br> Jean-Luc Ramamonjiarisoa <br> Directeur des ressources humaines
+                                        <br> AXIAN & TELMA <br> https://www.youtube.com/watch?v=XdkS_p6VJys
+                                    </p>
+                                    <span class="factory-equipe">
                                     <span class="name-factory">
                                         Jean-Luc Ramamonjiarisoa
                                     </span>
-                                <span class="post-factory">
+                                    <span class="post-factory">
                                         Business Manager
                                     </span>
-                                <span class="wacht-video">
+                                    <span class="wacht-video">
                                         <a href="" class="ellipse1">
                                             <img src="./image/Vector.png" alt="vector1" class="vector1">
                                         </a>
                                         <a href="https://www.youtube.com/watch?v=XdkS_p6VJys" class="regard-video"> Regarder la
                                             vidéo</a>
                                     </span>
-                                </span>
+                                    </span>
 
-                            </div>
-                            <div class="fourth">
-                                <h1 class="factory4-txt">
-                                    Un travail fantastique :<br> <mark class="underligne-factory">nous les soutenons !</mark>
-                                </h1>
-                                <div class="logo-GBM-factory"></div>
-                                <p class="testimony4">
-                                    « Nous sommes ravis que Sayna développe l'un de nos <br> projets digitaux : ils le méritent ! "
-                                </p>
-                                <span class="factory-equipe">
+                                </div>
+                                <div class="fourth">
+                                    <h1 class="factory4-txt">
+                                        Un travail fantastique :<br> <mark class="underligne-factory">nous les soutenons !</mark>
+                                    </h1>
+                                    <div class="logo-GBM-factory"></div>
+                                    <p class="testimony4">
+                                        « Nous sommes ravis que Sayna développe l'un de nos <br> projets digitaux : ils le méritent ! "
+                                    </p>
+                                    <span class="factory-equipe">
                 
                                     <span class="name-factory">
                                         Mme Uwanyligira
                                     </span>
-                                <span class="post-factory">
+                                    <span class="post-factory">
                                         Country Manager
                                     </span>
-                                <span class="wacht-video">
+                                    <span class="wacht-video">
                                         <a href="" class="ellipse1">
                                             <img src="./image/Vector.png" alt="vector1" class="vector1">
                                         </a>
                                         <a href="" class="regard-video"> Regarder la vidéo</a>
                                     </span>
-                                </span>
+                                    </span>
+                                </div>
                             </div>
-                        </div>
-                        <div class="pager-container">
-                            <a href="" data-slide-index="0"></a>
-                            <a href="" data-slide-index="1"></a>
-                            <a href="" data-slide-index="2"></a>
-                            <a href="" data-slide-index="3"></a>
+                            <div class="pager-container">
+                                <a href="" data-slide-index="0"></a>
+                                <a href="" data-slide-index="1"></a>
+                                <a href="" data-slide-index="2"></a>
+                                <a href="" data-slide-index="3"></a>
 
-                        </div>
-                        <a href="" class="btn btn-factory">
-                            <span class="btn-txt">je suis une entreprise  <i class='fas fa-arrow-right fleche-voir-detail'></i></span>
-                        </a>
-                    </section>
-                </div>
-                <div class="col-md-6 col-img-businessman">
-                    <img src="./image/Forme 3.png" alt="cercle3" class="form3">
-                    <div class="image-businessman"></div>
+                            </div>
+                            <a href="" class="btn btn-factory">
+                                <span class="btn-txt">je suis une entreprise  <i class='fas fa-arrow-right fleche-voir-detail'></i></span>
+                            </a>
+                        </section>
+                    </div>
+                    <div class="col-md-6 col-img-businessman">
+                        <img src="./image/Forme 3.png" alt="cercle3" class="form3">
+                        <div class="image-businessman"></div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container-fluid">
-        <div class="row part-three">
-            <div class="col-md-6">
-                <img src="./image/Son pantalon jaune.png" alt="img1" class="pantalon1">
-                <img src="./image/Gars géant.png" alt="img1" class="image1">
-            </div>
-            <section class="col-md-5 ensemble">
-                <div class="formation">
-                    NOS FORMATIONS
+        <div class="container-fluid">
+            <div class="row part-three">
+                <div class="col-md-6">
+                    <img src="./image/Son pantalon jaune.png" alt="img1" class="pantalon1">
+                    <img src="./image/Gars géant.png" alt="img1" class="image1">
                 </div>
-                <div class="bootcamps">
-                    Des <mark class="underligne-factory">bootcamps</mark> adaptés <br> à chaque besoin.
-                </div>
-                <div class="selection">
-                    Sélectionnez votre track parmi notre catalogue digital. <br> Nos parcours sont adaptés à votre situation, profitez d'une formation <br> de full-time, part-time, cours du soir, 100% online...<br>
-                    <br> Dès 3 mois de formation
-                </div>
-                <a href="" class=" btn bouton">
-                    <span class="txt-voir-detail">
+                <section class="col-md-5 ensemble">
+                    <div class="formation">
+                        NOS FORMATIONS
+                    </div>
+                    <div class="bootcamps">
+                        Des <mark class="underligne-factory">bootcamps</mark> adaptés <br> à chaque besoin.
+                    </div>
+                    <div class="selection">
+                        Sélectionnez votre track parmi notre catalogue digital. <br> Nos parcours sont adaptés à votre situation, profitez d'une formation <br> de full-time, part-time, cours du soir, 100% online...<br>
+                        <br> Dès 3 mois de formation
+                    </div>
+                    <a href="" class=" btn bouton">
+                        <span class="txt-voir-detail">
                             PARCOURIR LE CATALOGUE
                             <i class='fas fa-arrow-right fleche-voir-detail'></i>
                         </span>
 
-                </a>
-            </section>
+                    </a>
+                </section>
+            </div>
         </div>
-    </div>
-    <div class="container-fluid part-four">
-        <div class="row part-four">
-            <div class="col-md-6 sourcing-placement">
-                <label for=" " class="pedagogie-innovante ">
+        <div class="container-fluid part-four">
+            <div class="row part-four">
+                <div class="col-md-6 sourcing-placement">
+                    <label for=" " class="pedagogie-innovante ">
                         une pédagogie innovante
                     </label> <br>
-                <label for=" " class="sourcing-formation ">
+                    <label for=" " class="sourcing-formation ">
                         Du sourcing à la formation <br> continue en passant par le <br> placement, <mark
                             class="underligne-factory ">on s’occupe de tout.</mark>
                     </label>
-                <br>
-                <a href=" " class="btn btn-component-2 ">
-                    <label for=" " class="voir-detail ">
+                    <br>
+                    <a href=" " class="btn btn-component-2 ">
+                        <label for=" " class="voir-detail ">
                                 voir le détail
                                 <i class='fas fa-arrow-right fleche-voir-detail'></i>
                             </label>
-                </a>
+                    </a>
 
-            </div>
-            <div class="col-md-5 assemble-2 ">
-                <img class="groupe-12 " src="./imageModification/Group 12 1.png " alt=" ">
-                <img src="./image/Group 58.png" class="layingDoodle-1" alt="">
-            </div>
-            <div class="col-md-12 boxes-details">
-                <span class="list-rect rectangle-16">
+                </div>
+                <div class="col-md-5 assemble-2 ">
+                    <img class="groupe-12 " src="./imageModification/Group 12 1.png " alt=" ">
+                    <img src="./image/Group 58.png" class="layingDoodle-1" alt="">
+                </div>
+                <div class="col-md-12 boxes-details">
+                    <span class="list-rect rectangle-16">
                         <label for="" class="suivie">
                             suivi des étudiants
                         </label>
@@ -293,7 +306,7 @@
                         </label>
                     </span>
 
-                <span class="list-rect rectangle-17">
+                    <span class="list-rect rectangle-17">
                         <label for="" class="soft">
                             soft skills
                         </label>
@@ -307,7 +320,7 @@
                             pour qu’ils puissent évoluer sans difficultés.
                         </label>
                     </span>
-                <span class="list-rect rectangle-18">
+                    <span class="list-rect rectangle-18">
                         <label for="" class="blended">
                             blended learning
                         </label>
@@ -320,135 +333,135 @@
                         </label>
                     </span>
 
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid part-five">
-        <div class="row part-five-1">
-            <div class="col-md-12 part-five-1">
-                <div class="slider-parallax-group">
-                    <div class="head-parallax">nos modalités de financement </div>
-                    <p class="head-txt-parallax"><mark class="underligne-factory">Plusieurs financements</mark> possibles<br> car ici tout le monde a le droit à l’éducation.</p>
-                    <div class="parallax">
-                        <div class="left-parallax">
-                            <div class="content-left">
-                                <h1 class="header-left">remboursement <br> AGENCY <br> <span class="price-left">4000k Ar</span></h1>
-                                <p class="txt-left-par">Engagez-vous à rembourser votre formation après avoir trouvé<br> un emploi.<br><br> Versement de 18% de votre salaire <br> jusqu’à remboursement de votre formation et 15% pour les <br> frais de placement.</p>
-
-                            </div>
-                            <a href="" class="btn btn-left-para"> <label for="" class="label-left-para">je m’inscris</label></a>
-
-                        </div>
-                        <div class="right-parallax">
-                            <div class="content-right">
-                                <h1 class="header-left">remboursement <br> AGENCY <br> <span class="price-left">4000k Ar</span></h1>
-                                <p class="txt-left-par">Engagez-vous à rembourser votre formation après avoir travaillé au sein de la factory. <br><br> Une compensation financière journalière vous est réservée, à la suite de quoi vous intègrerez des missions.</p>
-                                <a href="" class="btn btn-right-para"> <label for="" class="label-right-para">je m’inscris</label></a>
-                            </div>
-                        </div>
-                        <div class="center-parallax">
-                            <h1 class="header-center">upfront <span class="price-center"> <br> 3600k Ar </span> </h1>
-                            <p class="txt-center-par"> Je paie ma formation directement <br> jusqu’à 3 fois sans frais.</p>
-                            <a href="" class="btn btn-center-para"> <label for="" class="label-center-para">je m’inscris</label></a>
-                        </div>
-                    </div>
-                </div>
-                <img class="group13" src="./imageModification/Group 13 1.png" alt="">
-                <div class=" ensembleT">
-                    <div class="temoign">
-                        TÉMOIGNAGES
-                    </div>
-                    <div class="pourcent">
-                        80% de nos étudiants <br> sont <mark class="underligne-factory"> placés en entreprise.</mark>
-                    </div>
                 </div>
             </div>
         </div>
-        <div class="row part-five-2">
-            <div class="col-md-12 tem-etudiant">
-                <div class="li-rect rectangle-one">
-                    <div class="ellipse-171">
-                        <img src="./imageModification/Capture d'écran 2018-06-02 16 1.png" alt="" class="student-image-one">
-                    </div>
+        <div class="container-fluid part-five">
+            <div class="row part-five-1">
+                <div class="col-md-12 part-five-1">
+                    <div class="slider-parallax-group">
+                        <div class="head-parallax">nos modalités de financement </div>
+                        <p class="head-txt-parallax"><mark class="underligne-factory">Plusieurs financements</mark> possibles<br> car ici tout le monde a le droit à l’éducation.</p>
+                        <div class="parallax">
+                            <div class="left-parallax">
+                                <div class="content-left">
+                                    <h1 class="header-left">remboursement <br> AGENCY <br> <span class="price-left">4000k Ar</span></h1>
+                                    <p class="txt-left-par">Engagez-vous à rembourser votre formation après avoir trouvé<br> un emploi.<br><br> Versement de 18% de votre salaire <br> jusqu’à remboursement de votre formation et 15% pour les <br> frais de placement.</p>
 
-                    <label for="" class="cedrick"> Cédrick Maminjanahary</label>
-                    <label for="" class="etud1">
+                                </div>
+                                <a href="" class="btn btn-left-para"> <label for="" class="label-left-para">je m’inscris</label></a>
+
+                            </div>
+                            <div class="right-parallax">
+                                <div class="content-right">
+                                    <h1 class="header-left">remboursement <br> AGENCY <br> <span class="price-left">4000k Ar</span></h1>
+                                    <p class="txt-left-par">Engagez-vous à rembourser votre formation après avoir travaillé au sein de la factory. <br><br> Une compensation financière journalière vous est réservée, à la suite de quoi vous intègrerez des missions.</p>
+                                    <a href="" class="btn btn-right-para"> <label for="" class="label-right-para">je m’inscris</label></a>
+                                </div>
+                            </div>
+                            <div class="center-parallax">
+                                <h1 class="header-center">upfront <span class="price-center"> <br> 3600k Ar </span> </h1>
+                                <p class="txt-center-par"> Je paie ma formation directement <br> jusqu’à 3 fois sans frais.</p>
+                                <a href="" class="btn btn-center-para"> <label for="" class="label-center-para">je m’inscris</label></a>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="group13" src="./imageModification/Group 13 1.png" alt="">
+                    <div class=" ensembleT">
+                        <div class="temoign">
+                            TÉMOIGNAGES
+                        </div>
+                        <div class="pourcent">
+                            80% de nos étudiants <br> sont <mark class="underligne-factory"> placés en entreprise.</mark>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row part-five-2">
+                <div class="col-md-12 tem-etudiant">
+                    <div class="li-rect rectangle-one">
+                        <div class="ellipse-171">
+                            <img src="./imageModification/Capture d'écran 2018-06-02 16 1.png" alt="" class="student-image-one">
+                        </div>
+
+                        <label for="" class="cedrick"> Cédrick Maminjanahary</label>
+                        <label for="" class="etud1">
                     Étudiant SAYNA #1<br>
                     Développeur @Accès Banque
                 </label>
-                    <div for="" class="tem1">
-                        « J'ai toujours reve d'apporter de la magie <br> en quelques clics avant SAYNA, <br> j'economisais de l'argent pour aller dans <br> des cyber le samedi. SAYNA a accéléré le <br> cours de ma vie, maintenant je gagne de l’argent
-                        <br> en faisant ce que j’aime le plus au monde.”<br>
+                        <div for="" class="tem1">
+                            « J'ai toujours reve d'apporter de la magie <br> en quelques clics avant SAYNA, <br> j'economisais de l'argent pour aller dans <br> des cyber le samedi. SAYNA a accéléré le <br> cours de ma vie, maintenant je gagne de l’argent
+                            <br> en faisant ce que j’aime le plus au monde.”<br>
 
-                        <a href="http://www.rfi.fr/emission/20190317/-le-codage-informatique-comme-ascenseur-social" class="de">http://www.rfi.fr/emission/20190317/-le-codage-informatique-comme-ascenseur-social</a>
+                            <a href="http://www.rfi.fr/emission/20190317/-le-codage-informatique-comme-ascenseur-social" class="de">http://www.rfi.fr/emission/20190317/-le-codage-informatique-comme-ascenseur-social</a>
+                        </div>
+
                     </div>
 
-                </div>
-
-                <div class="li-rect rectangle-two">
-                    <div class="ellipse-6">
-                        <img src="./imageModification/Sahaza 1 1.png" alt="" class="student-image-two">
-                    </div>
-                    <label for="" class="sahaza"> Sahaza Henintsoa</label>
-                    <label for="" class="etud2">
+                    <div class="li-rect rectangle-two">
+                        <div class="ellipse-6">
+                            <img src="./imageModification/Sahaza 1 1.png" alt="" class="student-image-two">
+                        </div>
+                        <label for="" class="sahaza"> Sahaza Henintsoa</label>
+                        <label for="" class="etud2">
                     Étudiant SAYNA #4<br>
                     Développeur @En2roues
                 </label>
-                    <div for="" class="tem2">
-                        “ J'suis en 2 roues , vendredi dernier, <br> j'ai signé mon contrat CDI et je tiens a vous <br> remercier pour tout ce que SAYNA m’a fait, <br> et sache que je serai un membre de SAYNA <br> pour toujours, si tu as besoin de moi
-                        n'hesite pas <br> à me contacter ! “
+                        <div for="" class="tem2">
+                            “ J'suis en 2 roues , vendredi dernier, <br> j'ai signé mon contrat CDI et je tiens a vous <br> remercier pour tout ce que SAYNA m’a fait, <br> et sache que je serai un membre de SAYNA <br> pour toujours, si tu as besoin de
+                            moi n'hesite pas <br> à me contacter ! “
+                        </div>
+
                     </div>
 
-                </div>
 
-
-                <div class="li-rect rectangle-three">
-                    <div class="ellipse-172">
-                        <img src="./imageModification/Screenshot 2020-06-08 11 1.png" alt="" class="student-image-three">
-                    </div>
-                    <label for="" class="jenny"> Jenny</label>
-                    <label for="" class="etud3">
+                    <div class="li-rect rectangle-three">
+                        <div class="ellipse-172">
+                            <img src="./imageModification/Screenshot 2020-06-08 11 1.png" alt="" class="student-image-three">
+                        </div>
+                        <label for="" class="jenny"> Jenny</label>
+                        <label for="" class="etud3">
                     Étudiant SAYNA #2<br>
                     Développeur @Ingedata
                 </label>
-                    <div for="" class="tem3">
-                        “ Je suis une geek, passionnée <br> de l’informatique, suite à SAYNA, <br> j’ai eu envie de lancer la première <br> communauté RailsGirls à Tana ! “
+                        <div for="" class="tem3">
+                            “ Je suis une geek, passionnée <br> de l’informatique, suite à SAYNA, <br> j’ai eu envie de lancer la première <br> communauté RailsGirls à Tana ! “
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-6 Groupe-SANS-CONTENT">
-                <label for="" class="NOS-OFFRES-AGENCE"> NOS OFFRES AGENCE </label>
-                <label for="" class="placement-CDI">Placement en CDI <mark class="underligne-factory">FREELANCE</mark> .</label>
-                <label for="" class="SAYNA-Agency-place">
+                <div class="col-md-6 Groupe-SANS-CONTENT">
+                    <label for="" class="NOS-OFFRES-AGENCE"> NOS OFFRES AGENCE </label>
+                    <label for="" class="placement-CDI">Placement en CDI <mark class="underligne-factory">FREELANCE</mark> .</label>
+                    <label for="" class="SAYNA-Agency-place">
                             <p> SAYNA Agency place en remote les meilleurs talents digitaux Africains <br>
                                 dans le monde entier : en CDD, en CDI, FREELANCE, pour un jour ou <br>
                                 plusieurs années. </p>
                             Chacun des talents placés a suivi un parcours de formation de 3 à 6 <br> mois 
                             avant d'être proposé sur une mission, et est accompagné d'un senior.
                 </label>
-            </div>
+                </div>
 
-            <label for="" class=" col-md-4 nos-tarifs-attractifs">
+                <label for="" class=" col-md-4 nos-tarifs-attractifs">
                 Au delà de nos tarifs attractifs, <span class="gras"> 82% </span> <br>
                 de la facturation reviens au talent, un modèle juste et équitable <br>
                 loin des sociétés de service classiques.
             </label>
-        </div>
-        <div class="row part-five-3">
-            <div class="col-md-12 ellipse-groupe">
-                <div class="col-md-4 left-ellipse">
-                    <img class="ellipse-169" src="./imageModification/Ellipse 169 1.png" alt="">
-                    <img class="Polygon-5" src="./imageModification/Polygon 5 1.png" alt="">
-                </div>
-                <div class="col-md-3 right-ellipse">
-                    <img class="ellipse-170" src="./imageModification/Ellipse 170 1.png" alt="">
-                    <img class="Polygon-6" src="./imageModification/Polygon 6 1.png" alt="">
-                </div>
-                <div class="col-md-6 center-groupe-ellipse">
-                    <label for="" class="NOS-OFFRES-AGENCE-1"> NOS OFFRES AGENCE </label>
-                    <label for="" class="MVP-Projet">MVP <br> <mark class="underligne-factory">Projet clé en main</mark> .</label>
+            </div>
+            <div class="row part-five-3">
+                <div class="col-md-12 ellipse-groupe">
+                    <div class="col-md-4 left-ellipse">
+                        <img class="ellipse-169" src="./imageModification/Ellipse 169 1.png" alt="">
+                        <img class="Polygon-5" src="./imageModification/Polygon 5 1.png" alt="">
+                    </div>
+                    <div class="col-md-3 right-ellipse">
+                        <img class="ellipse-170" src="./imageModification/Ellipse 170 1.png" alt="">
+                        <img class="Polygon-6" src="./imageModification/Polygon 6 1.png" alt="">
+                    </div>
+                    <div class="col-md-6 center-groupe-ellipse">
+                        <label for="" class="NOS-OFFRES-AGENCE-1"> NOS OFFRES AGENCE </label>
+                        <label for="" class="MVP-Projet">MVP <br> <mark class="underligne-factory">Projet clé en main</mark> .</label>
 
-                    <label for="" class="SAYNA-Factory-rassemble">
+                        <label for="" class="SAYNA-Factory-rassemble">
                     <p>
                         SAYNA Factory rassemble pour vous une équipe de freelances en <br>
                         adéquation avec vos besoins dans un cadre forfaitaire et vous <br>
@@ -458,104 +471,104 @@
                     projet. Des premières spécifications jusqu'au livrable final, en passant <br>
                     par le MVP, les itérations et les tests.
                     </label>
-                    <a href="" class="btn btn-decouvrir">
-                        <label for="" class="inscrire">découvrir</label>
-                        <i class='fas fa-arrow-right fleche-decouvrir'></i>
-                    </a>
+                        <a href="" class="btn btn-decouvrir">
+                            <label for="" class="inscrire">découvrir</label>
+                            <i class='fas fa-arrow-right fleche-decouvrir'></i>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="row part-five-4">
-            <div class="col-md-12 five-12-4">
-                <div class="col-md-7" id="fenetre" onscroll="loop()">
-                    <div id="img-container">
-                        <img src="./image/IMG 3696.png" alt="" class="student-image">
-                        <img src="./image/IMG 3703.png" alt="" class="student-image">
-                        <img src="./image/IMG 3702.png" alt="" class="student-image ">
-                        <img src="./image/IMG 3697.png" alt="" class="student-image">
-                        <img src="./image/IMG 3700.png" alt="" class="student-image">
-                        <img src="./image/IMG 3698.png" alt="" class="student-image">
+            <div class="row part-five-4">
+                <div class="col-md-12 five-12-4">
+                    <div class="col-md-7" id="fenetre" onscroll="loop()">
+                        <div id="img-container">
+                            <img src="./image/IMG 3696.png" alt="" class="student-image">
+                            <img src="./image/IMG 3703.png" alt="" class="student-image">
+                            <img src="./image/IMG 3702.png" alt="" class="student-image ">
+                            <img src="./image/IMG 3697.png" alt="" class="student-image">
+                            <img src="./image/IMG 3700.png" alt="" class="student-image">
+                            <img src="./image/IMG 3698.png" alt="" class="student-image">
 
-                    </div>
-                    <script type="text/javascript">
-                        s = 0;
-                        pas = 6;
-                        max = 680;
-                        var container = document.getElementById("container");
+                        </div>
+                        <script type="text/javascript">
+                            s = 0;
+                            pas = 6;
+                            max = 680;
+                            var container = document.getElementById("container");
 
-                        function loop() {
-                            function mouseOver(container) {
-                                if (s != max) {
-                                    s = s + pas;
-                                    fenetre.scrollLeft = s;
-                                } else {
-                                    pas = pas * -1;
-                                    if (max == 680) max = 0;
-                                    else max = 680;
+                            function loop() {
+                                function mouseOver(container) {
+                                    if (s != max) {
+                                        s = s + pas;
+                                        fenetre.scrollLeft = s;
+                                    } else {
+                                        pas = pas * -1;
+                                        if (max == 680) max = 0;
+                                        else max = 680;
+                                    }
                                 }
                             }
-                        }
-                    </script>
-                </div>
-                <section class="col-md-5 group-69">
-                    <label for="" class="notre-communaute"> notre communauté </label>
-                    <label for="" class="rassemblons-communaute">Nous rassemblons <br> <mark class="underligne-factory">la Communauté digitale</mark><br> la plus qualifiée
+                        </script>
+                    </div>
+                    <section class="col-md-5 group-69">
+                        <label for="" class="notre-communaute"> notre communauté </label>
+                        <label for="" class="rassemblons-communaute">Nous rassemblons <br> <mark class="underligne-factory">la Communauté digitale</mark><br> la plus qualifiée
                     d’Afrique.</label>
-                    <label for="" class="profitez-maintenant">Profitez dès maintenant de l’expertise de nos 150+ talents formés.
+                        <label for="" class="profitez-maintenant">Profitez dès maintenant de l’expertise de nos 150+ talents formés.
                     Notre communauté constituée d’anciens étudiants, de freelances, d’experts thématiques.</label>
-                    <a href="" class="btn btn-join">
-                        <label for="" class="rejoindre">rejoindre</label>
-                        <i class='fas fa-arrow-right fleche-decouvrir'></i>
-                    </a>
-                    <img src="./image/Rectangle 1921.png" class="rectangle-1921" alt="">
-                </section>
+                        <a href="" class="btn btn-join">
+                            <label for="" class="rejoindre">rejoindre</label>
+                            <i class='fas fa-arrow-right fleche-decouvrir'></i>
+                        </a>
+                        <img src="./image/Rectangle 1921.png" class="rectangle-1921" alt="">
+                    </section>
+                </div>
             </div>
-        </div>
-        <div class="row part-five-5">
-            <div class="col-md-12 part-five-5">
-                <div class="col-md-5 media-body">
-                    <label for="" class="media">média</label>
-                    <label for="" class="decouvrez-nous"><mark class="underligne-factory">Découvrez-nous</mark> à travers la Presse,
+            <div class="row part-five-5">
+                <div class="col-md-12 part-five-5">
+                    <div class="col-md-5 media-body">
+                        <label for="" class="media">média</label>
+                        <label for="" class="decouvrez-nous"><mark class="underligne-factory">Découvrez-nous</mark> à travers la Presse,
                     TV ...</label>
-                    <label for="" class="sayna-faire-connaitre">SAYNA veut faire connaître ses actions sur tous les médias pour <br>
+                        <label for="" class="sayna-faire-connaitre">SAYNA veut faire connaître ses actions sur tous les médias pour <br>
                     toucher le plus grand nombre. Découvrez nos interviews, reportages, <br> articles et tous les autres
                     contenus.</label>
-                    <a href="" class="btn component-2a">
-                        <label for="" class="ils-parlent-de-nous">ils parlent de nous
+                        <a href="" class="btn component-2a">
+                            <label for="" class="ils-parlent-de-nous">ils parlent de nous
                         <i class='fas fa-arrow-right fleche-ils-parlent'></i>
                     </label>
-                    </a>
+                        </a>
+                    </div>
+                    <div class="col-md-5 img-media">
+                        <img src="./image/IMG_4281 1.png" class="img-4281" alt="">
+                    </div>
+                    <label for="" class="attendez-ne-partez">attendez, ne partez pas !</label>
+                    <label for="" class="nous-sommes-aussi">Nous sommes aussi présents sur <mark class="underligne-factory">YOUTUBE!</mark> </label>
                 </div>
-                <div class="col-md-5 img-media">
-                    <img src="./image/IMG_4281 1.png" class="img-4281" alt="">
+            </div>
+            <div class="row part-five-6">
+                <div class="col-md-12 part-five-6">
+                    <img src="./imageModification/Bg 1.png" class="Bg" alt="">
+                    <img src="./image/youtube-2433301 1.png" class="youtube-2433301" alt="">
+                    <img src="./imageModification/Bg 1 1.png" class="Bg-1" alt="">
+                    <label for="" class="miniature-1"> miniature 1</label>
+                    <img src="./imageModification/Bg 2 1.png" class="Bg-2" alt="">
+                    <label for="" class="miniature-2"> miniature 2</label>
+                    <img src="./imageModification/Bg 1 1.png" class="Bg-3" alt="">
+                    <label for="" class="miniature-3"> miniature 3</label>
+                    <ul class="youtube-pager">
+                        <li class="active"></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
                 </div>
-                <label for="" class="attendez-ne-partez">attendez, ne partez pas !</label>
-                <label for="" class="nous-sommes-aussi">Nous sommes aussi présents sur <mark class="underligne-factory">YOUTUBE!</mark> </label>
             </div>
         </div>
-        <div class="row part-five-6">
-            <div class="col-md-12 part-five-6">
-                <img src="./imageModification/Bg 1.png" class="Bg" alt="">
-                <img src="./image/youtube-2433301 1.png" class="youtube-2433301" alt="">
-                <img src="./imageModification/Bg 1 1.png" class="Bg-1" alt="">
-                <label for="" class="miniature-1"> miniature 1</label>
-                <img src="./imageModification/Bg 2 1.png" class="Bg-2" alt="">
-                <label for="" class="miniature-2"> miniature 2</label>
-                <img src="./imageModification/Bg 1 1.png" class="Bg-3" alt="">
-                <label for="" class="miniature-3"> miniature 3</label>
-                <ul class="youtube-pager">
-                    <li class="active"></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
-        </div>
+
     </div>
-
-
 
     <script type="text/javascript ">
         $(document).ready(function() {

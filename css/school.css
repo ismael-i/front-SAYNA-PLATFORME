@@ -6,20 +6,6 @@
 ******************School css****
 ************************************/
 
-.container-fluid {
-    padding-right: 0 !important;
-    padding-left: 0 !important;
-    margin-right: 0 !important;
-    margin-left: 0 !important;
-}
-
-.col-md-6 {
-    padding-right: 0 !important;
-    padding-left: 0 !important;
-    margin-right: 0px !important;
-    margin-left: 0 !important;
-}
-
 .col-md-12 {
     padding-right: 0 !important;
     padding-left: 0 !important;
@@ -31,11 +17,6 @@
 }
 
 .col-md-5 {
-    padding-right: 0 !important;
-    padding-left: 0 !important;
-}
-
-.col-md-7 {
     padding-right: 0 !important;
     padding-left: 0 !important;
 }
@@ -54,13 +35,15 @@
     width: 100%;
 }
 
-.service {
+
+/* .service {
     width: 100%;
     height: 650px;
-}
+} */
 
 .S-part-four {
     width: 100%;
+    height: auto;
 }
 
 .S-part-six {
@@ -68,6 +51,10 @@
 }
 
 .S-part-seven {
+    width: 100%;
+}
+
+.row {
     width: 100%;
 }
 
@@ -806,7 +793,7 @@
 }
 
 .fleche {
-    margin-left: 31px;
+    padding: 20px;
     color: #000000;
     font-size: 13px !important;
 }
@@ -931,7 +918,7 @@
 
 .three-list-one {
     width: 100%;
-    height: 800px;
+    height: auto;
 }
 
 .di-rect {
@@ -940,12 +927,22 @@
     height: 332px;
     background: #F7F7F9;
     border-radius: 20px;
+    margin-top: 20px;
 }
 
 .center-block {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media (min-width: 1100px) {
+    .di-botton {
+        margin-right: 0 !important;
+    }
+    .di-botton2 {
+        margin-left: 0 !important;
+    }
 }
 
 
@@ -1080,10 +1077,11 @@
 }
 
 .di-rect-bottom {
-    position: absolute;
-    width: 27%;
-    top: 50%;
+    /* position: absolute; */
+    width: 329px;
+    /* top: 50%; */
     height: 332px;
+    margin-top: 20px;
     background: #F7F7F9;
     border-radius: 20px;
 }
@@ -1091,9 +1089,10 @@
 
 /*outils dev*/
 
-.rectangle-158 {
+
+/* .rectangle-158 {
     left: 21%;
-}
+} */
 
 .les-outils {
     position: relative;
@@ -1134,9 +1133,10 @@
 
 /*cybersecurity*/
 
-.rectangle-159 {
+
+/* .rectangle-159 {
     left: 55%;
-}
+} */
 
 .cybersecurite {
     position: relative;
@@ -1180,6 +1180,7 @@
 .img-ensemble-choise {
     width: 100%;
     height: 400px;
+    margin-top: 60px;
 }
 
 
@@ -1189,7 +1190,7 @@
     position: absolute;
     width: 96%;
     height: 425px;
-    top: -8%;
+    top: -3%;
 }
 
 
@@ -1199,13 +1200,14 @@
     position: absolute;
     background: #E5E5E5;
     width: 100%;
-    top: 77%;
+    top: 84%;
 }
 
 
 /*specification*/
 
 .speci-speci {
+    margin-top: 60px;
     height: 400px;
 }
 
@@ -1214,10 +1216,11 @@
 
 .specialisation-choise {
     position: absolute;
-    width: 28%;
+    width: 100%;
     height: 36px;
-    left: 62%;
+    /* left: 62%; */
     /* top: 3634px; */
+    padding-right: 39px;
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
     font-weight: 600;
@@ -1231,13 +1234,14 @@
 
 .speci {
     position: absolute;
-    width: 91%;
-    top: 12%;
+    width: 100%;
+    margin-top: 40px;
+    padding-right: 39px;
     height: 96px;
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
     font-weight: 900;
-    font-size: 2em;
+    font-size: 1.9em;
     line-height: 119.52%;
     text-align: right;
     letter-spacing: 0.01em;
@@ -1249,10 +1253,11 @@
 
 .apres-avoir {
     position: absolute;
-    width: 58%;
+    width: 100%;
     height: 116px;
-    top: 39%;
-    left: 32%;
+    margin-top: 168px;
+    padding-right: 39px;
+    /* left: 32%; */
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
     font-weight: normal;
@@ -1267,7 +1272,7 @@
     width: 31%;
     height: 50px;
     left: 57%;
-    top: 72%;
+    margin-top: 306px;
     padding: 0 !important;
     display: inline-grid !important;
     background: #FFCC00 !important;
@@ -1287,11 +1292,12 @@
 /* Rectangle */
 
 .rec-list-service {
-    position: absolute;
+    position: relative;
     background: #F7F7F9;
     border-radius: 20px;
-    width: 23%;
+    width: 280px;
     height: 253.9px;
+    margin-top: 20px;
 }
 
 .icon-grp-service {
@@ -1315,9 +1321,11 @@
 
 /* Service 1 1 */
 
+
+/* 
 .service-1-1 {
     left: 10.47%;
-}
+} */
 
 
 /* développeur web Ruby On Rails */
@@ -1370,9 +1378,10 @@
 
 /* Service 1 2 */
 
-.service-1-2 {
+
+/* .service-1-2 {
     left: 39%;
-}
+} */
 
 
 /* two 2*/
@@ -1383,17 +1392,19 @@
 
 /* Service 1 3 */
 
-.service-1-3 {
+
+/* .service-1-3 {
     left: 67%;
-}
+} */
 
 
 /* Service 1 */
 
-.service-1 {
+
+/* .service-1 {
     left: 10.47%;
     top: 48%;
-}
+} */
 
 
 /* data engineer */
@@ -1419,10 +1430,11 @@
 
 /* Service 1 */
 
-.service-2 {
+
+/* .service-2 {
     top: 48%;
     left: 39%;
-}
+} */
 
 
 /* DEVELOPPEUR FRONT END - DESIGNER UX/UI */
@@ -1447,10 +1459,11 @@
 
 /* Service 1 */
 
-.service-3 {
+
+/* .service-3 {
     top: 48%;
     left: 67%;
-}
+} */
 
 
 /*three*/
@@ -1462,6 +1475,7 @@
     position: absolute;
     width: 40%;
     height: 36px;
+    left: 14%;
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
     font-weight: 600;
@@ -1479,6 +1493,7 @@
     position: absolute;
     width: 100%;
     height: 101px;
+    left: 14%;
     top: 11%;
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
@@ -1497,6 +1512,7 @@
     width: 72%;
     height: 181px;
     top: 33%;
+    left: 14%;
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
     font-weight: normal;
@@ -1510,10 +1526,10 @@
 
 .component-6 {
     position: absolute;
-    width: 36%;
+    width: 215px;
     height: 62px;
     top: 76%;
-    left: 9%;
+    left: 14%;
 }
 
 
@@ -1557,8 +1573,9 @@
 }
 
 .speci-groupe2 {
-    left: 6%;
+    /* left: 6%; */
     height: 400px;
+    margin-top: 55px;
 }
 
 
@@ -1566,7 +1583,7 @@
 
 .S-part-five {
     width: 100%;
-    height: 900px;
+    height: 450px;
 }
 
 
@@ -1597,12 +1614,11 @@
 /* spécialisation */
 
 .speci-grp3 {
-    top: 10%;
+    /* top: 10%; */
 }
 
 .specialisation1 {
-    left: 55%;
-    /* top: 5647px; */
+    left: 61%;
     position: absolute;
     width: 36%;
     height: 36px;
@@ -1622,7 +1638,7 @@
 
 .atteins-l-excellence {
     position: absolute;
-    width: 91%;
+    width: 95%;
     height: 100px;
     /* left: 763px; */
     top: 6%;
@@ -1639,8 +1655,8 @@
 /* Notre objectif est de te transmettre la culture de l’excellence. L’objectif de nos parcours est de t’apprendre à maitriser : les hard skills, les compétences de project Management (agilité), les soft skills, la langue française, et la notion d’engagement. Pour mettre plus de fun dans ce parcours, nous avons gamifié le parcours. Chaque semaine est une ‘quête’ qui est composé d’un certain nombre de ‘missions’. Une mission constitue un ensemble de points qui eux même représente des compétences. Tu vas donc devoir accomplir des missions chaque semaine pour valider des compétences. */
 
 .notre-objectif {
-    position: absolute;
-    width: 90%;
+    position: relative;
+    width: 351px;
     height: 252px;
     /* left: 968px; */
     top: 16%;
@@ -1650,6 +1666,14 @@
     font-size: 0.76em;
     line-height: 156.02%;
     text-align: right;
+    float: right;
+    margin-right: 0px;
+}
+
+@media(max-width: 1160px) {
+    .notre-objectif {
+        margin-top: 20px;
+    }
 }
 
 
@@ -1657,10 +1681,10 @@
 
 .component-7 {
     position: absolute;
-    width: 30%;
+    width: 215px;
     height: 58px;
-    left: 53%;
-    top: 56%;
+    margin-top: 320px;
+    text-align: right;
 }
 
 .rectangle-15b {
