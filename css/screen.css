@@ -1,0 +1,277 @@
+@media screen and (max-width: 386px) {
+
+	.number4{
+		left: 401px !important;
+	}
+	
+}
+@media screen and (max-width: 372px) {
+	    .slider-parallax-group3{
+   position: relative;
+width: 401.8px;
+height: 285px;
+left: -34% !important;
+}
+}
+
+
+@media screen and (max-width: 771px) {
+	.number2-img {
+			position: absolute;
+	width: 155% !important;
+	
+	left: -110% !important;
+	z-index: -1;
+	top: -50px !important;
+
+	}
+		  .para-lax{
+   position: relative;
+
+left: -170px !important;
+}
+
+
+		label[for="on-soccupe"]{
+    visibility: hidden;
+    position: relative;
+}
+
+label[for="on-soccupe"]:after{
+    visibility: visible;
+     position: absolute;
+  
+    top: 30px;
+    left: -63%;
+    width: 195%;
+    height: auto;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 156.02%;
+
+/* or 30px */
+
+color: #000000;
+    content:'On s’occupe de tout, suivez l’évolution de votre projet chaque jour en temps réel          et laisser des commentaires directement sur votre Trello dédié. Bénéficiez d’un  engagement de résultats,     ajoutez des exigences de qualité, des pénalités de retard. Profitez d’un espace de développement sécurisé, dédié à votre projet sur Git. Nous assurons la mise en prod, la phase de test, le support et maintenance évolutive. ';
+}
+	.col-number4 {
+		position: relative;
+		height: 500px;
+	}
+	.number4 {
+		position:sticky;
+	width: 190%;
+	
+	z-index: 1;
+	left: 11%;
+	top: -101px !important;
+	
+
+	}
+
+
+	.ensemble23 {
+		position: relative;
+		margin-top: 20%;
+	}
+	.appelavec {
+        left: 3% !important;
+    }
+    .enquatre {
+    	left: 1% !important;
+    }
+    .au-pro {
+    	left: 6% !important;
+    }
+    .precision {
+    	left: 6% !important;
+    }
+  	.seance {
+  		left: 3% !important;
+  	}
+  	.par-nombre{
+  		left: -1% !important;
+  	}
+  	.partagez {
+  		left: -9% !important;
+  	}
+  	.utiles {
+  		left: -18% !important;
+  		
+  	}
+}
+
+@media screen and (max-width: 780px) {
+
+	.logo {
+		 margin-top: 15%;
+    position: relative;
+  	width: 120%;
+    top: 0%;
+    margin-left: 15%;
+	}
+
+	header {
+
+    background: url("../images/Forme 5.png") ; 
+background-position: left top ;
+  background-repeat: no-repeat;
+  background-size: 96% 99%;
+  margin-left: 0%;
+  margin-top: 0%;
+  
+}
+	
+	.number2-img {
+	position: absolute;
+	width: 39%;
+	
+	z-index: -1;
+	left: -28%;
+	
+}
+	.number2-txt {
+	position: relative;
+	margin-top: 8%;
+}
+
+	.aurai-je {
+		position: relative;
+left: -4%;
+}
+
+	.enquatre {
+left: -2%;
+position: relative;
+}
+
+	.appelavec {
+	left: 1%;
+	position: relative;
+}
+.au-pro {
+	left: 3%;
+	position: relative;
+}
+.precision {
+	left: 1%;
+	position: relative;
+	letter-spacing: -0.06em;
+}
+.seance {
+	left:-4.5%;
+	position: relative;
+}
+.par-nombre {
+	left: -10%;
+	position: relative;
+}
+.partagez {
+	left: -16%;
+	position: relative;
+	letter-spacing: -0.06em;
+}
+.utiles {
+	left: -22%;
+	position: relative;
+}
+.btn-rdv {
+	left: 9%;
+	position: relative;
+	
+}
+.btn-prendrerdv {
+	position: relative;
+	text-align:center;
+	
+}
+
+
+
+
+
+	.auraije-content {
+	
+	position: relative;
+	left: -20%;
+	top: -100px;
+
+}
+	.altero {
+		margin-bottom: 20%;
+	}
+
+	.forme301{
+		position: relative;
+		top: -10%;
+	}
+
+	.trent {
+	position: relative;
+	background: url("../images/Forme 5(1).png"), url("../images/Forme 6.png");
+	background-repeat: no-repeat;
+	background-size: 60% 40%, 68% 40%;
+	background-position: left, left;
+}
+
+	.number4{
+		left: 401px !important;
+	}
+
+	 .x-team{
+            width: 630%;
+            position: relative;
+            top:-3%!important;
+            left: 1% !important;
+        }
+
+        .uneequipe-sur {
+            width: 80%;
+            top: -5% !important;
+            position: relative;
+            left: 1% !important;
+            line-height: 156.02%;
+        }
+        .team-content {
+            margin-top: 0% !important;
+        }
+        .chaque-equipe {
+     margin-left: 1px !important;
+    margin-right: 1px !important;
+     width: 140%;
+  left: 1% !important; 
+  top: -5% !important;
+}
+	
+.back-front{
+	position: relative;
+	left: 0%;
+}
+
+.complet-equipe{
+	position: relative;
+	left:0%;
+}
+
+.redacteur-web{
+	position: relative;
+	left: 0%;
+}
+}
+
+
+
+
+
+@media screen and (max-width: 988px) {
+
+.trace111, .trace110, .trace114{
+    
+  width: 20px !important;
+   display: block;
+   margin-top: auto;
+   margin-bottom: auto;
+}
+}
