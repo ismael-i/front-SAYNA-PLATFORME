@@ -23,8 +23,20 @@
 
 <body id="body" class="container-fluid">
 
+<div class="row placons-1259A">
 
-        <div class="row">
+    <img src="./imageModification/Forme 4 (1) 1.png" class="forme-4-a" alt="">
+    <label class="nous-placons-1">
+        nous plaçons
+    </label>
+    <label class="des-heros-2"> 
+        des  &nbsp; <span class="heros"> héros</span>.
+    </label>
+        <img src="./image/globe-312668 1.png" class="globe-312668-1" alt="">
+
+    
+</div>
+        <div class="row placons-1259">
             <div class="forme-4-photo  col-md-7 col-sm-12 ">
                 <label class="nous-placons">
                     nous plaçons
@@ -96,7 +108,7 @@
 
         <div class="row">
             <label for="" class=" transparence sous-titre-9-noir  la-transparence">
-                <mark class="couleur-jaune"> La transparence</mark> : 82 % d’un revenu est là où il doit être , au
+                <mark class="couleur-jaune-opacity"> La transparence</mark> : 82 % d’un revenu est là où il doit être , au
                 talent.
             </label>
         </div>
@@ -125,7 +137,7 @@
                 <div class="row">
                     <label for="" class="types-de-profils  sous-titre-9-noir">
                         Les
-                        <mark class="couleur-jaune">types de profils</mark> <br>
+                        <mark class="couleur-jaune-opacity">types de profils</mark> <br>
                         que l’on retrouve chez nous.
                     </label>
 
@@ -302,7 +314,7 @@
                         appel
                         est de reserrer le périmètre de notre intervention et d’ajuster nos offres à votre situation.
                     </label>
-                    <button type="button" class="pull-right btn btn-danger rectangle-15d nos-talents">
+                    <button type="button" class="btn btn-danger rectangle-15f nos-talents">
                         PRENDRE RDV
                         <i class='fas fa-arrow-right fleche-rdv'></i>
                     </button>
@@ -332,7 +344,7 @@
             </div>
 
             <img src="./image/Ellipse 184.png" class="courbe-point point-rdv-1" alt="">
-            <img src="./image/Ellipse 184.png" class="courbe-point point-questionnaire" alt="">
+            <img src="./image/Ellipse 184.png" class="courbe-point point-questionnaire-1" alt="">
             <img src="./image/Vector 59.png" class="courbe-point courbe-questionnaire-1" alt="">
         </div>
 
@@ -375,15 +387,15 @@
             <div class="rectangle-1942 col-md-7 col-sm-10">
 
                 <img src="./image/Ellipse 184.png" class="courbe-point point-rdv-2" alt="">
-                <div class="bloc-comment-ca-marche">
+                <div class="bloc-comment-ca-marche-1">
 
-                    <label for="" class="comment-ca-marche sous-titre-9-rose">séléction</label>
-                    <label for="" class=" deposez-votre-besoin sous-titre-9-noir validez-les-conditions">
+                    <label for="" class="center-block text-center comment-ca-marche sous-titre-9-rose">séléction</label>
+                    <label for="" class="center-block text-center deposez-votre-besoin sous-titre-9-noir validez-les-conditions">
                         #5
                         <mark class="couleur-rose">Validez</mark>
                         les conditions, le contrat & envoyez votre set up au talent !
                     </label>
-                    <label for="" class="repondez-a-un-simple-questionnaire il-ne-vous-reste">
+                    <label for="" class="center-block text-center repondez-a-un-simple-questionnaire il-ne-vous-reste">
                         Il ne vous reste qu’à valider les conditions échangés ensemble, signer
                         le contrat, la facture et envoyer votre environnement de travail au
                         talent !
@@ -503,27 +515,27 @@
                             <div class="col-md-6 col-sm-4 boutton-slid">
                                 <ul class="ul-slid-1">
                                     <li>
-                                        <button type="button" onclick="myFunction()" class="btn-grand btn btn-danger btn-slid btn-slid-0">
+                                        <button type="button" onclick="myFunction()" id="btn-hard" class="btn-grand btn btn-danger btn-slid btn-slid-0">
                                             hard skills
                                         </button>
                                     </li>
                                     <li>
-                                        <button type="button" onclick="agileFunction()" class="btn btn-danger btn-slid btn-slid-1">
+                                        <button type="button" onclick="agileFunction()" id="btn-agile" class="btn btn-danger btn-slid btn-slid-1">
                                             agile pm
                                         </button>
                                     </li>
                                     <li>
-                                        <button type="button" onclick="softFunction()" class="btn btn-danger btn-slid btn-slid-2">
+                                        <button type="button" onclick="softFunction()"id="btn-soft" class="btn btn-danger btn-slid btn-slid-2">
                                             soft skills
                                         </button>
                                     </li>
                                     <li>
-                                        <button type="button" onclick="langueFunction()" class="btn btn-danger btn-slid btn-slid-3">
+                                        <button type="button" onclick="langueFunction()" id="btn-langue" class="btn btn-danger btn-slid btn-slid-3">
                                             langue
                                         </button>
                                     </li>
                                     <li>
-                                        <button type="button" onclick="engagementFunction()" class="btn btn-danger btn-slid btn-slid-4">
+                                        <button type="button" onclick="engagementFunction()" id="btn-engagement" class="btn btn-danger btn-slid btn-slid-4">
                                             engagement
                                         </button>
                                     </li>
@@ -675,18 +687,27 @@
     var soft = document.getElementById("soft-skills");
     var langue = document.getElementById("langue");
     var engagement = document.getElementById("engagement");
+    var btnHard = document.getElementById("btn-hard");
+    var btnAgile = document.getElementById("btn-agile");
+    var btnSoft = document.getElementById("btn-soft");
+    var btnLangue = document.getElementById("btn-langue");
+    var btnEngagement = document.getElementById("btn-engagement");
     function myFunction() {
       if (hardSkills.style.display === "none") {
         body.style.background = "rgba(0, 0, 0, 0.26)";
         hardSkills.style.display = "block";
         agilePM.style.display = "none";
         soft.style.display = "none";
+        btnHard.style.width = "157px";
+        btnHard.style.height = "41px";
         
       } else {
         body.style.background = "#E9EAEF";
         hardSkills.style.display = "none";
         agilePM.style.display = "none"; 
         soft.style.display = "none";
+        btnHard.style.width = "127px";
+        btnHard.style.height = "33px";
       }
     }
      function agileFunction() {
@@ -695,11 +716,15 @@
         agilePM.style.display = "block";
         hardSkills.style.display = "none";
         soft.style.display = "none";
+        btnAgile.style.width = "157px";
+        btnAgile.style.height = "41px";
       } else {
         body.style.background = "#E9EAEF";
         agilePM.style.display = "none";
         hardSkills.style.display = "none";
         soft.style.display = "none";
+        btnAgile.style.width = "127px";
+        btnAgile.style.height = "33px";
       }
     } 
      function softFunction() {
@@ -708,11 +733,15 @@
         agilePM.style.display = "none";
         hardSkills.style.display = "none";
         soft.style.display = "block";
+        btnSoft.style.width = "157px";
+        btnSoft.style.height = "41px";
       } else {
         body.style.background = "#E9EAEF";
         agilePM.style.display = "none";
         hardSkills.style.display = "none";
         soft.style.display = "none";
+        btnSoft.style.width = "127px";
+        btnSoft.style.height = "33px";
       }
     } 
     function langueFunction() {
@@ -722,12 +751,16 @@
         hardSkills.style.display = "none";
         soft.style.display = "none";
         langue.style.display = "block";
+        btnLangue.style.width = "157px";
+        btnLangue.style.height = "41px";
       } else {
         body.style.background = "#E9EAEF";
         agilePM.style.display = "none";
         hardSkills.style.display = "none";
         soft.style.display = "none";
         langue.style.display = "none";
+        btnLangue.style.width = "127px";
+        btnLangue.style.height = "33px";
       }
     } 
     function engagementFunction() {
@@ -738,6 +771,8 @@
         soft.style.display = "none";
         langue.style.display = "none";
         engagement.style.display = "block";
+        btnEngagement.style.width = "157px";
+        btnEngagement.style.height = "41px";
       } else {
         body.style.background = "#E9EAEF";
         agilePM.style.display = "none";
@@ -745,6 +780,8 @@
         soft.style.display = "none";
         langue.style.display = "none";
         engagement.style.display = "none";
+        btnEngagement.style.width = "127px";
+        btnEngagement.style.height = "33px";
       }
     } 
   </script>

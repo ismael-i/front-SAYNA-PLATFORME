@@ -6,7 +6,7 @@
 @import url("https://db.onlinewebfonts.com/c/9d942e0ff1014c476713a855710ce309?family=Lato");
 
 /*background*/
-#background-body{
+#body{
 
 /* position: absolute;
 width: 1324.8px;
@@ -16,119 +16,81 @@ height: 7179.45px; */
   background: #E9EAEF;
 }
 
- /* Forme 4 */
-
- 
-.forme-4-photo{
-  background: url(../image/Forme\ 4\ \(1\).png);
-  background-repeat: no-repeat;
-  background-size: 342px 600px;
-  margin-top: 12px;
-}
-
-.nous-placons{
-  margin-left: 10%;
-  margin-top: 14%;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 85px;
-  line-height: 144px;
-  align-items: center;
-  letter-spacing: -0.08em;
-  text-transform: uppercase;
-  color: #000000;
-
-}
-
-
- /* nous plaçons des héros. */
-
- .des-heros{
-  margin-left: 9.5%;
-  margin-top: -6%;
-  margin-bottom: 25%;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 123px;
-  line-height: 144px;
-  align-items: center;
-  letter-spacing: -0.08em;
-  text-transform: uppercase;
-  color: #000000;
-} 
-
-
- .forme4-agency{
-  margin-left: -4.9%;
-  margin-top: 7%;
-  bottom: 87.26%;
-  color: #FFCC00;
-  width: 41.1% !important;
-  
-}
-
-
- /* nous plaçons des héros. */
-
-.placons-des-heros{
-  /* position: absolute; * /
-  /* width: 179%;
-  height: 16%; */
+.forme-4-a{
   position: absolute;
-  left: 10%;
-  top: 30%;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 93.15px;
-  line-height: 144px;
-  align-items: center;
-  letter-spacing: -0.08em;
-  text-transform: uppercase;
-  color: #000000;
-} 
+width: 335px;
 
-
- 
-.globe-312668-1{
- 
-  /* position: absolute; */
-  /* width: 439px;
-  height: 436px; 
-  position: absolute; */
-  width: 100%;
-  margin-left: 6%;
-  /* margin-right: -28%; */
-  margin-top: 27%;
-  
+color: #FFCC00;
 }
 
-
- 
- 
-.des-heros-1{
+.nous-placons-1{
   position: absolute;
-  /* width: 179%;
-  height: 596%; */
-  left: 10%;
-  top: 44%;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 125px;
-  line-height: 95.02%;
-  /* display: flex; */
-  align-items: center;
-  letter-spacing: -0.045em;
-  text-transform: uppercase;
-  color: #000000;
+    left: 6.04%;
+    right: 0.36%;
+    top: 31%;
+    bottom: 91.86%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 89px;
+    line-height: 144px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.des-heros-2{
+  position: absolute;
+    left: 6.04%;
+    right: 0.36%;
+    top: 48.6%;
+    bottom: 91.86%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 123px;
+    line-height: 144px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+    color: #000000;
 }
 
 .heros{
-
   color: #FFCC00;
+}
+.meilleurs-talents-africains{
+  position: absolute;
+  /* width: 1289px; */
+  /* height: 51px; */
+  left: 95px;
+  top: 393px;
+  font-family: Antipasto Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 43px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #6E6E6E;
+  
+}
+
+.globe-312668-1{
+    position: absolute;
+    margin-left: 63%;
+    width: 24%;
+    margin-top: 7%;
+
+}
+.placons-1259A{
+  display: block;
+}
+.placons-1259{
+  display: none;
 }
 
 .couleur-jaune{
@@ -141,25 +103,6 @@ height: 7179.45px; */
 }
 
 
- /* Les meilleurs talents Africains de demain chez SAYNA. */
- 
- .meilleurs-talents-africains{
-  position: absolute;
-  left: 7%;
-  margin-top: -10%;
-/*   top: 102%; */
-  font-family: Antipasto Pro;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 34px;
-  line-height: 43px;
-  letter-spacing: 0.01em;
-  text-transform: uppercase;
-  color: #6E6E6E;
-}
-
-
-
 
 
 
@@ -168,7 +111,7 @@ height: 7179.45px; */
  
  .pourquoi-l-agency{
  
-  margin-top: -1%;
+  margin-top: 45%;
   margin-left: 6.3%;
   /* position: absolute; */
   /* width: 279px; */
@@ -433,7 +376,8 @@ color: #000000 !important;
 /* Rectangle 1942 */
 
 .rectangle-1942{
-
+  
+  padding-bottom: 16px;
   /* width: 54%;
   height: 38%; */
   margin-top: 7% ;
@@ -489,20 +433,31 @@ width: 85%;
   width: 2%;
 }
 
+.point-questionnaire-1 {
+  
+  position: absolute;
+  margin-top: 20%;
+  left: 57%;
+  width: 2%;
+}
+
 .courbe-questionnaire{
   position: absolute;
   margin-top: 16.5%;
   left: 58%;
-  width:  31%;
+  
+  width: 280px;
+  height: 217px;
 
 }
 
 
 .courbe-rdv-1{
   position: absolute;
-  margin-top: 19%;
-  left: 14%;
-  width: 28%;
+    margin-top: 19%;
+    left: 21%;
+    width: 268px;
+    height: 207px;
 
 }
 
@@ -510,29 +465,31 @@ width: 85%;
 .point-rdv-1{
   position: absolute;
     margin-top: 6%;
-    left: 14.5%;
+    left: 21%;
     width: 2%;
   
 }
 .point-rdv-2{
   position: absolute;
   margin-top: -1%;
-  left: 39%;
+  left: 45%;
   width: 4%;
 }
 
 .courbe-questionnaire-1 {
   position: absolute;
-  margin-top: 16.5%;
+  margin-top: 20.5%;
   left: 58%;
-  width: 27%;
+  width: 20%;
+  height: 200px;
 }
 
 .courbe-rdv-2 {
   position: absolute;
   margin-top: 17%;
-  left: 21%;
-  width: 21%;
+  left: 26%;
+  width: 16%;
+  height: 206px;
 }
  /* Rectangle 1947 */
  
@@ -544,6 +501,7 @@ width: 85%;
   margin-top: 7%;
 
  
+  padding: 16px;
  background: #F2F2F7;
  border: 11px solid #FB5875;
  box-sizing: border-box;
@@ -590,11 +548,7 @@ width: 85%;
  /* Rectangle 15 */
  
  .rectangle-15d{
-   /* margin-right: 8%;
-   margin-top: 23.5%;
-   margin-left: 81%; */
-   /* margin-left: 8%; */
-   /* background: #FB5875 !important; */
+   position: absolute;
    border-radius: 100px !important;
    background: #FFCC00 !important;
    border-color: #FFCC00 !important;
@@ -605,7 +559,9 @@ width: 85%;
    line-height: 86%;
    text-align: center;
    text-transform: uppercase;
-   color: #000000 !important;
+   color: #000000 !important;    
+   margin-top: 81px;
+   right: 68px;
 }
 
 
@@ -616,8 +572,8 @@ width: 85%;
   /* padding-left: 5% !important; */
     /* padding-left: 5% !important; */
     /* margin-left: -39% !important; */
-    margin-top: 2%;
-    margin-right: 5%;
+    position: absolute;
+    margin-top: 0% !important;
 
 background: #FB5875 !important;
 border-radius: 20px !important;
@@ -645,6 +601,24 @@ color: #E9EAEF !important;
 }
 
 
+ /* Rectangle 15 */
+ 
+ .rectangle-15f{
+  position: absolute;
+  border-radius: 100px !important;
+  background: #FFCC00 !important;
+  border-color: #FFCC00 !important;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold !important;
+  font-size: 83%;
+  line-height: 86%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000 !important;    
+  margin-top: 96px;
+  right: 68px;
+}
 
 .c-est-l-avant {
   width: 64%;
@@ -654,7 +628,6 @@ color: #E9EAEF !important;
 
 .il-ne-vous-reste{
   width: 66%;
-  margin-bottom: 3%;
 }
 
 
@@ -1014,6 +987,299 @@ border-radius: 0px 0px 15px 15px;
 }
 
 
+@media screen and (max-width: 991px){
+
+
+  .pourquoi-l-agency{
+ 
+    margin-top: -1%;
+  }
+ /* Rectangle 15 */
+ 
+/*  .rectangle-15e{
+    margin-top: 2%;
+    margin-right: 5%;
+
+background: #FB5875 !important;
+border-radius: 20px !important;
+
+border-color:  #FB5875 !important; 
+
+font-family: Sofia Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 12.42px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #E9EAEF !important;
+
+  margin-left: -5%;
+  margin-top: 20px;
+
+}
+ */
+
+.forme-4-a{
+   display: none;
+ }
+.placons-1259A, .nous-placons-1, .des-heros-2{
+  display: none;
+}
+.placons-1259{
+  display: block;
+}
+  /* Forme 4 */ 
+
+ .forme-4-photo{
+   background: url(../image/Forme\ 4\ \(1\).png);
+   background-repeat: no-repeat;
+   background-size: 342px 600px;
+   margin-top: 12px;
+ }
+ 
+ .nous-placons{
+   margin-left: 10%;
+   margin-top: 14%;
+   font-family: Inter;
+   font-style: normal;
+   font-weight: 800;
+   font-size: 85px;
+   line-height: 144px;
+   align-items: center;
+   letter-spacing: -0.08em;
+   text-transform: uppercase;
+   color: #000000;
+ 
+ }
+ 
+ 
+  /* nous plaçons des héros. */
+ 
+  .des-heros{
+   margin-left: 9.5%;
+   margin-top: -6%;
+   margin-bottom: 25%;
+   font-family: Inter;
+   font-style: normal;
+   font-weight: 800;
+   font-size: 123px;
+   line-height: 144px;
+   align-items: center;
+   letter-spacing: -0.08em;
+   text-transform: uppercase;
+   color: #000000;
+ } 
+ 
+ 
+  .forme4-agency{
+   margin-left: -4.9%;
+   margin-top: 7%;
+   bottom: 87.26%;
+   color: #FFCC00;
+   width: 41.1% !important;
+   
+ }
+ 
+ 
+  
+ .globe-312668-1{
+  
+   /* position: absolute; */
+   /* width: 439px;
+   height: 436px; 
+   position: absolute; */
+   width: 100%;
+   margin-left: 6%;
+   /* margin-right: -28%; */
+   margin-top: 27%;
+   
+ }
+ 
+ .des-heros-1{
+   position: absolute;
+   /* width: 179%;
+   height: 596%; */
+   left: 10%;
+   top: 44%;
+   font-family: Inter;
+   font-style: normal;
+   font-weight: 800;
+   font-size: 125px;
+   line-height: 95.02%;
+   /* display: flex; */
+   align-items: center;
+   letter-spacing: -0.045em;
+   text-transform: uppercase;
+   color: #000000;
+ }
+ 
+ .heros{
+   color: #FFCC00;
+ }
+ 
+ 
+}
+@media (max-width: 1259px) and (min-width:992px){
+
+
+
+  .pourquoi-l-agency{
+ 
+    margin-top: -1%;
+  }
+ /* Rectangle 15 */
+ 
+/*  .rectangle-15e{
+    margin-top: 2%;
+    margin-right: 5%;
+
+background: #FB5875 !important;
+border-radius: 20px !important;
+
+border-color:  #FB5875 !important; 
+
+font-family: Sofia Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 12.42px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #E9EAEF !important;
+
+  margin-left: -5%;
+  margin-top: 20px;
+
+}
+ */
+
+.forme-4-a{
+   display: none;
+ }
+.placons-1259A, .nous-placons-1, .des-heros-2{
+  display: none;
+}
+.placons-1259{
+  display: block;
+}
+  /* Forme 4 */ 
+
+ .forme-4-photo{
+   background: url(../image/Forme\ 4\ \(1\).png);
+   background-repeat: no-repeat;
+   background-size: 342px 600px;
+   margin-top: 12px;
+ }
+ 
+ .nous-placons{
+   margin-left: 10%;
+   margin-top: 14%;
+   font-family: Inter;
+   font-style: normal;
+   font-weight: 800;
+   font-size: 85px;
+   line-height: 144px;
+   align-items: center;
+   letter-spacing: -0.08em;
+   text-transform: uppercase;
+   color: #000000;
+ 
+ }
+ 
+ 
+  /* nous plaçons des héros. */
+ 
+  .des-heros{
+   margin-left: 9.5%;
+   margin-top: -6%;
+   margin-bottom: 25%;
+   font-family: Inter;
+   font-style: normal;
+   font-weight: 800;
+   font-size: 123px;
+   line-height: 144px;
+   align-items: center;
+   letter-spacing: -0.08em;
+   text-transform: uppercase;
+   color: #000000;
+ } 
+ 
+ 
+  .forme4-agency{
+   margin-left: -4.9%;
+   margin-top: 7%;
+   bottom: 87.26%;
+   color: #FFCC00;
+   width: 41.1% !important;
+   
+ }
+ 
+ 
+  
+ .globe-312668-1{
+  
+   /* position: absolute; */
+   /* width: 439px;
+   height: 436px; 
+   position: absolute; */
+   width: 100%;
+   margin-left: 6%;
+   /* margin-right: -28%; */
+   margin-top: 27%;
+   
+ }
+ 
+ .des-heros-1{
+   position: absolute;
+   /* width: 179%;
+   height: 596%; */
+   left: 10%;
+   top: 44%;
+   font-family: Inter;
+   font-style: normal;
+   font-weight: 800;
+   font-size: 125px;
+   line-height: 95.02%;
+   /* display: flex; */
+   align-items: center;
+   letter-spacing: -0.045em;
+   text-transform: uppercase;
+   color: #000000;
+ }
+ 
+ .heros{
+   color: #FFCC00;
+ }
+ 
+ 
+
+ /* Les meilleurs talents Africains de demain chez SAYNA. */
+ 
+ .meilleurs-talents-africains{
+  position: absolute;
+  left: 7%;
+  /* margin-top: -10%; */
+/*   top: 102%; */
+  font-family: Antipasto Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 43px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #6E6E6E;
+}
+
+
+}
+
 
 
 @media(max-width: 994px) and (min-width:770px){
@@ -1024,11 +1290,23 @@ border-radius: 0px 0px 15px 15px;
       margin-top: -9%;
       margin-left: 89%;
   }
+  .placons-1259A, .nous-placons-1, .des-heros-2{
+    display: none;
+  }
+  .placons-1259{
+    display: block;
+  }
 }
 
 
 @media(max-width: 770px) and (min-width:573px){
 
+  .placons-1259A, .nous-placons-1, .des-heros-2{
+    display: none;
+  }
+  .placons-1259{
+    display: block;
+  }
   .nous-placons{ 
     font-size: 65px !important;
   }
@@ -1040,8 +1318,14 @@ border-radius: 0px 0px 15px 15px;
 
 
 
-@media(max-width: 1258px) and (min-width:1196px){
+@media(max-width: 1259px) and (min-width:1196px){
 
+  .placons-1259A, .nous-placons-1, .des-heros-2{
+    display: none;
+  }
+  .placons-1259{
+    display: block;
+  }
   .nous-placons{ 
     font-size: 79px;
   }
@@ -1060,6 +1344,12 @@ border-radius: 0px 0px 15px 15px;
 
 @media(max-width: 1195px){
 
+  .placons-1259A, .nous-placons-1, .des-heros-2{
+    display: none;
+  }
+  .placons-1259{
+    display: block;
+  }
   .courbe-point {
 
     display: none !important;
@@ -1067,6 +1357,12 @@ border-radius: 0px 0px 15px 15px;
 }
 @media(max-width: 1195px) and (min-width:992px){
 
+  .placons-1259A, .nous-placons-1, .des-heros-2{
+    display: none;
+  }
+  .placons-1259{
+    display: block;
+  }
   .nous-placons{ 
     font-size: 69px;
   }
@@ -1079,7 +1375,6 @@ border-radius: 0px 0px 15px 15px;
   }
   .meilleurs-talents-africains {
     font-size: 26px;
-    margin-top: -142px;
   }
  /*  .courbe-questionnaire {
     width: 40% !important;
@@ -1089,6 +1384,12 @@ border-radius: 0px 0px 15px 15px;
 
 @media(max-width: 991px) and (min-width:771px){
 
+  .placons-1259A, .nous-placons-1, .des-heros-2{
+    display: none;
+  }
+  .placons-1259{
+    display: block;
+  }
   .nous-placons{ 
     font-size: 69px;
   }
@@ -1101,7 +1402,6 @@ border-radius: 0px 0px 15px 15px;
   }
   .meilleurs-talents-africains {
     font-size: 26px;
-    margin-top: -200px;
   }
  /*  .courbe-questionnaire {
     width: 40% !important;
@@ -1127,7 +1427,6 @@ border-radius: 0px 0px 15px 15px;
   }
   .meilleurs-talents-africains {
     font-size: 26px;
-    margin-top: -200px;
   }
  /*  .courbe-questionnaire {
     width: 40% !important;
@@ -1153,6 +1452,7 @@ border-radius: 0px 0px 15px 15px;
   /* nous plaçons des héros. */
   .des-heros{
     font-size: 42px;
+    margin-top: -72px;
   } 
 }
 
@@ -1232,7 +1532,7 @@ border-radius: 0px 0px 15px 15px;
 .rectangle-1949{
   /* margin-top: 12%; */
   /* position: absolute; */
-  width: 340px;
+  width: 355px;
   height: 13px;
   background: #FFCC00;
   transform: rotate(-180deg);
