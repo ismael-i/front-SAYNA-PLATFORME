@@ -16,6 +16,153 @@ height: 7179.45px; */
   background: #E9EAEF;
 }
 
+
+
+
+
+
+.navbar-nav {
+  flex-direction: row;
+}
+
+.nav-link {
+  padding-right: .5rem !important;
+  padding-left: .5rem !important;
+}
+
+/* Fixes dropdown menus placed on the right side */
+.ml-auto .dropdown-menu {
+  left: auto !important;
+  right: 0px;
+}
+
+
+.new-logo{
+  width: 220px;
+    height: 71px;
+    margin-left: 17px;
+    /* right: 82.13% !important; */
+    margin-top: 46px;
+}
+
+
+.btn-connexion{
+      /* position: absolute; */
+      width: 157.32px;
+      height: 48.3px;
+      left: 1050.87px;
+      margin-top: 37.94px;
+      margin-left: 15px;
+      background-color: #FB5875 !important;
+      border-radius: 50px !important;
+      font-family: Sofia Pro;
+      font-style: normal;
+      font-weight: bold !important;
+      font-size: 16.56px !important;
+      line-height: 16.56px !important;
+      display: inline-grid !important;
+      align-items: center;
+      text-align: center;
+      letter-spacing: -0.05em;
+      text-transform: uppercase;
+      color: #E9EAEF !important;
+  /* transform: matrix(1, 0, 0, -1, 0, 0); */
+}
+.btn-school{
+  width: 120.06px;
+  height: 48.3px;
+  left: 614.1px;
+  margin-top: 38.64px;
+  background-color: #F2F2F7 !important;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 20px !important;
+  font-family: Sofia Pro;
+  font-style: normal;
+  font-weight: bold !important;
+  font-size: 16.56px !important;
+  line-height: 16.56px !important;
+  display: inline-grid !important;
+  align-items: center;
+  text-align: center !important;
+  letter-spacing: -0.025em;
+  text-transform: uppercase;
+  color: #575F6B !important;
+}
+.btn-agency{
+
+  width: 120.06px;
+  height: 48.3px;
+  left: 614.1px;
+  margin-top: 38.64px;
+  margin-left: 15px;
+  background-color: #FFCC00 !important;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 20px !important;
+  font-family: Sofia Pro;
+  font-style: normal;
+  font-weight: bold !important;
+  font-size: 16.56px !important;
+  line-height: 16.56px !important;
+  display: inline-grid !important;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.025em;
+  text-transform: uppercase;
+  color: #F2F2F7 !important;
+  }
+.btn-factory-menu{
+
+  width: 120.06px;
+  height: 48.3px;
+  left: 614.1px;
+  margin-top: 38.64px;
+  margin-left: 15px;
+  background-color: #F2F2F7 !important;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 20px !important;
+  font-family: Sofia Pro;
+  font-style: normal;
+  font-weight: bold !important;
+  font-size: 16.56px !important;
+  line-height: 16.56px !important;
+  display: inline-grid !important;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.025em;
+  text-transform: uppercase;
+  color: #575F6B !important;
+}
+
+.btn-dropdonw{
+  width: 49.68px;
+  height: 48.3px;
+  left: 1233.72px;
+  margin-top: 38.64px;
+  margin-left: 15px;
+  background: #F2F2F7 !important;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 20px !important;
+}
+
+.menu{
+
+}
+
+.fleche-connexion {
+  margin-left: 6px;
+}
+
+
+.Groupe-8{
+  font-size: 30px !important;
+  color: #575F6B;
+}
+
+
+.txt-btn{
+  width: 117.3px;
+  height: 46.92px;
+}
 .forme-4-a{
   position: absolute;
 width: 335px;
@@ -27,11 +174,11 @@ color: #FFCC00;
   position: absolute;
     left: 6.04%;
     right: 0.36%;
-    top: 31%;
+    top: 305px;
     bottom: 91.86%;
     font-family: Inter;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 800;
     font-size: 89px;
     line-height: 144px;
     display: flex;
@@ -45,11 +192,11 @@ color: #FFCC00;
   position: absolute;
     left: 6.04%;
     right: 0.36%;
-    top: 48.6%;
+    top: 409px;
     bottom: 91.86%;
     font-family: Inter;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 800;
     font-size: 123px;
     line-height: 144px;
     display: flex;
@@ -66,8 +213,8 @@ color: #FFCC00;
   position: absolute;
   /* width: 1289px; */
   /* height: 51px; */
-  left: 95px;
-  top: 393px;
+  left: 90px;
+  top: 542px;
   font-family: Antipasto Pro;
   font-style: normal;
   font-weight: bold;
@@ -90,7 +237,7 @@ color: #FFCC00;
   display: block;
 }
 .placons-1259{
-  display: none;
+  display: none !important;
 }
 
 .couleur-jaune{
@@ -327,7 +474,6 @@ color: #000000 !important;
   text-align: center;
   text-transform: uppercase;
   color: #FB5875;
-  width: 392px;
 }
 
 
@@ -352,6 +498,7 @@ color: #000000 !important;
 
 .deviens-un-expert-du-Front{
   margin-top: 15%;
+  width: 81%;
 }
  /* Rectangle 161 */
  
@@ -390,12 +537,23 @@ color: #000000 !important;
   margin-left: -5%;
   margin-top: 20px;
 }
+.selection-1{
+  margin-top: 20px;
+  text-align: center;
+
+}
 
 
 .deposez-votre-besoin{
   margin-left: -5%;
   margin-top: 1%;
   
+}
+.deposez-votre-besoin-2{
+  margin-left: -5%;
+  margin-top: 1%;
+  text-align: center;
+
 }
 
 
@@ -486,9 +644,9 @@ width: 85%;
 
 .courbe-rdv-2 {
   position: absolute;
-  margin-top: 17%;
-  left: 26%;
-  width: 16%;
+  margin-top: 17.5%;
+  left: 25%;
+  width: 17%;
   height: 206px;
 }
  /* Rectangle 1947 */
@@ -518,7 +676,7 @@ width: 85%;
  
  .clarifiez-votre-besoin{
     
-  margin-left: 38%;
+  margin-right: 2%;
    text-align: right;
    /* float: right; */
    margin-top: 1%;
@@ -530,7 +688,7 @@ width: 85%;
 .prenez-rendez-vous{
 
     width: 78%;
-    margin-left: 21%;
+    margin-left: 22%;
     text-align: right;
 
 }
@@ -617,7 +775,7 @@ color: #E9EAEF !important;
   text-transform: uppercase;
   color: #000000 !important;    
   margin-top: 96px;
-  right: 68px;
+  right: 65px;
 }
 
 .c-est-l-avant {
@@ -627,7 +785,8 @@ color: #E9EAEF !important;
 }
 
 .il-ne-vous-reste{
-  width: 66%;
+  width: 61%;
+  text-align: center;
 }
 
 
@@ -635,12 +794,12 @@ color: #E9EAEF !important;
  
  .decouvrez-nos-modalites{
   font-family: Inter;
-   font-style: normal;
-   font-weight: 900;
-   font-size: 24.15px;
-   line-height: 28.98px;
-   letter-spacing: 0.01em;
-   color: #000000;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.01em;
    /* margin-left: 8%; */
    margin-top: 10%;
    width: 24%;
@@ -649,17 +808,17 @@ color: #E9EAEF !important;
 
 
  /* Chacun de nos talents sont évalués et validés sur les CINQ verticales ci-dessous; On ne vous présente que des profils se situant entre les niveaux “Juste” et “Excellent”.. */
- 
+ /* 
  .chacun-de-nos-talents{
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: 13.11px;
+  font-size: 13px;
   line-height: 156.02%;
-  text-align: justify;
+  text-align: center;
   color: #000000;
   width: 34%;
- }
+ } */
 
   /* Forme 4 */
  
@@ -730,7 +889,7 @@ color: #E9EAEF !important;
 
 /* séléction */
 
-.selection{
+/* .selection{
 
   position: absolute;
   width: 138px;
@@ -749,7 +908,7 @@ color: #E9EAEF !important;
   color: #FB5875;
   
 }
-
+ */
 /* Recruter un talent chez SAYNA c’est avoir accès à deux talents. Tout au long de leur mission les talents qui travaillent ont le support d’un talent senior derrière eux. Nous vous ferons une sélection sur mesure suite à vos demandes ! */
 
 .recruter-un-talent{
@@ -793,7 +952,7 @@ float: right;
 
 
 .offre-sur-mesure{
-width: 91% !important;
+width: 100% !important;
 }
 
 
@@ -804,13 +963,13 @@ width: 91% !important;
 width: 29%;
 /* height: 240px; */
 margin-left: 8%;
-margin-top: 3%;
+margin-top: 2%;
 font-family: Inter;
 font-style: normal;
 font-weight: normal;
-font-size: 84%;
+font-size: 13px;
 line-height: 156.02%;
-text-align: justify;
+text-align: center;
 color: #000000;
 }
 
@@ -843,12 +1002,12 @@ margin-top: 12%;
 /* L’offre idéale pour commencer avec nous : recrutement immédiat et sur mesure pour staffer un projet ou une petite équipe tech et gérer sa trésorerie. */
 
 .offre-ideale{
-width: 76%;
+width: 75%;
 /* height: 130%; */
 font-family: Inter;
 font-style: normal;
 font-weight: normal;
-font-size: 90%;
+font-size: 12px;
 line-height: 150.02%;
 /* display: flex; */
 align-items: center;
@@ -909,6 +1068,10 @@ content: "•";
 }
 
 
+.tous-les-avantages {
+  padding-top: 0% !important;
+}
+
 /* - Freelances formés, vérifiés et qualifiés par nos soins - Matching en quelques heures - Prise de rendez-vous en ligne avec nos experts - Signature électronique - Facturation et paiements simplifiés - Support en ligne */
 
 .freelances-formes{
@@ -953,7 +1116,7 @@ border-radius: 0px 0px 15px 15px;
 width: 81%;
 margin-top: unset;
 margin-left: 13%;
-margin-top: -2%;
+margin-top: -3%;
 /* top: 8054px; */
 background: #FFFFFF;
 border-radius: 0px 0px 15px 15px;
@@ -980,7 +1143,7 @@ margin-top: 12%;
 width: 81%;
 margin-top: unset;
 margin-left: 9%;
-margin-top: -2%;
+margin-top: -3%;
 /* top: 8054px; */
 background: #FFFFFF;
 border-radius: 0px 0px 15px 15px;
@@ -1027,7 +1190,7 @@ color: #E9EAEF !important;
    display: none;
  }
 .placons-1259A, .nous-placons-1, .des-heros-2{
-  display: none;
+  display: none !important;
 }
 .placons-1259{
   display: block;
@@ -1043,7 +1206,7 @@ color: #E9EAEF !important;
  
  .nous-placons{
    margin-left: 10%;
-   margin-top: 14%;
+   margin-top: 84px;
    font-family: Inter;
    font-style: normal;
    font-weight: 800;
@@ -1164,10 +1327,10 @@ color: #E9EAEF !important;
    display: none;
  }
 .placons-1259A, .nous-placons-1, .des-heros-2{
-  display: none;
+  display: none !important;
 }
 .placons-1259{
-  display: block;
+  display: block !important;
 }
   /* Forme 4 */ 
 
@@ -1198,7 +1361,7 @@ color: #E9EAEF !important;
  
   .des-heros{
    margin-left: 9.5%;
-   margin-top: -6%;
+   margin-top: -50px;
    margin-bottom: 25%;
    font-family: Inter;
    font-style: normal;
@@ -1291,10 +1454,10 @@ color: #E9EAEF !important;
       margin-left: 89%;
   }
   .placons-1259A, .nous-placons-1, .des-heros-2{
-    display: none;
+    display: none !important;
   }
   .placons-1259{
-    display: block;
+    display: block !important;
   }
 }
 
@@ -1302,10 +1465,10 @@ color: #E9EAEF !important;
 @media(max-width: 770px) and (min-width:573px){
 
   .placons-1259A, .nous-placons-1, .des-heros-2{
-    display: none;
+    display: none !important;
   }
   .placons-1259{
-    display: block;
+    display: block !important;
   }
   .nous-placons{ 
     font-size: 65px !important;
@@ -1321,10 +1484,10 @@ color: #E9EAEF !important;
 @media(max-width: 1259px) and (min-width:1196px){
 
   .placons-1259A, .nous-placons-1, .des-heros-2{
-    display: none;
+    display: none !important;
   }
   .placons-1259{
-    display: block;
+    display: block !important;
   }
   .nous-placons{ 
     font-size: 79px;
@@ -1503,15 +1666,26 @@ color: #E9EAEF !important;
 }
 
 
-@media  screen and (max-width:991px){
+@media  (max-width:991px) and (min-width:12px){
+  
+  /* .boutton-slid{
+    display: none;
+  } */
+}
+/* @media  screen and (max-width:991px){
   .globe-312668-1 {
     display: none;
   }
   .boutton-slid{
     display: none;
   }
-}
+} */
 
+@media  (max-width:993px) and (min-width:12px){
+  .forme-5-agency {
+    margin-left: 71%;
+  }
+}
 
 
 #hard-skills, #agilePM, #soft-skills, #langue, #engagement {
@@ -1671,4 +1845,19 @@ li{
 .on-attendra-de-toi-d-etre{
   width: 87%;
   margin-top: 35px;
+}
+
+@media(max-width: 721px){
+  .decouvrez-nos-modalites {
+    width: 56%;
+  }
+  .chacun-de-nos-talents {
+    width: 67%;
+  }
+}
+
+@media(width: 1101px){
+  .forme-5-agency {
+    margin-left: 71%;
+  }
 }
