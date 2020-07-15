@@ -1,6 +1,7 @@
 @media screen and (max-width: 386px) {
 
 	.number4{
+		position: relative;
 		left: 401px !important;
 	}
 	
@@ -13,7 +14,41 @@ height: 285px;
 left: -34% !important;
 }
 }
+@media screen and (max-width: 1258px) {
+	    .slider-parallax-group3{
+   position: relative;
 
+left:1% !important;
+}
+}
+@media screen and (max-width: 1120px) {
+	    .slider-parallax-group3{
+   position: relative;
+
+left:-6% !important;
+}
+}
+@media screen and (max-width: 1070px) {
+	    .slider-parallax-group3{
+   position: relative;
+
+left:-8% !important;
+}
+}
+@media screen and (max-width: 1000px) {
+	    .slider-parallax-group3{
+   position: relative;
+
+left:-10% !important;
+}
+}
+@media screen and (max-width: 900px) {
+	    .slider-parallax-group3{
+   position: relative;
+
+left:-20% !important;
+}
+}
 
 @media screen and (max-width: 771px) {
 	.number2-img {
@@ -25,12 +60,11 @@ left: -34% !important;
 	top: -50px !important;
 
 	}
-		  .para-lax{
+ .slider-parallax-group3{
    position: relative;
 
-left: -170px !important;
+left:-40% !important;
 }
-
 
 		label[for="on-soccupe"]{
     visibility: hidden;
@@ -102,6 +136,30 @@ color: #000000;
   		
   	}
 }
+
+
+@media screen and (max-width: 1980px) {
+
+	.logo {
+		 margin-top: 15%;
+    position: relative;
+  	width: 120%;
+    top: 0%;
+    margin-left: 15%;
+	}
+
+	header {
+position: relative;
+    background: url("../images/Forme 5.png") ; 
+background-position: left top ;
+  background-repeat: no-repeat;
+  background-size: 79% 129%;
+  margin-left: 0%;
+  margin-top: 0%;
+  height: 300px;
+  
+}
+	}
 
 @media screen and (max-width: 780px) {
 
@@ -264,6 +322,220 @@ position: relative;
 
 
 
+@media screen and (max-width: 860px) {
+
+	.logo {
+		 margin-top: 20%;
+    position: relative;
+  	width: 120%;
+    top: 0%;
+    margin-left:20%;
+	}
+
+
+	    .slider-parallax-group3{
+   position: relative;
+
+left:-30% !important;
+}
+
+	header {
+
+    background: url("../images/Forme 5.png") ; 
+background-position: left top ;
+  background-repeat: no-repeat;
+  background-size: 100% 180%;
+  margin-left: 0%;
+  margin-top: 0%;
+  
+}
+	
+	.number2-img {
+	position: absolute;
+	width: 50%;
+	top: 60px !important;
+	z-index: -1;
+	left: -100% !important;
+	
+}
+	.number2-txt {
+	position: relative;
+	margin-top: 8%;
+}
+		
+	.auraije-content {
+	
+	position: relative;
+	left: -20%;
+	
+
+}
+	.aurai-je {
+		margin-top: 3%;
+		position: relative;
+left: -4%;
+}
+
+	.enquatre {
+left: -2%;
+position: relative;
+}
+
+	.appelavec {
+	left: 1%;
+	position: relative;
+}
+.au-pro {
+	left: 3%;
+	position: relative;
+}
+.precision {
+	left: 1%;
+	position: relative;
+	letter-spacing: -0.06em;
+}
+.seance {
+	left:-4.5%;
+	position: relative;
+}
+.par-nombre {
+	left: -10%;
+	position: relative;
+}
+.partagez {
+	left: -16%;
+	position: relative;
+	letter-spacing: -0.06em;
+}
+.utiles {
+	left: -22%;
+	position: relative;
+}
+.btn-rdv {
+	left: 9%;
+	position: relative;
+	
+}
+.btn-prendrerdv {
+	position: relative;
+	text-align:center;
+	
+}
+
+
+
+
+
+	.altero {
+		margin-bottom: 20%;
+	}
+
+	.forme301{
+		position: relative;
+		top: -10%;
+	}
+
+	.trent {
+	position: relative;
+	background: url("../images/Forme 5(1).png"), url("../images/Forme 6.png");
+	background-repeat: no-repeat;
+	background-size: 60% 40%, 68% 40%;
+	background-position: left, left;
+}
+
+	.number4{
+		left: 41px !important;
+	}
+
+	 .x-team{
+            width: 630%;
+            position: relative;
+            top:-3%!important;
+            left: 1% !important;
+        }
+
+        .uneequipe-sur {
+            width: 80%;
+            top: -5% !important;
+            position: relative;
+            left: 1% !important;
+            line-height: 156.02%;
+        }
+        .team-content {
+            margin-top: 0% !important;
+        }
+
+        label[for="on-soccupe"]{
+    visibility: hidden;
+    position: relative;
+}
+
+label[for="on-soccupe"]:after{
+    visibility: visible;
+     position: absolute;
+  
+    top: 0px;
+    left: 0%;
+    width: 120%;
+    height: auto;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 156.02%;
+
+/* or 30px */
+
+color: #000000;
+    content:'On s’occupe de tout, suivez l’évolution de votre projet chaque jour en temps réel et laisser des commentaires directement sur votre Trello dédié. Bénéficiez d’un  engagement de résultats,     ajoutez des exigences de qualité, des pénalités de retard. Profitez d’un espace de développement sécurisé, dédié à votre projet sur Git. Nous assurons la mise en prod, la phase de test, le support et maintenance évolutive. ';
+}
+
+   .btn-bnf {
+        margin-top: 0;
+        top: -100px !important;
+        position: relative;
+    }
+
+
+ 		.img-glissade {
+	position: relative;
+	width: 69%;
+	left: 30%;
+	top:-9% !important;
+	}
+		.descendit {
+	position: relative;
+	padding-top: 10%;
+	height: 687px !important;
+
+}
+
+        .chaque-equipe {
+     margin-left: 1px !important;
+    margin-right: 1px !important;
+     width: 140%;
+  left: 1% !important; 
+  top: -5% !important;
+}
+	
+.back-front{
+	position: relative;
+	left: 0%;
+}
+
+.complet-equipe{
+	position: relative;
+	left:0%;
+}
+
+.redacteur-web{
+	position: relative;
+	left: 0%;
+}
+}
+
+
+
 
 @media screen and (max-width: 988px) {
 
@@ -275,3 +547,4 @@ position: relative;
    margin-bottom: auto;
 }
 }
+

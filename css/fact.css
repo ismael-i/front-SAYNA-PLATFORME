@@ -17,8 +17,8 @@
 
 .logo {
 	position: relative;
-	top: 20%;
-	margin-left: 5%;
+	margin-top: 22%;
+	margin-left: 25%;
 }
 #body-all {
 	width: 100%;
@@ -26,6 +26,7 @@ margin-right: none !important;
 	margin-left: none !important;
 	margin-top: none !important;
 	overflow-x: hidden;
+	background: #E5E5E5;
 }
 .menu {
 	position: relative;
@@ -43,10 +44,10 @@ margin-right: none !important;
 .nos {
 	margin-top: 7%;
 }
-img {
+/*img {
    width: 100%;
    margin-top: 0px;
-}
+}*/
 
 .container-fluid {
 	padding: 0;
@@ -59,14 +60,15 @@ li{
 }
 
 header {
-
-	/*background: url("../images/Forme 5.png") ; 
+position: relative;
+	background: url("../images/Forme 5.png") ; 
 background-position: left top ;
   background-repeat: no-repeat;
-  background-size: 55%;
+  background-size: 72% 155%;
   margin-left: 0%;
   margin-top: 0%;
-  */
+ height: 200px;
+  
 }
 
 .fleche-connexion {
@@ -98,6 +100,23 @@ text-transform: uppercase;
 color: #575F6B !important;
 text-decoration-line: none;
 }
+
+.teext-factory {
+	font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.025em;
+text-transform: uppercase;
+
+color: white !important;
+text-decoration-line: none;
+}
+
 .teext-connex {
 	
 	font-family: Lato;
@@ -117,7 +136,7 @@ color: white !important;
 
 .btn-menu {
 position: relative;	
-background: #F2F2F7;
+background: #F2F2F7 !important;
 box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15) !important;
 border-radius: 12%;
 }
@@ -815,6 +834,7 @@ padding: 4px; transform: rotate(-1.13deg); top: -40px;}
 
 .bonus-content {
 	margin-left: 12%;
+	margin-right: 6%;
 }
 .bonus-bonus {
 	font-family: Inter;

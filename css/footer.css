@@ -25,6 +25,11 @@
    left: 49%;
     
 }
+
+.partgauche {
+    position: relative;
+        padding-left: 5% !important;
+}
 footer {
     width: auto;
     background: #000000;
@@ -33,7 +38,7 @@ footer {
 
 .new-logo {
    position: relative;
-    width: 50%;
+    width: 40%;
     margin-left: 5%;
     margin-top: 5%;
     
@@ -66,13 +71,13 @@ footer {
     
     padding-left: 5%;
     color: #FFFFFF;
-  
+   margin-bottom: 4%;
    left: 2.6%; 
 }
 
 .ligne-horiz {
-   
-    width: 87%;
+  
+    width: 85%;
     height: 4%;
     left: 5%;
     position: relative;
@@ -115,6 +120,7 @@ hr {
   
     color: #898989;
     left: 8% !important;
+    width: 92%
 }
 
 .droite {
@@ -240,7 +246,7 @@ hr {
 
 .trace111, .trace110, .trace114{
     
-  width: 80%;
+  width: 30px;
    display: block;
    margin-top: auto;
    margin-bottom: auto;
@@ -330,7 +336,7 @@ td {
    
     margin-top: 10%;
 }
-    header {
+   header {
 
     background: url("../images/Forme 5.png") ; 
 background-position: left top ;
@@ -490,7 +496,7 @@ position: relative;
         .col-number4 {
             position: absolute;
             float: left;
-            left: -105%;
+            left: -10%;
         }
     .number2 {
         text-align: center;
@@ -607,7 +613,7 @@ padding: 4px; transform: rotate(-1.13deg); top:30px;}
 p[for="equi-composant"]:after{
     visibility: visible;
      position:relative;
-  top: -87px !important;
+  top: 20px !important;
  
     
 
@@ -717,8 +723,20 @@ color: #000000;
 
 
     .solut-confi {
-        margin-top: 15%;
+        margin-top: 15% !important;
     }
+
+    .descendit {
+    position: relative;
+    padding-top: 10%;
+    height: 987px !important;
+
+}
+
+.school, .agency, .factory {
+    position: relative;
+    margin-left: 30px !important ;
+}
     
       .para-lax{
    position: relative;
