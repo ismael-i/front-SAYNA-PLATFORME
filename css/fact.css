@@ -44,10 +44,10 @@ margin-right: none !important;
 .nos {
 	margin-top: 7%;
 }
-/*img {
+img {
    width: 100%;
    margin-top: 0px;
-}*/
+}
 
 .container-fluid {
 	padding: 0;
@@ -306,6 +306,7 @@ height: 5%;
 .forme301 {
 	position: relative;
 	left: 5%;
+
 }
 
 .number1 {
