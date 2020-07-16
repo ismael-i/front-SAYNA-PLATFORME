@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <!-- <meta http-equiv="Content-Type" content="text/html; charset=windows-1252"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agency</title>
     <link rel="stylesheet" href="./css/agency.css">
@@ -31,15 +32,14 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 
+    <style>
+        body {
+            background: #E9EAEF;
+        }
+    </style>
 </head>
 
-<body id="body" class="container-fluid">
-    <!-- <div class="d-flex ">
-        
-        <button class=" btn btn-primary ml-auto">
-            Refresh
-          </button>
-      </div> -->
+<body class="container-fluid">
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark">
             <img src="./image/New Logo.png" class="new-logo" alt="">
@@ -53,7 +53,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="" class=" btn btn-agency">
+                    <a href="" class=" btn btn-agency active">
                         <span class="txt-agency">Agency</span>
                     </a>
                 </li>
@@ -102,25 +102,29 @@
         <label class="des-heros-2">
             des &nbsp; <span class="heros"> héros</span>.
         </label>
-        <img src="./image/globe-312668 1.png" class="globe-312668-1" alt="">
+        <img src="./image/globe-312668 1.png" class="globe-312668-2" alt="">
 
 
     </div>
-    <div class="row placons-1259">
-        <div class="forme-4-photo  col-md-7 col-sm-12 ">
-            <label class="nous-placons">
-                nous plaçons
-            </label>
-            <label class="des-heros">
-                des <span class="heros"> héros</span>.
-            </label>
+    <div class="placons-1259">
+        <div class="row ">
+            <div class="forme-4-photo  col-md-7 col-sm-7  ">
+                <label class="nous-placons">
+                    nous plaçons
+                </label>
+                <label class="des-heros">
+                    des <span class="heros"> héros</span>.
+                </label>
+
+            </div>
+
+            <div class="col-md-3 col-sm-3">
+                <img src="./image/globe-312668 1.png" class="globe-312668-1" alt="">
+
+            </div>
 
         </div>
 
-        <div class="col-md-3 col-sm-3 col-3">
-            <img src="./image/globe-312668 1.png" class="globe-312668-1" alt="">
-
-        </div>
     </div>
 
     <div class="row">
@@ -143,21 +147,23 @@
     </div>
 
     <div class="row">
+        <div class=" col-md-5 col-sm-7 col-12">
 
-        <label for="" class="grace-a-vous col-md-5 col-sm-7 col-12">
-            <p>
-                Grâce à vous, un étudiant pourra rembourser sa formation et devenir indépendant financièrement.
-            </p>
-            <br>
-            <p>
-                La Flexibilité est un élément clé : SAYNA s’adapte à vos demandes, pour une journée de travail ou
-                pour
-                une semaine jusqu’à 2 ans, nous vous mettons à disposition les talents que nous avons formés.<br>
-                La formation c’est bien, mais trouver un travail c’est mieux ! C’est pour cette raison que nous
-                accompagnons tous nos talents sur la durée dans leur insertion professionnelle.
-            </p>
-        </label>
-
+            <label for="" class="grace-a-vous grace-a-vous-1">
+                <p>
+                    Grâce à vous, un étudiant pourra rembourser sa formation et devenir indépendant financièrement.
+                </p>
+                <br>
+                <p>
+                    La Flexibilité est un élément clé : SAYNA s’adapte à vos demandes, pour une journée de travail ou
+                    pour
+                    une semaine jusqu’à 2 ans, nous vous mettons à disposition les talents que nous avons formés.<br>
+                    La formation c’est bien, mais trouver un travail c’est mieux ! C’est pour cette raison que nous
+                    accompagnons tous nos talents sur la durée dans leur insertion professionnelle.
+                </p>
+            </label>
+    
+        </div>
 
     </div>
 
@@ -382,6 +388,7 @@
                     appel
                     est de reserrer le périmètre de notre intervention et d’ajuster nos offres à votre situation.
                 </label>
+                <br>
                 <button type="button" class="btn btn-danger rectangle-15f nos-talents">
                     PRENDRE RDV
                     <i class='fas fa-arrow-right fleche-rdv'></i>
@@ -425,7 +432,7 @@
 
             <div class=" bloc-niveaux-et-modal">
                 <div class="row">
-                    <label for="" class="ml-auto niveaux-et-modalites sous-titre-9-rose">séléction</label>
+                    <label for="" class="select ml-auto niveaux-et-modalites sous-titre-9-rose">séléction</label>
                 </div>
                 <!-- <div class="row">
                     <div class="col-md-12"> -->
@@ -440,7 +447,7 @@
                     C’est l’avant dernière étape avant que votre héro démarre la mission
                     que vous lui avez confié. Le but de ce café téléphonique est d’en savoir
                     un peu plus l’un sur l’autre.</label>
-
+                <br>
                 <button type="button" class="pull-right btn btn-danger rectangle-15d nos-talents">prendre rdv
                     <i class='fas fa-arrow-right fleche-rdv'></i>
                 </button>
@@ -498,15 +505,18 @@
             <img src="./image/Forme 4 (1).png" class="forme-4-agency" alt="">
             <img src="./image/GroovyDoodle.png" class="groovyDoodle" alt="">
         </div>
-        <div class="col-md-7 col-sm-6 col-2">
-
+        <div class="col-md-8 col-sm-6 col-2">
+<!-- 
             <div class="">
                 <img src="./image/Forme 5.png" class="pull-right forme-5-agency" alt="">
 
-            </div>
+            </div> -->
 
             <div class="row">
-                <div class=" col-md-6 col-sm-6 ">
+
+
+                <div class=" col-md-5 col-sm-6 ">
+
                     <div id="hard-skills" class="rectangle-1950">
                         <div class="rectangle-1949">
                         </div>
@@ -518,8 +528,74 @@
                             excellent.
                         </span>
                     </div>
-
                     <div id="agilePM" class="rectangle-1950">
+                        <div class=" rectangle-1949">
+                        </div>
+
+                        <span for="" class="d-block mx-auto ton-code on-attendra-de-toi">
+                            <p>
+                                On attendra de toi d’être ouvert, respectueux, courageux, rigoureux et
+                                concentré.
+                            </p>
+                            <p>
+                                Tu seras évalué sur 5 niveaux différents : mauvais, pauvre, juste, bon et
+                                excellent.
+
+                            </p>
+                        </span>
+                    </div>
+                    <div id="soft-skills" class="rectangle-1950">
+                        <div class="rectangle-1949">
+                        </div>
+                        <span for="" class="d-block mx-auto il-te-faudra-etre ton-code">
+                            <p>
+                                Il te faudra être assidue, professionnel, de travailler en équipe, de
+                                communiquer et
+                                d’être organisé.
+                            </p> Tu seras évalué sur 5 niveaux différents : mauvais, pauvre,
+                            juste, bon
+                            et excellent.
+                        </span>
+                    </div>
+                    <div id="langue" class="rectangle-1950">
+                        <div class="rectangle-1949">
+                        </div>
+                        <span for="" class="d-block mx-auto on-attendra-de-toi-d-avoir ton-code">
+                            On attendra de toi d’avoir un bon vocabulaire, parler assez fort, avoir
+                            confiance dans
+                            ce que tu dis, prononcer correctement et imbattable sur la grammaire et
+                            l’orthographe.
+                            Tu seras évalué sur 5 niveaux différents : Les bases, travail limité, efficient,
+                            professionnel et native bilingue.
+
+                        </span>
+                    </div>
+                    <div id="engagement" class="rectangle-1950">
+                        <div class="rectangle-1949">
+                        </div>
+                        <span for="" class="d-block mx-auto on-attendra-de-toi-d-etre ton-code">
+                            <p>
+                                On attendra de toi d’être impliqué, volontaire, concerné, confiant en toi et
+                                être
+                                proactive.
+                            </p> Tu seras évalué sur 5 niveaux différents : Novice, débutant,
+                            intermédiaire,
+                            avancé et expert.
+                        </span>
+                    </div>
+                    <!--           <div id="hard-skills" class="rectangle-1950 changer">
+                        <div class="rectangle-1949">
+                        </div>
+                        <span for="" class="d-block mx-auto ton-code ton-code-devra-etre">
+                            <p>
+                                Ton code devra être fonctionnel, claire, performant, bien écrit et lisible.
+                            </p>
+                            Tu seras évalué sur 5 niveaux différents : mauvais, pauvre, juste, bon et
+                            excellent.
+                        </span>
+                    </div>
+
+                    <div id="agilePM" class="rectangle-1950 changer">
                         <div class=" rectangle-1949">
                         </div>
 
@@ -537,7 +613,7 @@
                     </div>
 
 
-                    <div id="soft-skills" class="rectangle-1950">
+                    <div id="soft-skills" class=" changer">
                         <div class="rectangle-1949">
                         </div>
                         <span for="" class="d-block mx-auto il-te-faudra-etre ton-code">
@@ -553,7 +629,7 @@
 
 
 
-                    <div id="langue" class="rectangle-1950">
+                    <div id="langue" class="rectangle-1950 changer">
                         <div class="rectangle-1949">
                         </div>
                         <span for="" class="d-block mx-auto on-attendra-de-toi-d-avoir ton-code">
@@ -567,7 +643,7 @@
                         </span>
                     </div>
 
-                    <div id="engagement" class="rectangle-1950">
+                    <div id="engagement" class="rectangle-1950 changer">
                         <div class="rectangle-1949">
                         </div>
                         <span for="" class="d-block mx-auto on-attendra-de-toi-d-etre ton-code">
@@ -579,48 +655,48 @@
                             intermédiaire,
                             avancé et expert.
                         </span>
-                    </div>
+                    </div> -->
                 </div>
 
-                <div class="col-md-6 col-sm-4 boutton-slid">
-                    <ul class="ul-slid-1">
+                <div  class="col-md-7 col-sm-4 boutton-slid">
+                    <ul id="selection-btn" class="ul-slid-1">
                         <li>
-                            <button type="button" onclick="myFunction()" id="btn-hard"
-                                class="btn-grand btn btn-danger btn-slid btn-slid-0">
+                            <button value="hard-skills" class="btn-grand btn btn-danger btn-slid btn-slid-0">
                                 hard skills
                             </button>
                         </li>
                         <li>
-                            <button type="button" onclick="agileFunction()" id="btn-agile"
-                                class="btn btn-danger btn-slid btn-slid-1">
-                                agile pm
+                            <button value="agilePM" class="btn btn-danger btn-slid btn-slid-1">
+                                agilePM
                             </button>
                         </li>
                         <li>
-                            <button type="button" onclick="softFunction()" id="btn-soft"
-                                class="btn btn-danger btn-slid btn-slid-2">
+                            <button value="soft-skills" class="btn btn-danger btn-slid btn-slid-2">
                                 soft skills
                             </button>
                         </li>
                         <li>
-                            <button type="button" onclick="langueFunction()" id="btn-langue"
-                                class="btn btn-danger btn-slid btn-slid-3">
+                            <button value="langue" class="btn btn-danger btn-slid btn-slid-3">
                                 langue
                             </button>
                         </li>
                         <li>
-                            <button type="button" onclick="engagementFunction()" id="btn-engagement"
-                                class="btn btn-danger btn-slid btn-slid-4">
+                            <button value="engagement" class="btn btn-danger btn-slid btn-slid-4">
                                 engagement
                             </button>
                         </li>
+                   
+
+
                     </ul>
 
                 </div>
+
             </div>
-
-
         </div>
+
+
+    </div>
     </div>
 
 
@@ -639,7 +715,7 @@
     </div>
 
     <div class="row">
-        <div class="col-md-6 col-sm-6 col-6">
+        <div class="col-md-6 col-sm-6 col-12">
             <div class="rectangle-1936">
                 <label for="" class="d-block mx-auto offre-start-up">offre start-(up)</label>
                 <p for="" class="d-block mx-auto offre-ideale">
@@ -697,7 +773,7 @@
 
 
         </div>
-        <div class="col-md-6 col-sm-6 col-6">
+        <div class="col-md-6 col-sm-6 col-12">
             <div class="rectangle-1938">
                 <label for="" class="d-block mx-auto offre-start-up">offre corporate</label>
                 <p for="" class="d-block mx-auto offre-ideale offre-sur-mesure">
@@ -755,9 +831,7 @@
     </div>
 
 
-
-
-    <script>
+    <!--   <script>
         var hardSkills = document.getElementById("hard-skills");
         var agilePM = document.getElementById("agilePM");
         var body = document.getElementById("body");
@@ -861,8 +935,138 @@
                 btnEngagement.style.height = "33px";
             }
         } 
-    </script>
+    </script> -->
+
+
+
+    <footer>
+        <div class="row footer">
+            <div class="col-md-5 col-sm-5 col-12">
+                <div class="row">
+                    <img src="./image/logo_Sayna 3.png" class="logo-sayna-3" alt="">
+                </div>
+
+                <div class="row">
+                    <ul class="nav nav-tabs menu-footer">
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">School</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Agency</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Factory</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="row">
+                    <ul class="nav menu-1-footer">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Legal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Privacy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Terms</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Cookies</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-1 col-sm-1 col-1">
+                <img src="./image/Line.png" class="line " alt="">
+
+                <label for="" class="chif-2020"> © 2020</label>
+
+
+            </div>
+
+            <div class="col-md-6 col-sm-6 col-12">
+                <div class="row">
+                    <label for="" class="recevez-nos-offres">
+                        Recevez nos offres spéciales et soyez au courant de nos nouveautés surprenantes
+                    </label>
+                </div>
+                <div class="row">
+                    <input type="text" name="" class="input-text" placeholder="Inscrivez-vous par email" id="input-text"
+                        height="12%">
+                    <button type="button" class="btn btn-danger rejoindre">
+                        Rejoindre
+                    </button>
+                </div>
+                <div class="row">
+                    <img src="./image/Line.png" class="ligne-1" alt="">
+                </div>
+
+                <div class="row">
+                    <div class="col-md-7 col-sm-7 col-7">
+                        <div class="contact">
+                            <div class="row">
+                                <i class="fa fa-map-marker envelope" aria-hidden="true"></i>
+                                <label for="" class="email">177 Avenue de l'exemple <br> Madagascar</label>
+                            </div>
+                            <div class="row">
+                                <i class='fas fa-phone-alt envelope'></i>
+                                <label for="" class="email">01 32 34 22 18</label> <br>
+                            </div>
+                            <div class="row">
+                                <i class='fas fa-envelope envelope'></i>
+                                <label for="" class="email">hello@sayna.io</label> <br>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-3">
+                        <i class='fab fa-instagram instagram'></i>
+                        <i class='fab fa-twitter instagram'></i>
+                        <i class='fab fa-facebook-f instagram'></i>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </footer>
 </body>
 
+
+
+<script>
+
+    window.addEventListener("DOMContentLoaded", () => {
+        const b = document.querySelectorAll("#selection-btn>li>button");
+        b.forEach(v => {
+            document.getElementById(v.value).classList.add("changer");
+            v.addEventListener("click", () => {
+                document.getElementById(v.value).classList.toggle("changer");
+                b.forEach(v2 => {
+                    if (v2 != v) {
+                        v2.classList.remove("bout");
+                        document.getElementById(v2.value).classList.add("changer");
+                    }
+                });
+                v.classList.toggle("bout");
+                if (!document.getElementById(v.value).classList.contains("changer")) {
+                    document.body.classList.add("fond");
+                }
+                else {
+                    document.body.classList.remove("fond");
+                };
+            })
+        });
+        document.getElementById("textes").style.display = "block";
+    })
+
+</script>
 
 </html>

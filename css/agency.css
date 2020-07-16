@@ -5,20 +5,77 @@
 @import url("https://db.onlinewebfonts.com/c/62e84f8271d32eb452129a0b7d59540d?family=Antipasto+Pro");
 @import url("https://db.onlinewebfonts.com/c/9d942e0ff1014c476713a855710ce309?family=Lato");
 
-/*background*/
-#body{
-
-/* position: absolute;
-width: 1324.8px;
-height: 7179.45px; */
 
 
-  background: #E9EAEF;
+body{background: #e9eaef;}
+#textes{display:none;}
+ 
+.fond{background:rgba(0, 0, 0, 0.26);}
+.bout{
+  width: 140px;
+    height: 53px;
+}
+.changer{display: none;}
+
+li button{
+  width: 127px;
+}
+
+#hard-skills {
+    background: #F2F2F7;
+    border-radius: 20px;
+    width: 355px !important;
+    height: 285px;
+    border-radius: 0px 0px 20px 20px;
+  }
+  
+#agilePM {
+    background: #F2F2F7;
+    border-radius: 20px;
+    width: 355px !important;
+    height: 285px;
+    border-radius: 0px 0px 20px 20px;
+  }
+  
+#soft-skills {
+  background: #F2F2F7;
+  border-radius: 20px;
+  width: 355px !important;
+  height: 285px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+#langue {
+  background: #F2F2F7;
+  border-radius: 20px;
+  width: 355px !important;
+  height: 285px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+#hard-skills {
+  background: #F2F2F7;
+  border-radius: 20px;
+  width: 355px !important;
+  height: 285px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+#engagement {
+  background: #F2F2F7;
+  border-radius: 20px;
+  width: 355px !important;
+  height: 285px;
+  border-radius: 0px 0px 20px 20px;
 }
 
 
-
-
+.rectangle-1949{
+    width: 340px;
+    height: 13px;
+    background: #FFCC00;
+    transform: rotate(-180deg);
+}
 
 
 .navbar-nav {
@@ -190,7 +247,7 @@ color: #FFCC00;
 
 .des-heros-2{
   position: absolute;
-    left: 6.04%;
+    left:  5.5%;
     right: 0.36%;
     top: 409px;
     bottom: 91.86%;
@@ -226,7 +283,7 @@ color: #FFCC00;
   
 }
 
-.globe-312668-1{
+.globe-312668-2{
     position: absolute;
     margin-left: 63%;
     width: 24%;
@@ -258,11 +315,8 @@ color: #FFCC00;
  
  .pourquoi-l-agency{
  
-  margin-top: 45%;
+  margin-top: 45% !important;
   margin-left: 6.3%;
-  /* position: absolute; */
-  /* width: 279px; */
-  /* height: 36px; */
    
 }
 
@@ -304,7 +358,7 @@ color: #FFCC00;
   /* position: absolute; */
   
   /* height: 240px; */
-  margin-left: 5%;
+  margin-left: 13%;
   margin-top: 1%;
   font-family: Inter;
   font-style: normal;
@@ -649,17 +703,20 @@ width: 85%;
   width: 17%;
   height: 206px;
 }
+.select{
+  margin-top: 20px;
+}
  /* Rectangle 1947 */
  
  .rectangle-1947{
  
-
+  padding-bottom: 16px;
  /*  width: 54%;
   height: 38%; */
   margin-top: 7%;
 
  
-  padding: 16px;
+  /* padding: 16px; */
  background: #F2F2F7;
  border: 11px solid #FB5875;
  box-sizing: border-box;
@@ -717,8 +774,7 @@ width: 85%;
    line-height: 86%;
    text-align: center;
    text-transform: uppercase;
-   color: #000000 !important;    
-   margin-top: 81px;
+   color: #000000 !important;
    right: 68px;
 }
 
@@ -773,8 +829,7 @@ color: #E9EAEF !important;
   line-height: 86%;
   text-align: center;
   text-transform: uppercase;
-  color: #000000 !important;    
-  margin-top: 96px;
+  color: #000000 !important;
   right: 65px;
 }
 
@@ -1150,142 +1205,183 @@ border-radius: 0px 0px 15px 15px;
 }
 
 
-@media screen and (max-width: 991px){
+
+/* carousel */
 
 
-  .pourquoi-l-agency{
- 
-    margin-top: -1%;
-  }
- /* Rectangle 15 */
- 
-/*  .rectangle-15e{
-    margin-top: 2%;
-    margin-right: 5%;
+/* Ton code devra être fonctionnel, claire, performant, bien écrit et lisible. Tu seras évalué sur 5 niveaux différents : mauvais, pauvre, juste, bon et excellent. */
 
-background: #FB5875 !important;
-border-radius: 20px !important;
+.ton-code{
 
-border-color:  #FB5875 !important; 
+  width: 100%;
+  height: 398px;
+  left: 255px;
+  margin-top: 8px;
+  
 
 font-family: Sofia Pro;
 font-style: normal;
-font-weight: bold;
-font-size: 12.42px;
-line-height: 18px;
+font-weight: 500;
+font-size: 20px;
+line-height: 150.02%;
+/* or 45px */
+
 display: flex;
 align-items: center;
 text-align: center;
-text-transform: uppercase;
-
-color: #E9EAEF !important;
-
-  margin-left: -5%;
-  margin-top: 20px;
-
+letter-spacing: 0.005em;
+  
 }
- */
 
-.forme-4-a{
-   display: none;
- }
-.placons-1259A, .nous-placons-1, .des-heros-2{
-  display: none !important;
-}
-.placons-1259{
-  display: block;
-}
-  /* Forme 4 */ 
 
- .forme-4-photo{
-   background: url(../image/Forme\ 4\ \(1\).png);
-   background-repeat: no-repeat;
-   background-size: 342px 600px;
-   margin-top: 12px;
- }
- 
- .nous-placons{
-   margin-left: 10%;
-   margin-top: 84px;
-   font-family: Inter;
-   font-style: normal;
-   font-weight: 800;
-   font-size: 85px;
-   line-height: 144px;
-   align-items: center;
-   letter-spacing: -0.08em;
-   text-transform: uppercase;
-   color: #000000;
- 
- }
- 
- 
+
+.ul-slid{
+  margin-top: 29%;
+}
+
+.ul-slid-1{
+  background: url(../image/Forme\ 5.png);
+    background-repeat: no-repeat;
+    background-size: 295px 708px;
+    background-position-x: right;
+    margin-right: -3%;
+    margin-top: -8%;
+    height: 119%;
+}
+
+li{
+  list-style: none;
+}
+.btn-slid{
+  /* text-align: center !important; */
+
+  margin-top: 12%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px; 
+  line-height: 150.02%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.005em;
+  text-transform: uppercase;
+  /* background: #FB5875; */
+  background: #FB5875 !important;
+  border-radius: 100px !important;
+  border-color: #FB5875 !important;
+
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600 !important;
+  font-size: 25px;
+  line-height: 150.02%;
+  /* or 38px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.005em;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+.btn-slid-0{
+  margin-left: 47%;
+  margin-top: 154px
+}
+
+.btn-slid-1{
+  margin-left: 21%;
+}
+
+.btn-slid-2{
+  margin-left: 6%;
+} 
+
+.btn-slid-3{
+  margin-left: 23%;
+}
+
+.btn-slid-4{
+  margin-left: 49%;
+}
+
+
+.rectangle-1950{
+  margin-top: 45%;
+}
+
+
+.on-attendra-de-toi{
+  width: 73%;
+  margin-top: 24px;
+}
+
+.il-te-faudra-etre {
+  width: 85%;
+}
+
+
+.ton-code-devra-etre{
+  width: 73%;
+  margin-top: 28px;
+}
+
+.on-attendra-de-toi-d-etre{
+  width: 87%;
+  margin-top: 35px;
+}
+
+
+
+@media(max-width: 1259px) and (min-width:1196px){
+
+  .placons-1259A, .nous-placons-1, .des-heros-2{
+    display: none !important;
+  }
+  .placons-1259{
+    display: block !important;
+  }
+  .nous-placons{ 
+    font-size: 79px;
+  }
   /* nous plaçons des héros. */
- 
   .des-heros{
-   margin-left: 9.5%;
-   margin-top: -6%;
-   margin-bottom: 25%;
-   font-family: Inter;
-   font-style: normal;
-   font-weight: 800;
-   font-size: 123px;
-   line-height: 144px;
-   align-items: center;
-   letter-spacing: -0.08em;
-   text-transform: uppercase;
-   color: #000000;
- } 
- 
- 
-  .forme4-agency{
-   margin-left: -4.9%;
-   margin-top: 7%;
-   bottom: 87.26%;
-   color: #FFCC00;
-   width: 41.1% !important;
-   
- }
- 
- 
-  
- .globe-312668-1{
-  
-   /* position: absolute; */
-   /* width: 439px;
-   height: 436px; 
-   position: absolute; */
-   width: 100%;
-   margin-left: 6%;
-   /* margin-right: -28%; */
-   margin-top: 27%;
-   
- }
- 
- .des-heros-1{
-   position: absolute;
-   /* width: 179%;
-   height: 596%; */
-   left: 10%;
-   top: 44%;
-   font-family: Inter;
-   font-style: normal;
-   font-weight: 800;
-   font-size: 125px;
-   line-height: 95.02%;
-   /* display: flex; */
-   align-items: center;
-   letter-spacing: -0.045em;
-   text-transform: uppercase;
-   color: #000000;
- }
- 
- .heros{
-   color: #FFCC00;
- }
- 
- 
+    font-size: 115px;
+  } 
+  .forme-4-photo {
+    background-size: 319px 600px;
+  }
+  .courbe-rdv-2 {
+    margin-top: 21% !important;
+    width: 21% !important;
+  }
+
+  .ul-slid-1 {
+    background-size: 284px 662px;
+  }
+  .btn-slid-0 {
+    margin-left: 32%;
+    margin-top: 167px;
+  }
+  .btn-slid-1 {
+    margin-left: 9%; 
+  }
+  .btn-slid-2 {
+    margin-left: 0%; 
+  }
+  .btn-slid-3 {
+     margin-left: 13%;
+  }
+  .btn-slid-4 {
+     margin-left: 37%; 
 }
+}
+
+
 @media (max-width: 1259px) and (min-width:992px){
 
 
@@ -1294,35 +1390,6 @@ color: #E9EAEF !important;
  
     margin-top: -1%;
   }
- /* Rectangle 15 */
- 
-/*  .rectangle-15e{
-    margin-top: 2%;
-    margin-right: 5%;
-
-background: #FB5875 !important;
-border-radius: 20px !important;
-
-border-color:  #FB5875 !important; 
-
-font-family: Sofia Pro;
-font-style: normal;
-font-weight: bold;
-font-size: 12.42px;
-line-height: 18px;
-display: flex;
-align-items: center;
-text-align: center;
-text-transform: uppercase;
-
-color: #E9EAEF !important;
-
-  margin-left: -5%;
-  margin-top: 20px;
-
-}
- */
-
 .forme-4-a{
    display: none;
  }
@@ -1387,14 +1454,8 @@ color: #E9EAEF !important;
  
   
  .globe-312668-1{
-  
-   /* position: absolute; */
-   /* width: 439px;
-   height: 436px; 
-   position: absolute; */
    width: 100%;
    margin-left: 6%;
-   /* margin-right: -28%; */
    margin-top: 27%;
    
  }
@@ -1443,7 +1504,65 @@ color: #E9EAEF !important;
 
 }
 
+@media(max-width: 1195px) and (min-width:992px){
 
+  .placons-1259A, .nous-placons-1, .des-heros-2{
+    display: none;
+  }
+  .placons-1259{
+    display: block;
+  }
+  .nous-placons{ 
+    font-size: 66px;
+    margin-bottom: -8px;
+  }
+  /* nous plaçons des héros. */
+  .des-heros{
+    font-size: 95px;
+  } 
+  .forme-4-photo {
+    background-size: 269px 510px;
+  }
+  .meilleurs-talents-africains {
+    font-size: 23px;
+    top: 490px;
+  }
+
+
+  .ul-slid-1 {
+    background-size: 192px 534px;
+  }
+  .btn-slid {
+    /* text-align: center !important; */
+    margin-top: 8%;
+  }
+  .btn-slid-0 {
+    margin-left: 47%;
+    margin-top: 118px;
+  }
+  .une-solution-a-chaque-situation {
+    margin-top: 13%;
+
+}
+
+.ul-slid-1 {
+  height: 150%;
+}
+}
+
+@media(max-width: 1195px){
+
+  .placons-1259A, .nous-placons-1, .des-heros-2{
+    display: none;
+  }
+  .placons-1259{
+    display: block;
+  }
+  .courbe-point {
+
+    display: none !important;
+  }
+}
 
 @media(max-width: 994px) and (min-width:770px){
   .forme-5-agency {
@@ -1461,7 +1580,245 @@ color: #E9EAEF !important;
   }
 }
 
+@media(max-width: 991px) and (min-width:881px){
 
+
+  .placons-1259A, .nous-placons-1, .des-heros-2{
+    display: none;
+  }
+  .placons-1259{
+    display: block;
+  }
+  .forme-4-photo {
+    background-size: 212px 472px;
+  }
+  .meilleurs-talents-africains {
+    font-size: 23px;
+    margin-top: 221px;
+    margin-left: -13px;
+  }
+
+  /* nous plaçons des héros. */
+  .des-heros{
+    font-size: 74px;
+      margin-left: 9.5%;
+      margin-top: -6%;
+      margin-bottom: 25%;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 144px;
+      align-items: center;
+      letter-spacing: -0.08em;
+      text-transform: uppercase;
+      color: #000000;
+    
+  } 
+  .globe-312668-1 {
+    width: 100%;
+    margin-left: 6%;
+    margin-top: 60%;
+  }
+
+
+
+
+
+  /* nous plaçons des héros. */
+  .des-heros{
+    font-size: 74px;
+      margin-left: 9.5%;
+      margin-top: -6%;
+      margin-bottom: 25%;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 144px;
+      align-items: center;
+      letter-spacing: -0.08em;
+      text-transform: uppercase;
+      color: #000000;
+    
+  } 
+  .pourquoi-l-agency{
+ 
+    margin-top: -1%;
+  }
+.forme-4-a{
+   display: none;
+ }
+
+/* .globe-312668-2{
+  display: none;
+} */
+.placons-1259{
+  display: block;
+}
+  /* Forme 4 */ 
+
+ .forme-4-photo{
+   background: url(../image/Forme\ 4\ \(1\).png);
+   background-repeat: no-repeat;
+   background-size:  215px 486px ;
+   margin-top: 12px;
+ }
+ 
+ .nous-placons{
+   margin-left: 10%;
+   margin-top: 84px;
+   font-family: Inter;
+   font-style: normal;
+   font-weight: 800;
+   font-size: 51px;
+   line-height: 144px;
+   align-items: center;
+   letter-spacing: -0.08em;
+   text-transform: uppercase;
+   color: #000000;
+   margin-bottom: -52px;
+ 
+ }
+ 
+ 
+  .forme4-agency{
+   margin-left: -4.9%;
+   margin-top: 7%;
+   bottom: 87.26%;
+   color: #FFCC00;
+   width: 41.1% !important;
+   
+ }
+ 
+ 
+  
+ .globe-312668-1{
+   width: 100%;
+   margin-left: 6%;
+   margin-top: 60%;
+   
+ }
+ 
+ .heros{
+   color: #FFCC00;
+ }
+
+
+ .ul-slid-1 {
+  background-size: 192px 534px;
+}
+.btn-slid {
+  /* text-align: center !important; */
+  margin-top: 8%;
+}
+.btn-slid-0 {
+  margin-left: 47%;
+  margin-top: 118px;
+}
+.une-solution-a-chaque-situation {
+  margin-top: 13%;
+
+}
+
+.ul-slid-1 {
+height: 150%;
+}
+}
+
+
+@media (max-width:880px) and (min-width: 771px){
+ 
+  .placons-1259A, .nous-placons-1, .des-heros-2{
+    display: none;
+  }
+  .placons-1259{
+    display: block;
+  }
+  
+  .forme-4-photo {
+    background: url(../image/Forme\ 4\ \(1\).png);
+    background-repeat: no-repeat;
+    margin-top: 12px;
+    background-size: 212px 472px;
+  }
+  .meilleurs-talents-africains {
+    font-size: 23px;
+    margin-top: 221px;
+    margin-left: -13px;
+  }
+
+  .nous-placons{
+    
+    margin-bottom: -52px;
+    margin-left: 10%;
+    margin-top: 84px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 51px;
+    line-height: 144px;
+    align-items: center;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+    color: #000000;
+  
+  }
+  .pourquoi-l-agency {
+    margin-top: 4%;
+  }
+
+  /* nous plaçons des héros. */
+  .des-heros{
+    font-size: 73px;
+      margin-left: 9.5%;
+      margin-top: -6%;
+      margin-bottom: 25%;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 144px;
+      align-items: center;
+      letter-spacing: -0.08em;
+      text-transform: uppercase;
+      color: #000000;
+    
+  } 
+ 
+ 
+  .globe-312668-1 {
+    /* position: absolute; */
+    width: 100%;
+    margin-left: 45%;
+    /* margin-right: -28%; */
+    margin-top: 85%;
+}
+
+.ul-slid-1 {
+  background-size: 192px 534px;
+}
+.btn-slid {
+  /* text-align: center !important; */
+  margin-top: 8%;
+}
+.une-solution-a-chaque-situation {
+  margin-top: 13%;
+
+}
+
+.ul-slid-1 {
+height: 150%;
+}
+
+.btn-slid {
+  /* text-align: center !important; */
+  margin-top: 8%;
+  margin-left: 29%;
+  }
+ 
+.btn-slid-0 {
+  margin-left: 47%;
+  margin-top: 118px;
+} 
+} 
 @media(max-width: 770px) and (min-width:573px){
 
   .placons-1259A, .nous-placons-1, .des-heros-2{
@@ -1470,233 +1827,290 @@ color: #E9EAEF !important;
   .placons-1259{
     display: block !important;
   }
-  .nous-placons{ 
-    font-size: 65px !important;
-  }
   
-  .des-heros {
-    font-size: 90px !important;
-  }
+  .nous-placons{
+    
+    margin-bottom: -52px;
+    margin-left: 10%;
+    margin-top: 84px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 144px;
+    align-items: center;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+    color: #000000;
+  
   }
 
-
-
-@media(max-width: 1259px) and (min-width:1196px){
-
-  .placons-1259A, .nous-placons-1, .des-heros-2{
-    display: none !important;
-  }
-  .placons-1259{
-    display: block !important;
-  }
-  .nous-placons{ 
-    font-size: 79px;
-  }
   /* nous plaçons des héros. */
   .des-heros{
-    font-size: 115px;
+    font-size: 66px;
+      margin-left: 9.5%;
+      margin-top: -6%;
+      margin-bottom: 25%;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 144px;
+      align-items: center;
+      letter-spacing: -0.08em;
+      text-transform: uppercase;
+      color: #000000;
+    
   } 
-  .forme-4-photo {
-    background-size: 319px 600px;
-  }
-  .courbe-rdv-2 {
-    margin-top: 21% !important;
-    width: 21% !important;
-  }
-}
-
-@media(max-width: 1195px){
-
-  .placons-1259A, .nous-placons-1, .des-heros-2{
-    display: none;
-  }
-  .placons-1259{
-    display: block;
-  }
-  .courbe-point {
-
-    display: none !important;
-  }
-}
-@media(max-width: 1195px) and (min-width:992px){
-
-  .placons-1259A, .nous-placons-1, .des-heros-2{
-    display: none;
-  }
-  .placons-1259{
-    display: block;
-  }
-  .nous-placons{ 
-    font-size: 69px;
-  }
-  /* nous plaçons des héros. */
-  .des-heros{
-    font-size: 96px;
-  } 
-  .forme-4-photo {
-    background-size: 269px 543px;
-  }
-  .meilleurs-talents-africains {
-    font-size: 26px;
-  }
- /*  .courbe-questionnaire {
-    width: 40% !important;
-  }
- */
-}
-
-@media(max-width: 991px) and (min-width:771px){
-
-  .placons-1259A, .nous-placons-1, .des-heros-2{
-    display: none;
-  }
-  .placons-1259{
-    display: block;
-  }
-  .nous-placons{ 
-    font-size: 69px;
-  }
-  /* nous plaçons des héros. */
-  .des-heros{
-    font-size: 96px;
-  } 
-  .forme-4-photo {
-    background-size: 269px 543px;
-  }
-  .meilleurs-talents-africains {
-    font-size: 26px;
-  }
- /*  .courbe-questionnaire {
-    width: 40% !important;
-  }
- */
-}
-
-
-
-@media(max-width: 840px){
-.sayna-place-les-meilleurs{
-  width: 100%;
-}
-}
-
-
-
-
-@media(max-width: 770px){
-
-  .forme-4-photo {
-    background-size: 269px 543px;
-  }
-  .meilleurs-talents-africains {
-    font-size: 26px;
-  }
- /*  .courbe-questionnaire {
-    width: 40% !important;
-  }
- */
-}
-
-@media(max-width: 768px){
 
  
-  .forme-4-photo{
-    /* background-size: 100% 100%; */
-    background: #E9EAEF; 
-  } 
+  .globe-312668-1 {
+    /* position: absolute; */
+    width: 100%;
+    margin-left: 45%;
+    /* margin-right: -28%; */
+    margin-top: 85%;
 }
 
 
-@media(max-width: 573px){
+.forme-4-photo {
+  background: url(../image/Forme\ 4\ \(1\).png);
+  background-repeat: no-repeat;
+  margin-top: 12px;
+  background-size: 193px 452px;
+}
+.pourquoi-l-agency {
+  margin-top: 0%;
+}
 
-  .nous-placons{ 
-    font-size: 38px;
+
   }
-  /* nous plaçons des héros. */
-  .des-heros{
-    font-size: 42px;
-    margin-top: -72px;
-  } 
+
+ 
+@media(max-width: 770px) {
+  .forme-4-agency {
+    display: none;
+  }
+  .rectangle-1950{
+    display: none;
+  }
+  .ul-slid-1{
+    display: none;
+  }
+} 
+ 
+@media(max-width: 575px) and (min-width:573px){
+  
+  .globe-312668-1 {
+    width: 100%;
+    margin-left: 0% !important;
+    margin-top: 0% !important;  
+  }
+}
+  
+
+@media  screen and (max-width:768px){
+  .grace-a-vous-1 {
+    margin-left: 10%;
+  }
 }
 
 
+@media (max-width:770px) and (min-width:693px){
+  .meilleurs-talents-africains {
+    left: 61px;
+    top: 738px;
+    font-size: 21px;
+}
+}
 
 @media  screen and (max-width:702px){
 
   .la-transparence {
     width: 100%;
-}
-.loin-des-modeles {
-  width: 97%;
-}
-.sayna-place-les-meilleurs{
-  width: 100%;
-}
-}
-
-
-
-@media  screen and (max-width:702px){
-
-  .la-transparence {
+  }
+  .loin-des-modeles {
+    width: 97%;
+  }
+  .sayna-place-les-meilleurs{
     width: 100%;
-}
-.loin-des-modeles {
-  width: 97%;
-}
+  }
 }
 
 @media  screen and (max-width:770px){
   .groovyDoodle {
     display: none;
-}
-.forme-4-agency {
-  display: none;
-  /* transform: matrix(0.7, 0.72, 0.72, -0.7, 0, 0); */
-}
-
-.forme-5-agency {
-  display: none;
-}
+  }
 /* 
-.forme-4-mobile{
-  display: inline;
-} */
-
+  .forme-5-agency {
+    display: none;
+  }
+  .meilleurs-talents-africains{
+    display: none;
+  }
+ */
 }
 
-
-@media  (max-width:991px) and (min-width:12px){
+@media(max-width: 692px) and (min-width:573px){
+    
+  .nous-placons{
+    
+    margin-bottom: -52px;
+    margin-left: 10%;
+    margin-top: 84px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 39px;
+    line-height: 144px;
+    align-items: center;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+    color: #000000;
   
-  /* .boutton-slid{
-    display: none;
-  } */
-}
-/* @media  screen and (max-width:991px){
-  .globe-312668-1 {
-    display: none;
   }
-  .boutton-slid{
-    display: none;
-  }
-} */
 
-@media  (max-width:993px) and (min-width:12px){
+  /* nous plaçons des héros. */
+  .des-heros{
+    font-size: 53px;
+      margin-left: 9.5%;
+      margin-top: -6%;
+      margin-bottom: 25%;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 144px;
+      align-items: center;
+      letter-spacing: -0.08em;
+      text-transform: uppercase;
+      color: #000000;
+    
+  } 
+  .forme-4-photo {
+    background: url(../image/Forme\ 4\ \(1\).png);
+    background-repeat: no-repeat;
+    margin-top: 12px;
+    background-size: 160px 437px;
+}
+ 
+  .globe-312668-1 {
+    width: 100%;
+    margin-left: 24%;
+    margin-top: 156px
+  }
+  .meilleurs-talents-africains {
+    font-size: 18px;
+    margin-top: 216px;
+    margin-left: -32px;
+  }
+
+}
+
+@media(max-width: 584px) and (min-width:573px){
+  .nous-placons {
+    font-size: 38px;
+  }
+}
+
+@media(max-width: 572px) and (min-width:73px){
+ 
+
+  .forme-4-a {
+    display: none;
+  }
+  .globe-312668-2 {
+    display: none;
+  }
+  .placons-1259{
+    display: block !important;
+  }
+
+  .nous-placons{
+    display: block !important;
+    margin-bottom: -52px;
+    margin-left: 10%;
+    margin-top: 84px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 39px;
+    line-height: 144px;
+    align-items: center;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+    color: #000000;
+  
+  }
+
+  /* nous plaçons des héros. */
+  .des-heros{
+    font-size: 53px;
+      margin-left: 9.5%;
+      margin-top: -6%;
+      margin-bottom: 25%;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 144px;
+      align-items: center;
+      letter-spacing: -0.08em;
+      text-transform: uppercase;
+      color: #000000;
+    
+  } 
+  .forme-4-photo {
+    background: url(../image/Forme\ 4\ \(1\).png);
+    background-repeat: no-repeat;
+    margin-top: 12px;
+    background-size: 160px 437px;
+  }
+ 
+  .globe-312668-1 {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 0px
+  }
+  .meilleurs-talents-africains {
+    font-size: 18px;
+    margin-top: 216px;
+    margin-left: -32px;
+  }
+  .pourquoi-l-agency {
+    margin-top: 0%;
+  }
+}
+
+
+@media  (max-width:993px) and (min-width:857px){
   .forme-5-agency {
     margin-left: 71%;
   }
 }
 
 
-#hard-skills, #agilePM, #soft-skills, #langue, #engagement {
-  display: none;
-  background: #F2F2F7;
-  border-radius: 20px;
-  width: 355px !important;
-  height: 285px;
-  border-radius: 0px 0px 20px 20px;
+
+@media  (max-width:993px) and (min-width:857px){
+  .forme-5-agency {
+    margin-left: 71%;
+  }
 }
 
+@media  (max-width:769px) and (min-width:577px){
+  .forme-5-agency {
+    margin-left: 51%;
+  }
+}
+
+@media  (max-width:576px) and (min-width:127px){
+  .forme-5-agency {
+    margin-left: 51%;
+  }
+}
+
+@media  (max-width:505px) {
+  .decouvrez-nos-modalites {
+    font-size: 23px;
+  }
+}
 
  
 
@@ -1704,8 +2118,7 @@ color: #E9EAEF !important;
 /* Rectangle 1949 */
 
 .rectangle-1949{
-  /* margin-top: 12%; */
-  /* position: absolute; */
+  
   width: 355px;
   height: 13px;
   background: #FFCC00;
@@ -1717,135 +2130,16 @@ color: #E9EAEF !important;
 
 
 
-/* carousel */
-
-
-/* Ton code devra être fonctionnel, claire, performant, bien écrit et lisible. Tu seras évalué sur 5 niveaux différents : mauvais, pauvre, juste, bon et excellent. */
-
-.ton-code{
-
-  width: 100%;
-  height: 398px;
-  left: 255px;
-  margin-top: 8px;
-  
-  /* font-family: Sofia Pro;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 150.02%;
-  /* or 45px * /
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.005em;
-  
-  color: #000000; */
-
-font-family: Sofia Pro;
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 150.02%;
-/* or 45px */
-
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.005em;
-  
-}
 
 
 
-.ul-slid{
-  margin-top: 29%;
-}
-
-.ul-slid-1{
-  margin-top: 7%;
-}
-
-li{
-  list-style: none;
-}
-.btn-slid{
-  margin-top: 20%;
-  width: 127px;
-  /* text-align: center !important; */
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px; 
-  line-height: 150.02%;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.005em;
-  text-transform: uppercase;
-  /* background: #FB5875; */
-  background: #FB5875 !important;
-  border-radius: 100px !important;
-  border-color: #FB5875 !important;
 
 
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 600 !important;
-  font-size: 25px;
-  line-height: 150.02%;
-  /* or 38px */
-
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.005em;
-  text-transform: uppercase;
-
-  color: #FFFFFF;
-}
-
-.btn-slid-0{
-  margin-left: 61%;
-}
-
-.btn-slid-1{
-  margin-left: 21%;
-}
 
 
-.btn-slid-3{
-  margin-left: 24%;
-}
-
-.btn-slid-4{
-  margin-left: 65%;
-}
 
 
-.rectangle-1950{
-  margin-top: 45%;
-}
 
-
-.on-attendra-de-toi{
-  width: 73%;
-  margin-top: 24px;
-}
-
-.il-te-faudra-etre {
-  width: 85%;
-}
-
-
-.ton-code-devra-etre{
-  width: 73%;
-  margin-top: 28px;
-}
-
-.on-attendra-de-toi-d-etre{
-  width: 87%;
-  margin-top: 35px;
-}
 
 @media(max-width: 721px){
   .decouvrez-nos-modalites {
@@ -1861,3 +2155,7 @@ li{
     margin-left: 71%;
   }
 }
+
+
+
+/* jquery */
