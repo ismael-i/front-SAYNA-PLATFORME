@@ -25,11 +25,14 @@
  
  .forme4-agency{
     
-    width: 496px;
-    height: 956px;
-    /* left: 222px; */
-    position: absolute;
-    top: 130px;
+   position: absolute;
+   /* left: -23.29%; */
+   right: 84.17%;
+   top: 150px;
+   bottom: 87.26%;
+
+   color: #FFCC00;
+   
  }
  
  /* nous plaçons des héros. */
