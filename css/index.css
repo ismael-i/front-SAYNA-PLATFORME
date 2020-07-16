@@ -1,4 +1,5 @@
 @import url('https://rsms.me/inter/inter.css');
+@import url("https://db.onlinewebfonts.com/c/75381a7b2320dd7176752c293d19298c?family=Antipasto");
 @import url("https://db.onlinewebfonts.com/c/62e84f8271d32eb452129a0b7d59540d?family=Antipasto+Pro");
 @import url("https://db.onlinewebfonts.com/c/9d942e0ff1014c476713a855710ce309?family=Lato");
 #background-body {
@@ -344,9 +345,9 @@
     height: 31.05px;
     left: 126.27px;
     top: 630.66px;
-    font-family: Antipasto Pro;
+    font-family: "Antipasto";
     font-style: normal;
-    font-weight: bold;
+    font-weight: n;
     font-size: 2em;
     line-height: 30.36px;
     letter-spacing: -0.01em;
@@ -374,15 +375,16 @@
 
 .form-news-ltr {
     position: relative;
-    width: 457px !important;
+    width: 494px !important;
     height: 57.27px !important;
     left: 0;
     top: 15.5px;
-    padding-left: 46px !important;
+    padding-left: 34px !important;
     margin-top: 6.9px;
     background: #FAFAFA;
     box-shadow: inset 4px 4px 10px rgba(0, 0, 0, 0.15) !important;
     border-radius: 40px !important;
+    border: 0px !important;
     font-family: "Lato";
     font-style: normal;
     font-weight: normal;
@@ -393,6 +395,14 @@
     align-items: center;
     /* text-align: center; */
     letter-spacing: -0.015em;
+    /* color: rgba(110, 110, 110, 0.51); */
+}
+
+.form-news-ltr::placeholder {
+    color: rgba(110, 110, 110, 0.51) !important;
+}
+
+.form-news-ltr:-ms-input-placeholder {
     color: rgba(110, 110, 110, 0.51) !important;
 }
 
@@ -412,16 +422,17 @@
     }
     .label-news-1 {
         font-size: 1em !important;
+        margin-top: 5px;
     }
 }
 
 .btn-news-ltr {
     position: relative;
-    width: 150px !important;
+    width: 169px !important;
     height: 57.96px;
     /* left: 50%; */
     float: right;
-    top: -42.8px;
+    top: -41.8px;
     padding-top: 2px !important;
     display: block;
     z-index: 2;
@@ -432,21 +443,23 @@
 
 .news-form {
     position: relative;
-    width: 460px;
+    width: 496px;
 }
 
 .label-news-1 {
     /* position: absolute; */
+    position: relative;
     width: 100%;
-    height: 35.88px;
-    left: 479.55px;
-    top: 692px;
+    height: 13.88px;
+    margin-top: 11px;
+    /* left: 479.55px; */
+    /* top: 698px; */
     margin-bottom: 0px;
     font-family: "Lato";
     font-style: normal;
     font-weight: 600;
     font-size: 1.1em;
-    /* line-height: 28px; */
+    line-height: 17px;
     display: block;
     align-items: center;
     text-align: center;
@@ -458,10 +471,10 @@
     /* position: absolute; */
     width: 100%;
     height: 18.63px;
-    font-family: Antipasto Pro;
+    font-family: "Antipasto Pro";
     font-style: normal;
     font-weight: normal;
-    font-size: 0.7em;
+    font-size: 0.78em;
     margin-left: 2px;
     /* line-height: 16px; */
     /* display: flex; */
@@ -488,6 +501,12 @@
     text-align: right;
     float: right;
     margin-top: -31%;
+}
+
+@media(min-width:1450px) {
+    .woman-img {
+        top: 69px;
+    }
 }
 
 @media(max-width:640px) {
@@ -560,6 +579,13 @@
     width: 100%;
     padding-left: 10%;
     padding-right: 10%;
+}
+
+@media(min-width:1323px) {
+    .partner-logo {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
 }
 
 .partner-list li {
@@ -653,7 +679,7 @@
 }
 
 .fleche-voir-detail {
-    margin-left: 27px;
+    margin-left: 48px;
     color: #E9EAEF;
     font-size: 17px;
 }
@@ -755,16 +781,16 @@
 .bouton {
     position: relative;
     z-index: 2;
-    height: 61.76px;
-    width: 315px;
-    left: 0%;
+    height: 58px;
+    width: 357px;
+    left: -5%;
     right: 0%;
     top: 268px;
     bottom: 0%;
     border-style: none;
     border-image: none;
     background: #FB5875 !important;
-    border-radius: 20px !important;
+    border-radius: 15px !important;
     font-family: "Lato";
     font-style: normal !important;
     font-weight: bold !important;
@@ -777,8 +803,15 @@
     color: #E9EAEF !important;
 }
 
+.fleche-cataloge {
+    margin-left: 28px;
+    color: #E9EAEF;
+    font-size: 17px;
+}
+
 .txt-voir-detail {
-    left: 2.34%;
+    left: -1.66%;
+    position: relative;
     right: 19.49%;
     top: 1.85%;
     bottom: -1.85%;
@@ -861,22 +894,22 @@
 
 .btn-component-2 {
     position: relative;
-    width: 266px;
+    width: 327px;
     height: 58px;
-    bottom: 18px;
+    bottom: -45px;
     border-style: none !important;
     border-image: none !important;
     display: inline-grid !important;
     background: #FB5875 !important;
-    border-radius: 20px !important;
+    border-radius: 15px !important;
 }
 
 .voir-detail {
-    /* position: absolute; */
-    left: 2.34%;
+    position: relative;
+    left: -0.66%;
     right: 19.49%;
-    top: 1.85%;
-    bottom: -1.85%;
+    top: 5.85%;
+    bottom: 3.15%;
     margin-left: auto;
     margin-right: auto;
     font-family: "Lato";
@@ -929,6 +962,29 @@
     }
     .groupe-12 {
         top: -27%;
+    }
+}
+
+@media(min-width:1401px) {
+    .layingDoodle-1 {
+        width: 552px;
+        top: 37%;
+    }
+    .groupe-12 {
+        width: 580px;
+        top: -70%;
+    }
+}
+
+@media (max-width: 1400px) and (min-width:1300px) {
+    .layingDoodle-1 {
+        top: 37%;
+    }
+    .groupe-12 {
+        top: -68%;
+    }
+    .pantalon1 {
+        height: 180px;
     }
 }
 
@@ -1188,6 +1244,18 @@
     height: auto;
 }
 
+@media(max-width:1399px)and(min-width:1250px) {
+    .tem-etudiant {
+        margin-top: 3%;
+    }
+}
+
+@media(min-width:1400px) {
+    .tem-etudiant {
+        margin-top: 5%;
+    }
+}
+
 .li-rect {
     width: 357px;
     height: 389px;
@@ -1205,24 +1273,24 @@
 /*ellipse ced*/
 
 .ellipse-171 {
-    position: absolute;
+    position: relative;
     width: 96.6px;
     height: 96.6px;
-    left: 33px;
+    left: 16px;
     top: 34.5px;
     border-radius: 50%;
     border: 4px solid agency-text-white;
     padding: 4px;
-    background: #FFFFFF;
+    /* background: #FFFFFF; */
 }
 
 .cedrick {
     /* Cédric Maminjanahary */
-    position: absolute;
+    position: relative;
     width: 71%;
     height: 33.12px;
-    left: 160px;
-    top: 48.3px;
+    left: 132px;
+    top: -53.7px;
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
     font-weight: normal;
@@ -1234,11 +1302,11 @@
 
 .etud1 {
     /* Etudiant SAYNA #1 Développeur @Accès Banque */
-    position: absolute;
+    position: relative;
     width: 60%;
     height: 24.84px;
-    left: 158px;
-    top: 82.8px;
+    left: 136px;
+    top: -52px;
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
     font-weight: 500;
@@ -1252,11 +1320,11 @@
 /*temoignage cedrick*/
 
 .tem1 {
-    position: absolute;
+    position: relative;
     width: 305px;
     height: 284.28px;
-    left: 12%;
-    top: 103.5px;
+    left: 7%;
+    top: -77.5px;
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
     font-weight: normal;
@@ -1286,24 +1354,24 @@
 /*ellipse sahaza*/
 
 .ellipse-6 {
-    position: absolute;
+    position: relative;
     width: 96px;
     height: 96px;
-    left: 33px;
+    left: 16px;
     top: 34.5px;
     border-radius: 50%;
     border: 4px solid agency-text-white;
     padding: 4px;
-    background: #FFFFFF;
+    /* background: #FFFFFF */
 }
 
 .sahaza {
     /* sahaza henintsoa */
-    position: absolute;
+    position: relative;
     width: 70%;
     height: 33.12px;
-    left: 162px;
-    top: 48.3px;
+    left: 136px;
+    top: -52.7px;
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
     font-weight: normal;
@@ -1315,11 +1383,11 @@
 
 .etud2 {
     /* Etudiant SAYNA #1 Développeur @en2roues */
-    position: absolute;
+    position: relative;
     width: 60%;
     height: 24.84px;
-    left: 162px;
-    top: 82.8px;
+    left: 137px;
+    top: -53.2px;
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
     font-weight: 500;
@@ -1333,11 +1401,11 @@
 /*temoignage sahaza*/
 
 .tem2 {
-    position: absolute;
+    position: relative;
     width: 354px;
     height: 284.28px;
-    left: 11%;
-    top: 103.5px;
+    left: 7%;
+    top: -60.5px;
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
     font-weight: normal;
@@ -1362,25 +1430,24 @@
 /*ellipse jenny*/
 
 .ellipse-172 {
-    position: absolute;
+    position: relative;
     width: 96.6px;
     height: 96.6px;
-    left: 33px;
+    left: 16px;
     top: 34.5px;
     border-radius: 50%;
     border: 4px solid agency-text-white;
     padding: 4px;
-    background: #FFFFFF;
-    ;
+    /* background: #FFFFFF; */
 }
 
 .jenny {
     /* jenny*/
-    position: absolute;
+    position: relative;
     width: 50%;
     height: 33.12px;
-    left: 162px;
-    top: 48.3px;
+    left: 138px;
+    top: -52.7px;
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
     font-weight: normal;
@@ -1392,11 +1459,11 @@
 
 .etud3 {
     /* Etudiant SAYNA #2 Développeur @Ingedata */
-    position: absolute;
+    position: relative;
     width: 60%;
     height: 24.84px;
-    left: 162px;
-    top: 82.8px;
+    left: 141px;
+    top: -53.2px;
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
     font-weight: 500;
@@ -1410,11 +1477,11 @@
 /*temoignage jenny*/
 
 .tem3 {
-    position: absolute;
+    position: relative;
     width: 209px;
     height: 285px;
-    left: 26%;
-    top: 103.5px;
+    left: 21%;
+    top: -69.5px;
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
     font-weight: normal;
@@ -1651,7 +1718,7 @@
     position: relative;
     width: 172px;
     /* height: 378.92px; */
-    left: 69px;
+    left: 71px;
     border-radius: 20px;
     /* transform: rotate(19.43deg);*/
 }
@@ -1721,10 +1788,10 @@
 /* Rectangle 1922 */
 
 .fleche-decouvrir {
-    margin-left: -17px;
+    margin-left: 0px;
     color: #E9EAEF;
     font-size: 13px;
-    padding-right: 21px;
+    /* padding-right: 21px;*/
 }
 
 .btn-decouvrir {
@@ -1733,6 +1800,8 @@
     left: 37%;
     top: 77%;
     height: 40.02px;
+    margin-left: 40%;
+    margin-right: 39%;
     border-style: none;
     border-image: none;
     background: #FB5875 !important;
@@ -1753,6 +1822,7 @@
     height: 36.57px;
     left: 587.19px;
     top: 5143.26px;
+    margin-left: -14px;
     font-family: "Lato";
     font-style: normal;
     font-weight: bold;
@@ -1870,7 +1940,7 @@
     height: 37.95px;
     /* left: 779.01px; */
     /* top: 5636.61px; */
-    padding-right: 35px;
+    padding-right: 13px;
     font-family: "Lato";
     font-style: normal;
     font-weight: bold;
@@ -1951,7 +2021,7 @@
 
 .sayna-faire-connaitre {
     position: absolute;
-    width: 92%;
+    width: 94%;
     height: 65.55px;
     /* left: 77px; */
     top: 41%;
@@ -1972,13 +2042,13 @@
     /* left: 77.87px; */
     top: 75%;
     width: 342px;
-    height: 65px;
+    height: 61px;
     /* bottom: 18px; */
     border-style: none !important;
     border-image: none !important;
     display: inline-grid !important;
     background: #FB5875 !important;
-    border-radius: 20px !important;
+    border-radius: 15px !important;
 }
 
 
@@ -1986,12 +2056,14 @@
 
 .ils-parlent-de-nous {
     font-family: Lato;
+    position: relative;
+    top: 3px;
     font-style: normal;
     font-weight: bold;
     font-size: 1em;
     line-height: 20.7px;
-    padding-left: 28%;
-    display: flex;
+    padding-left: 17%;
+    display: inline-flex;
     align-items: center;
     text-align: center;
     text-transform: uppercase;
@@ -1999,9 +2071,9 @@
 }
 
 .fleche-ils-parlent {
-    margin-left: 13px;
+    margin-left: 43px;
     color: #E9EAEF;
-    font-size: 17px;
+    font-size: 17p
 }
 
 
@@ -2204,7 +2276,7 @@
     left: 41%;
     right: 47.29%;
     top: -36px;
-    width: 20%;
+    width: 39%;
     /* bottom: 0; */
     display: block;
 }
@@ -2212,7 +2284,7 @@
 .youtube-pager li {
     list-style-type: none;
     display: inline-block;
-    width: 5%;
+    width: 10px;
     height: 10px;
     border-radius: 50%;
     background-color: #929292;
@@ -2227,4 +2299,16 @@
 
 .img-you {
     margin-top: 20px;
+}
+
+@media(min-width:1300px) {
+    .center-parallax {
+        left: 41% !important;
+    }
+    .right-parallax {
+        left: 41% !important;
+    }
+    .left-parallax {
+        left: 41% !important;
+    }
 }

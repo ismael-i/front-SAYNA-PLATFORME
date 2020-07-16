@@ -226,14 +226,13 @@ top: calc(50% - 36px/2 - 3757.5px); */
 }
 
 .vector1 {
-    position: relative;
-    width: 11px;
-    height: 11.7px;
-    left: 2px;
-    top: -1px;
-    /* border-radius: 50%;
-background-color: #FB5875; */
-    /* background: #E9EAEF; */
+    height: 16px;
+    top: 4px;
+    color: #E9EAEF;
+    font-size: 17px;
+    margin-left: 6px;
+    /* background: #E9EAF4; */
+    position: absolute;
 }
 
 .ellipse1 {
@@ -241,10 +240,10 @@ background-color: #FB5875; */
     text-decoration: none;
     position: relative;
     z-index: 2;
-    width: 36px;
-    height: 36px;
-    /* left: 508px;
-top: 1915px; */
+    display: inline-flex;
+    width: 26px;
+    height: 26px;
+    top: 8px;
     border-radius: 150%;
     background: #FB5875;
 }
@@ -282,7 +281,7 @@ top: 1919px; */
 .btn-factory {
     /* Rectangle 15 */
     position: relative;
-    width: 68%;
+    width: 75%;
     height: 63.2px;
     left: 0%;
     right: 0%;
@@ -295,7 +294,7 @@ top: 1919px; */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
     background-color: #FB5875 !important;
     border-color: #FB5875 !important;
-    border-radius: 20px !important;
+    border-radius: 15px !important;
 }
 
 
@@ -488,7 +487,7 @@ top: 4608px; */
     height: 16.9px;
     /* left: 906px;
 top: 5094px; */
-    /* top: 5.6px; */
+    top: 2.6px;
     font-family: "Lato";
     font-style: normal;
     font-weight: bold;
@@ -598,7 +597,7 @@ top: 4670px; */
     z-index: 2;
     /* left: 523px;
  */
-    /* top: 5.6px; */
+    top: 2.6px;
     font-family: "Lato";
     font-style: normal;
     font-weight: normal;
@@ -613,7 +612,7 @@ top: 4670px; */
     position: absolute;
     width: 268px;
     height: 374.8px;
-    left: 37%;
+    left: 38%;
     background: #F7F7F9;
     border-radius: 0px 20px 20px 0;
 }
@@ -641,7 +640,7 @@ top: 4670px; */
     height: 15.9px;
     /* left: 1286px;
 top: 5060px; */
-    /* top: 5.6px; */
+    top: 2.6px;
     font-family: "Lato";
     font-style: normal;
     font-weight: normal;
