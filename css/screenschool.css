@@ -363,6 +363,18 @@ background-position: left top ;
     height: 70.38px;
     
 }
+  .structure {
+    position: relative;
+    width: 70%;
+    
+    margin-top: 49% !important;
+    left: 8%;
+    font-family: 'Inter', 'sans-serif';
+    font-style: normal;
+    font-size: 0.78em;
+    line-height: 156.02%;
+    color: #000000;
+}
 }
 
 @media screen and (max-width: 725px) {
@@ -411,3 +423,5 @@ background-position: left top ;
 }
 
 }
+
+
