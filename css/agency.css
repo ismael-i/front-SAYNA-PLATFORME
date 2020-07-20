@@ -18,7 +18,12 @@ body{background: #e9eaef;}
 .changer{display: none;}
 
 li button{
-  width: 127px;
+  width: 131px;
+}
+
+.btn-slid:hover {
+  background-color: white !important;
+  color: #FB5875 !important;
 }
 
 #hard-skills {
@@ -94,7 +99,7 @@ li button{
 }
 
 
-.new-logo{
+.new-logo-1{
   width: 220px;
     height: 71px;
     margin-left: 17px;
@@ -112,15 +117,15 @@ li button{
       margin-left: 15px;
       background-color: #FB5875 !important;
       border-radius: 50px !important;
-      font-family: Sofia Pro;
+      font-family: Antipasto Pro;
       font-style: normal;
       font-weight: bold !important;
-      font-size: 16.56px !important;
-      line-height: 16.56px !important;
+      font-size: 21px !important;
+      line-height: 24px !important;
       display: inline-grid !important;
       align-items: center;
       text-align: center;
-      letter-spacing: -0.05em;
+      letter-spacing: -0.025em;
       text-transform: uppercase;
       color: #E9EAEF !important;
   /* transform: matrix(1, 0, 0, -1, 0, 0); */
@@ -133,37 +138,36 @@ li button{
   background-color: #F2F2F7 !important;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
   border-radius: 20px !important;
-  font-family: Sofia Pro;
+  font-family: Antipasto Pro;
   font-style: normal;
   font-weight: bold !important;
-  font-size: 16.56px !important;
-  line-height: 16.56px !important;
+  font-size: 21px !important;
+  line-height: 24px !important;
   display: inline-grid !important;
   align-items: center;
   text-align: center !important;
-  letter-spacing: -0.025em;
+  letter-spacing: 0.025em;
   text-transform: uppercase;
   color: #575F6B !important;
 }
 .btn-agency{
-
-  width: 120.06px;
-  height: 48.3px;
+  width: 129.06px;
+  height: 54.3px;
   left: 614.1px;
   margin-top: 38.64px;
   margin-left: 15px;
   background-color: #FFCC00 !important;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
   border-radius: 20px !important;
-  font-family: Sofia Pro;
+  font-family: Antipasto Pro;
   font-style: normal;
   font-weight: bold !important;
-  font-size: 16.56px !important;
-  line-height: 16.56px !important;
+  font-size: 21px !important;
+  line-height: 24px !important;
   display: inline-grid !important;
   align-items: center;
   text-align: center;
-  letter-spacing: -0.025em;
+  letter-spacing: 0.025em;
   text-transform: uppercase;
   color: #F2F2F7 !important;
   }
@@ -177,15 +181,15 @@ li button{
   background-color: #F2F2F7 !important;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
   border-radius: 20px !important;
-  font-family: Sofia Pro;
+  font-family: Antipasto Pro;
   font-style: normal;
   font-weight: bold !important;
-  font-size: 16.56px !important;
-  line-height: 16.56px !important;
+  font-size: 21px !important;
+  line-height: 24px !important;
   display: inline-grid !important;
   align-items: center;
   text-align: center;
-  letter-spacing: -0.025em;
+  letter-spacing: 0.025em;
   text-transform: uppercase;
   color: #575F6B !important;
 }
@@ -315,7 +319,7 @@ color: #FFCC00;
  
  .pourquoi-l-agency{
  
-  margin-top: 45% !important;
+  margin-top: 45% ;
   margin-left: 6.3%;
    
 }
@@ -441,18 +445,18 @@ border-color: #FFCC00 !important; /*
   background: #FB5875 !important;
   border-radius: 100px !important;
   border-color: #FB5875 !important; */
+  font-family: Antipasto Pro;
+    padding-right: 2px;
+    font-style: normal;
+    font-weight: bold !important;
+    font-size: 83%;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
 
-font-family: Sofia Pro;
-font-style: normal;
-font-weight: bold !important;
-font-size: 12.42px;
-line-height: 18px;
-display: flex;
-align-items: center;
-text-align: center;
-text-transform: uppercase;
-
-color: #000000 !important;
+  color: #000000 !important;
    
 }
 .transp {
@@ -487,6 +491,7 @@ color: #000000 !important;
  
 .apres-avoir-appris-les-fondamentaux{
   margin-left: 10%;
+  margin-right: 7%;
 }
 
  /* Rectangle */
@@ -495,30 +500,27 @@ color: #000000 !important;
 
   background: #F7F7F9;
   border-radius: 20px;
-  width: 270px;
     height: 260px;
     margin-top: 44px;
+    width: 67%;
 }
 
 
 
 
 .service-1-1a{
- /* 
-  margin-left: 42%;
-  bottom: 9.77%;  
-  margin-top: 5.66%; */
+    margin-left: 44% ;
 } 
 
-
+.service-1-3a {
+  margin-left: -34px;
+}
 
  /* développeur web Ruby On Rails */
  
  .developpeur{
- 
-  /* right: 5.89%; */
+   
   padding-top: 10.58%;
-  /* bottom: 62.28%; */
   font-family: Inter;
   font-style: normal;
   font-weight: 600;
@@ -531,6 +533,9 @@ color: #000000 !important;
 }
 
 
+.apprends-a-aller-chercher {
+  margin-left: 4%;
+}
  /* Deviens un développeur Web Full Stack avec Ruby On Rails : la technologie de Airbnb, Twitter et d’autres géants de la tech. */
  
  .deviens-un-developpeur-web{
@@ -640,45 +645,66 @@ width: 85%;
 
 .point-questionnaire {
   position: absolute;
-  margin-top: 16%;
+    margin-top: 63%;
+    margin-left: -11%;
+  /* margin-top: 16%;
     left: 57%;
-  width: 2%;
+  width: 2%; */
 }
 
 .point-questionnaire-1 {
   
   position: absolute;
-  margin-top: 20%;
+  margin-top: 80%;
+  margin-left: -11%;
+  /* margin-top: 20%;
   left: 57%;
-  width: 2%;
+  width: 2%; */
 }
+.courbe-questionnaire-1 {
+  position: absolute;
+  margin-top: 82%;
+  margin-left: -7%;
+  width: 80%;
+  height: 60%;
+  /* margin-top: 20.5%;
+  left: 58%;
+  width: 20%;
+  height: 200px; */
+}
+
 
 .courbe-questionnaire{
   position: absolute;
-  margin-top: 16.5%;
-  left: 58%;
-  
-  width: 280px;
-  height: 217px;
+  margin-left: -7%;
+  margin-top: 67%;
+  width: 100%;
+  height: 68%;
 
 }
 
 
 .courbe-rdv-1{
   position: absolute;
-    margin-top: 19%;
+  margin-top: 10%;
+  margin-left: -37%;
+  width: 36%;
+  height: 93%;
+    /* margin-top: 19%;
     left: 21%;
     width: 268px;
-    height: 207px;
+    height: 207px; */
 
 }
 
 
 .point-rdv-1{
   position: absolute;
-    margin-top: 6%;
+  margin-top: -2%;
+  margin-left: 35%;
+    /* margin-top: 6%;
     left: 21%;
-    width: 2%;
+    width: 2%; */
   
 }
 .point-rdv-2{
@@ -688,20 +714,16 @@ width: 85%;
   width: 4%;
 }
 
-.courbe-questionnaire-1 {
-  position: absolute;
-  margin-top: 20.5%;
-  left: 58%;
-  width: 20%;
-  height: 200px;
-}
-
 .courbe-rdv-2 {
   position: absolute;
-  margin-top: 17.5%;
+    margin-top: -4%;
+    margin-left: -33%;
+    width: 31%;
+    height: 70%;
+  /* margin-top: 17.5%;
   left: 25%;
   width: 17%;
-  height: 206px;
+  height: 206px; */
 }
 .select{
   margin-top: 20px;
@@ -757,7 +779,8 @@ width: 85%;
 
 .niveaux-et-modalites{
     margin-right: 3%;
-
+      /* margin-left: 38% !important; */
+      text-align: right;
 }
 
  /* Rectangle 15 */
@@ -797,7 +820,7 @@ border-color:  #FB5875 !important; /*
   border-radius: 100px !important;
   border-color: #FB5875 !important; */
 
-font-family: Sofia Pro;
+font-family: Antipasto Pro;
 font-style: normal;
 font-weight: bold;
 font-size: 12.42px;
@@ -859,6 +882,7 @@ color: #E9EAEF !important;
    margin-top: 10%;
    width: 24%;
 }
+
 
 
 
@@ -967,7 +991,7 @@ color: #E9EAEF !important;
 /* Recruter un talent chez SAYNA c’est avoir accès à deux talents. Tout au long de leur mission les talents qui travaillent ont le support d’un talent senior derrière eux. Nous vous ferons une sélection sur mesure suite à vos demandes ! */
 
 .recruter-un-talent{
-width: 52%;
+width: 72% !important;
 margin-top: 3%; 
   margin-left: -7%;
   margin-bottom: 3%;
@@ -1007,7 +1031,7 @@ float: right;
 
 
 .offre-sur-mesure{
-width: 100% !important;
+width: 90% !important;
 }
 
 
@@ -1141,7 +1165,7 @@ text-align: center;
 letter-spacing: 0.005em;
 color: #898989;
 padding-bottom: 4%;
-
+margin-right: 26px;
 }
 
 
@@ -1240,7 +1264,7 @@ letter-spacing: 0.005em;
 }
 
 .ul-slid-1{
-  background: url(../image/Forme\ 5.png);
+  background: url(../images/Forme\ 5.png);
     background-repeat: no-repeat;
     background-size: 295px 708px;
     background-position-x: right;
@@ -1335,7 +1359,9 @@ li{
   margin-top: 35px;
 }
 
-
+.recruter-n-a-jamais{
+  text-align: center;
+}
 
 @media(max-width: 1259px) and (min-width:1196px){
 
@@ -1355,11 +1381,11 @@ li{
   .forme-4-photo {
     background-size: 319px 600px;
   }
-  .courbe-rdv-2 {
+ /*  .courbe-rdv-2 {
     margin-top: 21% !important;
     width: 21% !important;
   }
-
+ */
   .ul-slid-1 {
     background-size: 284px 662px;
   }
@@ -1379,6 +1405,16 @@ li{
   .btn-slid-4 {
      margin-left: 37%; 
 }
+.courbe-rdv-2{
+  height: 70%;
+}
+}
+
+@media (max-width: 1259px){
+
+ .rectangle{ 
+  width: 270px;
+ }
 }
 
 
@@ -1402,7 +1438,7 @@ li{
   /* Forme 4 */ 
 
  .forme-4-photo{
-   background: url(../image/Forme\ 4\ \(1\).png);
+   background: url(../images/Forme\ 4\ \(1\).png);
    background-repeat: no-repeat;
    background-size: 342px 600px;
    margin-top: 12px;
@@ -1433,7 +1469,7 @@ li{
    font-family: Inter;
    font-style: normal;
    font-weight: 800;
-   font-size: 123px;
+   font-size: 116px;
    line-height: 144px;
    align-items: center;
    letter-spacing: -0.08em;
@@ -1558,12 +1594,48 @@ li{
   .placons-1259{
     display: block;
   }
-  .courbe-point {
+  /* .courbe-point {
 
     display: none !important;
+  } */
+}
+
+
+@media(max-width: 1137px) and (min-width:1103px){
+  .service-1-1a {
+    margin-left: 29%;
+}
+}
+
+@media(max-width: 1102px) and (min-width:992px){
+  .service-1-1a {
+    margin-left: 24%;
+}
+}
+
+@media(max-width: 992px) and (min-width:576px){
+  .service-1-3a,  .bloc-developpeur-front{
+    margin-left: 192px;
   }
 }
 
+
+
+@media(max-width: 979px) and (min-width:57px){
+  .service {
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
+/* @media(max-width: 815px) and (min-width:576px){
+  .bloc-dev-flutter, .bloc-developpeur-front{
+    margin-left: 44%;
+  }
+  .bloc-developpeur-front {
+    margin-left: 44%;
+}
+} */
 @media(max-width: 994px) and (min-width:770px){
   .forme-5-agency {
       position: absolute;
@@ -1594,8 +1666,8 @@ li{
   }
   .meilleurs-talents-africains {
     font-size: 23px;
-    margin-top: 221px;
-    margin-left: -13px;
+    margin-top: -50px;
+    margin-left: -28px;
   }
 
   /* nous plaçons des héros. */
@@ -1657,7 +1729,7 @@ li{
   /* Forme 4 */ 
 
  .forme-4-photo{
-   background: url(../image/Forme\ 4\ \(1\).png);
+   background: url(../images/Forme\ 4\ \(1\).png);
    background-repeat: no-repeat;
    background-size:  215px 486px ;
    margin-top: 12px;
@@ -1735,15 +1807,15 @@ height: 150%;
   }
   
   .forme-4-photo {
-    background: url(../image/Forme\ 4\ \(1\).png);
+    background: url(../images/Forme\ 4\ \(1\).png);
     background-repeat: no-repeat;
     margin-top: 12px;
     background-size: 212px 472px;
   }
   .meilleurs-talents-africains {
     font-size: 23px;
-    margin-top: 221px;
-    margin-left: -13px;
+    margin-top: -50px;
+    margin-left: -28px;
   }
 
   .nous-placons{
@@ -1768,7 +1840,7 @@ height: 150%;
 
   /* nous plaçons des héros. */
   .des-heros{
-    font-size: 73px;
+    font-size: 72px;
       margin-left: 9.5%;
       margin-top: -6%;
       margin-bottom: 25%;
@@ -1790,35 +1862,37 @@ height: 150%;
     margin-left: 45%;
     /* margin-right: -28%; */
     margin-top: 85%;
-}
-
-.ul-slid-1 {
-  background-size: 192px 534px;
-}
-.btn-slid {
-  /* text-align: center !important; */
-  margin-top: 8%;
-}
-.une-solution-a-chaque-situation {
-  margin-top: 13%;
-
-}
-
-.ul-slid-1 {
-height: 150%;
-}
-
-.btn-slid {
-  /* text-align: center !important; */
-  margin-top: 8%;
-  margin-left: 29%;
   }
- 
-.btn-slid-0 {
-  margin-left: 47%;
-  margin-top: 118px;
+
+  .ul-slid-1 {
+    background-size: 192px 534px;
+  }
+  .btn-slid {
+    /* text-align: center !important; */
+    margin-top: 8%;
+  }
+  .une-solution-a-chaque-situation {
+    margin-top: 13%;
+
+  }
+
+  .ul-slid-1 {
+  height: 150%;
+    }
+
+  .btn-slid {
+    /* text-align: center !important; */
+    margin-top: 8%;
+    margin-left: 29%;
+    }
+  
+  .btn-slid-0 {
+    margin-top: 118px;
+  } 
 } 
-} 
+
+
+
 @media(max-width: 770px) and (min-width:573px){
 
   .placons-1259A, .nous-placons-1, .des-heros-2{
@@ -1873,7 +1947,7 @@ height: 150%;
 
 
 .forme-4-photo {
-  background: url(../image/Forme\ 4\ \(1\).png);
+  background: url(../images/Forme\ 4\ \(1\).png);
   background-repeat: no-repeat;
   margin-top: 12px;
   background-size: 193px 452px;
@@ -1911,6 +1985,7 @@ height: 150%;
 @media  screen and (max-width:768px){
   .grace-a-vous-1 {
     margin-left: 10%;
+    margin-right: 5%;
   }
 }
 
@@ -1986,7 +2061,7 @@ height: 150%;
     
   } 
   .forme-4-photo {
-    background: url(../image/Forme\ 4\ \(1\).png);
+    background: url(../images/Forme\ 4\ \(1\).png);
     background-repeat: no-repeat;
     margin-top: 12px;
     background-size: 160px 437px;
@@ -1999,7 +2074,7 @@ height: 150%;
   }
   .meilleurs-talents-africains {
     font-size: 18px;
-    margin-top: 216px;
+    margin-top: -94px;
     margin-left: -32px;
   }
 
@@ -2058,7 +2133,7 @@ height: 150%;
     
   } 
   .forme-4-photo {
-    background: url(../image/Forme\ 4\ \(1\).png);
+    background: url(../images/Forme\ 4\ \(1\).png);
     background-repeat: no-repeat;
     margin-top: 12px;
     background-size: 160px 437px;
@@ -2071,7 +2146,7 @@ height: 150%;
   }
   .meilleurs-talents-africains {
     font-size: 18px;
-    margin-top: 216px;
+    margin-top:  -107px;
     margin-left: -32px;
   }
   .pourquoi-l-agency {
@@ -2157,5 +2232,103 @@ height: 150%;
 }
 
 
+@media(max-width: 385px){
+  .bloc-rect-19 {
+    margin-left: -4%;
+    width: 100%;
+  }
+}
+
+@media(max-width: 1081px) and (min-width:995px){
+  .point-questionnaire {
+    margin-top: 70%;
+  }
+  .courbe-questionnaire {
+    margin-top: 73%;
+  }
+
+  .courbe-questionnaire-1 {
+    margin-top: 122%;
+  }
+
+  .point-questionnaire-1 {
+    margin-top: 122%;
+  }
+}
+
+@media(max-width: 1081px) and (min-width:995px){
+
+  .courbe-rdv-2 {
+    width: 31%;
+    height: 81%;
+
+    margin-left: -34%;
+  }
+}
+@media(max-width: 994px) and (min-width:842px){
+
+  .courbe-rdv-2 {
+    
+    width: 31%;
+    height: 81%;
+  }
+}
+@media(max-width: 841px) and (min-width:769px){
+
+  .courbe-rdv-2 {
+    margin-top: -1%;
+    margin-left: -35%;
+    width: 31%;
+    height: 57%;
+}
+
+}
+
+@media(max-width: 994px){
+  .point-questionnaire {
+    margin-top: 88%;
+  }
+  .courbe-questionnaire {
+    margin-top: 90%;
+  }
+
+  .courbe-questionnaire-1 {
+    margin-top: 122%;
+  }
+
+  .point-questionnaire-1 {
+    margin-top: 122%;
+  }
+}
+
+
+
+@media(max-width: 768px){
+  .point-questionnaire {
+    display: none;
+  }
+  .courbe-questionnaire {
+    display: none;
+  }
+  .point-rdv-1,
+  .point-rdv-2 {      
+    display: none;
+  }
+  .courbe-rdv-1 {
+    display: none;
+  }
+
+  .point-questionnaire-1 {
+    
+    display: none;
+  }
+  .courbe-questionnaire-1, 
+  .courbe-rdv-2  {
+    display: none;
+  }
+}
+
+
 
 /* jquery */
+
