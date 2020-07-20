@@ -235,6 +235,16 @@ top: calc(50% - 36px/2 - 3757.5px); */
     position: absolute;
 }
 
+@media(max-width:600px) {
+    .wacht-video {
+        display: flex;
+        width: 200px;
+    }
+    .ellipse1 {
+        top: -4px !important;
+    }
+}
+
 .ellipse1 {
     /* Ellipse 1 */
     text-decoration: none;
