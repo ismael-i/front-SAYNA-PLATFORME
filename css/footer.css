@@ -144,41 +144,44 @@ hr {
  
 }
 
-.subscribe div {
+.subscribe {
     margin-top: 7.5%;
-     display: inline-block ;
+    margin-left: auto !important;
+    margin-right: auto;
 }
 
-.
+
 .barre {
- position: absolute;
-    width: 150% !important;
-    height: 54px;
-    border-radius: 9px;
-    padding-left: 15.87px;
-    background: #FFFFFF;
-    border: 2px solid #000000;
-    box-sizing: border-box;
+ 
+    /* width: 49px; */
+    height: 38px;
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
-    font-size: 12.42px;
-    line-height: 16.56px;
-    /* margin-left: 50.88px; */
-    display: flex;
-    align-items: center;
+    font-size: 13px;
+    line-height: 24px;
     color: #889988;
+
 }
 
 .btn-rejoin-footer {
-    
-   
+    background-color: #FFCC00 !important;
+    border-color: #FFCC00 !important;
     height: 37px;
+    border-radius: 10px !important;
+    margin-left: 13%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold !important;
+    font-size: 14.42px !important;
+    line-height: 24px !important;
+    color: #363636 !important;
+    /* height: 37px;
     background: #FFCC00;
     border-radius: 10px;
    
     text-decoration: none;
-     text-align: center;
+    text-align: center; */
 }
 
 .join-footer {
@@ -993,7 +996,9 @@ background-position: left top ;
   background-repeat: no-repeat;
   background-size: 55%;
 }
-
+[class*="col"] {
+    margin-bottom: 25px;
+}
 
 .btn-right-para3{
 

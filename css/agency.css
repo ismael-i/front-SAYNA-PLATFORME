@@ -7,6 +7,9 @@
 
 
 
+[class*="col"] { 
+  margin-bottom: 25px;
+}
 body{background: #e9eaef;}
 #textes{display:none;}
  
