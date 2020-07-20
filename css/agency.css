@@ -21,7 +21,9 @@ body{background: #e9eaef;}
 .changer{display: none;}
 
 li button{
-  width: 131px;
+  
+  width: 114px;
+  height: 39px;
 }
 
 .btn-slid:hover {
@@ -122,13 +124,13 @@ li button{
       border-radius: 50px !important;
       font-family: Antipasto Pro;
       font-style: normal;
-      font-weight: bold !important;
-      font-size: 21px !important;
+      font-weight: 900 !important;
+      font-size: 16px !important;
       line-height: 24px !important;
       display: inline-grid !important;
       align-items: center;
       text-align: center;
-      letter-spacing: -0.025em;
+      letter-spacing: 0.025em;
       text-transform: uppercase;
       color: #E9EAEF !important;
   /* transform: matrix(1, 0, 0, -1, 0, 0); */
@@ -143,8 +145,8 @@ li button{
   border-radius: 20px !important;
   font-family: Antipasto Pro;
   font-style: normal;
-  font-weight: bold !important;
-  font-size: 21px !important;
+  font-weight: 900 !important;
+  font-size: 16px !important;
   line-height: 24px !important;
   display: inline-grid !important;
   align-items: center;
@@ -164,7 +166,7 @@ li button{
   border-radius: 20px !important;
   font-family: Antipasto Pro;
   font-style: normal;
-  font-weight: bold !important;
+  font-weight: 900 !important;
   font-size: 21px !important;
   line-height: 24px !important;
   display: inline-grid !important;
@@ -186,8 +188,8 @@ li button{
   border-radius: 20px !important;
   font-family: Antipasto Pro;
   font-style: normal;
-  font-weight: bold !important;
-  font-size: 21px !important;
+  font-weight: 900 !important;
+  font-size: 16px !important;
   line-height: 24px !important;
   display: inline-grid !important;
   align-items: center;
@@ -213,7 +215,11 @@ li button{
 }
 
 .fleche-connexion {
-  margin-left: 6px;
+  margin-left:  13px;
+}
+
+.fleche-offres, .fleche-quest, .fleche-rdv {
+  margin-left:  13px;
 }
 
 
@@ -275,18 +281,18 @@ color: #FFCC00;
 }
 .meilleurs-talents-africains{
   position: absolute;
-  /* width: 1289px; */
-  /* height: 51px; */
-  left: 90px;
-  top: 542px;
-  font-family: Antipasto Pro;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 35px;
-  line-height: 43px;
-  letter-spacing: 0.01em;
-  text-transform: uppercase;
-  color: #6E6E6E;
+    /* width: 1289px; */
+    /* height: 51px; */
+    left: 90px;
+    top: 507px;
+    font-family: Antipasto Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 43px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #6E6E6E;
   
 }
 
@@ -309,8 +315,7 @@ color: #FFCC00;
 }
 
 .couleur-jaune-opacity{
-  background: #FFCC00;
-  opacity: 0.57;
+  background: rgba(255, 204, 0, 0.57);
 }
 
 
@@ -331,7 +336,8 @@ color: #FFCC00;
  
  .rectangle-161a{
   /* width: 10%;  */
-   height: 77% !important;
+  width: 125px;
+  height: 48px !important;
    margin-left: 6%;
    /* margin-top: %; */
    background: #FB5875 !important;
@@ -434,33 +440,28 @@ width: 47%;
  /* Rectangle 15 */
  
  .rectangle-15c{
-
+  width: 167px;
+  height: 39px;
   /* padding-left: 5% !important; */
-    /* padding-left: 5% !important; */
-    /* margin-left: -39% !important; */
-    margin-top: 2%;
-    margin-right: 5%;
-
-background: #FFCC00 !important;
-border-radius: 20px !important;
-
-border-color: #FFCC00 !important; /* 
-  background: #FB5875 !important;
-  border-radius: 100px !important;
-  border-color: #FB5875 !important; */
+  /* padding-left: 5% !important; */
+  /* margin-left: -39% !important; */
+  margin-top: 2%;
+  margin-right: 5%;
+  background: #FFCC00 !important;
+  border-radius: 20px !important;
+  border-color: #FFCC00 !important;
   font-family: Antipasto Pro;
-    padding-right: 2px;
-    font-style: normal;
-    font-weight: bold !important;
-    font-size: 83%;
-    line-height: 18px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    text-transform: uppercase;
-
+  padding-right: 2px;
+  font-style: normal;
+  font-weight: 900 !important;
+  font-size: 83% !important;
+  line-height: 18px !important;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
   color: #000000 !important;
-   
+  letter-spacing: 0.025em;   
 }
 .transp {
   margin-top: 6%;
@@ -503,7 +504,7 @@ border-color: #FFCC00 !important; /*
 
   background: #F7F7F9;
   border-radius: 20px;
-    height: 260px;
+  height: 80%;
     margin-top: 44px;
     width: 67%;
 }
@@ -565,7 +566,8 @@ border-color: #FFCC00 !important; /*
  /* Rectangle 161 */
  
  .rectangle-161b{
-  height: 77% !important;
+  width: 133px;
+    height: 39px !important;
   margin-top: 4%;
   background: #FB5875 !important;
   border-radius: 100px !important;
@@ -722,7 +724,7 @@ width: 85%;
     margin-top: -4%;
     margin-left: -33%;
     width: 31%;
-    height: 80%;
+    height: 84%;
   /* margin-top: 17.5%;
   left: 25%;
   width: 17%;
@@ -802,6 +804,7 @@ width: 85%;
    text-transform: uppercase;
    color: #000000 !important;
    right: 68px;
+   width: 169px;
 }
 
 
@@ -813,30 +816,25 @@ width: 85%;
     /* padding-left: 5% !important; */
     /* margin-left: -39% !important; */
     position: absolute;
+    width: 167px;
+    height: 39px;
     margin-top: 0% !important;
-
-background: #FB5875 !important;
-border-radius: 20px !important;
-
-border-color:  #FB5875 !important; /* 
-  background: #FB5875 !important;
-  border-radius: 100px !important;
-  border-color: #FB5875 !important; */
-
-font-family: Antipasto Pro;
-font-style: normal;
-font-weight: bold;
-font-size: 12.42px;
-line-height: 18px;
-display: flex;
-align-items: center;
-text-align: center;
-text-transform: uppercase;
-
-color: #E9EAEF !important;
-
-  margin-left: -5%;
-  margin-top: 20px;
+    background: #FB5875 !important;
+    border-radius: 20px !important;
+    border-color:  #FB5875 !important; 
+    font-family: Antipasto Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12.42px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E9EAEF !important;
+    margin-left: -5%;
+    margin-top: 20px;
+    letter-spacing: 0.025em;
 
 }
 
@@ -844,6 +842,7 @@ color: #E9EAEF !important;
  /* Rectangle 15 */
  
  .rectangle-15f{
+  width: 169px;
   position: absolute;
   border-radius: 100px !important;
   background: #FFCC00 !important;
@@ -1269,7 +1268,7 @@ letter-spacing: 0.005em;
 .ul-slid-1{
   background: url(../images/Forme\ 5.png);
     background-repeat: no-repeat;
-    background-size: 295px 708px;
+    background-size: 63% 115%;
     background-position-x: right;
     margin-right: -3%;
     margin-top: -8%;
@@ -1286,7 +1285,7 @@ li{
   font-family: Inter;
   font-style: normal;
   font-weight: 600;
-  font-size: 14px; 
+  font-size: 13px !important;
   line-height: 150.02%;
   display: flex;
   align-items: center;

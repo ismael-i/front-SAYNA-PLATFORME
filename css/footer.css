@@ -80,6 +80,7 @@ footer {
     width: 85%;
     height: 4%;
     left: 5%;
+    margin-top: -10% !important;
     position: relative;
    
     background: #FFCC00;
@@ -94,7 +95,7 @@ hr {
 .ligne-horiz2 {
     position: relative;
     width: 87%;
-    top: 43px;
+    top: 0px;
     background-color: #FFCC00;
 }
 
@@ -145,7 +146,7 @@ hr {
 }
 
 .subscribe {
-    margin-top: 7.5%;
+    margin-top: 4%;
     margin-left: auto !important;
     margin-right: auto;
 }
@@ -990,6 +991,9 @@ top: 4574px; */
     text-decoration-line: none;
 }
 
+/* .subscribe {
+    margin-top: 2%;
+} */
 .haute {
     background: url("../images/Forme 5.png") ; 
 background-position: left top ;
