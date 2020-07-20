@@ -41,6 +41,12 @@ margin-right: none !important;
 	left: 13%;
 	margin-top: none !important;
 }
+
+.madiver {
+	width: 50%;
+	margin-left: 8%;
+
+}
 [class*="col"] { 
    margin-bottom: 25px;
 }
@@ -56,14 +62,14 @@ img {
 	padding: 0;
 }
 
-li{
+.menu >li{
 	list-style: none;
 	display: inline-block !important;
 	margin: 2.6%;
 }
 
 header {
-position: relative;
+
 	background: url("../images/Forme 5.png") ; 
 background-position: left top ;
   background-repeat: no-repeat;
@@ -92,7 +98,7 @@ font-size: 100%;
 	font-family: Lato;
 font-style: normal;
 font-weight: bold;
-font-size: 18px;
+font-size: 13px;
 line-height: 18px;
 display: flex;
 align-items: center;
@@ -125,7 +131,7 @@ text-decoration-line: none;
 	font-family: Lato;
 font-style: normal;
 font-weight: bold;
-font-size: 18px;
+font-size: 16px;
 line-height: 24px;
 display: flex;
 align-items: center;
@@ -138,14 +144,15 @@ color: white !important;
 }
 
 .btn-menu {
-position: relative;	
+width: 80px;
+height: 40px;
 background: #F2F2F7 !important;
 box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15) !important;
 border-radius: 12%;
 }
 
 .btn-connexion {
-	position: relative;
+	
 	width: 190px;
 height: 40px;
 
@@ -162,7 +169,7 @@ border-radius: 12%;
 }
 
 .btn-factory {
-	position: relative;
+
 background: #FFCC00;
 box-shadow: 0px 0px 20px rgba(255, 204, 0, 0.35);
 border-radius: 20px;
@@ -218,7 +225,7 @@ font-style: normal;
 font-weight: bold;
 font-size: 24px;
 line-height: 119.52%;
-margin-left: 8%;
+
 /* or 60px */
 letter-spacing: 0.01em;
 text-transform: uppercase;
@@ -298,7 +305,7 @@ height: 5%;
 
 
 .vector202 {
-	position: relative;
+	
 	width: 8px;
 	height: 8px;
 
@@ -307,7 +314,7 @@ height: 5%;
 }
 
 .forme301 {
-	position: relative;
+	
 	left: 5%;
 
 }
@@ -365,7 +372,7 @@ color: #000000;
 
 .onsoccupe  {
 	
-
+text-align: right;
 font-family: Inter;
 font-style: normal;
 font-weight: normal;
@@ -376,10 +383,52 @@ line-height: 196.02%;
 
 color: #000000;
 }
-
-.number2 {
-	
+.on-s-occupe1 {
+	position: relative;
+	right: -2%;
 }
+
+.on-s-occupe2 {
+	position: relative;
+	right: 2%;
+}
+
+.on-s-occupe3 {
+	position: relative;
+	right: 7%;
+}
+
+.on-s-occupe4 {
+	position: relative;
+	right: 11%;
+}
+
+.on-s-occupe5 {
+	position: relative;
+	right: 15%;
+}
+
+.on-s-occupe6 {
+	position: relative;
+	right: 18%;
+}
+
+.on-s-occupe7 {
+	position: relative;
+	right: 21%;
+}
+
+.on-s-occupe8 {
+	position: relative;
+	right: 24%;
+}
+
+.on-s-occupe9 {
+	position: relative;
+	right: 27%;
+}
+
+
 .number2-txt {
 	position: relative;
 }
@@ -394,7 +443,7 @@ color: #000000;
 	position: absolute;
 	width: 130% !important;
 	
-	left: -20%;
+	left: -30%;
 	z-index: -1;
 	
 }
@@ -448,10 +497,10 @@ line-height: 119.52%;
 
 /* or 60px */
 letter-spacing: 0.01em;
-
+text-align: right;
 color: #000000;
 padding-bottom: 16px;
-left: 0%!important;
+left: 10%!important;
 position: relative;
 }
 
@@ -512,7 +561,7 @@ color: #000000;
 	
 }
 
-.number4-txt div {
+.valid-content, .col-number4 {
 	display: inline-block;
 }
 .number4-txt {
@@ -521,8 +570,9 @@ color: #000000;
 
 .valid-content {
 	padding-top: %;
-	width: 79%;
+	width: 100%;
 	height: 50%;
+	left: %;
 
 }
 
@@ -530,16 +580,17 @@ color: #000000;
 	position: relative;
 	font-family: Inter;
 font-style: normal;
+text-align: right;
 font-weight: 600;
 font-size: 18px;
-line-height: 129px;
+line-height: 49px;
 letter-spacing: -0.025em;
 text-transform: uppercase;
-line-height: 99px;
+
 color: #FB5875;
-padding-bottom: 16px;
-left: 68% !important;
-top: -40px;
+padding-bottom: 6px;
+left: 20%!important;
+
 }
 
 
@@ -555,14 +606,16 @@ top: -40px;
 
 .col-number4 {
 	float: right;
-	left: -25%;
+	left: -23%;
+
 	position: relative;
+	height: 450px !important;
 
 }
 
 .number4 {
 	position: absolute;
-	width: 120%;
+	width: 110%;
 	
 	z-index: -1;
 
@@ -574,8 +627,8 @@ top: -40px;
 	background: #FFCC00;
 border-radius: 20px;
 text-align: center;
-left: 30px;
-margin-top: 20%;
+left: 45%;
+margin-top: 7%;
 
 }
 
@@ -952,11 +1005,14 @@ padding-bottom: 11px;
    position: relative;
 width: 803.8px;
 height: 570px;
-left: 7% !important;
+left: 2% !important;
 
+}
 
-
-
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .parallax3{
