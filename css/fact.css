@@ -84,7 +84,11 @@ background-position: left top ;
 	position: relative;
 	left: 15%;
 }
-
+.fleche-boutonjaune1 {
+	position: relative;
+	left: 10%;
+	color: #000000;
+}
 .fleche-boutonjaune {
 	position: relative;
 	
@@ -287,6 +291,10 @@ border-radius: 20px;
 text-align: center;
 }
 
+.btn-benefic {
+	left: 10%;
+}
+
 .btn-voiroffre, .btn-jedepose , .btn-prendrerdv, .btn-benefic {
 position: relative;
 font-family: Lato;
@@ -295,7 +303,7 @@ font-weight: bold;
 font-size: 14px;
 line-height: 14px;
 display: flex;
-align-items: center;
+align-items: center ;
 text-align: center !important;
 text-transform: uppercase;
 width: 100%;
@@ -322,10 +330,12 @@ height: 5%;
 .number1 {
 	width: 80%;
 	height: 94%;
+	text-align: right;
 }
 
 .col-texte {
 	margin-top: 40px;
+	margin-left: 0 !important;
 }
 
 .comment-ca {
@@ -371,13 +381,13 @@ color: #000000;
 }
 
 .onsoccupe  {
-	
+padding-top: 0;	
 text-align: right;
 font-family: Inter;
 font-style: normal;
 font-weight: normal;
 font-size: 13px;
-line-height: 196.02%;
+line-height: 186.02%;
 
 /* or 30px */
 
@@ -499,7 +509,7 @@ line-height: 119.52%;
 letter-spacing: 0.01em;
 text-align: right;
 color: #000000;
-padding-bottom: 16px;
+padding-bottom: 7px;
 left: 10%!important;
 position: relative;
 }
@@ -589,7 +599,7 @@ text-transform: uppercase;
 
 color: #FB5875;
 padding-bottom: 6px;
-left: 20%!important;
+left: 19%!important;
 
 }
 
@@ -626,9 +636,10 @@ left: 20%!important;
 	position: relative;
 	background: #FFCC00;
 border-radius: 20px;
-text-align: center;
+text-align: center !important;
 left: 45%;
-margin-top: 7%;
+margin-top: 5%;
+width: 60%;
 
 }
 
@@ -1005,7 +1016,7 @@ padding-bottom: 11px;
    position: relative;
 width: 803.8px;
 height: 570px;
-left: 2% !important;
+
 
 }
 

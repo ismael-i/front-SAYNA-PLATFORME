@@ -116,6 +116,16 @@ letter-spacing: 0.04em;
 
 }
 
+
+@media(max-width:1490px) and (min-width: 1386px) {
+	.au-program {
+line-height: 296.02%;
+color: #000000;
+}
+}
+
+
+
 @media(max-width:1690px) and (min-width: 1580px) {
 	.au-program {
 line-height: 386.02%;
@@ -995,10 +1005,10 @@ color: #000000;
 
     .btn-bnf {
     	position: relative;
-       
+       width: 100%;
         left: 0%;
         
-        margin-top: 84px;
+        margin-top: 194px !important;
     }
 
     #choix-factory {
@@ -1008,7 +1018,7 @@ color: #000000;
 }
 .col-texte {
     margin-top: 40px;
-    margin-left: 5%;
+    margin-left: 5% !important;
     margin-right: 3%;
 }
 
@@ -1078,6 +1088,8 @@ position: relative;
         top: -3% !important;       
         
     }
+
+
 
         .col-number4 {
             position: absolute;
@@ -1216,7 +1228,7 @@ color: #000000;
     content:'Chaque équipe est composée, au minimum de deux développeurs back-end,un front-end / intégrateur et un designer. Au besoin, nous pouvons compléter l’équipe d’autres expertises : data engineer, développeur mobile, rédacteur web / SEO - SEA. ';
 }
 .btn-rdv {
-    top: 173px;
+    margin-top: 213px;
     position: relative;
 }
 .back-front, .complet-equipe, .redacteur-web{
@@ -1273,6 +1285,17 @@ color: #000000;
         float: right;
         margin-top: 20%;
     }
+
+    .btn-benefic {
+    	position: relative;
+    	left: 0%;
+    }
+    .fleche-boutonjaune1 {
+	position: relative;
+	left: 5% !important;
+	color: #000000;
+}
+
 
 
                   p[for="au-pro"]{
@@ -1487,7 +1510,32 @@ height: 162.7px;
 /* left: 383px;
 top: 4615px; */
 }
-.header-left3, .header-right3{
+.header-right3 {
+
+   
+    position: relative;
+    width:120.1px;
+    height: 83.5px;
+    left: 0.7px !important;
+    top: 8.7px;
+
+font-family: "Lato";
+font-style: normal;
+font-weight: normal;
+font-size: 8.2px;
+line-height: 15.3px;
+/* or 33px */
+
+/* display: flex; */
+align-items: center;
+text-align: center;
+letter-spacing: -0.025em;
+text-transform: uppercase;
+
+color: #000000;
+}
+
+.header-left3 {
     /* remboursement AGENCY */
 
 
