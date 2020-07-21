@@ -93,8 +93,8 @@ hr {
 
 .ligne-horiz2 {
     position: relative;
-    width: 87%;
-    top: 43px;
+    width: 88%;
+
     background-color: #FFCC00;
 }
 
@@ -133,7 +133,7 @@ hr {
     font-style: normal;
     font-weight: normal;
     font-size: 17.52px;
-    line-height: 26.56px;
+    line-height: 29.56px;
     /* margin-left: -28.12px; */
     display: flex;
     align-items: center;
@@ -145,17 +145,20 @@ hr {
 }
 
 .subscribe div {
-    margin-top: 7.5%;
+    margin-top: 11.5%;
+    margin: 1.8%;
      display: inline-block ;
 }
 
-.
+.subscribe {
+    margin-top: 7%;
+    padding-left: 0 !important;
+}
 .barre {
     position: relative;
-    width: 150px !important;
-    height: 124px!important;
+    left: -4% !important;
+    padding-left: 0 !important; 
     border-radius: 9px;
-    padding-left: 15.87px;
     background: #FFFFFF;
     border: 2px solid #000000;
     box-sizing: border-box;
@@ -172,25 +175,30 @@ hr {
 
 .btn-rejoin-footer {
     
-   
+   position: relative;
     background: #FFCC00;
     border-radius: 10px;
-   
+    height: 50px;
+    
+    width: 120px;
     text-decoration: none;
-     text-align: center;
+     text-align: center !important;
+     
+     
 }
 
 .join-footer {
-  
+  position: relative;
    padding-top: auto;
    padding-bottom: auto;
-   
+
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 14.42px;
-    line-height: all;
-  
+  width: 100%;
+ margin-top: auto;
+ margin-bottom: auto;
     align-items: center;
     text-align: center;
     color: #363636;
@@ -268,7 +276,7 @@ hr {
 
 .bro {
     position: relative;
-   top: 16% !important;
+   top: 10% !important;
   
     left: 0%;
 
@@ -288,13 +296,13 @@ hr {
 .cliquable {
    
     display: flex;
-    justify-content: space-around;
 
-   
+   justify-content: space-around;
     margin-left: 0% !important;
     width: 40%;
   
 }
+
 
 .tabl2 {
     width: 100%;
