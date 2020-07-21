@@ -1,6 +1,11 @@
 @import url('https://rsms.me/inter/inter.css');
 @import url("https://db.onlinewebfonts.com/c/0033a2fbc0329740fb86c1cfd134cb94?family=Roboto");
 @import url("https://db.onlinewebfonts.com/c/629a55a7e793da068dc580d184cc0e31?family=Open+Sans");
+
+footer {
+    margin-top: 103px;
+}
+
 .vertical-line {
    
    

@@ -1419,7 +1419,6 @@ li{
  }
 }
 
-
 @media (max-width: 1259px) and (min-width:992px){
 
 
@@ -1602,7 +1601,6 @@ li{
   } */
 }
 
-
 @media(max-width: 1137px) and (min-width:1103px){
   .service-1-1a {
     margin-left: 29%;
@@ -1621,8 +1619,6 @@ li{
   }
 }
 
-
-
 @media(max-width: 979px) and (min-width:57px){
   .service {
     margin-left: auto;
@@ -1630,14 +1626,6 @@ li{
 }
 }
 
-/* @media(max-width: 815px) and (min-width:576px){
-  .bloc-dev-flutter, .bloc-developpeur-front{
-    margin-left: 44%;
-  }
-  .bloc-developpeur-front {
-    margin-left: 44%;
-}
-} */
 @media(max-width: 994px) and (min-width:770px){
   .forme-5-agency {
       position: absolute;
@@ -1798,7 +1786,6 @@ height: 150%;
 }
 }
 
-
 @media (max-width:880px) and (min-width: 771px){
  
   .placons-1259A, .nous-placons-1, .des-heros-2{
@@ -1893,8 +1880,6 @@ height: 150%;
   } 
 } 
 
-
-
 @media(max-width: 770px) and (min-width:573px){
 
   .placons-1259A, .nous-placons-1, .des-heros-2{
@@ -1962,7 +1947,7 @@ height: 150%;
   }
 
  
-@media(max-width: 770px) {
+@media screen and (max-width: 770px) {
   .forme-4-agency {
     display: none;
   }
@@ -1983,14 +1968,12 @@ height: 150%;
   }
 }
   
-
 @media  screen and (max-width:768px){
   .grace-a-vous-1 {
     margin-left: 10%;
     margin-right: 5%;
   }
 }
-
 
 @media (max-width:770px) and (min-width:693px){
   .meilleurs-talents-africains {
@@ -2156,14 +2139,11 @@ height: 150%;
   }
 }
 
-
 @media  (max-width:993px) and (min-width:857px){
   .forme-5-agency {
     margin-left: 71%;
   }
 }
-
-
 
 @media  (max-width:993px) and (min-width:857px){
   .forme-5-agency {
@@ -2233,7 +2213,6 @@ height: 150%;
   }
 }
 
-
 @media(max-width: 385px){
   .bloc-rect-19 {
     margin-left: -4%;
@@ -2302,8 +2281,6 @@ height: 150%;
     margin-top: 122%;
   }
 }
-
-
 
 @media(max-width: 768px){
   .point-questionnaire {
