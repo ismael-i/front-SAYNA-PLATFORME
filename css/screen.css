@@ -124,7 +124,12 @@ color: #000000;
 }
 }
 
-
+@media(max-width:1579px) and (min-width: 1491px) {
+	.au-program {
+line-height: 316.02%;
+color: #000000;
+}
+}
 
 @media(max-width:1690px) and (min-width: 1580px) {
 	.au-program {
