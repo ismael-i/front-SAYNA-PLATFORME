@@ -1727,7 +1727,7 @@ header {
     background: url("../image/Forme 4 (1).png");
     background-repeat: no-repeat;
     background-size: 23%;
-    background-position: left;
+    /* background-position: left; */
 }
 
 
@@ -1745,7 +1745,7 @@ header {
     position: relative;
     /* right: 53.49%; */
     left: -9%;
-    top: 9%;
+    top: 0;
     float: right !important;
     width: 68%;
 }
@@ -1834,7 +1834,8 @@ header {
 
 .skills-groupe {
     width: 100%;
-    top: 4%;
+    margin-top: 6%;
+    margin-left: 5% !important;
 }
 
 
@@ -1861,15 +1862,17 @@ header {
 
 .hard-skills {
     position: relative;
-    width: 100%;
-    height: 28px;
+    width: 170px;
+    background: #FB5875 !important;
+    border-radius: 100px !important;
+    height: 57px;
     float: center;
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
     font-weight: 600;
     font-size: 1em;
     line-height: 50.02%;
-    /* display: flex; */
+    display: grid;
     align-items: center;
     text-align: center !important;
     letter-spacing: 0.005em;
@@ -1900,11 +1903,6 @@ header {
 .rectangle-162 {
     position: relative;
     width: 100% !important;
-    /* top: 6271px; */
-    background: #FB5875 !important;
-    border-radius: 100px !important;
-    height: 57px;
-    /* top: 6271px; */
     background: #FB5875;
     border-radius: 100px;
 }
@@ -1914,15 +1912,18 @@ header {
 
 .agile-pm {
     position: relative;
-    width: 100%;
-    height: 28px;
+    width: 170px;
+    /* height: 28px; */
+    background: #FB5875 !important;
+    border-radius: 100px !important;
+    height: 57px;
     float: center;
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
     font-weight: 600;
     font-size: 1em;
     line-height: 50.02%;
-    /* display: flex; */
+    display: grid;
     align-items: center;
     text-align: center !important;
     letter-spacing: 0.005em;
@@ -1964,13 +1965,16 @@ header {
 
 .soft-skills {
     position: relative;
-    width: 100%;
-    height: 28px;
+    width: 170px;
+    height: 56px;
+    background: #FB5875;
+    border-radius: 100px;
     float: center;
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
     font-weight: 600;
     font-size: 1em;
+    display: grid;
     line-height: 150.02%;
     align-items: center;
     text-align: center;
@@ -2013,12 +2017,15 @@ header {
 
 .langue {
     position: relative;
-    width: 100%;
-    height: 28px;
+    width: 170px;
+    height: 57px;
+    background: #FB5875;
+    border-radius: 100px;
     float: center;
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
     font-weight: 600;
+    display: grid;
     font-size: 1em;
     line-height: 150.02%;
     align-items: center;
@@ -2062,14 +2069,17 @@ header {
 
 .engagement {
     position: relative;
-    width: 100%;
-    height: 28px;
+    width: 170px;
+    height: 57px;
+    background: #FB5875;
+    border-radius: 100px;
     float: center;
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
     font-weight: 600;
     font-size: 1em;
     line-height: 150.02%;
+    display: grid;
     align-items: center;
     text-align: center;
     letter-spacing: 0.005em;
