@@ -39,6 +39,12 @@
             .speci-speci {
                 padding-top: 53px;
             }
+            .retrouvez-l-ensemble {
+                width: 423px;
+            }
+            .atteins-l-excellence {
+                width: 119%;
+            }
         }
         
         @media(max-width:1000px) and (min-width:767px) {
@@ -113,7 +119,8 @@
                 position: relative;
                 left: 4%;
             }
-            .di-rect1 {
+            .di-rect1,
+            .di-rect-bottom {
                 position: relative;
                 width: 280px !important;
                 margin-right: 3%;
@@ -250,7 +257,8 @@
                 position: relative;
                 left: 4%;
             }
-            .di-rect1 {
+            .di-rect1,
+            .di-rect-bottom {
                 position: relative;
                 width: 310px;
                 margin-right: 3%;
