@@ -348,7 +348,7 @@ li {
 }
 
 .girl-fly {
-    margin-top: 2% !important;
+    margin-top: -4% !important;
     float: right;
     /*top: -34%;*/
     left: -10%;
@@ -356,7 +356,7 @@ li {
 
 .fdh {
     position: relative;
-    margin-top: 23% !important;
+    margin-top: 15% !important;
     left: 10%;
 }
 
@@ -923,7 +923,7 @@ header {
 }
 
 .fleche {
-    margin-left: 31px;
+    margin-left: 22px;
     color: #000000;
     font-size: 13px !important;
 }
@@ -1022,12 +1022,12 @@ header {
     position: relative;
     /* right: 13.47%; */
     /* left: 10%; */
-    padding-left: 9px;
-    bottom: -10.72%;
+    padding-left: 20px;
+    bottom: -7.72%;
     font-family: 'Lato';
     font-style: normal;
     font-weight: bold;
-    font-size: 0.69em;
+    font-size: 0.68em;
     line-height: 15px;
     display: flex;
     align-items: center;
@@ -1047,14 +1047,20 @@ header {
 
 .three-list-one {
     width: 97%;
-    margin-left: 3% !important;
+    margin-left: 1% !important;
+    margin-right: 1% !important;
+}
+
+.three-list-one2 {
+    width: 97%;
+    margin-left: 1% !important;
     margin-right: 1% !important;
 }
 
 .di-rect1 {
     position: relative;
-    width: 100px;
-    height: 332px;
+    width: 335px;
+    height: 322px;
     background: #F7F7F9;
     border-radius: 20px;
 }
@@ -1068,7 +1074,7 @@ header {
     width: 50%;
     position: relative;
     height: 87px;
-    left: 30%;
+    left: 32%;
     align-content: center;
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
@@ -1108,7 +1114,7 @@ header {
     position: relative;
     width: 50%;
     height: 87px;
-    left: 24%;
+    left: 31%;
     align-content: center;
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
@@ -1148,7 +1154,7 @@ header {
     position: relative;
     width: 67%;
     height: 87px;
-    left: 19%;
+    left: 23%;
     align-content: center;
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
@@ -1167,7 +1173,7 @@ header {
     position: relative;
     width: 80%;
     left: 9%;
-    top: -9%;
+    top: -6%;
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
     font-weight: normal;
@@ -1181,8 +1187,8 @@ header {
 }
 
 .di-rect-bottom {
-    width: 27%;
-    height: 332px;
+    width: 335px;
+    height: 312px;
     background: #F7F7F9;
     border-radius: 20px;
     margin-right: 5px;
@@ -1197,7 +1203,7 @@ header {
     position: relative;
     width: 67%;
     height: 87px;
-    left: 17%;
+    left: 27%;
     align-content: center;
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
@@ -1215,7 +1221,7 @@ header {
 .pourdevenir {
     position: relative;
     width: 88%;
-    left: 9%;
+    left: 7%;
     top: 0%;
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
@@ -1309,6 +1315,7 @@ header {
 .speci-speci {
     position: relative;
     height: 400px;
+    text-align: right;
     padding-right: 30px !important;
 }
 
@@ -1363,14 +1370,16 @@ header {
 
 .jeminscris2 {
     position: relative;
-    width: 30%;
-    height: 50px;
-    text-align: right;
-    left: 50%;
+    width: 210px;
+    height: 46px;
+    text-align: right !important;
+    margin-top: 0px;
+    margin-left: 190px;
+    float: right;
     padding: 0 !important;
-    display: inline-grid !important;
+    display: flex !important;
     background: #FFCC00 !important;
-    border-radius: 20px !important;
+    border-radius: 17px !important;
 }
 
 
