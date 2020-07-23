@@ -528,9 +528,6 @@ width: 47%;
  .rectangle-15c{
   width: 167px;
   height: 39px;
-  /* padding-left: 5% !important; */
-  /* padding-left: 5% !important; */
-  /* margin-left: -39% !important; */
   margin-top: 2%;
   margin-right: 5%;
   background: #FFCC00 !important;
@@ -539,7 +536,7 @@ width: 47%;
   font-family: Antipasto Pro;
   padding-right: 2px;
   font-style: normal;
-  font-weight: 900 !important;
+  font-weight: bold !important;
   font-size: 83% !important;
   line-height: 18px !important;
   display: flex;
@@ -671,8 +668,7 @@ width: 47%;
  
  .rectangle-161b{
   width: 133px;
-    height: 39px !important;
-  margin-top: 4%;
+  height: 39px !important;
   background: #FB5875 !important;
   border-radius: 100px !important;
   border-color: #FB5875 !important;
