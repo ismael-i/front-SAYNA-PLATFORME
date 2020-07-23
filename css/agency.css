@@ -259,8 +259,35 @@ li button{
   left: 25%;
   
   position: relative;
+  top: -4%;
 }
 
+.icon-grp-service-2 {
+  width: 50%;
+  text-align: center;
+  left: 25%;
+  
+  position: relative;
+  margin-top: 5%;
+}
+
+.icon-grp-service-3 {
+  width: 50%;
+  text-align: center;
+  left: 25%;
+  
+  position: relative;
+  margin-top: 5%;
+}
+
+.developpeur-front-end{
+
+  line-height: 19px;
+}
+
+.bloc-designer{
+  padding-bottom: 28px !important;
+}
 .stroke-1 {
   width: 16%;
   position: relative;
@@ -557,6 +584,11 @@ width: 47%;
   margin-right: 7%;
 }
 
+.bloc-data-engineer{
+
+    padding-bottom: 0px !important;
+
+}
  /* Rectangle */
  
  .rectangle{
@@ -566,6 +598,7 @@ width: 47%;
   height: 80%;
   margin-top: 13px;
   width: 67%;
+  padding-bottom: 81px;
 }
 
 
@@ -595,9 +628,21 @@ width: 47%;
   color: #FB5875;
 }
 
-
 .apprends-a-aller-chercher {
-  margin-left: 4%;
+  
+  margin-top: 27% !important;
+}
+
+.icon-grp-service-1 {
+  width: 50%;
+  text-align: center;
+  left: 25%;
+  position: relative;
+  top: -15%;
+}
+
+.developpeur-front-end{
+  line-height: 18px;
 }
  /* Deviens un développeur Web Full Stack avec Ruby On Rails : la technologie de Airbnb, Twitter et d’autres géants de la tech. */
  
@@ -615,11 +660,11 @@ width: 47%;
   color: #898989;
 
   margin-top: 18%;
-  padding-bottom: 30%;
+
 }
 
 .deviens-un-expert-du-Front{
-  margin-top: 15%;
+  margin-top: 12%;
   width: 81%;
 }
  /* Rectangle 161 */
@@ -2350,6 +2395,19 @@ li{
 
   .point-questionnaire-1 {
     margin-top: 122%;
+  }
+}
+
+
+@media(max-width: 985px) and (min-width: 576px){
+  .icon-grp-service-1 {
+    top: -7%;
+  }
+}
+
+@media(max-width: 575px){
+  .bloc-data-engineer {
+    padding-bottom: 36px !important;
   }
 }
 
