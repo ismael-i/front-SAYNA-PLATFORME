@@ -10,10 +10,18 @@
 [class*="col"] { 
   margin-bottom: 25px;
 }
-body{background: #e9eaef;}
-#textes{display:none;}
+body{
+  background: #e9eaef;
+}
+
+#textes{
+  display:none;
+}
  
-.fond{background:rgba(0, 0, 0, 0.26);}
+.fond{
+  background:rgba(0, 0, 0, 0.26);
+}
+
 .bout{
   width: 140px;
     height: 53px;
@@ -210,9 +218,60 @@ li button{
   border-radius: 20px !important;
 }
 
-.menu{
-
+.fleche-long{
+  color: #FB5875;
+  font-size: 30px !important;
+  margin-top: 11%;
 }
+
+.fleche-long-1{
+  color: #FB5875;
+  font-size: 30px !important;
+  margin-top: 17%;
+}
+
+
+.fleche-long-2{
+  color: #FB5875;
+  font-size: 30px !important;
+  margin-top:  23%; 
+}
+
+.fleche-long-3{
+  color: #FB5875;
+    font-size: 30px !important;
+    margin-top: 3%;
+    margin-left: 88px;
+    position: absolute;
+}
+
+.fleche-long-4{
+  color: #FB5875;
+    font-size: 30px !important;
+    margin-top: 21%;
+    margin-left: 120px;
+    position: absolute;
+}
+
+.icon-grp-service {
+  width: 50%;
+  text-align: center;
+  left: 25%;
+  
+  position: relative;
+}
+
+.stroke-1 {
+  width: 16%;
+  position: relative;
+}
+
+.stroke-2 {
+  width: 5%;
+  left: -3%;
+  position: relative;
+}
+
 
 .fleche-connexion {
   margin-left:  13px;
@@ -505,8 +564,8 @@ width: 47%;
   background: #F7F7F9;
   border-radius: 20px;
   height: 80%;
-    margin-top: 44px;
-    width: 67%;
+  margin-top: 13px;
+  width: 67%;
 }
 
 
@@ -724,7 +783,7 @@ width: 85%;
     margin-top: -4%;
     margin-left: -33%;
     width: 31%;
-    height: 84%;
+    height: 79%;
   /* margin-top: 17.5%;
   left: 25%;
   width: 17%;
@@ -940,7 +999,8 @@ width: 85%;
  /* une solution à chaque situation */
  
  .une-solution-a-chaque-situation{
-  margin-top: 7%;
+   margin-top: -3%; 
+  
 }
 
 
@@ -1259,20 +1319,34 @@ letter-spacing: 0.005em;
   
 }
 
-
+.ul-img{
+  position: absolute;
+}
 
 .ul-slid{
   margin-top: 29%;
 }
 
 .ul-slid-1{
-  background: url(../images/Forme\ 5.png);
+  background: url(../image/Forme\ 5.png);
     background-repeat: no-repeat;
-    background-size: 63% 115%;
+    background-size: 59% 119%;
+    background-position: right;
+    background-position: 102% -55px;
+    margin-right: -3%;
+    margin-top: -8%;
+    width: 103%;
+    padding-bottom: 81px;
+  /* height: 119%;
+   /* background: url(../image/Forme\ 5.png); 
+    background-repeat: no-repeat;
+    /* background-size: 63% 115%; * /
+    background-size: 54% 151%;
+   
     background-position-x: right;
     margin-right: -3%;
     margin-top: -8%;
-    height: 119%;
+    height: 119%; */
 }
 
 li{
@@ -1316,7 +1390,7 @@ li{
 
 .btn-slid-0{
   margin-left: 47%;
-  margin-top: 154px
+  margin-top: 100px;
 }
 
 .btn-slid-1{
@@ -1324,7 +1398,7 @@ li{
 }
 
 .btn-slid-2{
-  margin-left: 6%;
+  margin-left: 3%;
 } 
 
 .btn-slid-3{
@@ -1389,7 +1463,8 @@ li{
   }
  */
   .ul-slid-1 {
-    background-size: 284px 662px;
+    background-size: 61% 119%;
+    background-position: 100% -27px;
   }
   .btn-slid-0 {
     margin-left: 32%;
@@ -1408,7 +1483,7 @@ li{
      margin-left: 37%; 
 }
 .courbe-rdv-2{
-  height: 70%;
+  height: 193px;
 }
 }
 
@@ -1439,7 +1514,7 @@ li{
   /* Forme 4 */ 
 
  .forme-4-photo{
-   background: url(../images/Forme\ 4\ \(1\).png);
+   background: url(../image/Forme\ 4\ \(1\).png);
    background-repeat: no-repeat;
    background-size: 342px 600px;
    margin-top: 12px;
@@ -1566,9 +1641,6 @@ li{
   }
 
 
-  .ul-slid-1 {
-    background-size: 192px 534px;
-  }
   .btn-slid {
     /* text-align: center !important; */
     margin-top: 8%;
@@ -1577,13 +1649,17 @@ li{
     margin-left: 47%;
     margin-top: 118px;
   }
-  .une-solution-a-chaque-situation {
-    margin-top: 13%;
 
-}
 
 .ul-slid-1 {
+  
   height: 150%;
+  margin-left: 21px;
+  background-position: 126% -7px;
+  background-size: 60% 74%;
+}
+.courbe-rdv-2 {
+  height: 65%;
 }
 }
 
@@ -1719,7 +1795,7 @@ li{
   /* Forme 4 */ 
 
  .forme-4-photo{
-   background: url(../images/Forme\ 4\ \(1\).png);
+   background: url(../image/Forme\ 4\ \(1\).png);
    background-repeat: no-repeat;
    background-size:  215px 486px ;
    margin-top: 12px;
@@ -1766,7 +1842,9 @@ li{
 
 
  .ul-slid-1 {
-  background-size: 192px 534px;
+   background-position: 142% -7px;
+  background-size: 60% 74%;
+  height: 150%;
 }
 .btn-slid {
   /* text-align: center !important; */
@@ -1777,12 +1855,8 @@ li{
   margin-top: 118px;
 }
 .une-solution-a-chaque-situation {
-  margin-top: 13%;
+  margin-top: -5%;
 
-}
-
-.ul-slid-1 {
-height: 150%;
 }
 }
 
@@ -1796,7 +1870,7 @@ height: 150%;
   }
   
   .forme-4-photo {
-    background: url(../images/Forme\ 4\ \(1\).png);
+    background: url(../image/Forme\ 4\ \(1\).png);
     background-repeat: no-repeat;
     margin-top: 12px;
     background-size: 212px 472px;
@@ -1854,7 +1928,9 @@ height: 150%;
   }
 
   .ul-slid-1 {
-    background-size: 192px 534px;
+    background-size: 150px 534px;
+    height: 150%;
+    margin-left: 53px;
   }
   .btn-slid {
     /* text-align: center !important; */
@@ -1864,10 +1940,6 @@ height: 150%;
     margin-top: 13%;
 
   }
-
-  .ul-slid-1 {
-  height: 150%;
-    }
 
   .btn-slid {
     /* text-align: center !important; */
@@ -1908,7 +1980,7 @@ height: 150%;
 
   /* nous plaçons des héros. */
   .des-heros{
-    font-size: 66px;
+    font-size: 65px;
       margin-left: 9.5%;
       margin-top: -6%;
       margin-bottom: 25%;
@@ -1934,7 +2006,7 @@ height: 150%;
 
 
 .forme-4-photo {
-  background: url(../images/Forme\ 4\ \(1\).png);
+  background: url(../image/Forme\ 4\ \(1\).png);
   background-repeat: no-repeat;
   margin-top: 12px;
   background-size: 193px 452px;
@@ -1955,6 +2027,7 @@ height: 150%;
     display: none;
   }
   .ul-slid-1{
+    background-color: #E5E5E5;;
     display: none;
   }
 } 
@@ -1978,7 +2051,7 @@ height: 150%;
 @media (max-width:770px) and (min-width:693px){
   .meilleurs-talents-africains {
     left: 61px;
-    top: 738px;
+    top: 423px;
     font-size: 21px;
 }
 }
@@ -2046,7 +2119,7 @@ height: 150%;
     
   } 
   .forme-4-photo {
-    background: url(../images/Forme\ 4\ \(1\).png);
+    background: url(../image/Forme\ 4\ \(1\).png);
     background-repeat: no-repeat;
     margin-top: 12px;
     background-size: 160px 437px;
@@ -2118,7 +2191,7 @@ height: 150%;
     
   } 
   .forme-4-photo {
-    background: url(../images/Forme\ 4\ \(1\).png);
+    background: url(../image/Forme\ 4\ \(1\).png);
     background-repeat: no-repeat;
     margin-top: 12px;
     background-size: 160px 437px;
@@ -2235,23 +2308,21 @@ height: 150%;
   .point-questionnaire-1 {
     margin-top: 122%;
   }
-}
-
-@media(max-width: 1081px) and (min-width:995px){
 
   .courbe-rdv-2 {
     width: 31%;
-    height: 81%;
+    height: 177px;
 
     margin-left: -34%;
   }
 }
+
 @media(max-width: 994px) and (min-width:842px){
 
   .courbe-rdv-2 {
     
     width: 31%;
-    height: 81%;
+    height: 167px;
   }
 }
 @media(max-width: 841px) and (min-width:769px){
@@ -2260,7 +2331,7 @@ height: 150%;
     margin-top: -1%;
     margin-left: -35%;
     width: 31%;
-    height: 57%;
+    height: 138px;
 }
 
 }

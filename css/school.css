@@ -7,6 +7,9 @@
 ************************************/
 
 
+body{
+    background: #E9EAEF;
+}
 
 * {
     padding: 0;
@@ -45,12 +48,12 @@
 
 /* Logo_Sayna */
 
-#background-body {
+/* #background-body {
     width: 100%;
     display: block;
     background: #E5E5E5;
     overflow-x: hidden;
-}
+} */
 
 .logo1-school {
    position: relative;
@@ -417,11 +420,11 @@ height: 50px;
 header {
 
     background: url("../image/Forme 1 (1) 1.png") ; 
-background-position: left top ;
-  background-repeat: no-repeat;
-  background-size: 38%;
-  margin-left: 0%;
-  margin-top: 0%;
+    background-position: left top ;
+    background-repeat: no-repeat;
+    background-size: 38%;
+    margin-left: -2%;
+    margin-top: 0%;
   
 }
 
@@ -2631,13 +2634,170 @@ background-position: left top ;
 }
 
 .ellipse-7a{
-    margin-top: -1%;
-    margin-left: 71%;
-    position: absolute;
+    margin-top: 0%;
+    margin-left: 63.5%;
+    /* position: absolute; */
     width: 7%;
 }
 .bloc-shift-jour{
-    background: #FFCC00;    
-    height: 60px;
-    margin-top: 3%;
+    /* position: absolute; */
+    background: #FFCC00;
+    height: 60%;
+    margin-top: 4%;
+    width: 98%;
+    border-radius: 0 20px 20px 0;
+
+}
+
+.shift-jour{
+    padding-top: 13%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+}
+
+
+/* Rectangle 154 */
+.rectangle-154{
+    /* position: absolute; */
+    margin-top: -12px;
+    width: 244px;
+    height: 169px;
+    border-width: medium;
+    background: #E9EAEF;
+    box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    transform: skewX(-10deg);
+    box-shadow: 6px 6px 0px #FB5875;
+    margin-left: 19px;
+}
+
+/* #shift à dominante jour - 9 semaines */
+
+.shift-a-dominante{
+    margin-top: 21px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+}
+
+
+
+/* Rectangle 154 */
+.rectangle-154-a{
+    /* position: absolute; */
+    margin-top: -12px;
+    width: 144px;
+    height: 169px;
+    border-width: medium;
+    background: #E9EAEF;
+    box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    transform: skewX(-10deg);
+    box-shadow: 6px 6px 0px #FB5875;
+    margin-left: 4px;
+}
+
+.morning-routine{
+    
+}
+
+.heure{
+    padding-left: 25px;
+    padding-top: 25px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.cours{
+    width: 121px;
+    margin-top: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.heure-1{
+    padding-top: 21px;
+}
+
+.cours-1{
+    margin-top: 0px;
+}
+
+.heure-2{
+    margin-top: -21px;
+}
+
+.cours-2{
+    margin-top: 3px;
+}
+.rectangle-154-a1{
+    margin-left: 85px;
+}
+
+.rectangle-154-a2{
+    margin-left: 54px;
+}
+
+.rectangle-154-a3{
+    margin-left: 24px;
+}
+
+.rectangle-154-a4{
+    margin-left: -6px;
+}
+
+.rectangle-154-a5{
+    margin-left: -38px
+}
+
+.cours-magistraux{
+    width: 145px;
+}
+
+.challenges{
+    width: 138px;
+}
+
+.yoga{
+    width: 137px;
+}
+
+
+
+
+
+.bloc-shift-soir{
+    /* position: absolute; */
+    background: #141138;
+    height: 60%;
+    margin-top: 24%;
+    width: 98%;
+    border-radius: 0 20px 20px 0;
+
 }
