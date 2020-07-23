@@ -61,170 +61,6 @@
 }
 
 
-/* Menu */
-
-
-/*.menu {
-    
-    width: 100%;
-    height: 50.37px;
-    left: 41%;
-    top: 4%;
-}
-
-.btn-connexion {
-    /* position: absolute; */
-
-
-/* width: 26%;
-    height: 48.3px;
-    left: 1050.87px;
-    top: 86.94px;
-    padding: 0 !important;
-    margin-left: 3%;
-    background-color: #FB5875 !important;
-    border-radius: 50px !important;
-    /* transform: matrix(1, 0, 0, -1, 0, 0); */
-
-
-/*}
-
-/*.btn-school {
-    /* position: absolute; */
-
-
-/* width: 17%;
-    height: 48.3px;
-    left: 614.1px;
-    top: 38.64px;
-    padding: 0 !important;
-    display: inline-flex !important;
-    background-color: #FFCC00 !important;
-    box-shadow: 0px 0px 20px rgba(255, 204, 0, 0.35);
-    border-radius: 20px !important;
-}
-
-.btn-agency {
-    /* position: absolute; */
-
-
-/* width: 17%;
-    height: 48.3px;
-    left: 614.1px;
-    top: 38.64px;
-    margin-left: 3%;
-    padding: 0 !important;
-    display: inline-flex !important;
-    background-color: #F2F2F7 !important;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-    border-radius: 20px !important;
-}
-
-.btn-factory-menu {
-    /* position: absolute; */
-
-
-/*width: 17%;
-    height: 48.3px;
-    left: 614.1px;
-    top: 38.64px;
-    margin-left: 3%;
-    padding: 0 !important;
-    display: inline-flex !important;
-    background-color: #F2F2F7 !important;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-    border-radius: 20px !important;
-}
-
-.txt-btn {
-    width: 117.3px;
-    height: 46.92px;
-    font-family: "Lato";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 1em;
-    line-height: 16.56px;
-    display: inline-grid;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.025em;
-    text-transform: uppercase;
-    color: #F2F2F7;
-}
-
-.txt-agency {
-    width: 117.3px;
-    height: 46.92px;
-    font-family: "Lato";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 1em;
-    line-height: 16.56px;
-    display: inline-grid;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.025em;
-    text-transform: uppercase;
-    color: #575F6B;
-}
-
-.txt-connexion {
-    /* 
-   position: absolute; */
-
-
-/*width: 131.79px;
-    height: 48.3px;
-    left: calc(50% - 191px/2 + 657.5px);
-    top: calc(50% - 70px/2 - 5108.5px);
-    font-family: "Lato";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 0.9em;
-    line-height: 16.56px;
-    display: inline-grid;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.05em;
-    text-transform: uppercase;
-    color: #E9EAEF;
-}
-
-.btn-dropdonw {
-    width: 8%;
-    height: 48.3px;
-    left: 1233.72px;
-    top: 38.64px;
-    /* padding: 0 !important; */
-
-
-/* margin-left: 3%;
-    background: #F2F2F7;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-    border-radius: 20px !important
-}
-
-
-/* Group 8 */
-
-
-/*.Groupe-drop {
-    /* position: absolute; */
-
-
-/*    width: 27.6px;
-    height: 19.32px;
-    /* left: 604px; */
-
-
-/* margin-left: -12px; */
-
-
-/*  top: 9px;
-    font-size: 33px !important;
-    color: #575F6B !important;
-}
-*/
 
 * {
     padding: 0;
@@ -237,6 +73,7 @@
     justify-content: space-between;
     border: none;
 }
+
 
 .menu {
     position: relative;
@@ -256,88 +93,118 @@
 li {
     list-style: none;
     display: inline-block !important;
-    margin: 2.6%;
+    margin: 1.8%;
 }
 
 .fleche-connexion {
     position: relative;
-    left: 15%;
+    left: 21% !important;
+}
+
+.Groupe-08 {
+color: #575F6B;
+font-size: 28px !important;
+margin-top: auto !important;
+margin-bottom: auto !important;
+margin-right: auto !important;
+margin-left: auto !important;
 }
 
 .teext-menu {
-    font-family: Lato;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 18px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.025em;
-    text-transform: uppercase;
-    color: #575F6B !important;
-    text-decoration-line: none;
+    position: relative;
+    font-family: Antipasto Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 21px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-align: center !important;
+letter-spacing: -0.025em;
+text-transform: uppercase;
+left: 10%;
+color: #575F6B !important;
+text-decoration-line: none;
+
 }
 
+
 .teext-school {
-    font-family: Lato;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 18px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.025em;
-    text-transform: uppercase;
-    color: white !important;
-    text-decoration-line: none;
+    position: relative;
+    font-family: Antipasto Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 23px;
+line-height: 18px;
+display: flex;
+align-items: center ;
+text-align: center !important;
+letter-spacing: -0.025em;
+text-transform: uppercase;
+left: 10%;
+color: white !important;
+text-decoration-line: none;
+
+
+
 }
 
 .teext-connex {
-    font-family: Lato;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.05em;
-    text-transform: uppercase;
-    text-decoration-line: none;
-    margin-left: 6%;
-    color: white !important;
+
+    font-family: Antipasto Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 21px;
+line-height: 24px;
+display: flex;
+align-items: center ;
+text-align: center !important;
+letter-spacing: -0.05em;
+text-transform: uppercase;
+text-decoration-line: none;
+margin-left: 6%;
+color: white !important;
 }
 
 .btn-menu {
-    position: relative;
-    background: #F2F2F7;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15) !important;
-    border-radius: 12%;
+   width: 120.06px;
+  height: 48.3px;
+
+background-color: #F2F2F7 !important;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 20px !important;
 }
 
 .btn-connexion {
-    position: relative;
-    width: 180px;
-    height: 40px;
-    background-color: #FB5875 !important;
-    border-radius: 50px !important;
+
+    width: 157.32px;
+      height: 48.3px;
+
+background-color: #FB5875 !important;
+border-radius: 50px !important;
 }
 
 .btn-dropdown {
-    background: #F2F2F7;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15)!important;
-    border-radius: 12%;
+    width: 49.68px;
+  height: 48px;
+ background: #F2F2F7;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 20px !important;
+
 }
 
 .btn-school {
-    position: relative;
-    background: #FFCC00 !important;
-    box-shadow: 0px 0px 20px rgba(255, 204, 0, 0.35);
-    border-radius: 20px;
-    height: 50px;
+width: 129.06px;
+  height: 54.3px;
+background: #FFCC00 !important;
+box-shadow: 0px 0px 20px rgba(255, 204, 0, 0.35)!important;
+border-radius: 20px !important;
+
+
 }
+
+
+
 
 
 /* Groupe 294  Femme qui vole */
@@ -693,6 +560,8 @@ header {
     height: 157px;
     top: 44%;
     left: 13%;
+
+
 }
 
 
