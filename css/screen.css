@@ -30,7 +30,7 @@ font-family: Inter;
 font-style: normal;
 font-weight: normal;
 font-size: 12px;
-line-height: 226.02%;
+line-height: 186.02%;
 letter-spacing:0.01em !important;
 }
 .on-s-occupe1, .on-s-occupe4, .on-s-occupe2, .on-s-occupe3, .on-s-occupe5, .on-s-occupe6, .on-s-occupe7, .on-s-occupe8, .on-s-occupe9      {
@@ -53,6 +53,18 @@ left: 2% !important;
 }*/
 }
 
+@media(max-width:999px) and (min-width: 830px) {
+	
+	.slider-parallax-group3{
+   position: relative;
+width: 803.8px;
+height: 570px;
+left: 30% !important;
+
+}
+}
+
+
 @media(max-width:1578px) and (min-width: 1410px) {
 	
 	.slider-parallax-group3{
@@ -70,7 +82,7 @@ font-family: Inter;
 font-style: normal;
 font-weight: normal;
 font-size: 13px;
-line-height: 286.02%;
+line-height: 556.02%;
 }
 
 
@@ -110,7 +122,7 @@ letter-spacing: 0.04em;
 .menu >li{
 	list-style: none;
 	display: inline-block !important;
-	margin: 3.98%;
+	margin: 2.98%;
 }
 
 
@@ -119,24 +131,31 @@ letter-spacing: 0.04em;
 
 @media(max-width:1490px) and (min-width: 1386px) {
 	.au-program {
-line-height: 296.02%;
+line-height: 256.02%;
 color: #000000;
 }
 }
 
 @media(max-width:1579px) and (min-width: 1491px) {
 	.au-program {
-line-height: 316.02%;
+line-height: 296.02%;
 color: #000000;
 }
 }
 
 @media(max-width:1690px) and (min-width: 1580px) {
 	.au-program {
-line-height: 386.02%;
+line-height: 306.02%;
 color: #000000;
 }
 
+
+.en48h{
+	
+line-height: 209.52% !important;
+
+position: relative;
+}
 
 .nos-heros {
 font-size: 94px;
@@ -174,7 +193,7 @@ letter-spacing: 0.04em;
 .menu >li{
 	list-style: none;
 	display: inline-block !important;
-	margin: 4.1%;
+	margin: 3.1%;
 }
 
 }
@@ -183,7 +202,7 @@ letter-spacing: 0.04em;
 @media(min-width:1790px) {
 	.au-program {
 
-line-height: 496.02%;
+line-height: 366.02%;
 
 color: #000000;
 }
@@ -191,7 +210,7 @@ color: #000000;
 .menu >li{
 	list-style: none;
 	display: inline-block !important;
-	margin: 4.8%;
+	margin: 4.1%;
 }
 }
 
@@ -199,7 +218,7 @@ color: #000000;
 @media(max-width:1790px) and (min-width: 1680px) {
 	.au-program {
 
-line-height: 436.02%;
+line-height: 326.02%;
 
 color: #000000;
 }
@@ -207,7 +226,7 @@ color: #000000;
 .menu >li{
 	list-style: none;
 	display: inline-block !important;
-	margin: 4.3%;
+	margin: 3.3%;
 }
 
 .nos-heros {
@@ -313,7 +332,7 @@ color: #000000;
 	width: 190%;
 	
 	z-index: -1;
-	left: -10%;
+	left: -5% !important;
 	
 	
 
@@ -344,28 +363,28 @@ left:1% !important;
 	    .slider-parallax-group3{
    position: relative;
 
-left:-6% !important;
+left:0 !important;
 }
 }
 @media screen and (max-width: 1070px) {
 	    .slider-parallax-group3{
    position: relative;
 
-left:-8% !important;
+left:0 !important;
 }
 }
 @media screen and (max-width: 1000px) {
 	    .slider-parallax-group3{
    position: relative;
 
-left:-10% !important;
+left:0 !important;
 }
 }
 @media screen and (max-width: 900px) {
 	    .slider-parallax-group3{
    position: relative;
 
-left:-20% !important;
+left: 0 !important;
 }
 }
 
@@ -382,7 +401,7 @@ left:-20% !important;
  .slider-parallax-group3{
    position: relative;
 
-left:-40% !important;
+left:0 !important;
 }
 
 		label[for="on-soccupe"]{
@@ -664,7 +683,7 @@ position: relative;
 	    .slider-parallax-group3{
    position: relative;
 
-left:-3% !important;
+left:0 !important;
 }
 
 	header {
@@ -677,13 +696,18 @@ background-position: left top ;
   margin-top: 0%;
   
 }
+
+	.btn-benefic {
+		position: relative;
+		left: -5%;
+	}
 	
 	.number2-img {
 	position: absolute;
 	width: 50%;
 	top: 60px !important;
 	z-index: -1;
-	left: -100% !important;
+	left: -120% !important;
 	
 }
 	.number2-txt {
@@ -978,7 +1002,11 @@ label[for="diver-site"]:after{
 	display: none;
 }
 
-
+	.appelavec {
+	left: 1%;
+	width: 150% !important;
+	position: relative;
+}
 
 
     label[for="on-soccupe"]{
@@ -1024,7 +1052,8 @@ color: #000000;
 .col-texte {
     margin-top: 40px;
     margin-left: 5% !important;
-    margin-right: 3%;
+    margin-right: 3% !important;
+    left: 0 !important;
 }
 
 .validation-facto  {
@@ -1094,12 +1123,15 @@ position: relative;
         
     }
 
-
+    .barre {
+    position: relative;
+    left: -2% !important;
+}
 
         .col-number4 {
             position: absolute;
             float: left;
-            left: -10%;
+            left: -5%;
         }
     .number2 {
         text-align: center;
@@ -1233,6 +1265,7 @@ color: #000000;
     content:'Chaque équipe est composée, au minimum de deux développeurs back-end,un front-end / intégrateur et un designer. Au besoin, nous pouvons compléter l’équipe d’autres expertises : data engineer, développeur mobile, rédacteur web / SEO - SEA. ';
 }
 .btn-rdv {
+	left: 0 !important;
     margin-top: 213px;
     position: relative;
 }
@@ -1350,6 +1383,15 @@ color: #000000;
 
 }
 
+.menu {
+	position: relative;
+	
+	
+	left: 1%;
+	
+}
+
+
 #body-all {
 	width: 100%;
 margin-right: none !important;
@@ -1359,9 +1401,10 @@ margin-right: none !important;
 	background: #E5E5E5;
 }
 
+
 .school, .agency, .factory {
     position: relative;
-    margin-left: 30px !important ;
+    margin-left: 20px !important ;
 }
     
       .para-lax{
@@ -1375,7 +1418,7 @@ left: 0px !important;
    position: relative;
 width: 401.8px;
 height: 285px;
-left: 1% !important;
+left: 0 !important;
 
 
 }
