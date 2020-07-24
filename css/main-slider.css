@@ -398,6 +398,7 @@ top: 4382px; */
 
 .parallax {
     display: flex;
+    margin-top: 60px;
 }
 
 .center-parallax {
@@ -478,6 +479,15 @@ top: 4608px; */
     top: 316px;
     background: #FB5875 !important;
     border-radius: 100px !important;
+
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: normal !important;
+    font-size: 11.7px !important;
+    line-height: 11.7px !important;
+    text-align: center;
+    text-transform: uppercase;
+    color: #EBEBF1 !important;
 }
 
 .label-center-para {
@@ -519,7 +529,7 @@ top: 4615px; */
 .header-left {
     /* remboursement AGENCY */
     position: relative;
-    width: 240.1px;
+    width: 190.1px;
     height: 45.5px;
     left: 16.7px;
     top: 16.7px;
@@ -527,13 +537,11 @@ top: 4615px; */
     font-style: normal;
     font-weight: normal;
     font-size: 17.2px;
-    line-height: 90.3%;
-    /* or 33px */
+    line-height: 121.89%;
     /* display: flex; */
     align-items: center;
     text-align: center;
     letter-spacing: -0.035em;
-    text-transform: uppercase;
     color: #000000;
 }
 
@@ -559,9 +567,30 @@ top: 4670px; */
 .txt-left-par {
     /* Engagez-vous à rembourser votre formation après avoir trouvé un emploi. Versement de 18% de votre salaire jusqu’à remboursement de votre formation et 15% pour les frais de placement. */
     position: absolute;
-    width: 100%;
+    width: 87%;
     height: 167px;
     left: 2%;
+    top: 100.7px;
+    margin-top: 18.8px;
+    padding: 1px;
+    font-family: 'Inter', 'sans-serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13.8px;
+    line-height: 20.7px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #898989;
+}
+
+
+.txt-right-par {
+    /* Engagez-vous à rembourser votre formation après avoir trouvé un emploi. Versement de 18% de votre salaire jusqu’à remboursement de votre formation et 15% pour les frais de placement. */
+    position: absolute;
+    width: 100%;
+    height: 167px;
+    left: 6%;
     top: 100.7px;
     margin-top: 18.8px;
     padding: 1px;
@@ -574,7 +603,7 @@ top: 4670px; */
     align-items: center;
     text-align: center;
     letter-spacing: 0.005em;
-    color: #000000;
+    color: #898989;
 }
 
 .btn-left-para {
@@ -587,6 +616,15 @@ top: 4670px; */
     background: #E9EAEF;
     box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.1);
     border-radius: 100px !important;
+
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: normal !important;
+    font-size: 11.7px !important;
+    line-height: 11.7px !important;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FB5875 !important;
 }
 
 .label-left-para {
@@ -634,6 +672,15 @@ top: 4574px; */
     background: #E9EAEF;
     box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.1);
     border-radius: 100px !important;
+
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: normal !important;
+    font-size: 11.7px !important;
+    line-height: 11.7px !important;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FB5875 !important;
 }
 
 .label-right-para {

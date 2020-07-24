@@ -36,7 +36,6 @@ footer {
     width: auto;
     background: #000000;
     border-radius: none;
-    margin-top: 134px;
 }
 
 .new-logo {
@@ -185,6 +184,14 @@ hr {
     margin-left: 25px;
 }
 
+
+
+@media (max-width: 1163) {
+
+    .btn-rejoin-footer {
+        margin-top: 26px;
+    }
+}
 .join-footer {
   
    padding-top: auto;
@@ -1036,6 +1043,7 @@ text-transform: uppercase;
 
 color: #FB5875;
 }
+
 
 .in-view-left {
     -webkit-animation: in-view-left 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;

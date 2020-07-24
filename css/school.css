@@ -2628,10 +2628,6 @@ header {
 }
 
 
-.couleur-jaune-opacity{
-    background: #FFCC00;
-    opacity: 0.57;
-}
 
 .ellipse-7a{
     margin-top: 0%;
@@ -2641,11 +2637,13 @@ header {
 }
 .bloc-shift-jour{
     /* position: absolute; */
-    background: #FFCC00;
+    background: url(../image/Rectangle\ 151.png);
     height: 60%;
     margin-top: 4%;
     width: 98%;
     border-radius: 0 20px 20px 0;
+    background-repeat: no-repeat;
+    background-size: 100% 83%;
 
 }
 
@@ -2686,7 +2684,7 @@ header {
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
-    font-size: 10px;
+    font-size: 8px;
     line-height: 12px;
     /* display: flex; */
     align-items: center;
@@ -2722,7 +2720,7 @@ header {
     font-family: Inter;
     font-style: normal;
     font-weight: 900;
-    font-size: 15px;
+    font-size: 12px;
     line-height: 24px;
     letter-spacing: 0.01em;
     color: #000000;
@@ -2730,12 +2728,12 @@ header {
 
 .cours{
     width: 121px;
-    margin-top: 20px;
+    margin-top: 17px;
     font-family: Inter;
     font-style: normal;
     font-weight: 600;
-    font-size: 14px;
-    line-height: 23px;
+    font-size: 12px;
+    line-height: 18px;
     text-align: center;
     letter-spacing: 0.01em;
     color: #000000;
@@ -2794,10 +2792,179 @@ header {
 
 .bloc-shift-soir{
     /* position: absolute; */
-    background: #141138;
+    background: url(../image/Rectangle\ 154.png);
     height: 60%;
-    margin-top: 24%;
+    margin-top: 4%;
     width: 98%;
     border-radius: 0 20px 20px 0;
+    background-repeat: no-repeat;
+    background-size: 100% 83%;
 
 }
+
+.shift-soir{
+    padding-top: 13%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+}
+
+.shift-du-soir{
+    margin-left: 13px !important;
+    margin-right: 17px;
+    margin-top: 21px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 12px;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+}
+
+
+
+/* Rectangle 154 */
+.rectangle-154-1{
+    box-shadow: 6px 6px 0px #FFCC00;
+}
+
+.rectangle-154-1-a {
+    /* position: absolute; */
+    margin-top: -12px;
+    width: 144px;
+    height: 169px;
+    border-width: medium;
+    background: #E9EAEF;
+    box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    transform: skewX(-10deg);
+    box-shadow: 6px 6px 0px #FFCC00;
+    margin-left: 4px;
+}
+
+
+
+
+.cours-soir{
+    width: 121px;
+    margin-top: 58px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+
+
+.ellipse-8{
+    margin-top: 50%;
+    margin-left: -16px;
+}
+
+
+.modalites-de-financement{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16.56px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #FB5875;
+    margin-top: 79px;
+}
+
+
+.plusieurs-financements{
+    width: 55%;
+    /* top: 7797px; */
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 31px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.couleur-jaune-opacity{
+  background: rgba(255, 204, 0, 0.57);
+}
+
+
+.groupe-266{
+    margin-top: 330px;
+    width: 140%;
+}
+
+footer{
+
+    margin-top: -114px;
+}
+@media (max-width: 1157px) {
+    .rectangle-154-min {
+        /* margin-left: auto; */
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 577px) {
+    .rectangle-154-min {
+        margin-left: auto; 
+        margin-right: auto;
+    }
+}
+
+
+@media (max-width: 765px) {
+    .groupe-266 {
+        width: 100%;
+    }
+}
+
+
+
+@media (max-width: 1195px)  {
+    .ellipse-8 {
+        margin-top: 11%;
+    }
+    .bloc-shift-soir, .bloc-shift-jour  {
+        background-size: 100% 91%;
+    }
+}
+
+
+
+
+@media (max-width: 573px) {
+    .bloc-shift-soir, .bloc-shift-jour  {
+        background-size: 100% 96%;
+    }
+}
+
+@media (max-width: 881px) and (min-width:768px){
+.groupe-266 {
+    margin-top: 361px;
+    width: 140%;
+}
+}
+
