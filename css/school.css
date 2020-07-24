@@ -6,8 +6,15 @@
 ******************School css****
 ************************************/
 
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
 .container-fluid {
-    padding-left: 0 !important;
+     padding: 0 !important;
+    margin: 0 !important;
 }
 
 .underlignefact {
@@ -38,15 +45,16 @@
     width: 100%;
 }
 
-.row {
-    width: 100%;
-}
+
 
 
 /* Logo_Sayna */
 
 #background-body {
-    width: 100%;
+    margin-right: none !important;
+    margin-left: none !important;
+    margin-top: none !important;
+    width: 100% !important;
     display: block;
     background: #E5E5E5;
     overflow-x: hidden;
@@ -90,7 +98,7 @@
     margin-bottom: 25px;
 }
 
-li {
+.menu >li {
     list-style: none;
     display: inline-block !important;
     margin: 1.8%;
@@ -891,9 +899,12 @@ header {
 
 .jem {
     position: relative;
+    width: 90%;
     /* right: 13.47%; */
     /* left: 10%; */
-    padding-left: 6px;
+    padding-left: 5%;
+    margin-left: auto;
+    margin-right: auto;
     bottom: -11.72%;
     font-family: 'Lato';
     font-style: normal;
@@ -1626,7 +1637,8 @@ header {
 
 .speci-grp3 {
     position: relative;
-    margin-left: 0% !important;
+ left: 0% !important;
+
 }
 
 .specialisation1 {
@@ -1677,7 +1689,7 @@ header {
     font-size: 0.76em;
     line-height: 156.02%;
     text-align: right !important;
-    margin-left: 2% !important;
+    margin-right: 2% !important;
 }
 
 
@@ -1687,7 +1699,7 @@ header {
     position: relative;
     /* float: right; */
     text-align: right;
-    left: -9%;
+    
     width: 100%;
     display: block;
     height: 58px;

@@ -11,6 +11,22 @@
                 width: 400px;
             }
         }
+
+        @media(max-width:1500px) and (min-width: 1420px) {
+            .menu >li {
+                list-style: none;
+                display: inline-block !important;
+                margin: 2.2%;
+            }
+        }
+
+         @media(max-width:1600px) and (min-width: 1501px) {
+            .menu >li {
+                list-style: none;
+                display: inline-block !important;
+                margin: 2.9%;
+            }
+        }
         
         @media(max-width:1200px) and (min-width:990px) {
             .di-rect1,
@@ -73,6 +89,20 @@
         }
         
         @media screen and (max-width: 330px) {
+
+            .speci {
+    position: relative;
+    margin-bottom: 80px;
+}
+             .speci-speci {
+                margin-bottom: 40px;
+                padding-top: 53px;
+                right: 2%;
+            }
+            .apprends-les {
+               position: relative;
+               margin-bottom: 190px;
+            }
             .fdh {
                 position: relative;
                 margin-top: 10% !important;
@@ -94,7 +124,7 @@
                 margin-top: 2% !important;
                 float: right;
                 /*top: -34%;*/
-                left: 0%;
+                left: -10% !important;
             }
             .hate-de-nous-rencontrer {
                 position: relative;
@@ -157,7 +187,7 @@
                 position: relative;
                 width: 100%;
                 height: 116px;
-                margin-top: 40%;
+                margin-top: 80%;
             }
             .speci-groupe2 {
                 left: 2%;
@@ -172,9 +202,15 @@
             }
             .speci-grp3 {
                 position: relative;
-                margin-left: 6% !important;
-                margin-right: 4% !important;
-                right: 4%;
+                margin-left: 2% !important;
+                right: 10px !important;
+              
+            }
+
+                        .notre-objectif {
+                position: relative;
+            
+                font-size: 0.74em;
             }
             .atteins-l-excellence {
                 position: relative;
@@ -295,14 +331,24 @@
                 position: relative;
                 width: 100%;
                 height: 116px;
-                margin-top: 30%;
+                margin-top: 39%;
             }
             .speci-groupe2 {
                 left: 2%;
                 height: 400px;
                 margin-right: 2%;
             }
-            .S-part-five {
+
+                    .hard-skills, .agile-pm, .soft-skills, .langue, .engagement{
+            position: relative;
+            left: 7% !important;
+        }
+                    .rectangle-161, .rectangle-162, .rectangle-163, .rectangle-164{
+            position: relative;
+            left: 5% !important;
+        }
+
+       .S-part-five {
                 position: relative;
                 margin-top: 30%;
                 width: 100%;
@@ -310,9 +356,9 @@
             }
             .speci-grp3 {
                 position: relative;
-                margin-left: 6% !important;
-                margin-right: 4% !important;
-                right: 4%;
+                margin-left: 6%;
+                margin-right: 2%;
+               
             }
             .atteins-l-excellence {
                 position: relative;
@@ -371,6 +417,14 @@
         }
         
         @media screen and (max-width: 767px) {
+
+            #background-body {
+    width: 100%;
+    display: block;
+    background: #E5E5E5;
+    overflow-x: hidden;
+}
+
             header {
                 background: url("../image/Forme 1 (1) 1.png");
                 background-position: left top;
@@ -409,7 +463,7 @@
                 margin-top: 5%;
                 margin-left: 8%;
                 width: 35%;
-                height: 70.38px;
+                height: 40.38px;
             }
             .structure {
                 position: relative;
@@ -461,6 +515,11 @@
             .etape-6 {
                 position: absolute;
                 font-size: 0.91em;
+            }
+
+            .menu {
+                position: relative;
+                margin-top: 20%;
             }
             .choisis-parcours,
             .remplis-mon-formulaire,
