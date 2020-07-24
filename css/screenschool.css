@@ -304,6 +304,12 @@
                 line-height: 156.02%;
                 color: #000000;
             }
+
+                        .notre-objectif {
+                position: relative;
+            
+                font-size: 0.74em !important;
+            }
             .jeminscris {
                 position: relative;
                 width: 67%;
@@ -343,7 +349,7 @@
             position: relative;
             left: 7% !important;
         }
-                    .rectangle-161, .rectangle-162, .rectangle-163, .rectangle-164{
+                    .rectangle-161, .rectangle-162, .rectangle-163, .rectangle-164, .rectangle-165{
             position: relative;
             left: 5% !important;
         }
@@ -354,12 +360,16 @@
                 width: 100%;
                 background: transparent;
             }
-            .speci-grp3 {
+            
+
+                .speci-grp3 {
                 position: relative;
-                margin-left: 6%;
-                margin-right: 2%;
-               
+                margin-left: 2% !important;
+                right: 10px !important;
+              
             }
+               
+           
             .atteins-l-excellence {
                 position: relative;
                 width: 98%;
