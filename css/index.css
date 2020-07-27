@@ -3,9 +3,9 @@
 @import url("https://db.onlinewebfonts.com/c/62e84f8271d32eb452129a0b7d59540d?family=Antipasto+Pro");
 @import url("https://db.onlinewebfonts.com/c/9d942e0ff1014c476713a855710ce309?family=Lato");
 #background-body {
-    width: 100%;
-    display: block;
-    background: #E9EAEF;
+    width: 100% !important;
+    display: block !important;
+    background: #E9EAEF !important;
 }
 
 
@@ -15,68 +15,10 @@
     height: 520px;
     position: relative;
     width: 578px;
-    left: -2.35%;
+    left: -6.35%;
     right: 52.02%;
     top: -0.43%;
     bottom: 92.37%;
-}
-
-@media(min-width:1000px) and (max-width:1100px) {
-    .agency-text {
-        font-size: 4.4em !important;
-    }
-    .form1 {
-        width: 521px !important;
-    }
-}
-
-@media(min-width:886px) and (max-width:1000px) {
-    .agency-text {
-        font-size: 3.8em !important;
-    }
-    .form1 {
-        height: 433px !important;
-        width: 463px !important;
-    }
-}
-
-@media(min-width:767px) and (max-width:886px) {
-    .agency-text {
-        font-size: 3.3em !important;
-    }
-    .form1 {
-        height: 392px !important;
-        width: 394px !important;
-    }
-}
-
-@media(max-width: 767px) {
-    .agency-text {
-        font-size: 2.1em !important;
-        top: 114px !important;
-    }
-    .form1 {
-        height: 300px !important;
-        width: 281px !important;
-    }
-    .logo1 {
-        width: 35% !important;
-        height: 52.38px !important;
-    }
-}
-
-@media(max-width: 420px) {
-    .form1 {
-        height: 259px !important;
-        width: 233px !important;
-    }
-    .logo1 {
-        width: 100px !important;
-        height: 48.38px !important;
-    }
-    .agency-text {
-        top: 95px !important;
-    }
 }
 
 
@@ -230,65 +172,6 @@
     color: #E9EAEF;
 }
 
-@media(max-width:1000px) and (min-width: 900px) {
-    .txt-btn {
-        font-size: 0.7em;
-    }
-    .txt-agency {
-        font-size: 0.7em;
-    }
-    .txt-connexion {
-        font-size: 0.7em;
-    }
-    .fleche-connexion {
-        font-size: 11px !important;
-        padding-top: 12px !important;
-    }
-    .Groupe-8 {
-        font-size: 21px !important;
-    }
-}
-
-@media(max-width:899px) {
-    .btn-school {
-        height: 31.3px;
-    }
-    .btn-agency {
-        height: 31.3px;
-    }
-    .btn-factory-menu {
-        height: 31.3px;
-    }
-    .btn-connexion {
-        height: 31.3px;
-    }
-    .btn-dropdonw {
-        height: 31.3px;
-    }
-    .txt-btn {
-        font-size: 0.6em;
-    }
-    .txt-agency {
-        font-size: 0.6em;
-    }
-    .txt-connexion {
-        font-size: 0.6em;
-    }
-    .fleche-connexion {
-        font-size: 11px !important;
-        padding-top: 12px !important;
-    }
-    .Groupe-8 {
-        font-size: 21px !important;
-    }
-}
-
-@media(max-width:640px) {
-    .menu {
-        display: none;
-    }
-}
-
 .fleche-connexion {
     /* margin-left: -13px; */
     color: #E9EAEF;
@@ -355,24 +238,6 @@
     color: #6E6E6E;
 }
 
-@media(max-width:950px) and (min-width:825px) {
-    .digital-school {
-        font-size: 1.7em;
-    }
-}
-
-@media(max-width:824px) {
-    .digital-school {
-        font-size: 1.5em;
-    }
-}
-
-@media(max-width:722px) {
-    .digital-school {
-        font-size: 1em;
-    }
-}
-
 .form-news-ltr {
     position: relative;
     width: 494px !important;
@@ -404,26 +269,6 @@
 
 .form-news-ltr:-ms-input-placeholder {
     color: rgba(110, 110, 110, 0.51) !important;
-}
-
-@media(max-width:886px) {
-    .news-form {
-        width: 360px !important;
-    }
-    .form-news-ltr {
-        width: 357px !important;
-        height: 45.27px !important;
-        font-size: 0.7em !important;
-    }
-    .btn-news-ltr {
-        width: 100px !important;
-        height: 45.96px !important;
-        top: -29.8px !important;
-    }
-    .label-news-1 {
-        font-size: 1em !important;
-        margin-top: 5px !important;
-    }
 }
 
 .btn-news-ltr {
@@ -503,18 +348,6 @@
     margin-top: -31%;
 }
 
-@media(min-width:1450px) {
-    .woman-img {
-        top: 69px;
-    }
-}
-
-@media(max-width:640px) {
-    .woman-img {
-        display: none;
-    }
-}
-
 
 /*-----------partenaire------------*/
 
@@ -522,15 +355,10 @@
     width: 100%;
     height: 200PX;
     top: 10%;
+    text-align: -webkit-center;
     padding-left: 0 !important;
     padding-right: 0 !important;
     /* left: 28%; */
-}
-
-@media(max-width:574px) {
-    .partner {
-        height: 308PX;
-    }
 }
 
 
@@ -546,7 +374,7 @@
     text-transform: uppercase;
     color: #FB5875;
     position: relative;
-    left: 38%;
+    /* left: 38%; */
     width: 32%;
 }
 
@@ -564,7 +392,7 @@
     text-transform: uppercase;
     color: #6E6E6E;
     position: relative;
-    left: 26%;
+    /* left: 26%; */
     width: 50%;
 }
 
@@ -579,13 +407,6 @@
     width: 100%;
     padding-left: 10%;
     padding-right: 10%;
-}
-
-@media(min-width:1323px) {
-    .partner-logo {
-        padding-left: 15%;
-        padding-right: 15%;
-    }
 }
 
 .partner-list li {
@@ -642,7 +463,7 @@
     /* left: 751.56px; */
     display: inline-table;
     top: 0px;
-    background: url("../imageModification/logo-wb-header-fr-newsletter\ 1.png");
+    background: url("../imageModification/logo-wb-header-fr-newsletter\ 1.png") no-repeat;
 }
 
 
@@ -651,12 +472,6 @@
 .col-img-businessman {
     left: 15%;
     top: -102%
-}
-
-@media(max-width:891px) {
-    .col-img-businessman {
-        display: none;
-    }
 }
 
 .form3 {
@@ -679,7 +494,7 @@
 }
 
 .fleche-voir-detail {
-    margin-left: 48px;
+    margin-left: 40px;
     color: #E9EAEF;
     font-size: 17px;
 }
@@ -700,16 +515,6 @@
     height: auto;
     left: 21%;
     top: 38%;
-}
-
-@media(max-width:950px) {
-    .pantalon1 {
-        position: absolute;
-        width: 38%;
-        height: 169px;
-        left: 22%;
-        top: 41%
-    }
 }
 
 .bottom-slider {
@@ -745,18 +550,6 @@
     margin-top: 3%;
 }
 
-@media(max-width:767px) {
-    .ensemble {
-        left: 0px !important;
-    }
-    .bouton {
-        top: 315px !important;
-    }
-    .selection {
-        top: 167.28px !important;
-    }
-}
-
 
 /*des bootcamps adaptés ..*/
 
@@ -781,8 +574,8 @@
 .bouton {
     position: relative;
     z-index: 2;
-    height: 58px;
-    width: 303px;
+    height: 62px;
+    width: 365px;
     left: -5%;
     right: 0%;
     top: 268px;
@@ -830,7 +623,7 @@
 
 .selection {
     position: absolute;
-    width: 100%;
+    width: 92%;
     height: 97.98px;
     left: 8.28px;
     top: 146.28px;
@@ -894,8 +687,8 @@
 
 .btn-component-2 {
     position: relative;
-    width: 327px;
-    height: 58px;
+    width: 305px;
+    height: 62px;
     bottom: -45px;
     border-style: none !important;
     border-image: none !important;
@@ -956,100 +749,10 @@
     height: auto;
 }
 
-@media(max-width:1010px) and (min-width:768px) {
-    .layingDoodle-1 {
-        top: 52%;
-    }
-    .groupe-12 {
-        top: -27%;
-    }
-}
-
-@media(min-width:1401px) {
-    .layingDoodle-1 {
-        width: 552px;
-        top: 37%;
-    }
-    .groupe-12 {
-        width: 580px;
-        top: -70%;
-    }
-}
-
-@media (max-width: 2000px) and (min-width:1300px) {
-    .layingDoodle-1 {
-        top: 37%;
-    }
-    .groupe-12 {
-        top: -68%;
-    }
-    .pantalon1 {
-        height: 180px;
-    }
-}
-
-@media(max-width: 767px) and (min-width:714px) {
-    .layingDoodle-1 {
-        top: 64%;
-        width: 329px;
-    }
-}
-
-@media(max-width:713px) {
-    .layingDoodle-1 {
-        display: none;
-    }
-}
-
-@media(max-width:860px) {
-    .groupe-12 {
-        display: none;
-    }
-    .nos-tarifs-attractifs {
-        width: 84% !important;
-    }
-}
-
 .center-block {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-@media(max-width:1013px) and (min-width: 768px) {
-    .center-block {
-        margin-left: 1px;
-    }
-    .rectangle-18 {
-        margin-top: 10px;
-        margin-left: 98%;
-    }
-    .rectangle-16 {
-        margin-left: 36%;
-    }
-    .rectangle-17 {
-        margin-left: 9%;
-    }
-}
-
-@media(max-width: 768px) {
-    .rectangle-18 {
-        margin-top: 10px;
-    }
-}
-
-@media(max-width:676px) {
-    .center-block {
-        margin-left: 1px;
-    }
-    .rectangle-17 {
-        margin-top: 10px;
-    }
-    .boxes-details {
-        height: auto;
-        display: block !important;
-        margin-left: 25% !important;
-    }
 }
 
 .list-rect {
@@ -1187,51 +890,24 @@
     height: auto;
 }
 
-@media(min-width: 1150px) {
-    .boxes-details {
-        padding-left: 75px;
-        padding-right: 75px;
-    }
-}
-
-@media(max-width:850px) {
-    .left-parallax {
-        left: 36% !important;
-    }
-    .content-left {
-        width: 229.7px !important;
-    }
-    .right-parallax {
-        left: 27% !important;
-    }
-    .center-parallax {
-        left: 32% !important;
-        width: 244px !important;
-    }
-}
-
 .group13 {
     /* Group 13 */
-    position: absolute;
+    position: relative;
     left: -15px;
-    top: 491px;
+    top: -170px;
     width: 85%;
     z-index: 1;
     /* transform: matrix(-1, 0, 0, 1, 0, 0);*/
 }
 
-@media(max-width:934px) {
-    .group13 {
-        top: 576px !important;
-    }
-}
-
 .temoign {
-    position: absolute;
-    width: 26%;
+    position: relative;
+    width: 63%;
+    float: right;
     height: 24.84px;
-    left: 57%;
-    top: 671px;
+    /* left: 57%; */
+    margin-right: 34px;
+    margin-top: 60px;
     text-align: right;
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
@@ -1247,11 +923,12 @@
 /*80% de nos étudiants*/
 
 .pourcent {
-    position: absolute;
-    width: 82%;
+    position: relative;
+    width: 87%;
+    float: right;
     height: 85.56px;
+    margin-right: 34px;
     /* left: 64%; */
-    top: 722px;
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
     font-weight: 900;
@@ -1262,23 +939,11 @@
 }
 
 .part-five-1 {
-    height: 950px;
+    height: 750px;
 }
 
 .tem-etudiant {
     height: auto;
-}
-
-@media(max-width:1399px)and(min-width:1250px) {
-    .tem-etudiant {
-        margin-top: 3%;
-    }
-}
-
-@media(min-width:1400px) {
-    .tem-etudiant {
-        margin-top: 5%;
-    }
 }
 
 .li-rect {
@@ -1287,6 +952,7 @@
     /* top: 3912.3px; */
     background: #F7F7F9;
     border-radius: 20px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-around;
 }
@@ -1328,7 +994,7 @@
 .etud1 {
     /* Etudiant SAYNA #1 Développeur @Accès Banque */
     position: relative;
-    width: 60%;
+    width: 57%;
     height: 24.84px;
     left: 136px;
     top: -52px;
@@ -1393,7 +1059,7 @@
 .sahaza {
     /* sahaza henintsoa */
     position: relative;
-    width: 70%;
+    width: 48%;
     height: 33.12px;
     left: 136px;
     top: -52.7px;
@@ -1409,7 +1075,7 @@
 .etud2 {
     /* Etudiant SAYNA #1 Développeur @en2roues */
     position: relative;
-    width: 60%;
+    width: 54%;
     height: 24.84px;
     left: 137px;
     top: -53.2px;
@@ -1427,7 +1093,7 @@
 
 .tem2 {
     position: relative;
-    width: 354px;
+    width: 300px;
     height: 284.28px;
     left: 7%;
     top: -60.5px;
@@ -1485,7 +1151,7 @@
 .etud3 {
     /* Etudiant SAYNA #2 Développeur @Ingedata */
     position: relative;
-    width: 60%;
+    width: 50%;
     height: 24.84px;
     left: 141px;
     top: -53.2px;
@@ -1525,49 +1191,6 @@
     margin-right: auto;
 }
 
-@media(max-width:1078px) {
-    .center-block-2 {
-        margin-left: 1px;
-    }
-    .tem-etudiant {
-        height: 900px !important;
-    }
-    .rectangle-three {
-        margin-top: 30px;
-        margin-left: 79%;
-        top: -227px;
-        position: absolute;
-    }
-}
-
-@media(max-width:850px) {
-    .rectangle-two {
-        margin-left: -40px;
-        /* margin-top: 30px;
-        margin-left: -40px;
-        top: -227px;
-        position: absolute; */
-    }
-}
-
-@media(max-width:767px) {
-    .rectangle-one {
-        margin-left: 50% !important;
-    }
-    .rectangle-two {
-        margin-left: 50% !important;
-        margin-top: 30px;
-    }
-    .rectangle-three {
-        margin-left: 50% !important;
-        top: 0;
-        position: relative;
-    }
-    .tem-etudiant {
-        height: 1182px !important;
-    }
-}
-
 
 /* Groupe SANS CONTENT */
 
@@ -1604,7 +1227,7 @@
 .placement-CDI {
     left: 2%;
     position: absolute;
-    width: 71%;
+    width: 283px;
     height: 82.7px;
     top: 10%;
     font-family: 'Inter', 'sans-serif';
@@ -1620,10 +1243,10 @@
 
 .SAYNA-Agency-place {
     position: absolute;
-    width: 83%;
+    width: 434px;
     height: 150.42px;
     left: 2%;
-    top: 52%;
+    top: 36%;
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
     font-weight: normal;
@@ -1637,8 +1260,8 @@
 /* Au delà de nos tarifs attractifs, 82% de la facturation reviens au talent, un modèle juste et équitable loin des sociétés de service classiques. */
 
 .nos-tarifs-attractifs {
-    position: absolute;
-    bottom: 0;
+    position: relative;
+    bottom: -149px;
     width: 371.58px;
     height: 111.83px;
     left: 20%;
@@ -1658,25 +1281,6 @@
     font-size: 5em;
 }
 
-@media(max-width:1000px) {
-    .nos-tarifs-attractifs {
-        left: 0;
-        font-size: 0.7em;
-    }
-}
-
-@media(max-width:837px) and (min-width: 779px) {
-    .gras {
-        font-size: 4.1em;
-    }
-}
-
-@media(max-width: 778px) {
-    .gras {
-        font-size: 3.5em;
-    }
-}
-
 .grp-no {
     height: auto;
     margin-top: 80px;
@@ -1686,7 +1290,7 @@
 /* NOS OFFRES AGENCE */
 
 .NOS-OFFRES-AGENCE-1 {
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 15.35px;
     font-family: 'Inter', 'sans-serif';
@@ -1703,26 +1307,19 @@
 .center-groupe-ellipse {
     height: 400px;
     float: right;
-    left: 300px;
+    /* left: 300px; */
     /* top: 3px; */
+    text-align: -webkit-center;
     margin-top: 124px;
     position: absolute !important;
-}
-
-@media(min-width:1300px) {
-    .center-groupe-ellipse {
-        margin-left: 27%;
-        left: 0;
-    }
 }
 
 
 /* MVP Projet clé en main. */
 
 .MVP-Projet {
-    position: absolute;
+    position: relative;
     width: 100%;
-    top: 7%;
     height: 82.71px;
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
@@ -1737,10 +1334,9 @@
 /* SAYNA Factory rassemble pour vous une équipe de freelances en adéquation avec vos besoins dans un cadre forfaitaire et vous accompagne de la conception à la livraison jusqu’à la maintenance. Engagés au forfait,nous sommes en charge de toute la réalisation du projet. Des premières spécifications jusqu'au livrable final, en passant par le MVP, les itérations et les tests. */
 
 .SAYNA-Factory-rassemble {
-    position: absolute;
+    position: relative;
     width: 100%;
     height: auto;
-    TOP: 34%;
     font-size: 0.8em;
     text-align: center;
 }
@@ -1795,34 +1391,6 @@
     color: #FB5875;
 }
 
-@media(max-width:1013px) and (min-width:890px) {
-    .ellipse-170 {
-        left: 19px !important;
-    }
-    .Polygon-6 {
-        left: 14px !important;
-        top: -53% !important;
-    }
-}
-
-@media(max-width:889px) {
-    .ellipse-170 {
-        display: none;
-    }
-    .Polygon-6 {
-        display: none;
-    }
-    .ellipse-169 {
-        display: none;
-    }
-    .Polygon-5 {
-        display: none;
-    }
-    .center-groupe-ellipse {
-        left: 192px;
-    }
-}
-
 .ellipse-groupe {
     height: 647px;
     padding-left: 0px !important;
@@ -1855,40 +1423,25 @@
 }
 
 .btn-decouvrir {
-    position: absolute;
+    position: relative;
     width: 159px;
-    left: 37%;
-    top: 77%;
-    height: 40.02px;
-    /* margin-left: 36%; */
-    margin-right: 39%;
+    height: 40.2px;
+    margin-top: 45px;
     border-style: none;
     border-image: none;
     background: #FB5875 !important;
     border-radius: 100px !important;
 }
 
-@media(min-width:950px) {
-    .btn-decouvrir {
-        left: 0;
-        margin-left: 42%;
-    }
-}
-
-@media(max-width:767px) {
-    .btn-decouvrir {
-        margin-top: 45px;
-    }
-}
-
 
 /* M'inscrire */
 
 .inscrire {
+    position: relative;
     width: 125.58px;
     height: 36.57px;
-    left: 587.19px;
-    top: 5143.26px;
+    /* left: 587.19px; */
+    /* top: 5143.26px; */
     margin-left: -14px;
     font-family: "Lato";
     font-style: normal;
@@ -1903,13 +1456,25 @@
     color: #EBEBF1;
 }
 
+.btn-decouvrir>.fleche-decouvrir {
+    position: relative;
+}
+
+.mcs-horizontal {
+    position: relative;
+    max-width: 1900px;
+    overflow: auto;
+    white-space: nowrap;
+}
+
 #fenetre {
     position: relative;
     /* top: 4936.8px; */
+    margin-top: 36px;
     width: 100%;
     height: 350px;
-    overflow-x: scroll;
-    /* overflow: hidden; */
+    /* overflow-x: scroll; */
+    overflow: hidden;
 }
 
 .student-image {
@@ -1924,6 +1489,8 @@
 
 #img-container {
     width: 1376px;
+    display: inline-block;
+    white-space: nowrap;
 }
 
 
@@ -1964,12 +1531,6 @@
     color: #000000;
 }
 
-@media(max-width:933px) {
-    .rassemblons-communaute {
-        line-height: 32.78px;
-    }
-}
-
 
 /* Profitez dès maintenant de l’expertise de nos 150+ talents formés. Notre communauté constituée d’anciens étudiants, de freelances, d’experts thématiques. */
 
@@ -1987,15 +1548,6 @@
     line-height: 126.7%;
     letter-spacing: -0.025em;
     color: #000000;
-}
-
-@media(max-width:1016px) {
-    .profitez-maintenant {
-        top: 59%;
-    }
-    .btn-join {
-        top: 80%;
-    }
 }
 
 
@@ -2120,9 +1672,9 @@
 /* Component 2 */
 
 .component-2a {
-    position: relative;
+    position: absolute;
     /* left: 77.87px; */
-    top: 87%;
+    top: 81%;
     width: 342px;
     height: 61px;
     /* bottom: 18px; */
@@ -2131,12 +1683,6 @@
     display: inline-grid !important;
     background: #FB5875 !important;
     border-radius: 15px !important;
-}
-
-@media(max-width:800px) {
-    .component-2a {
-        width: 300px;
-    }
 }
 
 
@@ -2192,7 +1738,7 @@
     /* top: 81%; */
     left: 84.9px;
     position: relative;
-    width: 40%;
+    width: 50%;
     height: 42px;
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
@@ -2231,9 +1777,8 @@
 
 .youtube-2433301 {
     position: absolute;
-    width: 73px;
-    height: 59.55px;
-    left: 48%;
+    height: 19%;
+    left: 47%;
     top: -7%;
 }
 
@@ -2361,12 +1906,13 @@
 
 .youtube-pager {
     position: relative;
-    left: 42%;
-    right: 47.29%;
+    /* left: 42%; */
+    text-align: -webkit-center;
+    /* right: 47.29%; */
     /* top: -36px; */
-    width: 39%;
-    bottom: 20px;
-    display: flex;
+    width: 100%;
+    bottom: 37px;
+    /* display: flex;*/
 }
 
 .youtube-pager li {
@@ -2387,18 +1933,4 @@
 
 .img-you {
     margin-top: 20px;
-    position: absolute !important;
-    margin-top: 180px;
-}
-
-@media(min-width:1300px) {
-    .center-parallax {
-        left: 41% !important;
-    }
-    .right-parallax {
-        left: 41% !important;
-    }
-    .left-parallax {
-        left: 41% !important;
-    }
 }
