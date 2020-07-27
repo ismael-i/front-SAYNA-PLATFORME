@@ -2168,8 +2168,6 @@ footer {
 }
 
 @media(max-width: 572px) and (min-width:73px){
- 
-
   .forme-4-a {
     display: none;
   }
@@ -2188,7 +2186,7 @@ footer {
     font-family: Inter;
     font-style: normal;
     font-weight: 800;
-    font-size: 39px;
+    font-size: 195%;
     line-height: 144px;
     align-items: center;
     letter-spacing: -0.08em;
@@ -2199,7 +2197,7 @@ footer {
 
   /* nous plaçons des héros. */
   .des-heros{
-    font-size: 53px;
+    font-size: 274%;
       margin-left: 9.5%;
       margin-top: -6%;
       margin-bottom: 25%;
@@ -2217,7 +2215,7 @@ footer {
     background: url(../image/Forme\ 4\ \(1\).png);
     background-repeat: no-repeat;
     margin-top: 12px;
-    background-size: 160px 437px;
+    background-size: 134px 437px;;
   }
  
   .globe-312668-1 {
@@ -2225,16 +2223,38 @@ footer {
     margin-left: 0%;
     margin-top: 0px
   }
-  .meilleurs-talents-africains {
-    font-size: 18px;
-    margin-top:  -107px;
-    margin-left: -32px;
-  }
   .pourquoi-l-agency {
     margin-top: 0%;
   }
 }
 
+
+
+@media(max-width: 572px) and (min-width:450px){
+ 
+  .meilleurs-talents-africains {
+    font-size: 18px;
+    margin-top:  -107px;
+    margin-left: -32px;
+  }
+}
+
+
+
+@media(max-width:450px){
+  .barre {
+    width: 100%;
+  }
+}
+
+
+@media(max-width: 449px) and (min-width:45px){
+ 
+  .meilleurs-talents-africains {
+    font-size: 18px;
+    margin-left: -32px;
+  }
+}
 @media  (max-width:993px) and (min-width:857px){
   .forme-5-agency {
     margin-left: 71%;
