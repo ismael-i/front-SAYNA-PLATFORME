@@ -74,7 +74,8 @@ footer {
     padding-left: 5%;
     color: #FFFFFF;
    margin-bottom: 4%;
-   left: 2.6%; 
+   
+   margin-left: -0.4% !important;
 }
 
 .ligne-horiz {

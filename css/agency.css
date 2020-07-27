@@ -105,11 +105,6 @@ li button{
   padding-left: .5rem !important;
 }
 
-/* Fixes dropdown menus placed on the right side */
-.ml-auto .dropdown-menu {
-  left: auto !important;
-  right: 0px;
-}
 
 
 .new-logo-1{
@@ -120,103 +115,6 @@ li button{
     margin-top: 46px;
 }
 
-
-.btn-connexion{
-      /* position: absolute; */
-      width: 157.32px;
-      height: 48.3px;
-      left: 1050.87px;
-      margin-top: 37.94px;
-      margin-left: 15px;
-      background-color: #FB5875 !important;
-      border-radius: 50px !important;
-      font-family: Lato;
-      font-style: normal;
-      font-weight: 900 !important;
-      font-size: 16px !important;
-      line-height: 24px !important;
-      display: inline-grid !important;
-      align-items: center;
-      text-align: center;
-      letter-spacing: 0.025em;
-      text-transform: uppercase;
-      color: #E9EAEF !important;
-  /* transform: matrix(1, 0, 0, -1, 0, 0); */
-}
-.btn-school{
-  width: 120.06px;
-  height: 48.3px;
-  left: 614.1px;
-  margin-top: 38.64px;
-  background-color: #F2F2F7 !important;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-  border-radius: 20px !important;
-  font-family: Lato;
-  font-style: normal;
-  font-weight: 900 !important;
-  font-size: 16px !important;
-  line-height: 24px !important;
-  display: inline-grid !important;
-  align-items: center;
-  text-align: center !important;
-  letter-spacing: 0.025em;
-  text-transform: uppercase;
-  color: #575F6B !important;
-}
-.btn-agency{
-  width: 129.06px;
-  height: 54.3px;
-  left: 614.1px;
-  margin-top: 38.64px;
-  margin-left: 15px;
-  background-color: #FFCC00 !important;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-  border-radius: 20px !important;
-  font-family: Lato;
-  font-style: normal;
-  font-weight: 900 !important;
-  font-size: 19px !important;
-  line-height: 24px !important;
-  display: inline-grid !important;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.025em;
-  text-transform: uppercase;
-  color: #F2F2F7 !important;
-  }
-.btn-factory-menu{
-
-  width: 120.06px;
-  height: 48.3px;
-  left: 614.1px;
-  margin-top: 38.64px;
-  margin-left: 15px;
-  background-color: #F2F2F7 !important;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-  border-radius: 20px !important;
-  font-family: Lato;
-  font-style: normal;
-  font-weight: 900 !important;
-  font-size: 16px !important;
-  line-height: 24px !important;
-  display: inline-grid !important;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.025em;
-  text-transform: uppercase;
-  color: #575F6B !important;
-}
-
-.btn-dropdonw{
-  width: 49.68px;
-  height: 48.3px;
-  left: 1233.72px;
-  margin-top: 38.64px;
-  margin-left: 15px;
-  background: #F2F2F7 !important;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-  border-radius: 20px !important;
-}
 
 .fleche-long{
   color: #FB5875;
@@ -300,9 +198,6 @@ li button{
 }
 
 
-.fleche-connexion {
-  margin-left:  13px;
-}
 
 .fleche-offres, .fleche-quest, .fleche-rdv {
   margin-left:  13px;
@@ -1782,7 +1677,7 @@ footer {
 .ul-slid-1 {
   
   height: 150%;
-  margin-left: 21px;
+  /* margin-left: 21px; */
   background-position: 126% -7px;
   background-size: 60% 74%;
 }

@@ -1,22 +1,22 @@
-/*@import url('https://rsms.me/inter/inter.css');
+@import url('https://rsms.me/inter/inter.css');
 @import url("https://db.onlinewebfonts.com/c/9d942e0ff1014c476713a855710ce309?family=Lato");
 @import url("https://db.onlinewebfonts.com/c/62e84f8271d32eb452129a0b7d59540d?family=Antipasto+Pro");
 
-****************************
+
+
+.new-logo-1{
+    width: 220px;
+      height: 71px;
+      margin-left: 17px;
+      /* right: 82.13% !important; */
+      margin-top: 46px;
+  }
+  
+
+
+/****************************
 ******************School css****
 ************************************/
-
-
-body{
-    background: #E9EAEF;
-}
-
-* {
-    padding: 0;
-    margin: 0;
-}
-
-
 .underlignefact {
     background: rgba(255, 204, 0, 0.6);
 }
@@ -66,172 +66,6 @@ body{
 
 
 
-
-/* Menu */
-
-/*.menu {
-    
-    width: 100%;
-    height: 50.37px;
-    left: 41%;
-    top: 4%;
-}
-
-.btn-connexion {
-    /* position: absolute; */
-   /* width: 26%;
-    height: 48.3px;
-    left: 1050.87px;
-    top: 86.94px;
-    padding: 0 !important;
-    margin-left: 3%;
-    background-color: #FB5875 !important;
-    border-radius: 50px !important;
-    /* transform: matrix(1, 0, 0, -1, 0, 0); 
-}*/
-
-/*.btn-school {
-    /* position: absolute; */
-   /* width: 17%;
-    height: 48.3px;
-    left: 614.1px;
-    top: 38.64px;
-    padding: 0 !important;
-    display: inline-flex !important;
-    background-color: #FFCC00 !important;
-    box-shadow: 0px 0px 20px rgba(255, 204, 0, 0.35);
-    border-radius: 20px !important;
-}
-
-.btn-agency {
-    /* position: absolute; */
-   /* width: 17%;
-    height: 48.3px;
-    left: 614.1px;
-    top: 38.64px;
-    margin-left: 3%;
-    padding: 0 !important;
-    display: inline-flex !important;
-    background-color: #F2F2F7 !important;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-    border-radius: 20px !important;
-}
-
-.btn-factory-menu {
-    /* position: absolute; */
-    /*width: 17%;
-    height: 48.3px;
-    left: 614.1px;
-    top: 38.64px;
-    margin-left: 3%;
-    padding: 0 !important;
-    display: inline-flex !important;
-    background-color: #F2F2F7 !important;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-    border-radius: 20px !important;
-}
-
-.txt-btn {
-    width: 117.3px;
-    height: 46.92px;
-    font-family: "Lato";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 1em;
-    line-height: 16.56px;
-    display: inline-grid;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.025em;
-    text-transform: uppercase;
-    color: #F2F2F7;
-}
-
-.txt-agency {
-    width: 117.3px;
-    height: 46.92px;
-    font-family: "Lato";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 1em;
-    line-height: 16.56px;
-    display: inline-grid;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.025em;
-    text-transform: uppercase;
-    color: #575F6B;
-}
-
-.txt-connexion {
-    /* 
-   position: absolute; */
-    /*width: 131.79px;
-    height: 48.3px;
-    left: calc(50% - 191px/2 + 657.5px);
-    top: calc(50% - 70px/2 - 5108.5px);
-    font-family: "Lato";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 0.9em;
-    line-height: 16.56px;
-    display: inline-grid;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.05em;
-    text-transform: uppercase;
-    color: #E9EAEF;
-}
-
-.btn-dropdonw {
-    width: 8%;
-    height: 48.3px;
-    left: 1233.72px;
-    top: 38.64px;
-    /* padding: 0 !important; */
-   /* margin-left: 3%;
-    background: #F2F2F7;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-    border-radius: 20px !important
-}
-
-
-/* Group 8 */
-
-/*.Groupe-drop {
-    /* position: absolute; */
-/*    width: 27.6px;
-    height: 19.32px;
-    /* left: 604px; */
-    /* margin-left: -12px; */
-  /*  top: 9px;
-    font-size: 33px !important;
-    color: #575F6B !important;
-}
-*/
-
-* {
-    padding: 0;
-    margin: 0;
-}
-.btn{
-    padding: 10px !important;
-    display: inline-flex;
-    justify-content: space-between;
-    border: none;
-}
-
-.menu {
-    position: relative;
-    float: right !important;
-    width: 100%;
-    left: 2.5%;
-    margin-right: none !important;
-    margin-left: auto;
-    margin-right: auto;
-   
-    margin-top: none !important;
-}
 [class*="col"] { 
    margin-bottom: 25px;
 }
@@ -242,92 +76,6 @@ li{
     margin: 2.6%;
 }
 
-
-.fleche-connexion {
-    position: relative;
-    left: 15%;
-}
-
-.teext-menu {
-    font-family: Lato;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 18px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: -0.025em;
-text-transform: uppercase;
-
-color: #575F6B !important;
-text-decoration-line: none;
-}
-
-.teext-school {
-    font-family: Lato;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 18px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: -0.025em;
-text-transform: uppercase;
-
-color: white !important;
-text-decoration-line: none;
-}
-
-.teext-connex {
-    
-    font-family: Lato;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 24px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: -0.05em;
-text-transform: uppercase;
-text-decoration-line: none;
-margin-left: 6%;
-color: white !important;
-}
-
-.btn-menu {
-position: relative; 
-background: #F2F2F7;
-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15) !important;
-border-radius: 12%;
-}
-
-.btn-connexion {
-    position: relative;
-    width: 180px;
-height: 40px;
-
-
-background-color: #FB5875 !important;
-border-radius: 50px !important;
-
-
-}
-.btn-dropdown {
-background: #F2F2F7;
-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15)!important;
-border-radius: 12%;
-}
-
-.btn-school {
-    position: relative;
-background: #FFCC00 !important;
-box-shadow: 0px 0px 20px rgba(255, 204, 0, 0.35);
-border-radius: 20px;
-height: 50px;
-}
 
 
 /* Groupe 294  Femme qui vole */
@@ -357,15 +105,14 @@ height: 50px;
 
 .formons-des-heros {
     position: relative;
-   
     width: 100%;
-  
+    margin-left: 6.5%;
     /* left: 114px; */
     /* top: 440px; */
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
     font-weight: 800;
-    font-size: 5em;
+    font-size: 82px;
     line-height: 144px;
     display: flex;
     align-items: center;
@@ -375,16 +122,16 @@ height: 50px;
 }
 
 .des-heros {
-    position: relative;
+    position: absolute;
     width: 100%;
     height: 103px;
-    
+    margin-top: -37px;
+    margin-left: 6%;
     /* left: 114px; */
-    
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
     font-weight: 800;
-    font-size: 7em;
+    font-size: 113px;
     line-height: 95.02%;
     /* display: flex; */
     align-items: center;
@@ -401,32 +148,19 @@ height: 50px;
 /* intégre la meilleure école digitale de madagascar. */
 
 .integre-la-meilleure {
-    
-    /* left: 117px; */
-    position: relative;
-   
-    width: 100%;
-    height: 41px;
+    position: absolute;
+    left: 6%;
+    margin-top: 581px;
     font-family: Antipasto Pro;
     font-style: normal;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 35px;
     line-height: 43px;
-    letter-spacing: -0.03em;
+    letter-spacing: 0.01em;
     text-transform: uppercase;
     color: #6E6E6E;
 }
 
-header {
-
-    background: url("../image/Forme 1 (1) 1.png") ; 
-    background-position: left top ;
-    background-repeat: no-repeat;
-    background-size: 38%;
-    margin-left: -2%;
-    margin-top: 0%;
-  
-}
 
 /********** Etape**********/
 
@@ -2582,11 +2316,6 @@ header {
     z-index: 3;
 }
 
-.fleche-connexion {
-    margin-left: -20px;
-    color: #E9EAEF;
-}
-
 
 /********************
 ***********************************
@@ -2647,8 +2376,10 @@ header {
 
 }
 
-.shift-jour{
-    padding-top: 13%;
+.shift-jour {
+    padding-left: 28px;
+    padding-top: 18%;
+
     font-family: Inter;
     font-style: normal;
     font-weight: 900;
@@ -2661,13 +2392,13 @@ header {
     text-transform: uppercase;
 }
 
-
-/* Rectangle 154 */
-.rectangle-154{
+.rectangle-154 {
     /* position: absolute; */
     margin-top: -12px;
-    width: 244px;
-    height: 169px;
+    
+    width: 309px;
+    height: 210px;
+
     border-width: medium;
     background: #E9EAEF;
     box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.15);
@@ -2699,8 +2430,11 @@ header {
 .rectangle-154-a{
     /* position: absolute; */
     margin-top: -12px;
-    width: 144px;
-    height: 169px;
+
+    width: 192px;
+    height: 206px;
+/*     width: 144px;
+    height: 169px; */
     border-width: medium;
     background: #E9EAEF;
     box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.15);
@@ -2715,8 +2449,8 @@ header {
 }
 
 .heure{
-    padding-left: 25px;
-    padding-top: 25px;
+    padding-left: 51px;
+    padding-top: 50px;
     font-family: Inter;
     font-style: normal;
     font-weight: 900;
@@ -2803,7 +2537,8 @@ header {
 }
 
 .shift-soir{
-    padding-top: 13%;
+    padding-top: 18%;
+    padding-left: 28px;
     font-family: Inter;
     font-style: normal;
     font-weight: 900;
@@ -2842,8 +2577,10 @@ header {
 .rectangle-154-1-a {
     /* position: absolute; */
     margin-top: -12px;
-    width: 144px;
-    height: 169px;
+    
+    width: 192px;
+    height: 206px;
+
     border-width: medium;
     background: #E9EAEF;
     box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.15);
@@ -2918,8 +2655,60 @@ header {
 
 footer{
 
-    margin-top: -114px;
+    margin-top: -9.1%;
 }
+
+
+@media (max-width: 1168px )  and (min-width: 765px){
+    
+    footer{
+        margin-top: -9.5%;
+    }
+}
+
+@media (max-width: 1082px){
+footer {
+ 
+}
+
+}
+@media (max-width: 1698px) {
+    .shift-jour{    
+        padding-top: 13%;
+        padding-left: 0%;
+    }
+
+    .shift-soir{    
+        padding-top: 13%;
+        padding-left: 0%;
+    }
+
+    .heure{
+        padding-left: 25px;
+        padding-top: 25px;
+    }
+
+    /* Rectangle 154 */
+    .rectangle-154{
+        /* position: absolute; */
+        margin-top: -12px;
+        width: 244px;
+        height: 169px;
+    }
+
+    /* Rectangle 154 */
+    .rectangle-154-a{
+        width: 144px;
+        height: 169px;
+    }
+
+    /* Rectangle 154 */
+    .rectangle-154-1-a{
+        width: 144px;
+        height: 169px;
+    }
+}
+
 @media (max-width: 1157px) {
     .rectangle-154-min {
         /* margin-left: auto; */

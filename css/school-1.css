@@ -1,0 +1,532 @@
+@import url('https://rsms.me/inter/inter.css');
+@import url("https://db.onlinewebfonts.com/c/9d942e0ff1014c476713a855710ce309?family=Lato");
+@import url("https://db.onlinewebfonts.com/c/62e84f8271d32eb452129a0b7d59540d?family=Antipasto+Pro");
+
+
+
+
+.form1-school{
+    position: relative;
+    width: 100%;
+    left: -16.35%;
+    margin-top: -3%;
+}
+
+
+.logo1-school{
+    position: absolute;
+    width: 37%;
+    height: 70.38px;
+    left: 9%;
+    top: 11%;
+}
+
+.menu {
+    margin-top: -24%;
+}
+
+
+
+li{
+    list-style: none;
+  }
+
+
+.girl-fly{
+    float: right;
+    /* top: -30%;   */   
+    margin-top: -34%;   
+}
+
+.groupe-294 {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.formons-des-heros{
+    margin-left: 8%;
+    left: 114px;
+    margin-top: 4px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 90px;
+    line-height: 144px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+    color: #000000;
+}
+.des-heros{
+    position: absolute;
+    height: 96px;
+    margin-top: -3%;
+    /* left: 114px; */
+    margin-left: 8%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 124px;
+    line-height: 144px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+    color: #000000;
+    
+}
+
+
+.heros{
+    color: #FFCC00;
+  }
+
+
+.integre-la-meilleure {
+    position: absolute;
+    left: 6%;
+    margin-top: 20%;
+    font-family: Antipasto Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 43px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #6E6E6E;
+}
+
+
+
+.hate-de-nous-rencontrer {
+    position: relative;
+    width: 100%;
+    height: 79px;
+    /* top: 1169px; */
+    font-family: 'Inter', 'sans-serif';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2em;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin-top: 161px;
+}
+
+
+.couleur-jaune-opacity{
+    background: rgba(255, 204, 0, 0.57);
+}
+
+
+.S-part-two {
+    margin-top: 5%;
+    position: relative !important;
+    width: 100%;
+    height: 750px;
+}
+
+.rectangle-28 {
+    position: absolute;
+    width: 92%;
+    height: 12px;
+    left: 8%;
+    top: 17.7%;
+    background: #FFCC00;
+    border-radius: 6px;
+}
+
+.groupe-5{
+    position: absolute;
+    width: 24%;
+    height: 157px;
+    left: 13%;
+    top: 11%;
+}
+
+.etape-1 {
+    position: absolute;
+    width: 97%;
+    height: 51px;
+    top: 10%;
+    font-family: 'Inter', 'sans-serif';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.3em;
+    line-height: 61px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+    color: #000000;
+}
+.choisis-parcours {
+    position: absolute;
+    width: 50%;
+    height: 52px;
+    left: 22%;
+    top: 50%;
+    font-family: 'Inter', 'sans-serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.017em;
+    text-transform: uppercase;
+    color: #FB5875;
+}
+
+.ellipse-2 {
+    position: absolute;
+    left: 43%;
+    right: 74.27%;
+    top: 92%;
+    /* bottom: 83.72%; */
+    width: 9px;
+    height: 8px;
+    font-size: 1.3em !important;
+    color: #FB5875;
+}
+
+.groupe-6 {
+    position: absolute;
+    width: 24%;
+    height: 157px;
+    left: 40%;
+    top: 11%;
+}
+
+.etape-2 {
+    position: absolute;
+    width: 97%;
+    height: 51px;
+    left: 12px;
+    top: 10%;
+    font-family: 'Inter', 'sans-serif';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.3em;
+    line-height: 61px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.remplis-mon-formulaire {
+    left: 6%;
+    top: 50%;
+    position: absolute;
+    width: 91%;
+    height: 60px;
+    font-family: 'Inter', 'sans-serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.017em;
+    text-transform: uppercase;
+    color: #FB5875;
+}
+.ellipse-3 {
+    position: absolute;
+    /* right: 50.52%; */
+    top: 92%;
+    left: 49%;
+    font-size: 1.3em !important;
+    color: #FB5875;
+}
+
+
+.groupe-7 {
+    position: absolute;
+    width: 24%;
+    height: 157px;
+    left: 68%;
+    top: 11%;
+}
+
+.etape-3 {
+    position: absolute;
+    width: 97%;
+    height: 54px;
+    top: 10%;
+    font-family: 'Inter', 'sans-serif';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.3em;
+    line-height: 61px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.passe-mon-test {
+    left: 8%;
+    top: 50%;
+    position: absolute;
+    width: 79%;
+    height: 52px;
+    font-family: 'Inter', 'sans-serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.017em;
+    text-transform: uppercase;
+    color: #FB5875;
+}
+
+.ellipse-4 {
+    position: absolute;
+    left: 45%;
+    /* right: 27.45%; */
+    top: 92%;
+    /* bottom: 83.72%; */
+    font-size: 1.3em !important;
+    color: #FB5875;
+}
+
+.rectangle-29 {
+    position: absolute;
+    width: 90%;
+    top: 27.7%;
+    height: 12px;
+    background: #FFCC00;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+}
+
+
+.groupe-8 {
+    position: absolute;
+    width: 24%;
+    height: 157px;
+    top: 21%;
+    left: 13%;
+}
+
+.etape-4 {
+    position: absolute;
+    width: 97%;
+    height: 64px;
+    top: 10%;
+    font-family: 'Inter', 'sans-serif';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.3em;
+    line-height: 61px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.bloque-un-creneau {
+    top: 50%;
+    left: -4%;
+    position: absolute;
+    width: 100%;
+    height: 123px;
+    font-family: 'Inter', 'sans-serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.017em;
+    text-transform: uppercase;
+    color: #FB5875;
+}
+
+.ellipse-etape-4 {
+    position: absolute;
+    top: 92%;
+    left: 43%;
+    color: #FB5875;
+    font-size: 1.3em !important;
+}
+
+.groupe-9 {
+    position: absolute;
+    width: 24%;
+    height: 157px;
+    left: 42%;
+    top: 21%;
+}
+
+.etape-5 {
+    position: absolute;
+    width: 97%;
+    height: 64px;
+    top: 10%;
+    /* left: 12px; */
+    font-family: 'Inter', 'sans-serif';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.3em;
+    line-height: 61px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.entame-les-demarches {
+    top: 40%;
+    left: -4%;
+    position: absolute;
+    width: 100%;
+    height: 88px;
+    font-family: 'Inter', 'sans-serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.017em;
+    text-transform: uppercase;
+    color: #FB5875;
+}
+
+.ellipse-etape-5 {
+    position: absolute;
+    top: 92%;
+    left: 43%;
+    color: #FB5875;
+    font-size: 1.3em !important;
+}
+
+.groupe-10 {
+    position: absolute;
+    width: 24%;
+    height: 157px;
+    left: 68%;
+    top: 21%;
+}
+
+.etape-6 {
+    position: absolute;
+    width: 97%;
+    top: 10%;
+    height: 64px;
+    font-family: 'Inter', 'sans-serif';
+    font-weight: 900;
+    font-size: 2.3em;
+    line-height: 61px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.demarre-la-formation {
+    top: 50%;
+    left: 8%;
+    position: absolute;
+    width: 73%;
+    height: 52px;
+    font-family: 'Inter', 'sans-serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.017em;
+    text-transform: uppercase;
+    color: #FB5875;
+}
+
+.ellipse-etape-6 {
+    position: absolute;
+    top: 92%;
+    left: 45%;
+    color: #FB5875;
+    font-size: 1.3em !important;
+}
+
+.ellipse-5 {
+    position: absolute;
+    right: 8%;
+    top: 27%;
+    color: #FFCC00;
+    font-size: 2.8em !important;
+}
+
+.rectangle-15 {
+    position: relative;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    margin-top: 153%;
+    bottom: 0%;
+    width: 62%;
+    height: 54px;
+    display: inline-grid !important;
+    background: #FB5875 !important;
+    border-radius: 20px !important;
+}
+@media (min-width: 576px) and (max-width: 992px){
+    .dropdown {
+        margin-top: -47% !important;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .dropdown {
+        margin-top: -80% !important;
+    }
+}
+
+@media (min-width: 853px) and (max-width: 1119px){
+    .formons-des-heros {
+        font-size: 63px;
+    }
+    .des-heros {
+        font-size: 89px;
+        margin-top: -10%;
+    }
+    .girl-fly {
+        /* margin-top: -23%; */
+    }
+}
+
+@media screen and (max-width: 852px){
+    .formons-des-heros {
+        font-size: 52px;
+    }
+    .des-heros {
+        font-size: 73px;
+        margin-top: -14%;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+  
+    .des-heros {
+        margin-top: -8%;
+    }
+
+    .girl-fly {
+        margin-top: -55%;
+    }
+}
+
+
+@media screen and (max-width: 576px){
+  
+    .girl-fly {
+        display: none;
+    }
+}

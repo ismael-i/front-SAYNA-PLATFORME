@@ -356,7 +356,7 @@ background-position: left top ;
   
 }
 .logo1-school {
-   position: relative;
+   position: absolute;
    margin-top: 5%;
    margin-left: 8%;
     width: 35%;
