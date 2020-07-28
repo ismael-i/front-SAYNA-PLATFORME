@@ -146,23 +146,6 @@ li{
 }
 
 
-.group-5{
-    width: 171px;
-    position: absolute;
-    margin-left: 51%;
-}
-
-.group-6{
-    width: 378px;
-    position: absolute;
-}
-
-.group-7{
-    width: 379px;
-    position: absolute;
-    margin-left: -32%;
-}
-
 .etape-1{
     text-transform: uppercase;
 }
@@ -235,7 +218,7 @@ li{
 .rectangle-28e {
     width: 100%;
     height: 12px;
-    left: -1%;
+    left: -3%;
 }
 
 .rectangle-28f {
@@ -263,6 +246,23 @@ li{
 }
 
 
+.group-5{
+    width: 171px;
+    position: absolute;
+    margin-left: 51%;
+}
+
+.group-6{
+    width: 361px;/* 378px; */
+    position: absolute;
+}
+
+.group-7{
+    width: 361px/* 379px */;
+    position: absolute;
+    margin-left: -32%;
+}
+
 .group-8{
     width: 243px;
     position: absolute;
@@ -270,17 +270,20 @@ li{
 }
 
 .group-9{
-    width: 378px;
+    width: 361px;/* 378px; */
     position: absolute;
 }
 
 .group-10{
-    width: 379px;
+    width: 361px; /* 379px; */
     position: absolute;
     margin-left: -32%;
 }
 
+/* .group-6, .group-7, .group-9, .group-10{
 
+    width: 171px;
+} */
 
 
 /* Rectangle 15 */
@@ -539,22 +542,13 @@ li{
     margin-left: 43%;
 }
 
-.rectangle-18-e{
-    
-}
 
 .sit-reading{
     position: absolute;
-    width: 96%;
+    width: 100%;
     height: 425px;
     margin-top: 7%;
-}
 
-.rectangle-189{
-    position: absolute;
-    background: #E5E5E5;
-    width: 95%;
-    margin-top: 71%;
     margin-left: -3%;
 }
 
@@ -696,6 +690,7 @@ li{
     left: 25%;
     position: relative;
     top: -15%;
+    padding-bottom: 12%;
   }
   
   .developpeur-front-end{
@@ -829,7 +824,7 @@ li{
     /* padding-left: 17%; */
     display: inline-grid !important;
     height: 47px;
-    width: 149px;
+    width: 146px;
     font-family: Inter;
     font-style: normal;
     font-weight: 600;
@@ -1199,6 +1194,7 @@ li{
 .groupe-266{
     margin-top: 330px;
     width: 140%;
+    /* width: 559px; */
 }
 
 footer{
@@ -1207,6 +1203,22 @@ footer{
 }
 
 
+@media screen and (max-width: 795px){
+
+    .rectangle-18-d {
+        margin-left: 4% !important;
+    }
+    
+}
+
+
+@media screen and (max-width: 768px){
+    .bloc-specialisation {
+        margin-top: 468px;
+    }
+    
+}
+
 @media (max-width: 1168px )  and (min-width: 765px){
     
     footer{
@@ -1214,12 +1226,6 @@ footer{
     }
 }
 
-@media (max-width: 1082px){
-footer {
- 
-}
-
-}
 @media (max-width: 1698px) {
     .shift-jour{    
         padding-top: 13%;
@@ -1261,6 +1267,36 @@ footer {
     .rectangle-154-min {
         /* margin-left: auto; */
         margin-right: auto;
+    }
+}
+
+@media (max-width: 773px){
+    .rectangle-28a {
+        width: 82%;
+    }
+
+    .etape-rose {
+        font-size: 10px;
+    }
+
+    .group-8 {
+        width: 202px;
+    }
+    .group-10 {
+        width: 259px;
+    }
+    .group-6 {
+        width: 259px;
+    }
+    .choisis-parcours {
+        width: 42%;
+    }
+    .je-passe-mon-test {
+        width: 39%;
+    }
+    
+    .lettre-noir {
+        font-size: 30px;
     }
 }
 
@@ -1331,25 +1367,31 @@ footer {
   }
   }
   
-  @media(max-width: 1102px) and (min-width:992px){
+  @media(max-width: 1102px) and (min-width:576px){
     .service-1-1a {
       margin-left: 24%;
   }
   }
   
-  @media(max-width: 992px) and (min-width:576px){
+  /* @media(max-width: 992px) and (min-width:576px){
     .service-1-3a,  .bloc-developpeur-front{
       margin-left: 192px;
     }
-  }
+  } */
   
-  @media(max-width: 979px) and (min-width:57px){
+  @media(max-width: 991px) and (min-width:57px){
     .service {
       margin-left: auto;
       margin-right: auto;
   }
   }
 
+/* 
+  .group-10 {
+    width: 303px;
+
+    .group-7 {
+        width: 261px */
 
 
   @media (max-width: 1338px){
@@ -1358,6 +1400,8 @@ footer {
         margin-top: 22% !important;
     }
   }
+
+
    /****/
 @media screen and (max-width: 1199px){
     .rectangle-18-e, .rectangle-18-a, .rectangle-18-c  {
@@ -1375,65 +1419,55 @@ footer {
     }
 }
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 768px){
     .rectangle-18-e, .rectangle-18-a, .rectangle-18-c, .rectangle-18-b, .rectangle-18-d {
-        margin-left: auto;
+        margin-left: auto !important;
         margin-right: auto;
     }
 }
 
 
 
-@media /* (min-width: ) and */ (max-width: 992px){
+@media (max-width: 992px){
     .group-5 {
         position: relative; 
     }
     .group-7 {
-        margin-left: 0%;
+       margin-left: 0%;
     }
 
 
     .group-8 {
         position: relative; 
     }
-    .group-10 {
-        margin-left: 0%;
+    .group-10, .group-6 {
+
+        margin-left: -3%
+        /* margin-left: 0%; -3%*/
     }
 }
 
 
-
-@media /* (min-width: ) and */ (max-width: 537px){
-    .group-6 {
-        position: relative; 
-    }
-
-    .group-9 {
-        position: relative; 
-    }
-    .rectangle-28a {
-        width: 82%;
-    }
-
-}
 
 @media (min-width: 576px) and (max-width: 992px){
 
     .dropdown {
-        margin-top: -47% !important;
+        margin-top: -55% !important;
+        margin-right: 1% !important;
+        /* margin-top: -47% !important; */
     }
     .rectangle-28d{
 
         margin-top: 165px;
-        width: 108%;
+        width: 100%;
         margin-left: -11px;
     }
     .group-8 {
-        margin-top: 25px;
+        margin-top: 52px;
         margin-left: 16%;
     }
     .rectangle-28e-f {
-        margin-top: 181px;
+        margin-top: 157px;
     }
 
     .group-9-10{
@@ -1445,9 +1479,19 @@ footer {
     }
 }
 
+
+@media screen and (max-width: 768px){
+    .groupe-294 {
+        margin-top: 19%;
+    }
+}
+
+
+
+
 @media screen and (max-width: 575px){
     .dropdown {
-        margin-top: -80% !important;
+        margin-top: -95% !important;
     }
     .rectangle-28c {
         margin-top: 340px;
@@ -1488,14 +1532,26 @@ footer {
 
 
 @media screen and (max-width: 537px){
+
+
+    .group-6 {
+        position: relative; 
+    }
+
+    .group-9 {
+        position: relative; 
+    }
+    .rectangle-28a {
+        width: 82%;
+    }
     .group-7 {
-        margin-top: 23px;
+        margin-top: 48px;
     }
     .rectangle-28c {
         margin-top: 161px;
     }
     .group-8 {
-        margin-top: 201px;
+        margin-top: 225px;
     }
 
     .rectangle-28d {
@@ -1503,7 +1559,7 @@ footer {
     }
 
     .group-9 {
-        margin-top: 377px;
+        margin-top: 400px;
     }
 
     .rectangle-28e {
@@ -1512,7 +1568,7 @@ footer {
 
 
     .group-10 {
-        margin-top: 21px;
+        margin-top: 45px;
     }
 
     .rectangle-28f {
@@ -1522,12 +1578,49 @@ footer {
     
 }
 
-@media (min-width: 853px) and (max-width: 1119px){
+@media (max-width: 1120px){
+
+    .rectangle-15 {
+        margin-top: 44%;
+    }
+}
+
+
+@media (max-width: 989px){
+    .rectangle-15 {
+        margin-top: 193px;
+    }
+}
+
+@media (max-width: 575px) and (min-width: 538px){
+    .rectangle-15 {
+        margin-top: 166%;
+    }
+} 
+
+@media (min-width: 1120px) and (max-width: 1259px){
     .formons-des-heros {
-        font-size: 63px;
+        font-size:  78px;
     }
     .des-heros {
-        font-size: 89px;
+        font-size: 107px;
+        margin-top: -6%;    
+    }
+    .integre-la-meilleure {
+        margin-top: 25%;
+    }
+}
+
+@media (min-width: 853px) and (max-width: 1119px){
+    .integre-la-meilleure {
+        margin-top: 25%;
+    }
+
+    .formons-des-heros {
+        font-size: 57px;
+    }
+    .des-heros {
+        font-size: 80px;
         margin-top: -10%;
     }
     .girl-fly {
@@ -1535,18 +1628,91 @@ footer {
     }
 }
 
-@media screen and (max-width: 852px){
-    .formons-des-heros {
-        font-size: 52px;
+
+@media (min-width: 623px) and (max-width: 852px){
+    .integre-la-meilleure {
+        margin-top: 30%;
+        font-size: 25px;
     }
-    .des-heros {
-        font-size: 73px;
-        margin-top: -14%;
+}
+
+@media (min-width: 545px) and (max-width: 622px){
+    .integre-la-meilleure {
+        /* margin-top: 38%;
+        font-size: 25px; */
+
+        margin-top: 38%;
+        font-size: 23px;
+    }
+}
+
+@media (min-width: 423px) and (max-width: 544px){
+    .integre-la-meilleure {
+        /* margin-top: 38%;
+        font-size: 25px; */
+        margin-top: 46%;
+        font-size: 23px;
     }
 }
 
 
-@media screen and (max-width: 768px){
+@media (min-width: 435px) and (max-width: 867px) {
+    .apprends-les-fondamentaux {
+        width: 68%;
+    }
+    .les-structures-de-nos-cours, .retrouvez-challenges {
+        width: 55%;
+    }
+}
+
+
+@media (max-width: 435px){
+    .apprends-les-fondamentaux, .les-structures-de-nos-cours, .retrouvez-challenges {
+        width: 100%;
+    }
+
+
+}
+@media (min-width: 423px) and (max-width: 852px){
+    .formons-des-heros {
+        font-size: 49px;
+    }
+    .des-heros {
+        font-size: 70px;
+        margin-top: -14%;
+    }
+}
+
+@media (max-width: 422px) {
+    .integre-la-meilleure {
+        margin-top: 49%;
+        font-size: 17px;
+    }
+    .formons-des-heros {
+        font-size: 37px;
+    }
+    .des-heros {
+        font-size: 52px;
+        margin-top: -20%;
+    }
+
+    .girl-fly {
+        margin-top: -55%;
+    }
+}
+
+
+@media (max-width: 323px) {
+
+    .des-heros {
+        font-size: 38px;
+        margin-top: -20%;
+    }
+    .formons-des-heros {
+        font-size: 26px;
+    }
+}
+@media (min-width: 423px) and (max-width: 768px){
   
     .des-heros {
         margin-top: -8%;
@@ -1561,6 +1727,6 @@ footer {
 @media screen and (max-width: 576px){
   
     .girl-fly {
-        display: none;
+        margin-top: 12px;
     }
 }

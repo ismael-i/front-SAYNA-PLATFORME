@@ -115,6 +115,21 @@ border-radius: 20px !important;
     display: none;
 }
 
+.Groupe-8-1 {
+  width: 29px;
+  margin-top: -2px;
+  margin-left: -1px !important;
+}
+
+
+@media (max-width: 1286px) and (min-width: 1200px){
+  
+.btn-dropdonw{
+      display: none !important;
+  }
+}
+
+
 @media screen and (max-width: 992px){
 
     .menu{
