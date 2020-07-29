@@ -4,81 +4,42 @@
 
 
 
-.new-logo-1{
-    width: 220px;
-      height: 71px;
-      margin-left: 17px;
-      /* right: 82.13% !important; */
-      margin-top: 46px;
-  }
-  
-
-
-/****************************
-******************School css****
-************************************/
-.underlignefact {
-    background: rgba(255, 204, 0, 0.6);
-}
-
-
-.S-part-three {
-    width: 100%;
-    position: relative;
-    margin-top: 10%;
-}
-
-.service {
-    width: 100%;
-    height: 650px;
-}
-
-.S-part-four {
-    width: 100%;
-}
-
-.S-part-six {
-    width: 100%;
-}
-
-.S-part-seven {
-    width: 100%;
-}
-
-
-/* Logo_Sayna */
-
-/* #background-body {
-    width: 100%;
-    display: block;
-    background: #E5E5E5;
-    overflow-x: hidden;
-} */
-
-.logo1-school {
-   position: relative;
-   margin-top: 5%;
-   margin-left: 8%;
-    width: 39%;
-    height: 70.38px;
-    
-}
-
-
-
 [class*="col"] { 
-   margin-bottom: 25px;
+    margin-bottom: 25px;
+  }
+
+.form1-school{
+    position: relative;
+    width: 100%;
+    left: -16.35%;
+    margin-top: -3%;
 }
+
+
+.logo1-school{
+    position: absolute;
+    width: 37%;
+    height: 21%;
+    left: 9%;
+    top: 11%;
+}
+
+.menu {
+    margin-top: -24%;
+}
+
+
 
 li{
     list-style: none;
-    display: inline-block !important;
-    margin: 2.6%;
+  }
+
+
+.girl-fly{
+    float: right;
+    /* top: -30%;   */   
+    margin-top: -34%;   
 }
-
-
-
-/* Groupe 294  Femme qui vole */
 
 .groupe-294 {
     position: relative;
@@ -86,33 +47,14 @@ li{
     height: auto;
 }
 
-.girl-fly {
-    margin-top: 2% !important;
-    float: right;
-    /*top: -34%;*/
-    left: -18%;
-}
-
-.fdh {
-    position: relative;
-    margin-top: 23% !important;
-    left: 2%;
-   
-}
-
-
-/* nous formons des héros. */
-
-.formons-des-heros {
-    position: relative;
-    width: 100%;
-    margin-left: 6.5%;
-    /* left: 114px; */
-    /* top: 440px; */
-    font-family: 'Inter', 'sans-serif';
+.formons-des-heros{
+    margin-left: 8%;
+    left: 114px;
+    margin-top: 4px;
+    font-family: Inter;
     font-style: normal;
     font-weight: 800;
-    font-size: 82px;
+    font-size: 100px;
     line-height: 144px;
     display: flex;
     align-items: center;
@@ -120,37 +62,35 @@ li{
     text-transform: uppercase;
     color: #000000;
 }
-
-.des-heros {
+.des-heros{
     position: absolute;
-    width: 100%;
-    height: 103px;
-    margin-top: -37px;
-    margin-left: 6%;
+    height: 96px;
+    margin-top: -1%;
     /* left: 114px; */
-    font-family: 'Inter', 'sans-serif';
+    margin-left: 8%;
+    font-family: Inter;
     font-style: normal;
     font-weight: 800;
-    font-size: 113px;
-    line-height: 95.02%;
-    /* display: flex; */
+    font-size: 137px;
+    line-height: 144px;
+    display: flex;
     align-items: center;
-    letter-spacing: -0.045em;
+    letter-spacing: -0.08em;
     text-transform: uppercase;
     color: #000000;
+    
 }
 
-.heros {
+
+.heros{
     color: #FFCC00;
-}
+  }
 
-
-/* intégre la meilleure école digitale de madagascar. */
 
 .integre-la-meilleure {
     position: absolute;
     left: 6%;
-    margin-top: 581px;
+    margin-top: 17%;
     font-family: Antipasto Pro;
     font-style: normal;
     font-weight: bold;
@@ -159,30 +99,15 @@ li{
     letter-spacing: 0.01em;
     text-transform: uppercase;
     color: #6E6E6E;
+    /* letter-spacing: 0.05em; */
 }
 
 
-/********** Etape**********/
 
-
-/* Tu as hâte de nous rencontrer ? Nous aussi ! */
-.S-part-two {
-    margin-top: 5%;
-    position: relative !important;
-}
-.S-part-two {
-    width: 100%;
-    height: 750px;
-}
-.S-part-one {
-    /* margin-top: %;
-    height: auto; */
-}
 .hate-de-nous-rencontrer {
     position: relative;
     width: 100%;
     height: 79px;
-    
     /* top: 1169px; */
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
@@ -191,2150 +116,778 @@ li{
     line-height: 35px;
     text-align: center;
     letter-spacing: 0.01em;
-    color: #000000
-}
-
-.rectangle-149 {
-    position: relative;
-    background: rgba(255, 204, 0, 0.6);
-}
-
-.rectangle-28 {
-    position: absolute;
-    width: 90%;
-    height: 12px;
-    left: 11%;
-    top: 31%;
-    background: #FFCC00;
-    border-radius: 6px;
+    color: #000000;
+    margin-top: 161px;
 }
 
 
-/* Rectangle 29 */
-
-.rectangle-29 {
-    position: absolute;
-    width: 90%;
-    top: 64%;
-    height: 12px;
-    background: #FFCC00;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 6px;
+.couleur-jaune-opacity{
+    background: rgba(255, 204, 0, 0.57);
 }
 
 
-/* Group 5 */
 
-.groupe-5 {
-    position: absolute;
-    width: 24%;
-    height: 157px;
-    left: 13%;
-    top: 11%;
-}
+/* Tu as hâte de nous rencontrer ? Nous aussi ! */
 
 
-/* étape 1 */
-
-.etape-1 {
-    position: absolute;
-    width: 97%;
-    height: 51px;
-    top: 10%;
-    font-family: 'Inter', 'sans-serif';
+.lettre-noir{
+    font-family: Inter;
     font-style: normal;
     font-weight: 900;
-    font-size: 2.3em;
-    line-height: 61px;
-    text-align: center;
-    letter-spacing: 0.015em;
-    text-transform: uppercase;
-    color: #000000;
-}
-
-
-/* je choisis mon parcours */
-
-.choisis-parcours {
-    position: absolute;
-    width: 50%;
-    height: 52px;
-    left: 22%;
-    top: 50%;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1em;
-    line-height: 28px;
-    text-align: center;
-    letter-spacing: 0.017em;
-    text-transform: uppercase;
-    color: #FB5875;
-}
-
-
-/* Ellipse 2 */
-
-.ellipse-2 {
-    position: absolute;
-    left: 43%;
-    right: 74.27%;
-    top: 92%;
-    /* bottom: 83.72%; */
-    width: 9px;
-    height: 8px;
-    font-size: 1.3em !important;
-    color: #FB5875;
-}
-
-
-/* Group 6 */
-
-.groupe-6 {
-    position: absolute;
-    width: 24%;
-    height: 157px;
-    left: 40%;
-    top: 11%;
-}
-
-
-/* étape 2 */
-
-.etape-2 {
-    position: absolute;
-    width: 97%;
-    height: 51px;
-    left: 12px;
-    top: 10%;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 2.3em;
-    line-height: 61px;
-    text-align: center;
-    letter-spacing: 0.015em;
-    text-transform: uppercase;
-    color: #000000;
-}
-
-
-/* je remplis mon formulaire de candidature */
-
-.remplis-mon-formulaire {
-    left: 6%;
-    top: 50%;
-    position: absolute;
-    width: 91%;
-    height: 60px;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1em;
-    line-height: 28px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.017em;
-    text-transform: uppercase;
-    color: #FB5875;
-}
-
-
-/* Ellipse 3 */
-
-.ellipse-3 {
-    position: absolute;
-    /* right: 50.52%; */
-    top: 92%;
-    left: 49%;
-    font-size: 1.3em !important;
-    color: #FB5875
-}
-
-
-/* Group 7 */
-
-.groupe-7 {
-    position: absolute;
-    width: 24%;
-    height: 157px;
-    left: 68%;
-    top: 11%;
-}
-
-
-/* étape 3 */
-
-.etape-3 {
-    position: absolute;
-    width: 97%;
-    height: 54px;
-    top: 10%;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 2.3em;
-    line-height: 61px;
-    text-align: center;
-    letter-spacing: 0.015em;
-    text-transform: uppercase;
-    color: #000000;
-}
-
-
-/* je passe mon test en ligne */
-
-.passe-mon-test {
-    left: 8%;
-    top: 50%;
-    position: absolute;
-    width: 81%;
-    height: 52px;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1em;
-    line-height: 28px;
-    text-align: center;
-    letter-spacing: 0.017em;
-    text-transform: uppercase;
-    color: #FB5875;
-}
-
-
-/* Ellipse 4 */
-
-.ellipse-4 {
-    position: absolute;
-    left: 45%;
-    /* right: 27.45%; */
-    top: 92%;
-    /* bottom: 83.72%; */
-    font-size: 1.3em !important;
-    color: #FB5875;
-}
-
-.groupe-8 {
-    position: absolute;
-    width: 24%;
-    height: 157px;
-    top: 44%;
-    left: 13%;
-}
-
-
-/* étape 4 */
-
-.etape-4 {
-    position: absolute;
-    width: 97%;
-    height: 64px;
-    top: 10%;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 2.3em;
-    line-height: 61px;
-    text-align: center;
-    letter-spacing: 0.015em;
-    text-transform: uppercase;
-    color: #000000;
-}
-
-
-/* je bloque un créneau pour passser mon entretien */
-
-.bloque-un-creneau {
-    top: 50%;
-    left: -4%;
-    position: absolute;
-    width: 100%;
-    height: 123px;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1em;
-    line-height: 28px;
-    text-align: center;
-    letter-spacing: 0.017em;
-    text-transform: uppercase;
-    color: #FB5875;
-}
-
-.ellipse-etape-4 {
-    position: absolute;
-    top: 92%;
-    left: 43%;
-    color: #FB5875;
-    font-size: 1.3em !important;
-}
-
-
-/* Group 9 */
-
-.groupe-9 {
-    position: absolute;
-    width: 24%;
-    height: 157px;
-    left: 42%;
-    top: 44%;
-}
-
-
-/* étape 5 */
-
-.etape-5 {
-    position: absolute;
-    width: 97%;
-    height: 64px;
-    top: 10%;
-    /* left: 12px; */
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 2.3em;
-    line-height: 61px;
-    text-align: center;
-    letter-spacing: 0.015em;
-    text-transform: uppercase;
-    color: #000000
-}
-
-
-/* j’entame les démarches administratives d’inscription */
-
-.entame-les-demarches {
-    top: 40%;
-    left: -4%;
-    position: absolute;
-    width: 100%;
-    height: 88px;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1em;
-    line-height: 28px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.017em;
-    text-transform: uppercase;
-    color: #FB5875;
-}
-
-.ellipse-etape-5 {
-    position: absolute;
-    top: 92%;
-    left: 43%;
-    color: #FB5875;
-    font-size: 1.3em !important
-}
-
-
-/* Group 10 */
-
-.groupe-10 {
-    position: absolute;
-    width: 24%;
-    height: 157px;
-    left: 68%;
-    top: 44%;
-}
-
-
-/* étape 6 */
-
-.etape-6 {
-    position: absolute;
-    width: 97%;
-    top: 10%;
-    height: 64px;
-    font-family: 'Inter', 'sans-serif';
-    font-weight: 900;
-    font-size: 2.3em;
-    line-height: 61px;
-    text-align: center;
-    letter-spacing: 0.015em;
-    text-transform: uppercase;
-    color: #000000;
-}
-
-
-/* je démarre la formation */
-
-.demarre-la-formation {
-    top: 50%;
-    left: 8%;
-    position: absolute;
-    width: 78%;
-    height: 52px;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1em;
-    line-height: 28px;
-    text-align: center;
-    letter-spacing: 0.017em;
-    text-transform: uppercase;
-    color: #FB5875
-}
-
-.ellipse-etape-6 {
-    position: absolute;
-    top: 92%;
-    left: 45%;
-    color: #FB5875;
-    font-size: 1.3em !important;
-}
-
-
-/* Ellipse 5 */
-
-.ellipse-5 {
-    position: absolute;
-    right: 8%;
-    top: 62%;
-    color: #FFCC00;
-    font-size: 2.8em !important;
-}
-
-.fleche-top {
-    margin-left: 31px;
-    color: #E9EAEF;
-    font-size: 13px !important;
-}
-
-
-/* Component 3 */
-
-.component-3 {
-    position: relative;
-    width: 41%;
-    height: 78px;
-    top: 65%;
-    left: 33%;
-    float: center;
-}
-
-
-/* Rectangle 15 */
-
-.rectangle-15 {
-   position: relative;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-    width: 62%;
-    height: 54px;
-    display: inline-grid !important;
-    background: #FB5875 !important;
-    border-radius: 20px !important;
-}
-
-
-/* je m’inscris maintenant */
-
-.je-m-inscris {
-   position: relative;
-    
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 1.1em;
-    line-height: 30px;
-    /* display: inline; */
-    align-items: center;
-    text-align: center;
-    text-transform: uppercase;
-    color: #E9EAEF;
-}
-
-.fleche {
-    margin-left: 31px;
-    color: #000000;
-    font-size: 13px !important;
-}
-
-
-/********** Etape**********/
-
-
-/******** choise *******/
-
-
-/*choix-ensemble + apprends les*/
-
-.choix-ensemble {
-    position: absolute;
-    width: 100%;
-   
-    /* left: 1292px;
-    top: 2301px; */
-}
-
-
-/* choisissez votre parcours */
-
-.choix-parcours {
-    position: relative;
-    width: 50%;
-    left: 8%;
-    height: 36px;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1em;
-    line-height: 29px;
-    letter-spacing: -0.025em;
-    text-transform: uppercase;
-    color: #FB5875;
-}
-
-
-/* Apprends les fondamentaux du métier de développeur web. */
-
-.apprends-les {
-    position:relative;
-    width: 87%;
-    height: 99px;
-    left: 8%;
-    margin-top: 4%;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 2em;
-    line-height: 44px;
-    letter-spacing: 0.02em;
-    color: #000000;
-}
-
-.underligne {
-    background: rgba(255, 204, 0, 0.6);
-    padding: 0 !important;
-}
-
-
-/* LES STRUCTURES DE NOS COURS */
-
-.structure {
-    position: relative;
-    width: 70%;
-    
-    margin-top: 3%;
-    left: 8%;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-size: 0.78em;
-    line-height: 156.02%;
-    color: #000000;
-}
-
-
-/* bouton je m'inscris*/
-
-.jeminscris {
-    position: relative;
-    width: 37%;
-    height: 45px;
-    margin-top: 2%;
-    left: 8%;
-    display: inline-grid !important;
-    background: #FFCC00 !important;
-    border-radius: 20px !important;
-}
-
-
-/*texte je m'inscris maintenant*(PAGE2)*/
-
-.jem {
-    position: relative;
-    
-    /* right: 13.47%; */
-   left: 10%;
-    bottom: -10.72%;
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 0.7em;
-    line-height: 15px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    text-transform: uppercase;
-    color: #000000;
-}
-
-.fleche-inscription {
-    color: #000000;
-    margin-left: 30px;
-}
-
-
-/*********list one*******/
-
-.three-list-one {
-    width: 97%;
-  
-    margin-left: 3% !important;
-    margin-right: 1% !important;
-   }
-
-
-
-.di-rect1 {
-  position: relative;
-  width: 100px;
-    height: 332px;
-    background: #F7F7F9;
-    border-radius: 20px;
-   
-    
-}
-
-
-/* Rectangle 18 */
-
-.rectangle-18 {
-   
-       
-}
-
-.soft-skills-choise {
-    width: 50%;
-    position: relative;
-    height: 87px;
-    left: 30%;
-    align-content: center;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1.2em;
-    line-height: 36px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.025em;
-    text-transform: uppercase;
-    color: #FB5875;
-}
-
-.apprentissage {
-    position: relative;
-    width: 79%;
-    left: 9%;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 0.8em;
-    line-height: 19px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.025em;
-    color: #898989;
-}
-
-
-/*culture web*/
-
-.rectangle-156 {
-   
-}
-
-.culture-web-choise {
-    position: relative;
-    width: 50%;
-    height: 87px;
-    left: 24%;
-    align-content: center;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1.2em;
-    line-height: 36px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.025em;
-    text-transform: uppercase;
-    color: #FB5875;
-}
-
-.sitravailler {
-    position: relative;
-    width: 80%;
-    left: 9%;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 0.8em;
-    line-height: 19px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.025em;
-    color: #898989;
-}
-
-
-/*base de front*/
-
-.rectangle-157 {
-   
-}
-
-.bases-frontend {
-    position: relative;
-    width: 67%;
-    height: 87px;
-    left: 19%;
-    align-content: center;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1.1em;
-    line-height: 36px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.025em;
-    text-transform: uppercase;
-    color: #FB5875;
-}
-
-.front-travailler {
-    position: relative;
-    width: 80%;
-    left: 9%;
-    top: -9%;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 0.8em;
-    line-height: 19px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.025em;
-    color: #898989;
-}
-
-.di-rect-bottom {
-    
-    width: 27%;
-    
-    height: 332px;
-    background: #F7F7F9;
-    border-radius: 20px;
-    margin-right: 5px;
-}
-
-
-/*outils dev*/
-
-.rectangle-158 {
-    
-}
-
-.les-outils {
-    position: relative;
-    width: 67%;
-    height: 87px;
-    left: 17%;
-    align-content: center;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1.1em;
-    line-height: 36px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.025em;
-    text-transform: uppercase;
-    color: #FB5875
-}
-
-.pourdevenir {
-    position: relative;
-    width: 88%;
-    left: 9%;
-    top: 0%;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 0.8em;
-    line-height: 19px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.025em;
-    color: #898989;
-}
-
-
-/*cybersecurity*/
-
-.rectangle-159 {
-    
-}
-
-.cybersecurite {
-    position: relative;
-    width: 67%;
-    height: 87px;
-    left: 28%;
-    align-content: center;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1.1em;
-    line-height: 36px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.025em;
-    text-transform: uppercase;
-    color: #FB5875;
-}
-
-.lestechniques {
-    position: relative;
-    width: 88%;
-    left: 6%;
-    top: 19%;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 0.8em;
-    line-height: 19px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.025em;
-    color: #898989;
-}
-
-
-
-/*********list one*******/
-
-.buv-caf {
-    position: relative;
-    margin-top: 5%;
-}
-
-.img-ensemble-choise {
-    width: 100%;
-    height: 400px;
-}
-
-
-/* SitReadingDoodle */
-
-.sitread {
-    position: absolute;
-    width: 96%;
-    height: 425px;
-    top: -8%;
-}
-
-
-/* Rectangle 189 */
-
-.rectangle-189 {
-    position: absolute;
-    background: #E5E5E5;
-    width: 100%;
-    top: 77%;
-}
-
-
-/*specification*/
-
-.speci-speci {
-    position: relative;
-    height: 400px;
-   padding-right: 30px !important;
-}
-
-
-/*texte specialisation */
-
-.specialisation-choise {
-    position: relative;
-    width: 100%;
-    height: 36px;
-   
-    /* top: 3634px; */
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1em;
-    line-height: 29px;
-    text-align: right !important;
-    letter-spacing: -0.025em;
-    text-transform: uppercase;
-    color: #FB5875;
-
-}
-
-.speci {
-    position: relative;
-    width:100%;
-   
-    height: 96px;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 2em;
-    line-height: 119.52%;
-    text-align: right!important;
+    font-size: 31px;
+    line-height: 121%;
     letter-spacing: 0.01em;
     color: #000000;
 }
 
+.tu-as-hate-de-nous-rencontrer{
+    margin-top: 18%;
+    width: 512px;    
+    text-align: center;
+}
 
-/* Après avoir appris les fondamentaux du web,  */
 
-.apres-avoir {
-    position: relative;
-    width: 100%;
-    height: 116px;
-    
-    font-family: 'Inter', 'sans-serif';
+.etape-1{
+    text-transform: uppercase;
+}
+
+.choisis-parcours{
+    width: 100%
+}
+
+.je-remplis-mon-formulaire{
+    width: 60%;
+}
+
+.je-passe-mon-test{
+    width: 44%;
+}
+
+.etape-rose{
+    font-family: Inter;
     font-style: normal;
     font-weight: normal;
-    font-size: 0.78em;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.017em;
+    text-transform: uppercase;
+    color: #FB5875;
+    
+}
+
+.ellipse{
+    font-size: 1.3em !important;
+    color: #FB5875;
+}
+
+
+.rectangle-28 {
+    margin-top: 165px;
+    background: #FFCC00;
+    border-radius: 6px;
+
+    position: absolute;
+}
+
+
+.rectangle-28a {
+    width: 90%;
+    height: 12px;
+    left: 18%;
+}
+
+.rectangle-28b {
+    width: 100%;
+    height: 12px;
+    left: -1%;
+}
+
+.rectangle-28c {
+    width: 113%;
+    height: 12px;
+    left: -13%;
+}
+
+
+.rectangle-28d {
+    width: 100%;
+    height: 12px;
+    left: 0%;
+}
+
+.rectangle-28e {
+    width: 100%;
+    height: 12px;
+    left: -3%;
+}
+
+.rectangle-28f {
+    width: 67%;
+    height: 12px;
+    left: -13%;
+}
+
+
+.group {
+    margin-top: 52px;
+}
+
+.groupX {
+    margin-top: 270px;
+}
+
+
+.rectangle-28x {
+    margin-top: 385px;
+    background: #FFCC00;
+    border-radius: 6px;
+
+    position: absolute;
+}
+
+
+.group-5{
+    width: 171px;
+    position: absolute;
+    margin-left: 51%;
+}
+
+.group-6{
+    width: 361px;/* 378px; */
+    position: absolute;
+}
+
+.group-7{
+    width: 361px/* 379px */;
+    position: absolute;
+    margin-left: -32%;
+}
+
+.group-8{
+    width: 243px;
+    position: absolute;
+    margin-left: 44%;
+}
+
+.group-9{
+    width: 361px;/* 378px; */
+    position: absolute;
+}
+
+.group-10{
+    width: 361px; /* 379px; */
+    position: absolute;
+    margin-left: -32%;
+}
+
+/* .group-6, .group-7, .group-9, .group-10{
+
+    width: 171px;
+} */
+
+
+/* Rectangle 15 */
+
+.rectangle-15{
+    width: 387px;
+    height: 60px;
+    background: #FB5875 !important;
+    border-color: #FB5875 !important;
+    border-radius: 20px !important;
+    margin-top: 24%;
+    font-family: Antipasto Pro;
+    font-style: normal;
+    font-weight: bold !important;
+    font-size: 21px !important;
+    line-height: 30px !important;
+    display: inline-grid !important;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E9EAEF !important;
+    letter-spacing: 0.1em;
+}
+
+
+.fleche-inscris{
+    margin-left: 26px;
+}
+
+
+.sous-titre-rose{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 29px;
+    letter-spacing: -0.025em;
+    text-transform: uppercase;
+    color: #FB5875;
+}
+/* choisissez votre parcours */
+
+.choisissez-votre-parcours{
+    margin-top: 57px;
+    margin-left: 6%;
+    
+}
+
+.sous-titre-noir {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 31px;
+    line-height: 121%;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+/* Apprends les fondamentaux du métier de développeur web. */
+
+.apprends-les-fondamentaux{
+    margin-top: 10px;
+    margin-left: 6%;
+    width: 46%;
+}
+
+
+.paragraphe-normal{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13.11px;
     line-height: 156.02%;
-    text-align: right !important;
+    /* or 30px */
     color: #000000;
 }
 
-.jeminscris2 {
-    position: relative;
-    width:30%;
-    height: 50px;
-    text-align: right;
-    left: 50%;
-    padding: 0 !important;
-    display: inline-grid !important;
+/* Les structures de nos cours sont divisées en deux parties : le tronc commun que l’on appelle « les fondamentaux du web » et la spécialisation. Le but est donc d’acquérir un socle de compétences digitales solide avant de se spécialiser sur un métier. Les fondamentaux du web nécessitent une fourchette de temps étant de 1 à 2 mois. */
+
+.les-structures-de-nos-cours{
+    width: 33%;
+    /* height: 231px; */
+    margin-left: 6%;
+    margin-top: 19px;
+}
+
+
+.rectangle-15-a{
+    width: 221px;
+    height: 39px;
+    margin-top: 4%;
+    margin-left: 6%;
+    margin-right: 5%;
     background: #FFCC00 !important;
     border-radius: 20px !important;
+    border-color: #FFCC00 !important;
+    font-family: Antipasto Pro;
+    padding-right: 2px;
+    font-style: normal;
+    font-weight: bold !important;
+    font-size: 76% !important;
+    line-height: 18px !important;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000 !important;
+    letter-spacing: 0.1em;
+}
+
+.fleche-inscris-mtnant{
+    margin-left: 17px;
 }
 
 
-/******** choise *******/
-
-
-/*les choix de formation*/
-
-
-/*One 1*/
-.S-part-four, .S-part-four1{
-    width: 97%;
-  
-    margin-left: 1% !important;
-    margin-right: 2% !important;
-   }
-
-/* Rectangle */
-
-.rec-list-service {
-    position: relative;
+.rectangle-18{    
+    width: 329px;
+    height: 307px;
     background: #F7F7F9;
     border-radius: 20px;
-    width: 23%;
-    height: 253.9px;
+    margin-top: 20px;
 }
 
-.icon-grp-service {
+.soft-skills{
+    width: 79%;
+    padding-top: 6%;
+    height: 87px;
+    align-content: center;
+    font-family: 'Inter', 'sans-serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2em;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.025em;
+    text-transform: uppercase;
+    color: #FB5875;
+}
+
+.apprentissage-soft-skills {
+    position: relative;
+    width: 79%;
+    /* left: 9%; */
+    font-family: 'Inter', 'sans-serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.11px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.025em;
+    color: #898989;
+}
+
+.travaill-dans-les-metiers{
+    position: relative;
+    width: 76%;
+    /* left: 9%; */
+    font-family: 'Inter', 'sans-serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.11px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.025em;
+    color: #898989;
+}
+
+.adapter{
+    position: relative;
+    width: 79%;
+    /* left: 9%; */
+    font-family: 'Inter', 'sans-serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.11px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.025em;
+    color: #898989;
+}
+
+.aujourd-hui-les-utilisateurs{
+    margin-top: -12%;
+    position: relative;
+    width: 79%;
+    /* left: 9%; */
+    font-family: 'Inter', 'sans-serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.11px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.025em;
+    color: #898989;
+}
+
+.devenir-un-bon-developpeur{
+    position: relative;
+    width: 83%;
+    /* left: 9%; */
+    font-family: 'Inter', 'sans-serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.11px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.025em;
+    color: #898989;
+}
+
+.techniques-de-base{
+    margin-top: 16%;
+    position: relative;
+    width: 79%;
+    /* left: 9%; */
+    font-family: 'Inter', 'sans-serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.11px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.025em;
+    color: #898989;
+}
+
+.bloc-rect-18{
+    margin-top: 43px;
+}
+.rectangle-18-a{
+    margin-left: 42%;
+}
+
+.rectangle-18-b{
+    
+}
+
+.rectangle-18-c{
+    
+}
+
+.rectangle-18-d{
+    margin-left: 56%;
+}
+
+.rectangle-18-e{
+    margin-left: 6%;
+}
+
+.sit-reading{
+    position: absolute;
+    width: 100%;
+    height: 425px;
+    margin-top: 7%;
+
+    margin-left: -3%;
+}
+
+.bloc-sitReading{
+    margin-left: 30%;
+}
+
+.bloc-specialisation{
+    margin-top: 15%;
+    margin-right: 7%;
+
+}
+.specialisation{
+    text-align: right;
+
+}
+
+.specialise-toi{
+    text-align: right;
+    width: 90%;
+}
+
+.apres-avoir-appris{
+    text-align: right;
+    width: 62%;
+}
+
+.rectangle-15-b {
+    width: 221px;
+    height: 39px;
+    margin-top: 4%;
+    margin-left: 6%;
+    /* margin-right: 5%; */
+    background: #FFCC00 !important;
+    border-radius: 20px !important;
+    border-color: #FFCC00 !important;
+    font-family: Antipasto Pro;
+    padding-right: 2px;
+    font-style: normal;
+    font-weight: bold !important;
+    font-size: 76% !important;
+    line-height: 18px !important;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000 !important;
+    letter-spacing: 0.1em;
+}
+
+
+/*agency*/
+
+.icon-grp-service-2 {
     width: 50%;
     text-align: center;
     left: 25%;
     
     position: relative;
-}
+    margin-top: 5%;
 
-.stroke-1 {
+    padding-bottom: 12%;
+  }
+  
+  .icon-grp-service-3 {
+    width: 50%;
+    text-align: center;
+    left: 25%;
+    
+    position: relative;
+    margin-top: 5%;
+  }
+  
+  .developpeur-front-end{
+  
+    line-height: 19px;
+  }
+  
+  .bloc-designer{
+    padding-bottom: 28px !important;
+  }
+  .stroke-1 {
     width: 16%;
     position: relative;
-}
-
-.stroke-2 {
+  }
+  
+  .stroke-2 {
     width: 5%;
     left: -3%;
     position: relative;
+  }
+  
+
+
+.bloc-data-engineer{
+    padding-bottom: 0px !important;
+}
+ /* Rectangle */
+ .rectangle{
+
+  background: #F7F7F9;
+  border-radius: 20px;
+  height: 95%;
+  margin-top: 13px;
+  width: 67%;
+  padding-bottom: 81px;
 }
 
 
-/* Service 1 1 */
+.rectangle-3-derniers{
 
-.service-1-1 {
+}
+.service-1-1a{
+    margin-left: 44% ;
+} 
+
+.icon-ruby{
+    top: 12% !important;
+  }
+
+.service-1-3a {
+  margin-left: -34px;
+}
+ /* développeur web Ruby On Rails */
+ 
+ .developpeur{
    
+  padding-top: 10.58%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 109%;
+  line-height: 146%;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FB5875;
 }
 
 
-/* développeur web Ruby On Rails */
-
-.developpeur-web-Ruby {
+.apprends-a-aller-chercher {
+  
+    margin-top: 12% !important;
+  }
+  
+  .icon-grp-service-1 {
+    width: 50%;
+    text-align: center;
+    left: 25%;
     position: relative;
-    left: 5%;
-    margin-top: 15%;
-    right: 18.89%;
-    top: 0.58%;
-    bottom: 62.28%;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: 600;
-    line-height: inherit;
-    font-size: 0.9em;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FB5875
-}
-
-
-/* Deviens un développeur Web Full Stack avec Ruby On Rails : la technologie de Airbnb, Twitter et d’autres géants de la tech. */
-
-.deviens-un-developpeur-web {
-    left: 1%;
-    margin-top: 5%;
-    position: relative;
-    width: 89%;
-    height: 100px;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 0.8em;
-    line-height: 19px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.025em;
-    color: #898989;
-}
-.deviens-un-developpeur-web1 {
-    left: 1%;
-    margin-top: 15%;
-    position: relative;
-    width: 89%;
-    height: 100px;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 0.8em;
-    line-height: 19px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.025em;
-    color: #898989;
-}
-
-
-/*One 1*/
-
-
-/* two 2*/
-
-
-/* Service 1 2 */
-
-.service-1-2 {
-    
-}
-
-
-/* two 2*/
-
-
-/*three*/
-
-
-/* Service 1 3 */
-
-.service-1-3 {
-   
-}
-
-
-/* Service 1 */
-
-.service-1 {
-    
-   
-}
-
-
-/* data engineer */
-
-.data-engineer {
-    position: absolute;
-    left: 29%;
-    top: 0.58%;
-    right: 18.89%;
-    bottom: 62.28%;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 0.9em;
-    line-height: 27px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FB5875;
-}
-
-
-/* Service 1 */
-
-.service-2 {
-    
-}
-
-
-/* DEVELOPPEUR FRONT END - DESIGNER UX/UI */
-
-.developpeur-front-end {
-    position: relative;
-    left: 9%;
-    top: 1%;
-    margin-top: 15%;
-    bottom: 62.28%;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 0.9em;
-    line-height: 27px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FB5875;
-}
-
-
-/* Service 1 */
-
-.service-3 {
+    top: -15%;
+  }
+  
+  .developpeur-front-end{
+    line-height: 18px;
   }
 
 
-/*three*/
-
-
-/* spécialisation */
-
-.specialisation {
-    position: relative;
-    width: 100%;
-    height: 36px;
-    font-family: 'Inter', 'sans-serif';
+ .deviens-un-developpeur-web{
+ 
+    font-family: Inter;
     font-style: normal;
-    font-weight: 600;
-    font-size: 1em;
-    line-height: 29px;
+    font-weight: normal;
+    font-size: 13.8px;
+    line-height: 138%;
+    display: flex;
+    align-items: center;
+    text-align: center;
     letter-spacing: -0.025em;
-    text-transform: uppercase;
-    color: #FB5875;
-}
-
-
-/* Beaucoup de pratiques, un peu de théories. Et du fun ! */
-
-.beaucoup-de-pratiques {
-    position: relative;
-    width: 100%;
-    height: 101px;
-    
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 2em;
-    line-height: 119.52%;
-    letter-spacing: 0.01em;
-    color: #000000
-}
-
-
-/* Retrouvez l’ensemble de vos challenges, de vos projets et de vos cours sur notre plateforme pédagogique. Accèdez à nos ressources mis à jour continuellement par nos experts. Au programme : du Peer to Peer , des projets pratiques chaque jour, des challenges, un suivi humain personnalisé, du yoga, des ateliers de prise de parole en public. En bref : 20% de théorie et 80% de pratique. */
-
-.retrouvez-l-ensemble {
-    position: relative;
-    width: 100%;
-    height: 181px;
-    
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 0.78em;
-    line-height: 156.02%;
-    color: #000000;
-}
-
-
-/* Component 6 */
-
-.component-6 {
-    position: relative;
-    width: 56%;
-    height: 62px;
-    
-    left: 9%;
-}
-
-
-/* Rectangle 15 */
-
-.rectangle-15a {
-    
-    position: relative;
-    width: 80%;
-    height: 48px;
-    background: #FFCC00 !important;
-    border-radius: 20px !important;
-}
-
-
-/* je m’inscris maintenant */
-
-.je-m-inscris-maintenant {
-    position: absolute;
-    left: 10%;
-    right: 13.47%;
-    top: 11.72%;
-    bottom: -1.72%;
-    font-family: Lato;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 0.7em;
-    line-height: 15px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    text-transform: uppercase;
-    color: #000000;
-}
-
-.fleche-inscris {
-    left: 43%;
-    color: #000000;
-    position: relative;
-    font-size: 15px;
-    top: 17.5%;
-}
-
-.speci-groupe2 {
-    left: 6%;
-    height: 400px;
-}
-
-
-/*les choix de formation*/
-
-.S-part-five {
-    position: relative;
-    width: 100%;
-    background: url("../image/Forme 4 (1).png");
-    background-repeat: no-repeat;
-    background-size: 23%;
-    background-position: left;
-}
-
-
-/* Forme 4 */
-
-.img-grp1 {
-    position: relative;
-    left: 5% !important;
-}
-
-
-
-
-/* react group 271 */
-
-.react-group-271 {
-   position: relative;
-    /* right: 53.49%; */
-    float: right !important;
-    width: 68%;
-
-}
-
-
-/* spécialisation */
-
-.speci-grp3 {
-    position: relative;
-     margin-left: 0% !important;
-}
-
-.specialisation1 {
-   
-    /* top: 5647px; */
-    position: relative;
-    float: right;
-    height: 36px;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1em;
-    line-height: 29px;
-    text-align: right;
-    letter-spacing: -0.025em;
-    text-transform: uppercase;
-    color: #FB5875;
-}
-
-
-/* Atteins l’Excellence dans ton domaine ! */
-
-.atteins-l-excellence {
-   position: relative;
-    width: 100%;
-    float: right;
-    /* left: 763px; */
-    top: 6%;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 2em;
-    line-height: 119.52%;
-    text-align: right;
-    letter-spacing: 0.01em;
-
-}
-
-
-/* Notre objectif est de te transmettre la culture de l’excellence. L’objectif de nos parcours est de t’apprendre à maitriser : les hard skills, les compétences de project Management (agilité), les soft skills, la langue française, et la notion d’engagement. Pour mettre plus de fun dans ce parcours, nous avons gamifié le parcours. Chaque semaine est une ‘quête’ qui est composé d’un certain nombre de ‘missions’. Une mission constitue un ensemble de points qui eux même représente des compétences. Tu vas donc devoir accomplir des missions chaque semaine pour valider des compétences. */
-
-.notre-objectif {
-   
-    position: relative;
-    /* left: 968px; */
-   width: 100%;
-   margin-top: 4%;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 0.76em;
-    line-height: 156.02%;
-    text-align: right !important;
-     margin-left: 2% !important;
-}
-
-
-/* Component 7 */
-
-.component-7 {
-    position: relative;
-   float: right;
-    width: 30%;
-    height: 58px;
-    
-}
-
-.rectangle-15b {
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-    background: #FFCC00 !important;
-    border-radius: 20px !important;
-}
-
-.skills-groupe {
-    width: 100%;
-    top: 4%;
-}
-
-
-/* Rectangle 15 */
-
-
-/*skills-groupe*/
-
-
-/* Rectangle 161 */
-
-.rectangle-161 {
-    position: relative;
-    width: 100% !important;
-    height: 118px !important;
-    
-    
-   
-    /* top: 6271px; */
-    background: #FB5875 !important;
-    background-size: 100% 100% !important;
-    border-radius: 100px !important;
-}
-
-
-/* hard skills */
-
-.hard-skills {
-    position: relative;
-    width: 100%;
-    height: 28px;
-    float: center;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1em;
-    line-height: 50.02%;
-    /* display: flex; */
-    align-items: center;
-    text-align: center !important;
-    letter-spacing: 0.005em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
-
-
-/* Ton code devra être fonctionnel, claire, performant, bien écris, solide, lisible. Tu seras évalué sur 5 niveaux différents : mauvais, pauvre, juste, bon et excellent. */
-
-.code-fonctionnel {
-   
-   
-    width: 100%;
-   
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 0.8em;
-    line-height: 150.02%;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.005em;
-    color: #000000;
-}
-
-
-/* Rectangle 162 */
-
-.rectangle-162 {
-     position: relative;
-    width: 100% !important;
-    
-    
-    
-   
-    /* top: 6271px; */
-    background: #FB5875 !important;
-    border-radius: 100px !important;
-    
-    height: 57px;
-   
-    /* top: 6271px; */
-    background: #FB5875;
-    border-radius: 100px;
-
-
-}
-
-
-/* agile pm */
-
-.agile-pm {
-        position: relative;
-    width: 100%;
-    height: 28px;
-    float: center;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1em;
-    line-height: 50.02%;
-    /* display: flex; */
-    align-items: center;
-    text-align: center !important;
-    letter-spacing: 0.005em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    
-   
-}
-
-
-/* On attendra de toi d’être ouvert, respectueux, courageux, rigoureux et concentré. Tu seras évalué sur 5 niveaux différents : mauvais, pauvre, juste, bon et excellent. */
-
-.attendra-de-toi {
-    
-    width: 100%;
-   
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 0.8em;
-    line-height: 150.02%;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.005em;
-    color: #000000;
-}
-
-
-/* Rectangle 163 */
-
-.rectangle-163 {
-   
-  position: relative;
-    width: 100% !important;
-    height: 56px;
-    
-    /* top: 6268px; */
-    background: #FB5875;
-    border-radius: 100px;
-}
-
-
-/* soft skills */
-
-.soft-skills {
-   
-   position: relative;
-    width: 100%;
-    height: 28px;
-    float: center;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1em;
-    line-height: 150.02%;
-   
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.005em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
-
-
-/* On attendra de toi d’être assidue, professionnel, de travailler en équipe, de communiquer et d’être organisé. Tu seras évalué sur 5 niveaux différents : mauvais, pauvre, juste, bon et excellent. */
-
-.attendra-de-toi-1 {
-    width: 100%;
-   
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 0.8em;
-    line-height: 150.02%;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.005em;
-    color: #000000;
-}
-
-
-/* Rectangle 164 */
-
-.rectangle-164 {
-    
-   position: relative;
-    width: 100% !important;
-    height: 57px;
+    color: #898989;
   
-    /* top: 6271px; */
-    background: #FB5875;
-    border-radius: 100px;
-}
+    margin-top: 14%;
+  
+  }
+  
+  .deviens-un-expert-du-Front{
+    margin-top: 12%;
+    width: 81%;
+  }
 
-
-/* langue */
-
-.langue {
-    position: relative;
-    width: 100%;
-    height: 28px;
-    float: center;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1em;
-    line-height: 150.02%;
-    
-    align-items: center;
+  .icon-grp-service {
+    width: 50%;
     text-align: center;
-    letter-spacing: 0.005em;
-    text-transform: uppercase;
-    color: #FFFFFF;
+    left: 25%;
+    position: relative;
+    top: 6%
+}
+
+.bloc-rectangle{
+    margin-top: 5%;
+}
+
+.icon-data-eng {
+    margin-top: 92px;
+}
+
+.retrouvez-challenges {
+    width: 35%;
+    /* height: 231px; */
+    margin-left: 6%;
+    margin-top: 19px;
 }
 
 
-/* On attendra de toi d’avoir un bon vocabulaire, parler assez fort, avoir confiance dans ce que tu dis, prononcer correctement et imbattable sur la grammaire et l’orthographe. Tu seras évalué sur 5 niveaux différents : Les bases, travail limité, efficient, professionnel et native bilingue. */
 
-.attendra-de-toi-2 {
-    
-   width: 100%;
-    font-family: 'Inter', 'sans-serif';
+.rectangle-15-b{
+    width: 221px;
+    height: 39px;
+    margin-top: 4%;
+    margin-left: 15%;
+    margin-right: 5%;
+    background: #FFCC00 !important;
+    border-radius: 20px !important;
+    border-color: #FFCC00 !important;
+    font-family: Antipasto Pro;
+    padding-right: 2px;
     font-style: normal;
-    font-weight: normal;
-    font-size: 0.8em;
-    line-height: 135.52%;
+    font-weight: bold !important;
+    font-size: 76% !important;
+    line-height: 18px !important;
     display: flex;
     align-items: center;
     text-align: center;
-    letter-spacing: 0.005em;
-    color: #000000;
-}
-
-
-/* Rectangle 165 */
-
-.rectangle-165 {
-    position: relative;
-    width: 100% !important;
-    height: 57px;
-    /* top: 6271px; */
-    background: #FB5875;
-    border-radius: 100px;
-}
-
-
-/* engagement */
-
-.engagement {
-   position: relative;
-    width: 100%;
-    height: 28px;
-    float: center;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1em;
-    line-height: 150.02%;
-    
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.005em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #000000 !important;
+    letter-spacing: 0.1em;
 }
 
-
-/* On attendra de toi d’être impliqué, volontaire, concerné, confiant en toi et être proactive. Tu seras évalué sur 5 niveaux différents : Novice, débutant, intermédiaire, avancé et expert. */
-
-.attendra-de-toi-3 {
-    width: 100%;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 0.8em;
-    line-height: 150%;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.005em;
-    color: #000000;
-}
-
-
-/*skills-groupe*/
-
-.typejournee {
+.forme-4-a{
+    width: 53%;
     position: absolute;
-    width: 77%;
-    height: 36px;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1em;
-    line-height: 29px;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
-    color: #FB5875;
-}
-
-.choisisleparcours {
+    margin-top: 13%;
+    margin-left: -5%;
+    /* width: 61%;
     position: absolute;
-    width: 107%;
-    height: 123px;
-    top: 24%;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 2em;
-    line-height: 39px;
-    letter-spacing: 0.01em;
-    color: #000000;
+    margin-top: 13%;
+    margin-left: -5%; */
 }
 
-.day-type {
-    height: 167px;
-    left: 6%;
-}
-
-.trace-one {
+.group-48{
     position: absolute;
-    width: 97%;
-    height: 169px;
-    left: -2.68px;
-    top: 11%;
-    background: #FFCC00;
-    border-radius: 20px;
-}
-
-.trace-bottom {
-    height: 600px;
-}
-
-.ellipse7-2 {
+    width: 68%;
+    margin-left: 29%;
+    margin-top: 14%;/* 
     position: absolute;
-    width: 152px;
-    height: 152px;
-    left: 65%;
-    top: -4%;
+    width: 81%;
+    margin-left: 31%;
+    margin-top: 10%; */
 }
 
 
-/*shift du jour groupe*/
-/* 
-.shift-jour {
-    position: relative;
-    width: 100%;
-    height: 186px;
-    left: -3%;
-    top: -5%;
-    /* transform: skew(-10deg); * /
-    /* -ms-transform: skew(-10deg); * /
-    background: #E9EAEF;
-    box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.15);
-    border-radius: 20px;
-} */
+.bloc-specialisation-1{
 
-.back-jour {
-    position: absolute;
-    width: 18%;
-    height: 185px;
-    left: 4%;
-    top: -1%;
-    transform: skew(-12deg);
-    -ms-transform: skew(-10deg);
-    background: #FB5875;
-    box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.15);
-    border-radius: 20px;
+    margin-top: 7%;
+    margin-right: 7%;
+
 }
 
-.txt-J-S {
-    position: absolute;
-    width: 100%;
-    height: 137px;
-    left: -1%;
-    /* top: 7092px; */
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 2em;
-    line-height: 44px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.01em;
-    text-transform: uppercase;
-    color: #323232;
+.atteins-excellence{
+
+    text-align: right;
+    width: 92%;
 }
 
-.txt-bottom-J-S {
-    /* #shift à dominante jour - 9 semaines */
-    position: absolute;
+.notre-objectif{
+    text-align: right;
     width: 82%;
-    height: 30px;
-    left: 11%;
-    top: 79%;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 0.41em;
-    line-height: 12px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.01em;
-    text-transform: uppercase;
-    color: #000000;
 }
 
-.back-one-jour {
-    position: absolute;
-    width: 13%;
-    height: 181px;
-    left: 24%;
-    top: -1%;
-    transform: skew(-12deg);
+.rectangle-soft{
+    width: 147px;
+    height: 35px;
+
     background: #FB5875;
-    box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.15);
-    border-radius: 20px;
-}
-
-.on-jour {
-    position: relative;
-    width: 100%;
-    height: 182px;
-    left: -4%;
-    top: -4%;
-    background: #E9EAEF;
-    box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.15);
-    border-radius: 20px;
-}
-
-.jour-hours {
-    /* 7h30 --> 8h */
-    position: absolute;
-    width: 78%;
-    height: 24px;
-    left: 21%;
-    top: 20%;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 1em;
-    line-height: 24px;
-    letter-spacing: 0.01em;
-    color: #000000;
-}
-
-.one-bottom {
-    /* Morning routine : thé, journaux, veille tech ... */
-    position: absolute;
-    width: 89%;
-    height: 79px;
-    top: 44%;
-    left: 7%;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 0.9em;
-    line-height: 24px;
-    text-align: center;
-    letter-spacing: 0.01em;
-    color: #000000;
-}
-
-.back-two-jour {
-    position: absolute;
-    width: 13%;
-    height: 181px;
-    left: 39%;
-    top: -1%;
-    transform: skew(-12deg);
-    background: #FB5875;
-    box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.15);
-    border-radius: 20px;
-}
-
-.back-three-jour {
-    position: absolute;
-    width: 13%;
-    height: 181px;
-    left: 54%;
-    top: -1%;
-    transform: skew(-12deg);
-    background: #FB5875;
-    box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.15);
-    border-radius: 20px;
-}
-
-.back-four-jour {
-    position: absolute;
-    width: 13%;
-    height: 181px;
-    left: 69%;
-    top: -1%;
-    transform: skew(-12deg);
-    background: #FB5875;
-    box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.15);
-    border-radius: 20px;
-}
-
-.four-bottom {
-    /* Morning routine : thé, journaux, veille tech ... */
-    position: absolute;
-    width: 89%;
-    height: 79px;
-    top: 36%;
-    left: 7%;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 0.9em;
-    line-height: 24px;
-    text-align: center;
-    letter-spacing: 0.01em;
-    color: #000000;
-}
-
-.back-five-jour {
-    position: absolute;
-    width: 13%;
-    height: 181px;
-    left: 84%;
-    top: -1%;
-    transform: skew(-12deg);
-    background: #FB5875;
-    box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.15);
-    border-radius: 20px;
-}
-
-.five-one-hours {
-    position: absolute;
-    width: 78%;
-    height: 24px;
-    left: 21%;
-    top: 12%;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 1em;
-    line-height: 24px;
-    letter-spacing: 0.01em;
-    color: #000000;
-}
-
-.five-one-txt {
-    position: absolute;
-    width: 89%;
-    height: 79px;
-    top: 28%;
-    left: 7%;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 0.9em;
-    line-height: 24px;
-    text-align: center;
-    letter-spacing: 0.01em;
-    color: #000000;
-}
-
-.five-two-hours {
-    position: absolute;
-    width: 78%;
-    height: 24px;
-    left: 21%;
-    top: 42%;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 1em;
-    line-height: 24px;
-    letter-spacing: 0.01em;
-    color: #000000;
-}
-
-.five-two-txt {
-    position: absolute;
-    width: 89%;
-    height: 79px;
-    top: 58%;
-    left: 7%;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 0.9em;
-    line-height: 24px;
-    text-align: center;
-    letter-spacing: 0.01em;
-    color: #000000;
+    border-radius: 100px;
 }
 
 
-/*shift du jour groupe*/
-
-
-/*shift night*/
-
-.trace-two {
-    position: absolute;
-    width: 97%;
-    height: 169px;
-    left: -2.68px;
-    top: 63%;
-    background: #141138;
-    border-radius: 20px;
-}
-
-.back-night {
-    position: absolute;
-    width: 18%;
-    height: 185px;
-    left: 4%;
-    top: -1%;
-    transform: skew(-12deg);
-    -ms-transform: skew(-10deg);
-    background: #FFCC00;
-    box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.15);
-    border-radius: 20px;
-}
-
-.back-night-one {
-    position: absolute;
-    width: 13%;
-    height: 181px;
-    left: 26%;
-    top: -1%;
-    transform: skew(-12deg);
-    background: #FFCC00;
-    box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.15);
-    border-radius: 20px;
-}
-
-.night-hours {
-    position: absolute;
-    width: 84%;
-    height: 24px;
-    left: 9%;
-    top: 20%;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 1em;
-    line-height: 24px;
-    letter-spacing: 0.01em;
-    color: #000000;
-}
-
-.two-bottom {
-    position: absolute;
-    width: 89%;
-    height: 79px;
-    top: 61%;
-    left: 7%;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 0.9em;
-    line-height: 24px;
-    text-align: center;
-    letter-spacing: 0.01em;
-    color: #000000;
-}
-
-.back-night-two {
-    position: absolute;
-    width: 13%;
-    height: 181px;
-    left: 42%;
-    top: -1%;
-    transform: skew(-12deg);
-    background: #FFCC00;
-    box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.15);
-    border-radius: 20px;
-}
-
-.back-night-three {
-    position: absolute;
-    width: 13%;
-    height: 181px;
-    left: 58%;
-    top: -1%;
-    transform: skew(-12deg);
-    background: #FFCC00;
-    box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.15);
-    border-radius: 20px;
-}
-
-.back-night-four {
-    position: absolute;
-    width: 13%;
-    height: 181px;
-    left: 74%;
-    top: -1%;
-    transform: skew(-12deg);
-    background: #FFCC00;
-    box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.15);
-    border-radius: 20px;
-}
-
-.night-hours-last {
-    position: absolute;
-    width: 84%;
-    height: 24px;
-    left: 21%;
-    top: 20%;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 1em;
-    line-height: 24px;
-    letter-spacing: 0.01em;
-    color: #000000;
-}
-
-.cercle-last-trace {
-    position: absolute;
-    width: 6.5%;
-    height: 45%;
-    left: 90%;
-    top: 27%;
-    border-radius: 50%;
-    /* border-color: #FFCC00; */
-    background: #FFCC00;
-    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.25);
-}
-
-.cercle-in-cercle {
-    position: absolute;
-    width: 77.5%;
-    height: 78%;
-    left: 11%;
-    top: 11%;
-    border-radius: 50%;
-    background: #E9EAEF;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25), inset 0px 0px 4px rgba(0, 0, 0, 0.35);
-}
-
-
-/*****************************
-******************School css****
-************************************/
-
-.seven-one {
-    height: 600px;
-}
-
-.jump2 {
-    height: 400px;
-}
-
-.jump-img {
-    width: 100%;
-    top: -45%;
-    position: absolute;
-    z-index: 3;
-}
-
-
-/********************
-***********************************
-**********************************************
-*******************************************************/
-
-
-
-.sous-titre-9-rose{
-
+.hard-skills-1 {
+    /* padding-left: 17%; */
+    display: inline-grid !important;
+    height: 47px;
+    width: 146px;
     font-family: Inter;
     font-style: normal;
     font-weight: 600;
-    font-size: 16.56px;
-    line-height: 29px;
-    letter-spacing: -0.025em;
+    font-size: 16px;
+    line-height: 150.02%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.005em;
     text-transform: uppercase;
-    color: #FB5875;
-  }
+    color: #FFFFFF;
+    background: #FB5875;
+    border-radius: 100px;
+}
+
+.code-fonctionnel{
+    align-items: center;
+    text-align: center;
+    width: 90%;
+}
+
+.bloc-hard-skills{
+    margin-top: 7%;
+}
+
+.ton-code-fonctionnel{
+    margin-top: 36%;
+}
+
+.attendra-de-toi{
+    margin-top: 26%;
+    width: 72%;
+}
+
+.attendra-de-toi-assidue{
+    margin-top: 19%;
+    width: 74%;
+}
+
+.bon-vocabulaire{
+    margin-top: 6%;
+    width: 80%;
+}
+
+.attendra-implique{
+    margin-top: 24%;
+    width: 80%;
+}
+
+
+
+
+
 
 .la-journee-type {
     margin-left: 4%;
@@ -2361,7 +914,7 @@ li{
 .ellipse-7a{
     margin-top: 0%;
     margin-left: 63.5%;
-    /* position: absolute; */
+    position: absolute; 
     width: 7%;
 }
 .bloc-shift-jour{
@@ -2404,7 +957,7 @@ li{
     box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.15);
     border-radius: 20px;
     transform: skewX(-10deg);
-    box-shadow: 6px 6px 0px #FB5875;
+    box-shadow: 11px 11px 0px #FB5875;
     margin-left: 19px;
 }
 
@@ -2571,7 +1124,7 @@ li{
 
 /* Rectangle 154 */
 .rectangle-154-1{
-    box-shadow: 6px 6px 0px #FFCC00;
+    box-shadow: 11px 11px 0px #FFCC00;
 }
 
 .rectangle-154-1-a {
@@ -2649,15 +1202,111 @@ li{
 
 
 .groupe-266{
-    margin-top: 502px;
-    width: 123%;
+    margin-top: 330px;
+    width: 140%;
+    /* width: 559px; */
 }
 
 footer{
-
-    margin-top: -8.2%;
+    margin-top: -8.5%;
 }
 
+
+.btn-school {
+    width: 209px;
+    height: 84px;
+    left: 614.1px;
+    margin-top: 31.64px;
+    background-color: #FFCC00 !important;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 20px !important;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold !important;
+    font-size: 30px !important;
+    line-height: 24px !important;
+    display: inline-grid !important;
+    align-items: center;
+    text-align: center !important;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+    color: #575F6B !important;
+}
+
+
+@media (max-width: 1608px) {
+    .bloc-specialisation {
+        margin-top: 20%;
+    }
+}
+
+@media (max-width: 1500px) {
+    
+    .rectangle-18-a{
+        margin-left: 17%;
+    }
+
+    .rectangle-18-d{
+        margin-left: 43%;
+    }
+
+    .rectangle-18-e{
+        margin-left: 0%;
+    }
+}
+
+@media (max-width: 1454px) {
+    .rectangle-15 {
+        margin-top: 36%;
+    }
+    .btn-school{
+        width: 136.06px;
+        height: 58.3px;
+        margin-top: 36px;
+        font-size: 21px !important;
+    }
+  }
+  
+  
+@media (max-width: 1412px) {
+    .icon-data-eng {
+        margin-top: 63px;
+    }
+}
+
+@media (max-width: 1674px){
+    .formons-des-heros {
+      font-size: 90px;
+    }
+    .des-heros {
+      font-size: 124px;
+
+    margin-top: -3%;
+    }
+  
+  }
+@media  (min-width: 882px) and (max-width: 1119px){
+
+    .groupe-266 {
+        margin-top: 385px;
+    }
+}
+
+@media screen and (max-width: 795px){
+
+    .rectangle-18-d {
+        margin-left: 4% !important;
+    }
+    
+}
+
+
+@media screen and (max-width: 768px){
+    .bloc-specialisation {
+        margin-top: 468px;
+    }
+    
+}
 
 @media (max-width: 1168px )  and (min-width: 765px){
     
@@ -2666,12 +1315,6 @@ footer{
     }
 }
 
-@media (max-width: 1082px){
-footer {
- 
-}
-
-}
 @media (max-width: 1698px) {
     .shift-jour{    
         padding-top: 13%;
@@ -2716,6 +1359,36 @@ footer {
     }
 }
 
+@media (max-width: 773px){
+    .rectangle-28a {
+        width: 82%;
+    }
+
+    .etape-rose {
+        font-size: 10px;
+    }
+
+    .group-8 {
+        width: 202px;
+    }
+    .group-10 {
+        width: 259px;
+    }
+    .group-6 {
+        width: 259px;
+    }
+    .choisis-parcours {
+        width: 42%;
+    }
+    .je-passe-mon-test {
+        width: 39%;
+    }
+    
+    .lettre-noir {
+        font-size: 30px;
+    }
+}
+
 @media (max-width: 577px) {
     .rectangle-154-min {
         margin-left: auto; 
@@ -2727,6 +1400,7 @@ footer {
 @media (max-width: 765px) {
     .groupe-266 {
         width: 100%;
+        margin-top: -27px;
     }
 }
 
@@ -2752,8 +1426,428 @@ footer {
 
 @media (max-width: 881px) and (min-width:768px){
 .groupe-266 {
-    margin-top: 361px;
+    margin-top: 389px;
     width: 140%;
 }
 }
 
+@media (max-width: 767px) and (min-width: 753px){ 
+    .groupe-266 {
+        margin-top: 423px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px){ 
+    .bloc-specialisation-1{
+        margin-top: 100%;
+    }
+ 
+}
+
+@media (max-width: 985px) and (min-width: 576px){ 
+.icon-grp-service-1 {
+    top: -21%;
+}
+}
+@media (max-width: 1259px){
+
+    .rectangle{ 
+     width: 270px;
+    }
+   }
+
+@media(max-width: 1103px){
+
+  .plusieurs-financements {
+    width: 67%;
+  }
+}
+
+@media (max-width: 925px){ 
+.plusieurs-financements {
+    width: 92%;
+}
+}
+@media (max-width: 497px){
+
+    .plusieurs-financements {
+        width: 100%;
+    }
+}
+   @media(max-width: 1137px) and (min-width:1103px){
+    .service-1-1a {
+      margin-left: 29%;
+  }
+  }
+  
+  @media(max-width: 1102px) and (min-width:576px){
+    .service-1-1a {
+      margin-left: 24%;
+  }
+  }
+  
+  /* @media(max-width: 992px) and (min-width:576px){
+    .service-1-3a,  .bloc-developpeur-front{
+      margin-left: 192px;
+    }
+  } */
+  
+  @media(max-width: 991px) and (min-width:57px){
+    .service {
+      margin-left: auto;
+      margin-right: auto;
+  }
+  }
+
+/* 
+  .group-10 {
+    width: 303px;
+
+    .group-7 {
+        width: 261px */
+
+
+  @media (max-width: 1338px){
+
+    .apprends-a-aller-chercher {
+        margin-top: 22% !important;
+    }
+  }
+
+
+   /****/
+@media screen and (max-width: 1199px){
+    .rectangle-18-e, .rectangle-18-a, .rectangle-18-c  {
+        margin-left: 33%;
+    }
+    .rectangle-18-d {
+        margin-left: 13%;
+    }
+}
+
+
+@media screen and (max-width: 897px){
+    .rectangle-18-e, .rectangle-18-a, .rectangle-18-c {
+        margin-left: 3%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .rectangle-18-e, .rectangle-18-a, .rectangle-18-c, .rectangle-18-b, .rectangle-18-d {
+        margin-left: auto !important;
+        margin-right: auto;
+    }
+}
+
+
+
+@media (max-width: 992px){
+    .group-5 {
+        position: relative; 
+    }
+    .group-7 {
+       margin-left: 0%;
+    }
+
+
+    .group-8 {
+        position: relative; 
+    }
+    .group-10, .group-6 {
+
+        margin-left: -3%
+        /* margin-left: 0%; -3%*/
+    }
+}
+
+
+
+@media (min-width: 576px) and (max-width: 992px){
+
+    .dropdown {
+        margin-top: -55% !important;
+        margin-right: 1% !important;
+        /* margin-top: -47% !important; */
+    }
+    .rectangle-28d{
+
+        margin-top: 165px;
+        width: 100%;
+        margin-left: -11px;
+    }
+    .group-8 {
+        margin-top: 52px;
+        margin-left: 16%;
+    }
+    .rectangle-28e-f {
+        margin-top: 157px;
+    }
+
+    .group-9-10{
+        margin-top: 44px;
+    }
+
+    .rectangle-28f {
+        width: 98%;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .groupe-294 {
+        margin-top: 19%;
+    }
+}
+
+
+
+
+@media screen and (max-width: 575px){
+    .dropdown {
+        margin-top: -95% !important;
+    }
+    .rectangle-28c {
+        margin-top: 340px;
+    }
+    .group-8 {
+        width: 243px;
+        position: absolute;
+        margin-left: 13%;
+        margin-top: 384px;
+    }
+
+    .group-7 {
+        margin-left: 0%;
+        margin-top: 204px;
+    }
+
+    .rectangle-28d {
+        margin-top: 521px;
+    }
+    .group-9 {
+        margin-top: 565px;
+    }
+
+    .rectangle-28e {
+        margin-top: 702px;
+    }
+
+    .group-10 {
+        margin-top: 750px;
+    }
+
+    .rectangle-28f {
+        margin-top: 887px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 537px){
+
+
+    .group-6 {
+        position: relative; 
+    }
+
+    .group-9 {
+        position: relative; 
+    }
+    .rectangle-28a {
+        width: 82%;
+    }
+    .group-7 {
+        margin-top: 48px;
+    }
+    .rectangle-28c {
+        margin-top: 161px;
+    }
+    .group-8 {
+        margin-top: 225px;
+    }
+
+    .rectangle-28d {
+        margin-top: 338px;
+    }
+
+    .group-9 {
+        margin-top: 400px;
+    }
+
+    .rectangle-28e {
+        margin-top: 513px;
+    }
+
+
+    .group-10 {
+        margin-top: 45px;
+    }
+
+    .rectangle-28f {
+        margin-top: 158px;
+        width: 88%;
+    }
+    
+}
+
+@media (max-width: 1120px){
+
+    .rectangle-15 {
+        margin-top: 44%;
+    }
+}
+
+
+@media (max-width: 989px){
+    .rectangle-15 {
+        margin-top: 193px;
+    }
+}
+
+@media (max-width: 575px) and (min-width: 538px){
+    .rectangle-15 {
+        margin-top: 166%;
+    }
+} 
+
+
+@media (min-width: 1260px) and (max-width: 1454px){
+    .integre-la-meilleure {
+        margin-top: 25%;
+    }
+}
+
+@media (min-width: 1120px) and (max-width: 1259px){
+    .formons-des-heros {
+        font-size:  78px;
+    }
+    .des-heros {
+        font-size: 107px;
+        margin-top: -6%;    
+    }
+    .integre-la-meilleure {
+        margin-top: 25%;
+    }
+}
+
+@media (min-width: 853px) and (max-width: 1119px){
+    .integre-la-meilleure {
+        margin-top: 25%;
+    }
+
+    .formons-des-heros {
+        font-size: 57px;
+    }
+    .des-heros {
+        font-size: 80px;
+        margin-top: -10%;
+    }
+    .girl-fly {
+        /* margin-top: -23%; */
+    }
+}
+
+
+@media (min-width: 623px) and (max-width: 852px){
+    .integre-la-meilleure {
+        margin-top: 30%;
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 545px) and (max-width: 622px){
+    .integre-la-meilleure {
+        /* margin-top: 38%;
+        font-size: 25px; */
+
+        margin-top: 38%;
+        font-size: 23px;
+    }
+}
+
+@media (min-width: 423px) and (max-width: 544px){
+    .integre-la-meilleure {
+        /* margin-top: 38%;
+        font-size: 25px; */
+        margin-top: 46%;
+        font-size: 23px;
+    }
+}
+
+
+@media (min-width: 435px) and (max-width: 867px) {
+    .apprends-les-fondamentaux {
+        width: 68%;
+    }
+    .les-structures-de-nos-cours, .retrouvez-challenges {
+        width: 55%;
+    }
+}
+
+
+@media (max-width: 435px){
+    .apprends-les-fondamentaux, .les-structures-de-nos-cours, .retrouvez-challenges {
+        width: 100%;
+    }
+
+
+}
+@media (min-width: 423px) and (max-width: 852px){
+    .formons-des-heros {
+        font-size: 49px;
+    }
+    .des-heros {
+        font-size: 70px;
+        margin-top: -14%;
+    }
+}
+
+@media (max-width: 422px) {
+    .integre-la-meilleure {
+        margin-top: 49%;
+        font-size: 17px;
+    }
+    .formons-des-heros {
+        font-size: 37px;
+    }
+    .des-heros {
+        font-size: 52px;
+        margin-top: -20%;
+    }
+
+    .girl-fly {
+        margin-top: -55%;
+    }
+}
+
+
+@media (max-width: 323px) {
+
+    .des-heros {
+        font-size: 38px;
+        margin-top: -20%;
+    }
+    .formons-des-heros {
+        font-size: 26px;
+    }
+}
+@media (min-width: 423px) and (max-width: 768px){
+  
+    .des-heros {
+        margin-top: -8%;
+    }
+
+    .girl-fly {
+        margin-top: -55%;
+    }
+}
+
+
+@media screen and (max-width: 576px){
+  
+    .girl-fly {
+        margin-top: 12px;
+    }
+}
