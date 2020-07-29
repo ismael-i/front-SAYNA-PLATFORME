@@ -384,6 +384,14 @@ position: absolute; */
     width: 100%;
     height: 146.9px;
     padding-top: 34px;
+    font-family: 'Inter', 'sans-serif';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2em;
+    line-height: 42.1px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
 }
 
 .parallax {
@@ -409,6 +417,8 @@ position: absolute; */
     position: relative;
     width: 100%;
     height: 20.7px;
+    /* left: 755px;
+top: 4578px; */
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
     font-weight: normal;
@@ -418,37 +428,10 @@ position: absolute; */
     align-items: center;
     text-align: center;
     letter-spacing: -0.025em;
+    text-transform: uppercase;
     color: #FFFFFF;
 }
 
-.txt-left-par {
-    /* Engagez-vous à rembourser votre formation après avoir trouvé un emploi. Versement de 18% de votre salaire jusqu’à remboursement de votre formation et 15% pour les frais de placement. */
-    left: 2%;
-}
-
-.txt-right-par {
-    /* Engagez-vous à rembourser votre formation après avoir trouvé un emploi. Versement de 18% de votre salaire jusqu’à remboursement de votre formation et 15% pour les frais de placement. */
-    left: 6%;
-}
-
-.paragraphe-paral{    
-    position: absolute;
-    width: 100%;
-    height: 167px;
-    top: 100.7px;
-    margin-top: 18.8px;
-    padding: 1px;
-    font-family: 'Inter', 'sans-serif';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12.8px;
-    line-height: 20.7px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.005em;
-    color: #898989;
-}
 .price-center {
     /* 3600k Ar */
     position: relative;
@@ -479,7 +462,7 @@ top: 4608px; */
     font-family: 'Inter', 'sans-serif';
     font-style: normal;
     font-weight: normal;
-    font-size: 12.8px;
+    font-size: 13.8px;
     line-height: 21.4px;
     text-align: center;
     letter-spacing: -0.02em;
@@ -488,49 +471,46 @@ top: 4608px; */
 
 .btn-center-para {
     position: relative;
-    width: 91px;
+    width: 41%;
     height: 34.5px;
     /* left: 32%; */
     top: 316px;
     background: #FB5875 !important;
     border-radius: 100px !important;
-
-
-    font-family: Antipasto Pro;
-    font-style: normal;
-    font-weight: bold !important;
-    font-size: 11px !important;
-    line-height: 17px !important;
-    text-align: center !important;
-    text-transform: uppercase;
-    color: #EBEBF1 !important;
-    letter-spacing: 0.1em;
 }
 
-.right-left-parallax{
+.label-center-para {
+    /* je m’inscris */
+    position: relative;
+    width: 82.8px;
+    height: 16.9px;
+    /* left: 906px;
+top: 5094px; */
+    top: 2.6px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11.7px;
+    line-height: 11.7px;
+    text-align: center;
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+    color: #EBEBF1;
+}
 
+.left-parallax {
     position: absolute;
-    width: 222PX;
-    height: 320.9px;
+    width: 268PX;
+    height: 371.9px;
     text-align: -webkit-center;
     left: 38%;
     background: #F7F7F9;
-
-    top: 23px;
-}
-.left-parallax {
-    left: 41%;
     border-radius: 20px 0px 0px 20px;
-}
-
-
-.right-parallax {
-    border-radius: 0px 20px 20px 0;
 }
 
 .content-left {
     position: absolute;
-    width: 204.7px;
+    width: 256.7px;
     height: 325.7px;
     /* left: 383px;
 top: 4615px; */
@@ -539,15 +519,21 @@ top: 4615px; */
 .header-left {
     /* remboursement AGENCY */
     position: relative;
-    width: 195.1px;
+    width: 240.1px;
     height: 45.5px;
     left: 16.7px;
     top: 16.7px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17.2px;
+    line-height: 140.3%;
     /* or 33px */
     /* display: flex; */
     align-items: center;
     text-align: center;
     letter-spacing: -0.035em;
+    text-transform: uppercase;
     color: #000000;
 }
 
@@ -570,27 +556,37 @@ top: 4670px; */
     color: #000000;
 }
 
+.txt-left-par {
+    /* Engagez-vous à rembourser votre formation après avoir trouvé un emploi. Versement de 18% de votre salaire jusqu’à remboursement de votre formation et 15% pour les frais de placement. */
+    position: absolute;
+    width: 100%;
+    height: 167px;
+    left: 2%;
+    top: 100.7px;
+    margin-top: 18.8px;
+    padding: 1px;
+    font-family: 'Inter', 'sans-serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13.8px;
+    line-height: 20.7px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #000000;
+}
 
 .btn-left-para {
     position: relative;
-    width: 91px;
+    width: 41%;
     height: 34.5px;
-    top: 269px;
+    /* left: 30%; */
+    top: 316px;
     z-index: 2;
-    background: #E9EAEF !important;
+    background: #E9EAEF;
     box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.1);
     border-radius: 100px !important;
-    display: inline-grid !important;
-
-    font-family: Antipasto Pro;
-    font-style: normal;
-    font-weight: normal !important;
-    font-size: 11px !important;
-    line-height: 17px !important;
-    text-align: center !important;
-    text-transform: uppercase;
-    color: #FB5875 !important;
-    letter-spacing: 0.1em;
 }
 
 .label-left-para {
@@ -612,33 +608,31 @@ top: 4670px; */
     color: #FB5875;
 }
 
+.right-parallax {
+    position: absolute;
+    width: 268px;
+    height: 374.8px;
+    text-align: -webkit-center;
+    left: 38%;
+    background: #F7F7F9;
+    border-radius: 0px 20px 20px 0;
+}
 
 .content-right {
     position: absolute;
-    width: 204.7px;
-    height: 325.7px;
+    width: 238px;
+    height: 374.7px
 }
 
 .btn-right-para {
     position: relative;
-    width: 91px;
+    width: 41%;
     height: 34.5px;
     /* left: 32%; */
-    top: 220.5px;
-    background: #E9EAEF !important;
+    top: 260.5px;
+    background: #E9EAEF;
     box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.1);
     border-radius: 100px !important;
-    display: inline-block;
-
-    font-family: Antipasto Pro;
-    font-style: normal;
-    font-weight: normal !important;
-    font-size: 11px !important;
-    line-height: 17px !important;
-    text-align: center !important;
-    text-transform: uppercase;
-    color: #FB5875 !important;
-    letter-spacing: 0.1em;
 }
 
 .label-right-para {
@@ -658,16 +652,29 @@ top: 5060px; */
     color: #FB5875;
 }
 
-.remboursement{
-    font-family: "Lato";
+.txt-right-par {
+    /* Engagez-vous à rembourser votre formation après avoir trouvé un emploi. Versement de 18% de votre salaire jusqu’à remboursement de votre formation et 15% pour les frais de placement. */
+    position: absolute;
+    width: 101%;
+    height: 167px;
+    left: 6%;
+    top: 100.7px;
+    margin-top: 18.8px;
+    padding: 1px;
+    font-family: 'Inter', 'sans-serif';
     font-style: normal;
     font-weight: normal;
-    font-size: 17.2px;
-    line-height: 130.89%;
+    font-size: 13.8px;
+    line-height: 20.7px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #000000;
 }
 /* animation styles */
 
-@media screen and (min-width:752px) {
+@media (min-width:752px) {
     .in-view-left {
         -webkit-animation: in-view-left 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
         animation: in-view-left 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -800,24 +807,15 @@ top: 5060px; */
     }
 }
 
-@media(max-width:1121px) and (min-width: 851px) {
-
-    .left-parallax {
-        left: 43%;
-    }
-}
 @media(max-width:850px) and (min-width: 752px) {
-    .paragraphe-paral {
-        width: 91%;
-    }
     .left-parallax {
-        left: 37% !important;
+        left: 36% !important;
     }
     .content-left {
         width: 229.7px !important;
     }
     .right-parallax {
-        left: 30% !important;
+        left: 27% !important;
     }
     .center-parallax {
         left: 32% !important;
