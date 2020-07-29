@@ -519,8 +519,15 @@ top: 4608px; */
     top: 23px;
 }
 .left-parallax {
-    left: 41%;
+    left: 43%;
     border-radius: 20px 0px 0px 20px;
+}
+
+.center-parallax {
+    left: 41% ;
+}
+.right-parallax {
+    left: 41%;
 }
 
 
@@ -788,16 +795,15 @@ top: 5060px; */
     }
 }
 
-@media(min-width:1300px) {
-    .center-parallax {
-        left: 41% !important;
-    }
-    .right-parallax {
-        left: 41% !important;
-    }
+@media(max-width:1548px) and (min-width: 1300px) {
     .left-parallax {
-        left: 41% !important;
+        left: 44% !important;
     }
+}
+@media(min-width:1300px) {
+    /* .left-parallax {
+        left: 41% !important;
+    } */
 }
 
 @media(max-width:1121px) and (min-width: 851px) {

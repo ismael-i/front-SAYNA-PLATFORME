@@ -1,17 +1,17 @@
 .Groupe-8 {
-  width: 29px;
-  margin-top: 6px;
+  width: 36px;
+  margin-top: 13px;
   margin-left: -1px !important;
 }
 
 
 .fleche-connexion {
-  margin-left:  12px;
+  margin-left:  11px;
 }
 .btn-connexion{
-  /* position: absolute; */
-  width: 157.32px;
-  height:  49px;
+  width: 228px;
+  height: 70px;
+
   left: 1050.87px;
   margin-top: 38.64px;
   margin-left: 15px;
@@ -20,7 +20,7 @@
   font-family: Lato;
   font-style: normal;
   font-weight: bold !important;
-  font-size: 16px !important;
+  font-size: 24px !important;
   line-height: 24px !important;
   display: inline-grid !important;
   align-items: center;
@@ -30,79 +30,87 @@
   color: #E9EAEF !important;
 /* transform: matrix(1, 0, 0, -1, 0, 0); */
 }
-.btn-school{
-width: 120.06px;
-height: 48.3px;
-left: 614.1px;
-margin-top: 38.64px;
-background-color: #F2F2F7 !important;
-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-border-radius: 20px !important;
-font-family: Lato;
-font-style: normal;
-font-weight: bold !important;
-font-size: 16px !important;
-line-height: 24px !important;
-display: inline-grid !important;
-align-items: center;
-text-align: center !important;
-letter-spacing: 0.025em;
-text-transform: uppercase;
-color: #575F6B !important;
-}
-.btn-agency{
-width: 129.06px;
-height: 54.3px;
-left: 614.1px;
-margin-top: 38.64px;
-margin-left: 15px;
-background-color: #FFCC00 !important;
-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-border-radius: 20px !important;
-font-family: Lato;
-font-style: normal;
-font-weight: bold !important;
-font-size: 19px !important;
-line-height: 24px !important;
-display: inline-grid !important;
-align-items: center;
-text-align: center;
-letter-spacing: 0.025em;
-text-transform: uppercase;
-color: #F2F2F7 !important;
-}
-.btn-factory-menu{
 
-width: 120.06px;
-height: 48.3px;
-left: 614.1px;
-margin-top: 38.64px;
-margin-left: 15px;
-background-color: #F2F2F7 !important;
-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-border-radius: 20px !important;
-font-family: Lato;
-font-style: normal;
-font-weight: bold !important;
-font-size: 16px !important;
-line-height: 24px !important;
-display: inline-grid !important;
-align-items: center;
-text-align: center;
-letter-spacing: 0.025em;
-text-transform: uppercase;
-color: #575F6B !important;
+.btn-school{
+
+  width: 174px;
+height: 70px;
+
+
+  left: 614.1px;
+  margin-top: 38.64px;
+  background-color: #F2F2F7 !important;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 20px !important;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold !important;
+  font-size: 24px !important;
+  line-height: 24px !important;
+  display: inline-grid !important;
+  align-items: center;
+  text-align: center !important;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  color: #575F6B !important;
+}
+
+.btn-agency{
+  width: 174px;
+height: 70px;
+
+  left: 614.1px;
+  margin-top: 38.64px;
+  margin-left: 15px;
+  background-color: #F2F2F7 !important;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 20px !important;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold !important;
+  font-size: 24px !important;
+  line-height: 24px !important;
+  display: inline-grid !important;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  color: #575F6B !important;
+}
+
+.btn-factory-menu{
+  width: 174px;
+  height: 70px;
+
+  left: 614.1px;
+  margin-top: 38.64px;
+  margin-left: 15px;
+  background-color: #F2F2F7 !important;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 20px !important;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold !important;
+  font-size: 24px !important;
+  line-height: 24px !important;
+  display: inline-grid !important;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  color: #575F6B !important;
 }
 
 .btn-dropdonw{
-width: 49.68px;
-height: 48.3px;
-left: 1233.72px;
-margin-top: 38.64px;
-margin-left: 15px;
-background: #F2F2F7 !important;
-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-border-radius: 20px !important;
+  width: 72px;
+height: 70px;
+
+  left: 1233.72px;
+  margin-top: 38.64px;
+  margin-left: 15px;
+  background: #F2F2F7 !important;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 20px !important;
 }
 
 
@@ -128,6 +136,50 @@ border-radius: 20px !important;
       display: none !important;
   }
 }
+
+@media (max-width: 1454px){
+
+  .Groupe-8 {
+    width: 29px;
+    margin-top: 6px;
+    margin-left: -1px !important;
+  }
+  
+
+}
+
+@media (max-width: 1454px){
+
+  .btn-connexion {
+    width: 179.32px;
+    height: 49px;
+    font-size: 19px !important;
+  }
+
+  .btn-school{
+    width: 120.06px;
+    height: 48.3px;
+    font-size: 19px !important;
+  }
+
+  .btn-agency{
+    width: 120.06px;
+    height: 48.3px;
+    font-size: 19px !important;
+  }
+
+  .btn-factory-menu{
+    width: 120.06px;
+    height: 48.3px;
+    font-size: 19px !important;
+  }
+
+  .btn-dropdonw{
+    width: 49.68px;
+    height: 48.3px;
+  }
+}
+
 
 
 @media screen and (max-width: 992px){

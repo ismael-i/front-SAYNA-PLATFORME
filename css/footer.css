@@ -143,7 +143,6 @@ hr {
     align-items: center;
     text-align: center;
     color: #FEFEFE;
-    margin-top: %;
     letter-spacing: 0.05em;
  
 }
@@ -1046,52 +1045,3 @@ color: #FB5875;
 }
 
 
-.in-view-left {
-    -webkit-animation: in-view-left 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-            animation: in-view-left 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}@-webkit-keyframes in-view-left {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  100% {
-    -webkit-transform: translateX(-129px);
-            transform: translateX(-129px);
-  }
-}
-@keyframes  in-view-left {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  100% {
-    -webkit-transform: translateX(-129px);
-            transform: translateX(-129px);
-  }
-}
-.in-view-right {
-    -webkit-animation: in-view-right 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-            animation: in-view-right 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-@-webkit-keyframes in-view-right {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  100% {
-    -webkit-transform: translateX( 129px);
-            transform: translateX( 129px);
-  }
-}
-@keyframes in-view-right {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  100% {
-    -webkit-transform: translateX( 129px);
-            transform: translateX( 129px);
-  }
-}
-
-}

@@ -167,6 +167,7 @@ li button{
   
   position: relative;
   margin-top: 5%;
+  padding-bottom: 12%;
 }
 
 .icon-grp-service-3 {
@@ -184,7 +185,7 @@ li button{
 }
 
 .bloc-designer{
-  padding-bottom: 28px !important;
+  padding-bottom: 36px !important;
 }
 .stroke-1 {
   width: 16%;
@@ -201,13 +202,6 @@ li button{
 
 .fleche-offres, .fleche-quest, .fleche-rdv {
   margin-left:  13px;
-}
-
-
-.Groupe-8{
-  width: 29px;
-  margin-top: 6px;
-  margin-left: -1px !important;
 }
 
 
@@ -485,7 +479,6 @@ width: 47%;
 
   background: #F7F7F9;
   border-radius: 20px;
-  height: 80%;
   margin-top: 13px;
   width: 67%;
   padding-bottom: 81px;
@@ -497,6 +490,18 @@ width: 47%;
 
 .service-1-3a {
   margin-left: -34px;
+}
+
+.service-1-2a, .service-1-3a{
+  height: 86% !important;
+} 
+
+.icon-ruby{
+  top: 12% !important;
+}
+
+.service-3-derniers{
+  height: 95%;
 }
  /* développeur web Ruby On Rails */
  
@@ -520,12 +525,16 @@ width: 47%;
   margin-top: 12% !important;
 }
 
+.icon-data-eng {
+  margin-top: 92px;
+}
 .icon-grp-service-1 {
   width: 50%;
   text-align: center;
   left: 25%;
   position: relative;
   top: -15%;
+  padding-bottom: 12%;
 }
 
 .developpeur-front-end{
@@ -1262,7 +1271,7 @@ letter-spacing: 0.005em;
   background-position: 97% -150px;
   margin-right: -3%;
   margin-top: 6%;
-  width: 103%;
+  width: 102%;
   padding-bottom: 81px;
 }
 
@@ -1360,6 +1369,26 @@ footer {
   margin-top: 109px;
 }
 
+.btn-agency {
+  width: 209px;
+  height: 84px;
+  left: 614.1px;
+  margin-top: 31.64px;
+  background-color: #FFCC00 !important;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 20px !important;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold !important;
+  font-size: 30px !important;
+  line-height: 24px !important;
+  display: inline-grid !important;
+  align-items: center;
+  text-align: center !important;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  color: #575F6B !important;
+}
 
 @media(max-width: 1442px) {
   
@@ -1401,6 +1430,21 @@ footer {
   
 }
 
+  
+@media (max-width: 1454px) {
+  .btn-agency{
+      width: 136.06px;
+      height: 58.3px;
+      margin-top: 36px;
+      font-size: 21px !important;
+  }
+}
+  
+@media (max-width: 1412px) {
+  .icon-data-eng {
+      margin-top: 63px;
+  }
+}
 @media(max-width: 1308px){
   
 .ul-slid-1{
@@ -1417,6 +1461,16 @@ footer {
 }
 }
 
+
+@media(max-width: 1290px){
+  
+
+  .icon-ruby {
+    top: 6%;
+  }
+
+  
+}
 
 @media(max-width: 1798px) and (min-width:1376px){
   .courbe-rdv-2 {
