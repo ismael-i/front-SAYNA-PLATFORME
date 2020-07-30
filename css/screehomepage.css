@@ -71,6 +71,7 @@
     .sourcing-placement {
         left: 0px !important;
         text-align: -webkit-center;
+        text-align: -moz-center;
     }
     .pantalon1 {
         left: 18% !important;
@@ -105,6 +106,7 @@
     }
     .group-69 {
         text-align: -webkit-center;
+        text-align: -moz-center;
     }
     .notre-communaute {
         position: relative;
@@ -139,6 +141,7 @@
     }
     .media-body {
         text-align: -webkit-center;
+        text-align: -moz-center;
         left: 0;
     }
     .media {
@@ -163,6 +166,7 @@
     .img-media {
         left: 0;
         text-align: -webkit-center;
+        text-align: -moz-center;
     }
     .Groupe-SANS-CONTENT {
         left: 0;
@@ -432,6 +436,7 @@
         width: 260px;
         height: 325px;
         text-align: -webkit-center;
+        text-align: -moz-center;
     }
     .suivie,
     .soft,

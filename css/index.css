@@ -207,6 +207,7 @@
     height: 200PX;
     top: 10%;
     text-align: -webkit-center;
+    text-align: -moz-center;
     padding-left: 0 !important;
     padding-right: 0 !important;
     /* left: 28%; */
@@ -271,7 +272,7 @@
     width: 130px !important;
     height: 33.8px;
     /* left: 271px; */
-    display: inline-table;
+    display: table-cell;
     top: 0px;
     ;
     background: url("../imageModification/logo_maltem_groupe-HD-e1473777081392\ 1.png") no-repeat;
@@ -282,7 +283,7 @@
     width: 43.9px !important;
     height: 40px;
     /* left: 410.1px; */
-    display: inline-table;
+    display: table-cell;
     top: 0px;
     background: url("../imageModification/1022px-Orange_logo\ 1\ 1.png") no-repeat;
 }
@@ -292,7 +293,7 @@
     width: 171.8px !important;
     height: 43.5px;
     /* left: 462.74px; */
-    display: inline-table;
+    display: table-cell;
     top: 0px;
     background: url("../imageModification/AccèsBanque\ Madagascar\ 1.png");
 }
@@ -302,7 +303,7 @@
     width: 94.3px !important;
     height: 42.1px;
     /* left: 643.35px; */
-    display: inline-table;
+    display: table-cell;
     top: 0px;
     background: url("../imageModification/Axian\ 1.png");
 }
@@ -312,7 +313,7 @@
     width: 303.45px !important;
     height: 35.98px;
     /* left: 751.56px; */
-    display: inline-table;
+    display: table-cell;
     top: 0px;
     background: url("../imageModification/logo-wb-header-fr-newsletter\ 1.png") no-repeat;
 }
@@ -1161,6 +1162,7 @@
     /* left: 300px; */
     /* top: 3px; */
     text-align: -webkit-center;
+    text-align: -moz-center;
     margin-top: 124px;
     position: absolute !important;
 }
@@ -1759,6 +1761,7 @@
     position: relative;
     /* left: 42%; */
     text-align: -webkit-center;
+    text-align: -moz-center;
     /* right: 47.29%; */
     /* top: -36px; */
     width: 100%;
