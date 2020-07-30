@@ -8,13 +8,12 @@
     margin-bottom: 25px;
   }
 
-.form1-school{
+  .form1-school {
     position: relative;
     width: 100%;
-    left: -16.35%;
-    margin-top: -3%;
+    left: -6.35%;
+    margin-top: -1%;
 }
-
 
 .logo1-school{
     position: absolute;
@@ -24,10 +23,6 @@
     top: 11%;
 }
 
-.menu {
-    margin-top: -24%;
-}
-
 
 
 li{
@@ -35,11 +30,10 @@ li{
   }
 
 
-.girl-fly{
-    float: right;
-    /* top: -30%;   */   
-    margin-top: -34%;   
-}
+  .girl-fly { 
+      float: right;
+    margin-top: -31%;
+  }
 
 .groupe-294 {
     position: relative;
@@ -295,7 +289,7 @@ li{
     background: #FB5875 !important;
     border-color: #FB5875 !important;
     border-radius: 20px !important;
-    margin-top: 24%;
+    margin-top: 27%;
     font-family: Antipasto Pro;
     font-style: normal;
     font-weight: bold !important;
@@ -1230,14 +1224,45 @@ footer{
     text-align: center !important;
     letter-spacing: 0.025em;
     text-transform: uppercase;
-    color: #575F6B !important;
+    color: #F2F2F7 !important;
 }
 
+
+.bloc-etap{
+    margin-left: 12% !important;
+}
+
+@media (min-width: 1264px) {
+    .rectangle-28d {
+        width: 146%;
+        height: 12px;
+        left: -45%;
+    }
+}
+
+@media (max-width: 1826px) {
+    .bloc-etap{
+        margin-left: 0% !important; 
+    }
+
+}
 
 @media (max-width: 1608px) {
     .bloc-specialisation {
         margin-top: 20%;
     }
+}
+
+
+@media (max-width: 1564px) {
+    
+    .form1-school{
+        position: relative;
+        width: 100%;
+        left: -16.35%;
+        margin-top: -3%;
+    }
+
 }
 
 @media (max-width: 1500px) {
@@ -1255,6 +1280,12 @@ footer{
     }
 }
 
+
+@media (min-width: 1262px) {
+    .icon-grp-service-3 {
+    margin-top: 10%;
+    }
+}
 @media (max-width: 1454px) {
     .rectangle-15 {
         margin-top: 36%;
@@ -1265,6 +1296,12 @@ footer{
         margin-top: 36px;
         font-size: 21px !important;
     }
+
+.girl-fly{
+   
+    /* top: -30%;   */   
+    margin-top: -34%;   
+}
   }
   
   
