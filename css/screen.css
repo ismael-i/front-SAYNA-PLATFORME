@@ -1,3 +1,92 @@
+@media screen and (max-width: 420px){
+.dropdown {
+        position: relative;
+        display: inline-block;
+        top: -15% !important;
+
+         list-style: none;
+         left: 5% !important;
+      }
+      	.fleche-boutonjaune2 {
+	position: relative;
+	left: 15% !important;
+	top: -8px;
+}
+      
+  }
+
+
+@media screen and (max-width: 992px){
+
+
+.teext-menu, .teext-factory {
+	position: relative;
+	left: 14px !important;
+	top: 5px !important;
+}
+	.Groupe-8 {
+  width: 29px;
+  margin-top: 6px;
+  margin-left: 0 !important;
+}
+
+    .menu{
+      display: none !important;
+    }
+    .dropdown{
+        display: block;
+        margin-top: 12px;
+        margin-right: 87px;
+    }
+
+    .dropbtn {
+        background-color: #F2F2F7;
+        /* color: white; */
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        float: right;
+      }
+      
+      .dropdown {
+        position: relative;
+        display: inline-block;
+       
+         list-style: none;
+         left: 50%;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+       
+        background-color: transparent; 
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+         margin-bottom: 20px !important;
+      }
+      
+      .dropdown-content a:hover {background-color: #0201cc}
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      
+      .dropdown:hover .dropbtn {
+        background-color: #3e8e41;
+      }
+  }
+
+
 @media screen and (max-width: 386px) {
 
 	.number4{
@@ -12,13 +101,33 @@
 	
 }
 
-@media screen and (max-width: 326px) {
-    .slider-parallax-group3{
-   position: relative;
-width: 381.8px;
-height: 285px;
-left: -80% !important;
+@media(max-width:1030px) and (min-width: 992px) {
+	.au-program {
+		line-height: 180.02%;
+	}
+		label[for="on-soccupe"]{
+    visibility: hidden;
+    position: relative;
+}
 
+label[for="on-soccupe"]:after{
+    visibility: visible;
+     position: absolute;
+  	width: 300px !important;
+    top: 30px;
+    left: -8% !important;
+    width: 195%;
+    height: auto;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 156.02%;
+
+/* or 30px */
+
+color: #000000;
+    content:'On s’occupe de tout, suivez l’évolution de votre projet chaque jour en temps réel          et laisser des commentaires directement sur votre Trello dédié. Bénéficiez d’un  engagement de résultats,     ajoutez des exigences de qualité, des pénalités de retard. Profitez d’un espace de développement sécurisé, dédié à votre projet sur Git. Nous assurons la mise en prod, la phase de test, le support et maintenance évolutive. ';
 }
 }
 
@@ -64,6 +173,13 @@ left: 30% !important;
 }
 }
 
+
+@media(min-width: 1450px) {
+	.subscribe {
+    margin-top: 8% !important;
+    padding-left: 0 !important;
+}
+}
 
 @media(max-width:1578px) and (min-width: 1410px) {
 	
@@ -122,7 +238,7 @@ letter-spacing: 0.04em;
 .menu >li{
 	list-style: none;
 	display: inline-block !important;
-	margin: 2.98%;
+	margin: 2.78%;
 }
 
 
@@ -264,6 +380,29 @@ letter-spacing: 0.04em;
 }
 
 }
+
+@media(min-width:768px) and (max-width:835px) {
+ 	header {
+
+	background: url("../images/Forme 5.png") ; 
+background-position: left top ;
+  background-repeat: no-repeat;
+  background-size: 120% 155% !important;
+  
+}
+.logo {
+	position: relative;
+	margin-top: 22%;
+	margin-left: 25%;
+	width: 200px !important;
+}
+	.btn-bnf {
+		position: relative;
+		top: 100px !important;
+	}
+}
+
+
 @media(min-width:768px) and (max-width:780px) {
  	.auraije-content {
  		top: 20%;
@@ -283,13 +422,13 @@ letter-spacing: 0.04em;
     background: url("../images/Forme 5.png") ; 
 background-position: left top ;
   background-repeat: no-repeat;
-  background-size: 96% 72%!important;
+  background-size: 120% 78%!important;
   margin-left: 0%;
   margin-top: 0%;
   
 }
 }
-@media(min-width:772px) and (max-width:860px) {
+@media(min-width:772px) and (max-width:1030px) {
 	label[for="on-soccupe"]{
     visibility: hidden;
     position: relative;
@@ -319,7 +458,7 @@ color: #000000;
 	display: none;
 }
 	.btn-bnf {
-		margin-top: 50% !important;
+		margin-top: 30% !important;
 		position: relative;
 	}
 
@@ -329,7 +468,7 @@ color: #000000;
 	}
 	.number4 {
 		
-	width: 190%;
+	width: 130%;
 	
 	z-index: -1;
 	left: -5% !important;
@@ -344,14 +483,7 @@ color: #000000;
 }
 }
 
-@media screen and (max-width: 372px) {
-	    .slider-parallax-group3{
-   position: relative;
-width: 401.8px;
-height: 285px;
-left: -34% !important;
-}
-}
+
 @media screen and (max-width: 1258px) {
 	    .slider-parallax-group3{
    position: relative;
@@ -384,7 +516,7 @@ left:0 !important;
 	    .slider-parallax-group3{
    position: relative;
 
-left: 0 !important;
+left: 0;
 }
 }
 
@@ -458,29 +590,50 @@ color: #000000;
 		margin-top: 20%;
 	}
 	.appelavec {
-        left: 3% !important;
+        left: 0.3% !important;
     }
     .enquatre {
-    	left: 1% !important;
+    	left:-1% !important;
     }
     .au-pro {
-    	left: 6% !important;
+    	left: 3% !important;
     }
     .precision {
-    	left: 6% !important;
+    	left: 3% !important;
     }
   	.seance {
-  		left: 3% !important;
+  		left: 0.4% !important;
   	}
   	.par-nombre{
-  		left: -1% !important;
+  		left: -6% !important;
   	}
   	.partagez {
-  		left: -9% !important;
+  		position: relative;
+  		left: -15% !important;
+  		width: 560px;
   	}
   	.utiles {
-  		left: -18% !important;
+  		left: -21% !important;
   		
+  	}
+
+  	.btn-bnf {
+  		position: relative;
+  		width: 100% !important;
+  	}
+}
+
+  	.btn-bnf {
+  		position: relative;
+  		width: 100%;
+  	}
+}
+
+
+@media screen and (max-width: 330px) {
+		.btn-bnf {
+  		position: relative;
+  		width: 190px !important;
   	}
 }
 
@@ -669,7 +822,7 @@ position: relative;
 
 
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 1030px) {
 
 	.logo {
 		 margin-top: 20%;
@@ -678,12 +831,10 @@ position: relative;
     top: 0%;
     margin-left:20%;
 	}
-
-
-	    .slider-parallax-group3{
+  .slider-parallax-group3{
    position: relative;
 
-left:0 !important;
+left:-3% !important;
 }
 
 	header {
@@ -704,7 +855,7 @@ background-position: left top ;
 	
 	.number2-img {
 	position: absolute;
-	width: 50%;
+	width: 51%;
 	top: 60px !important;
 	z-index: -1;
 	left: -120% !important;
@@ -758,6 +909,7 @@ position: relative;
 	left: -16%;
 	position: relative;
 	letter-spacing: -0.06em;
+	width: 600px;
 }
 .utiles {
 	left: -22%;
@@ -844,7 +996,7 @@ color: #000000;
 
    .btn-bnf {
         margin-top: 0;
-        top: -100px !important;
+        top: -50px !important;
         position: relative;
     }
 
@@ -902,10 +1054,103 @@ color: #000000;
 
 
 
+@media screen and (max-width: 338px) {
+
+       .en48h{
+
+font-size: 27px !important;
+
+position: relative;
+}
+    }
+
+
+@media screen and (max-width: 325px) {
+
+       .center-parallax3,
+        
+        .left-parallax3 {
+            position: relative;
+            border-radius: 20px;
+            margin-top: 20px;
+            top: 0;
+            left: 6% !important;
+            width: 240px;
+        }
+    }
+
+    @media(max-width:420px) and (min-width: 344px) {
+    	.en48h{
+
+line-height: 61px !important;
+
+position: relative;
+}
+}
 
 @media screen and (max-width: 736px) {
+		.right-parallax3 {
+			display: none;
+		}
+
+		.price-center3{
+    /* sayna bootstrap */
+margin-left: 5% !important;
+
+}
+
+		.btn-center-para3{
+
+position: relative;
+
+left: 68px !important;
+
+}
+.txt-center-para3{
+    /* Je paie ma formation directement jusqu’à 3 fois sans frais. */
 
 
+position: absolute;
+
+left: 0 !important;
+
+}
+
+				.header-left3, .header-right3{
+    /* remboursement AGENCY */
+
+
+    position: relative;
+    left: 0;
+    }
+
+.btn-left-para3{
+
+    position: relative;
+    left: 60.7px;
+}
+
+       .center-parallax3,
+        
+        .left-parallax3 {
+            position: relative;
+            border-radius: 20px;
+            margin-top: 20px;
+            top: 0;
+            left: 9%;
+            width: 240px;
+        }
+        .parallax3 {
+        	position: relative;
+            display: block;
+            text-align: -webkit-center !important;
+            margin-bottom: 20% !important;
+        }
+
+        .foot {
+        	position: relative;
+        	margin-top: 500px !important;
+        }
 
 * {
 	padding: 0;
@@ -943,8 +1188,7 @@ color: #000000;
   
     margin-left: auto;
     margin-right: auto;
-   
-    margin-top: 10%;
+  
 }
    header {
 
@@ -1020,7 +1264,7 @@ label[for="on-soccupe"]:after{
   text-align: left!important;
     top: 20px;
     left: -100%;
-    width: 180% !important;
+    width: 190% !important;
     height: auto;
 font-family: Inter;
 font-style: normal;
@@ -1038,11 +1282,28 @@ color: #000000;
 
     .btn-bnf {
     	position: relative;
-       width: 100%;
+       width: 200px;
         left: 0%;
         
-        margin-top: 194px !important;
+        margin-top: 134px !important;
+        margin-bottom: 50px !important;
     }
+
+
+
+    .btn-offer, .btn-deposit, .btn-rdv, .btn-offer1 {
+	background: #FFCC00;
+border-radius: 20px;
+text-align: center;
+height: 50px;
+}
+
+.btn-deposit, .btn-offer {
+	width: 70% !important;
+}
+.btn-offer1 {
+	width: 90%;
+}
 
     #choix-factory {
     padding-top: 50px;
@@ -1268,6 +1529,7 @@ color: #000000;
 	left: 0 !important;
     margin-top: 213px;
     position: relative;
+    width: 200px !important;
 }
 .back-front, .complet-equipe, .redacteur-web{
     display: none;
@@ -1385,7 +1647,7 @@ color: #000000;
 
 .menu {
 	position: relative;
-	
+	margin-top: 20% !important;
 	
 	left: 1%;
 	
@@ -1407,369 +1669,6 @@ margin-right: none !important;
     margin-left: 20px !important ;
 }
     
-      .para-lax{
-   position: relative;
-
-left: 0px !important;
-}
-
-
-    .slider-parallax-group3{
-   position: relative;
-width: 401.8px;
-height: 285px;
-left: 0 !important;
-
-
-}
-
-.parallax3{
-    display: flex;
-    left: -5% !important;
-    position: relative;
-}
-.center-parallax3{
-   
-
-
- position: relative;
-width: 142px;
-height: 208.5px;
-left: -129px;
-
-
-background: #FFCC00;
-background-attachment: fixed;
-box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.15);
-border-radius: 20px;
-}
-
-
-.right-parallax3{
-top: 50px;
-position: relative;
-width: 120px;
-height: 142.8px;
-/* left: 410px; */
-background: #F7F7F9;
-border-radius: 0px 20px 20px 0px;
-}
-
-.left-parallax3{
-    /* Rectangle 24 */
-
-top: 50px;
-position: relative;
-width: 120.7px;
-height: 140.9px;
-left: 129px;
-
-
-background: #F7F7F9;
-border-radius: 20px 0px 0px 20px;
-}
-.price-center3{
-    /* sayna bootstrap */
-
-
-
-
-font-family: Lato;
-font-style: normal;
-font-weight: bold;
-font-size:15px;
-line-height: 22px;
-margin-left: 10%;
-margin-top: 10%;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: -0.05em;
-
-color: #FFFFFF;
-}
-.txt-center-para3{
-    /* Je paie ma formation directement jusqu’à 3 fois sans frais. */
-
-
-position: absolute;
-width: 122.9px;
-height: 15.9px;
-top: 53.7px;
-margin-top: 18.6px;
-left: 7px;
-
-
-
-font-family: Lato;
-font-style: normal;
-font-weight: bold;
-font-size: 11.4px;
-line-height: 22px;
-text-align: center;
-letter-spacing: -0.02em;
-
-color: #FFFFFF;
-}
-.btn-center-para3{
-
-position: relative;
-width: 99.3px;
-height: 26.5px;
-left: 20.3px;
-top: 110px;
-margin-top: auto;
-margin-bottom: auto;
-background: #FB5875;
-border-radius: 100px !important;
-}
-
-.parallax3 label>a {
-    text-decoration-line: none;
-}
-.label-center-para3{
-    /* je m’inscris */
-
-
-position: relative;
-width: 80.8px;
-height: 18.9px;
-margin-top: none;
-margin-bottom: none;
-text-decoration-line: none !important;
-top: -5px;
-font-family: "Lato";
-font-style: normal;
-font-weight: bold;
-font-size: 11.7px;
-/*
-line-height: 11.7px;*/
-text-align: center;
-letter-spacing: -0.035em;
-text-transform: uppercase;
-
-color: #EBEBF1;
-}
-
-.content-left3{
-    position: absolute;
-width: 128.7px;
-height: 162.7px;
-/* left: 383px;
-top: 4615px; */
-}
-.header-right3 {
-
-   
-    position: relative;
-    width:120.1px;
-    height: 83.5px;
-    left: 0.7px !important;
-    top: 8.7px;
-
-font-family: "Lato";
-font-style: normal;
-font-weight: normal;
-font-size: 8.2px;
-line-height: 15.3px;
-/* or 33px */
-
-/* display: flex; */
-align-items: center;
-text-align: center;
-letter-spacing: -0.025em;
-text-transform: uppercase;
-
-color: #000000;
-}
-
-.header-left3 {
-    /* remboursement AGENCY */
-
-
-    position: relative;
-    width:120.1px;
-    height: 83.5px;
-    left: 1.7px;
-    top: 8.7px;
-
-font-family: "Lato";
-font-style: normal;
-font-weight: normal;
-font-size: 8.2px;
-line-height: 15.3px;
-/* or 33px */
-
-/* display: flex; */
-align-items: center;
-text-align: center;
-letter-spacing: -0.025em;
-text-transform: uppercase;
-
-color: #000000;
-}
-.price-left3, .price-right3 {
-   
-
-
-position: relative;
-width: 120px;
-height: 21.4px;
-top: 20px;
-
-font-family: Lato;
-font-style: normal;
-font-weight: bold;
-font-size: 21.4px;
-line-height: 29.7px;
-/* display: flex; */
-align-items: center;
-text-align: center;
-letter-spacing: -0.02em;
-text-transform: lowercase;
-color: #000000;
-
-}
-.btn-left-para3{
-
-    position: relative;
-    width: 99.2px;
-    height: 23.5px;
-    left: 17.7px;
-    top: 96px;
-
-background: #E9EAEF;
-box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.1);
-border-radius: 100px !important;
-}
-.label-left-para3{
-    /* je m’inscris */
-
- position: relative;
-width:80.6px;
-height: 27.9px;
-/* left: 523px;
- */
-
-
-font-family: "Lato";
-font-style: normal;
-font-weight: normal;
-font-size: 11.7px;
-line-height: 11.7px;
-text-align: center;
-text-transform: uppercase;
-text-decoration: none !important;
-color: #FB5875;
-}
-
-.content-right3{
-
-position: absolute;
-width: 129px;
-height:187.7px;
-/* left: 1174px;
-top: 4574px; */
-
-}
-
-.left-parallax3 a{
-    text-decoration-line: none;
-}
-.center-parallax3 a{
-    text-decoration-line: none;
-}
-.right-parallax3 a{
-    text-decoration-line: none;
-}
-
-.haute {
-    background: url("../images/Forme 5.png") ; 
-background-position: left top ;
-  background-repeat: no-repeat;
-  background-size: 55%;
-}
-
-
-.btn-right-para3{
-
-    position: relative;
-    width: 99.3px;
-    height: 24.5px;
-    left: ;
-    top: 28.5px;
-    
-
-background: #E9EAEF;
-box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.1);
-border-radius: 100px !important;
-}
-.label-right-para3{
-
-position: relative;
-width: 80.6px;
-height: 25.9px;
-/* left: 1286px;
-top: 5060px; */
-margin-top: none;
-
-font-family: "Lato";
-font-style: normal;
-font-weight: normal;
-font-size: 11.7px;
-line-height: 11.7px;
-text-align: center;
-text-transform: uppercase;
-
-color: #FB5875;
-}
-
-.in-view-left {
-    -webkit-animation: in-view-left 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-            animation: in-view-left 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}@-webkit-keyframes in-view-left {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  100% {
-    -webkit-transform: translateX(-129px);
-            transform: translateX(-129px);
-  }
-}
-@keyframes  in-view-left {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  100% {
-    -webkit-transform: translateX(-129px);
-            transform: translateX(-129px);
-  }
-}
-.in-view-right {
-    -webkit-animation: in-view-right 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-            animation: in-view-right 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-@-webkit-keyframes in-view-right {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  100% {
-    -webkit-transform: translateX( 129px);
-            transform: translateX( 129px);
-  }
-}
-@keyframes in-view-right {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  100% {
-    -webkit-transform: translateX( 129px);
-            transform: translateX( 129px);
-  }
-}
+ 
 
 }

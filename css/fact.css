@@ -17,7 +17,9 @@
     border: none;
 }
 
-
+.dropdown {
+	display: none;
+}
 .logo {
 	position: relative;
 	margin-top: 22%;
@@ -39,7 +41,7 @@ margin-right: none !important;
 	margin-left: auto;
 	margin-right: auto;
 	left: 13%;
-	margin-top: none !important;
+	margin-top: 2% !important;
 }
 
 .madiver {
@@ -79,7 +81,11 @@ background-position: left top ;
  height: 200px;
   
 }
-
+.fleche-boutonjaune2 {
+	position: relative;
+	left: 25% !important;
+	top: -5px;
+}
 .fleche-connexion {
 	position: relative;
 	left: 8%;
@@ -91,7 +97,7 @@ background-position: left top ;
 }
 .fleche-boutonjaune {
 	position: relative;
-	
+	left: 10%;
 	color: #000000;
 }
 .Groupe-8 {
@@ -299,15 +305,28 @@ line-height: 156.02%;
 color: #000000;
 }
 
-.btn-offer, .btn-deposit, .btn-rdv {
+.btn-offer, .btn-deposit, .btn-rdv, .btn-offer1 {
 	background: #FFCC00;
 border-radius: 20px;
 text-align: center;
+height: 50px;
 }
 
-.btn-benefic {
-	left: 10%;
+.btn-deposit, .btn-offer {
+	width: 30% !important;
 }
+.btn-offer1 {
+	width: 70%;
+}
+
+
+
+.un-et-lettre {
+	position: relative;
+	margin-top: 5%;
+}
+
+
 
 .btn-voiroffre, .btn-jedepose , .btn-prendrerdv, .btn-benefic {
 position: relative;
@@ -316,12 +335,15 @@ font-style: normal;
 font-weight: bold;
 font-size: 14px;
 line-height: 14px;
-display: flex;
+
 align-items: center ;
 text-align: center !important;
 text-transform: uppercase;
 width: 100%;
-height: 5%;
+margin-right: auto;
+margin-top: auto;
+margin-left: auto;
+margin-bottom: auto;
 }
 
 
@@ -588,14 +610,7 @@ color: #000000;
 .btn-rdv {
 	left: 5%;
 	position: relative;
-	width: 220px;
-	
-}
-.btn-prendrerdv {
-	margin-left: auto !important;
-	margin-right: auto !important;
-	position: relative;
-	left: 20%;
+	width: 40% !important;
 	
 }
 
@@ -637,7 +652,7 @@ left: 19%!important;
 	position: relative;
 	width: 100%;
 	height: 100%;
-	left: %;
+	left: 4%;
 	top: 5%;
 }
 
@@ -666,8 +681,8 @@ left: 19%!important;
 border-radius: 20px;
 text-align: center !important;
 left: 45%;
-margin-top: 5%;
-width: 60%;
+margin-top: 3.5%;
+width: 60% !important;
 
 }
 
@@ -836,7 +851,7 @@ border-collapse: separate;
 	width: 60%;
 	padding: 0px;
 	
-	text-align: center;
+	text-align: center !important;
 	background: #FB5875;
 transform: rotate(-1.13deg);
 
@@ -864,7 +879,7 @@ position: relative;
 	width: 80%;
 	padding: 0px;
 	top: -50px;
-	text-align: center;
+	text-align: center !important;
 	background: #FB5875;
 transform: rotate(-1.13deg);
 
@@ -874,8 +889,7 @@ font-weight: 900;
 font-size: 14px;
 line-height: 99.52%;
 
-/* or 29px */
-display: flex;
+
 align-items: center;
 text-align: center;
 letter-spacing: 0.01em;
@@ -894,7 +908,7 @@ color: #FFFFFF;
 	width: 50%;
 	padding: 4px; transform: rotate(1deg); top: -50px;}
 .cell5 {  
-	width: 40%;
+	width: 60%;
 padding: 4px; transform: rotate(-1.13deg); top: -40px;}
 .cell6 { 
 	 width: 60%; 
@@ -1328,6 +1342,7 @@ text-transform: uppercase;
 color: #FB5875;
 }
  /* animation styles */
+ @media (min-width: 736px) {
 
 .in-view-left {
 	-webkit-animation: in-view-left 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -1375,6 +1390,7 @@ color: #FB5875;
     -webkit-transform: translateX( 282px);
             transform: translateX( 282px);
   }
+}
 }
 }
 /* ********** parallax animation************* */
