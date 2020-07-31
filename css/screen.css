@@ -103,7 +103,7 @@
 
 @media(max-width:1030px) and (min-width: 992px) {
 	.au-program {
-		line-height: 180.02%;
+		line-height: 60.02%;
 	}
 		label[for="on-soccupe"]{
     visibility: hidden;
@@ -147,7 +147,7 @@ font-family: Inter;
 font-style: normal;
 font-weight: normal;
 font-size: 12px;
-line-height: 186.02%;
+line-height: 62.02%;
 letter-spacing:0.01em !important;
 }
 .on-s-occupe1, .on-s-occupe4, .on-s-occupe2, .on-s-occupe3, .on-s-occupe5, .on-s-occupe6, .on-s-occupe7, .on-s-occupe8, .on-s-occupe9      {
@@ -254,21 +254,25 @@ letter-spacing: 0.04em;
 
 @media(max-width:1490px) and (min-width: 1420px) {
 	.au-program {
-line-height: 256.02%;
+line-height: 156.02%;
 color: #000000;
+}
+	.onsoccupe  {
+	position: relative;
+line-height: 196.02% !important;
 }
 }
 
 @media(max-width:1419px) and (min-width: 1386px) {
 	.au-program {
-line-height: 256.02%;
+line-height: 156.02%;
 color: #000000;
 }
 }
 
 @media(max-width:1299px) and (min-width: 1250px) {
 	.au-program {
-line-height: 206.02%;
+line-height: 106.02%;
 color: #000000;
 }
 .menu >li{
@@ -280,21 +284,21 @@ color: #000000;
 
 @media(max-width:1385px) and (min-width: 1300px) {
 	.au-program {
-line-height: 236.02%;
+line-height: 106.02%;
 color: #000000;
 }
 }
 
 @media(max-width:1579px) and (min-width: 1491px) {
 	.au-program {
-line-height: 296.02%;
+line-height: 196.02%;
 color: #000000;
 }
 }
 
 @media(max-width:1690px) and (min-width: 1580px) {
 	.au-program {
-line-height: 306.02%;
+line-height: 136.02%;
 color: #000000;
 }
 
@@ -376,7 +380,7 @@ color: #000000;
 @media(max-width:1790px) and (min-width: 1680px) {
 	.au-program {
 
-line-height: 326.02%;
+line-height: 186.02%;
 
 color: #000000;
 }
@@ -1338,9 +1342,9 @@ label[for="on-soccupe"]:after{
     visibility: visible;
      position: absolute;
   text-align: left!important;
-    top: 20px;
-    left: -100%;
-    width: 190% !important;
+    top: 40px;
+    left: -20% !important;
+    width: 150% !important;
     height: auto;
 font-family: Inter;
 font-style: normal;
