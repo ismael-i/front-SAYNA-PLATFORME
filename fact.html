@@ -190,8 +190,7 @@
                             </div>&ensp;
                             <div class="onsoccupe">
                                 <label for="on-soccupe" class="on-s-occupe1">On s’occupe de tout, suivez l’évolution de votre projet</label><br> <label class="on-s-occupe2">chaque jour en temps réel et laisser des commentaires</label> <br><label class="on-s-occupe3">directement sur votre Trello dédié. Bénéficiez d’un</label>                                <br><label class="on-s-occupe4">engagement de résultats, ajoutez des exigences</label><br> <label class="on-s-occupe5">de qualité,des pénalités de retard. Profitez d’un</label><br><label class="on-s-occupe6"> espace de développement sécurisé, dédié à</label><br>
-                                <label
-                                    class="on-s-occupe7">votre projet sur Git. Nous assurons la mise</label> <br><label class="on-s-occupe8"> en prod, la phase detest, le support et</label> <br><label class="on-s-occupe9"> la maintenance évolutive. </label>
+                                <label class="on-s-occupe7">votre projet sur Git. Nous assurons la mise</label> <br><label class="on-s-occupe8"> en prod, la phase detest, le support et</label> <br><label class="on-s-occupe9"> la maintenance évolutive. </label>
                             </div>
 
                             <button class="btn btn-bnf">
@@ -379,11 +378,11 @@
                 </div>
             </div>
         </div>
-        <footer class="row foot">
-            <div class="col-md-12"></div>
+        <footer class="row">
+            <div class="col-md-12 top-footer"></div>
             <div class="col-md-6 col-xl-6 col-lg-6 col-sm-12 col-xs-12 col-12 partgauche">
                 <div>
-                    <img src="./images/New Logo.png" alt="" class="new-logo">
+                    <img src="./image/New Logo.png" alt="" class="new-logo">
                 </div>
                 <div class="row asaf">
                     <label><a href="#" class="accueil">Accueil</a></label>
@@ -408,18 +407,18 @@
                     <label> <a href="#" class="cookies"></a>Cookies</label>
                 </div>
             </div>
-
             <div class="col-md-6 col-xl-6 col-lg-6 col-sm-12 col-xs-12 col-12 droite">
                 <div class="recevez">
-                    <p>Recevez nos offres spéciales et soyez au courant de nos <br> nouveautés surprenantes !</p>
+                    <p>Recevez nos offres spéciales et soyez au courant de nos nouveautés surprenantes !</p>
                 </div>
-                <div class="subscribe">
-                    <div>
-                        <input class="barre" type="email" placeholder="Inscrivez-vous par mail" style="height: 54px;width: 317px;">
+                <div class="row subscribe">
+                    <div class="">
+                        <input class="barre" size="37" [b]style="width:600px;" [/b] type="email" placeholder="Inscrivez-vous par mail">
                     </div>
                     <div class="text-rejoin">
-                        <a href="" class=" btn btn-rejoin-footer"> <label class="join-footer">Réjoindre</label>
-                        </a>
+                        <a href="" class=" btn btn-danger btn-rejoin-footer"> 
+								Réjoindre
+							</a>
                     </div>
                 </div>
                 <div><br></div>
@@ -432,7 +431,7 @@
                         <table border=1 class="tabl2">
                             <tr>
                                 <td>
-                                    <img src="./images/Tracé 114.png" alt="" class="trace114">
+                                    <img src="./image/Tracé 114.png" alt="" class="trace114">
                                 </td>
                                 <td>
                                     <label class="trace1141">177 Avenue de l’exemple Madagascar</label>
@@ -440,7 +439,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <img src="./images/Phone.png" alt="" class="trace110">
+                                    <img src="./image/Phone.png" alt="" class="trace110">
                                 </td>
                                 <td>
                                     <label class="trace1101">01 32 34 22 18</label>
@@ -448,7 +447,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <img src="./images/Message.png" alt="" class="trace111">
+                                    <img src="./image/Message.png" alt="" class="trace111">
                                 </td>
                                 <td>
                                     <label class="trace1111">hello@sayna.io</label>
@@ -460,63 +459,59 @@
 
 
                     </div>
-                    <div class="col-md-7 col-xl-7 col-lg-7 col-sm-7 col-7 col-xs-7 align-self-center cliquable">
-                        <a href=""><img src="./images/Icon-instagram.png" alt="" class="insta"></a>
-                        <a href=""><img src="./images/Icon-twitter.png" alt="" class="twitter"></a>
-                        <a href=""><img src="./images/Icon-facebook.png" alt="" class="facebook"></a>
+                    <div class="col-md-7 col-xl-7 col-lg-7 col-sm-7 col-7 col-xs-7 text-center align-self-center cliquable">
+                        <a href=""><img src="./image/Icon-instagram.png" alt="" class="insta"></a>
+                        <a href=""><img src="./image/Icon-twitter.png" alt="" class="twitter"></a>
+                        <a href=""><img src="./image/Icon-facebook.png" alt="" class="facebook"></a>
                     </div>
                 </div>
             </div>
             <div class="col-md-12 "><label class="copyright align-self-center">© 2020</label></div>
-    </div>
+        </footer>
+        <script>
+            var $left_elements = $('.left-parallax3');
+            var $right_elements = $('.right-parallax3');
+            var $window = $(window);
 
+            function check_if_in_view() {
+                var window_height = $window.height();
+                var window_top_position = $window.scrollTop();
+                var window_bottom_position = (window_top_position + window_height);
 
-    </footer>
+                $.each($left_elements, function() {
+                    var $element_left = $(this);
+                    var element_height = $element_left.outerHeight();
+                    var element_top_position = $element_left.offset().top;
+                    var element_bottom_position = (element_top_position + element_height);
 
-    <script>
-        var $left_elements = $('.left-parallax3');
-        var $right_elements = $('.right-parallax3');
-        var $window = $(window);
+                    //check to see if this current container is within viewport
+                    if ((element_bottom_position >= window_top_position) &&
+                        (element_top_position <= window_bottom_position)) {
+                        $element_left.addClass('in-view-left');
+                    } else {
+                        $element_left.removeClass('in-view-left');
+                    }
+                });
+                $.each($right_elements, function() {
+                    var $element_right = $(this);
+                    var element_height = $element_right.outerHeight();
+                    var element_top_position = $element_right.offset().top;
+                    var element_bottom_position = (element_top_position + element_height);
 
-        function check_if_in_view() {
-            var window_height = $window.height();
-            var window_top_position = $window.scrollTop();
-            var window_bottom_position = (window_top_position + window_height);
+                    //check to see if this current container is within viewport
+                    if ((element_bottom_position >= window_top_position) &&
+                        (element_top_position <= window_bottom_position)) {
+                        $element_right.addClass('in-view-right');
+                    } else {
+                        $element_right.removeClass('in-view-right');
+                    }
+                });
 
-            $.each($left_elements, function() {
-                var $element_left = $(this);
-                var element_height = $element_left.outerHeight();
-                var element_top_position = $element_left.offset().top;
-                var element_bottom_position = (element_top_position + element_height);
+            }
 
-                //check to see if this current container is within viewport
-                if ((element_bottom_position >= window_top_position) &&
-                    (element_top_position <= window_bottom_position)) {
-                    $element_left.addClass('in-view-left');
-                } else {
-                    $element_left.removeClass('in-view-left');
-                }
-            });
-            $.each($right_elements, function() {
-                var $element_right = $(this);
-                var element_height = $element_right.outerHeight();
-                var element_top_position = $element_right.offset().top;
-                var element_bottom_position = (element_top_position + element_height);
-
-                //check to see if this current container is within viewport
-                if ((element_bottom_position >= window_top_position) &&
-                    (element_top_position <= window_bottom_position)) {
-                    $element_right.addClass('in-view-right');
-                } else {
-                    $element_right.removeClass('in-view-right');
-                }
-            });
-
-        }
-
-        $window.on('scroll resize', check_if_in_view);
-        $window.trigger('scroll', check_if_in_view);
-    </script>
+            $window.on('scroll resize', check_if_in_view);
+            $window.trigger('scroll', check_if_in_view);
+        </script>
 
     </div>
 
