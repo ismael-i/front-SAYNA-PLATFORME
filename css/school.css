@@ -73,6 +73,15 @@ li {
     color: #FFCC00;
 }
 
+.rectangle-189 {
+    position: absolute;
+    background: #E5E5E5;
+    width: 100%;
+    bottom: 34px;
+    left: -2px;
+    /* top: 84%; */
+}
+
 .integre-la-meilleure {
     position: absolute;
     left: 6%;
@@ -520,7 +529,7 @@ li {
 }
 
 .sit-reading {
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 425px;
     margin-top: 7%;
