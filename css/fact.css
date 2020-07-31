@@ -40,7 +40,7 @@ margin-right: none !important;
 	margin-right: none !important;
 	margin-left: auto;
 	margin-right: auto;
-	left: 13%;
+	left: 8%;
 	margin-top: 2% !important;
 }
 
@@ -65,9 +65,11 @@ img {
 }
 
 .menu >li{
+	position: relative;
 	list-style: none;
 	display: inline-block !important;
 	margin: 2.1%;
+	left: 10%;
 }
 
 header {
@@ -83,7 +85,7 @@ background-position: left top ;
 }
 .fleche-boutonjaune2 {
 	position: relative;
-	left: 25% !important;
+	left: 20% !important;
 	top: -5px;
 }
 .fleche-connexion {
@@ -109,7 +111,7 @@ margin-right: auto !important;
 margin-left: auto !important;
 }
 .teext-menu {
-	font-family: Antipasto Pro;
+	font-family: Lato;
 font-style: normal;
 font-weight: bold;
 font-size: 21px;
@@ -129,7 +131,7 @@ margin-left: auto !important;
 }
 
 .teext-factory {
-	font-family: Antipasto Pro;
+	font-family:  Lato;
 font-style: normal;
 font-weight: bold;
 font-size: 23px;
@@ -149,7 +151,7 @@ text-decoration-line: none;
 
 .teext-connex {
 	
-	font-family: Antipasto Pro;
+	font-family:  Lato;
 font-style: normal;
 font-weight: bold;
 font-size: 21px;
@@ -175,7 +177,7 @@ background-color: #F2F2F7 !important;
 
 .btn-connexion {
 
-width: 157.32px;
+width: 187.32px;
       height: 48.3px;
 
 background-color: #FB5875;
@@ -316,7 +318,7 @@ height: 50px;
 	width: 30% !important;
 }
 .btn-offer1 {
-	width: 70%;
+	width: 50%;
 }
 
 
@@ -419,7 +421,8 @@ color: #000000;
 }
 
 .onsoccupe  {
-padding-top: 0;	
+	position: relative;
+top: -20px;	
 text-align: right;
 font-family: Inter;
 font-style: normal;
@@ -625,7 +628,7 @@ color: #000000;
 	padding-top: %;
 	width: 100%;
 	height: 50%;
-	left: %;
+	left: 3%;
 
 }
 
@@ -659,7 +662,7 @@ left: 19%!important;
 
 .col-number4 {
 	float: right;
-	left: -23%;
+	left: -21%;
 
 	position: relative;
 	height: 450px !important;
@@ -715,7 +718,7 @@ width: 60% !important;
 font-style: normal;
 font-weight: 600;
 font-size: 18px;
-line-height: 48px;
+line-height: 38px;
 letter-spacing: -0.025em;
 text-transform: uppercase;
 
@@ -998,7 +1001,7 @@ color: #000000;
 	position: relative;
 	width: 69%;
 	left: 30%;
-	top:-9% !important;
+	top:-8.5% !important;
 	}
 .glissade {
 	height:;

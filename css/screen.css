@@ -21,7 +21,7 @@
 
 .teext-menu, .teext-factory {
 	position: relative;
-	left: 14px !important;
+	left: 4px !important;
 	top: 5px !important;
 }
 	.Groupe-8 {
@@ -128,6 +128,14 @@ line-height: 156.02%;
 
 color: #000000;
     content:'On s’occupe de tout, suivez l’évolution de votre projet chaque jour en temps réel          et laisser des commentaires directement sur votre Trello dédié. Bénéficiez d’un  engagement de résultats,     ajoutez des exigences de qualité, des pénalités de retard. Profitez d’un espace de développement sécurisé, dédié à votre projet sur Git. Nous assurons la mise en prod, la phase de test, le support et maintenance évolutive. ';
+}
+
+.menu >li{
+	position: relative;
+	list-style: none;
+	display: inline-block !important;
+	margin: 0.5%;
+	left: 0 !important;
 }
 }
 
@@ -238,14 +246,20 @@ letter-spacing: 0.04em;
 .menu >li{
 	list-style: none;
 	display: inline-block !important;
-	margin: 2.78%;
+	margin: 2.68%;
 }
 
 
 }
 
+@media(max-width:1490px) and (min-width: 1420px) {
+	.au-program {
+line-height: 256.02%;
+color: #000000;
+}
+}
 
-@media(max-width:1490px) and (min-width: 1386px) {
+@media(max-width:1419px) and (min-width: 1386px) {
 	.au-program {
 line-height: 256.02%;
 color: #000000;
@@ -309,7 +323,7 @@ letter-spacing: 0.04em;
 .menu >li{
 	list-style: none;
 	display: inline-block !important;
-	margin: 3.1%;
+	margin: 2.9%;
 }
 
 }
@@ -326,10 +340,19 @@ color: #000000;
 .menu >li{
 	list-style: none;
 	display: inline-block !important;
-	margin: 4.1%;
+	margin: 3.9%;
 }
 }
 
+
+@media(max-width:1410px) and (min-width: 1300px) {
+
+.menu >li{
+	list-style: none;
+	display: inline-block !important;
+	margin: 1.8%;
+}
+}
 
 @media(max-width:1790px) and (min-width: 1680px) {
 	.au-program {
@@ -342,7 +365,7 @@ color: #000000;
 .menu >li{
 	list-style: none;
 	display: inline-block !important;
-	margin: 3.3%;
+	margin: 3.1%;
 }
 
 .nos-heros {
@@ -400,6 +423,40 @@ background-position: left top ;
 		position: relative;
 		top: 100px !important;
 	}
+
+	.td {
+	width: 33.33%;
+	height: 200px !important;
+	background: #FFCC00;
+	border: none;
+
+}
+.tabl {
+	position: relative;
+	margin-left: auto;
+margin-right: auto;
+width: 96%;
+border: none;
+border-spacing: 5px;
+border-collapse: separate;
+
+}
+.cell1 { 
+	width: ;
+	transform: rotate(1.29deg); top: -20px;}
+.cell2 { 
+	width: ; transform: rotate(-1.13deg); top: -42px;}
+.cell3 { 
+	width: 80%; top: -40px; transform: rotate(-1.13deg); top: -20px;}
+.cell4 { 
+	width: 50%;
+	padding: 4px; transform: rotate(1deg); top: -30px;}
+.cell5 {  
+	width: 60%;
+padding: 4px; transform: rotate(-1.13deg); top: -32px;}
+.cell6 { 
+	 width: 60%; 
+	transform: rotate(-1.13deg); top: -32px;}
 }
 
 
