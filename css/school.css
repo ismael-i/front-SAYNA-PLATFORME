@@ -1213,7 +1213,7 @@ footer{
     margin-top: 31.64px;
     background-color: #FFCC00 !important;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-    border-radius: 20px !important;
+    border-radius: 19px !important;
     font-family: Lato;
     font-style: normal;
     font-weight: bold !important;
@@ -1231,6 +1231,36 @@ footer{
 .bloc-etap{
     margin-left: 12% !important;
 }
+
+
+.menu{
+    margin-top: -21%;
+  }
+@media (max-width: 1674px){
+    .formons-des-heros {
+      font-size: 90px;
+    }
+    .des-heros {
+      font-size: 124px;
+
+    margin-top: -3%;
+    } 
+  
+  }
+/* 
+@media (max-width: 1674px) {
+
+    .formons-des-heros{
+        font-size: 100px;
+    }
+    .des-heros{
+        margin-top: -1%;
+        font-size: 137px;
+    } */
+
+
+   
+
 
 @media (min-width: 1264px) {
     .rectangle-28d {
@@ -1311,17 +1341,6 @@ footer{
     }
 }
 
-@media (max-width: 1674px){
-    .formons-des-heros {
-      font-size: 90px;
-    }
-    .des-heros {
-      font-size: 124px;
-
-    margin-top: -3%;
-    }
-  
-  }
 @media  (min-width: 882px) and (max-width: 1119px){
 
     .groupe-266 {

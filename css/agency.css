@@ -1275,7 +1275,7 @@ border-radius: 0px 0px 15px 15px;
 }
 
 .ul-slid-1 {
-  
+
   background: url(../image/Forme\ 5.png);
   background-repeat: no-repeat;
   background-size: 72% 142%;
@@ -1285,6 +1285,15 @@ border-radius: 0px 0px 15px 15px;
   margin-top: 6%;
   width: 102%;
   padding-bottom: 81px;
+  /* background: url(../image/Forme\ 5.png);
+    background-repeat: no-repeat;
+    background-size: 61% 141%;
+    background-position: right;
+    background-position: 98% -117px;
+    margin-right: -3%;
+    margin-top: 7%;
+    width: 102%;
+    padding-bottom: 81px; */
 }
 
 li{
@@ -1345,27 +1354,6 @@ li{
   color: #FFFFFF;
 }
 
-.btn-slid-0{
-  margin-left: 47%;
-  margin-top: 100px;
-}
-
-.btn-slid-1{
-  margin-left: 21%;
-}
-
-.btn-slid-2{
-  margin-left: 7%;
-} 
-
-.btn-slid-3{
-  margin-left: 23%;
-}
-
-.btn-slid-4{
-  margin-left: 49%;
-}
-
 
 .rectangle-1950{
   margin-top: 45%;
@@ -1418,7 +1406,7 @@ footer {
   text-align: center !important;
   letter-spacing: 0.025em;
   text-transform: uppercase;
-  color: #575F6B !important;
+  color: #F2F2F7 !important;
 }
 
 @media (max-width: 1454px){
@@ -1546,6 +1534,26 @@ footer {
 
   }
   
+.btn-slid-0{
+  margin-left: 47%;
+}
+
+.btn-slid-1{
+  margin-left: 21%;
+}
+
+.btn-slid-2{
+  margin-left: 7%;
+} 
+
+.btn-slid-3{
+  margin-left: 21%;
+}
+
+.btn-slid-4{
+  margin-left: 49%;
+}
+
   
 @media(max-width: 1259px) and (min-width:1196px){
 
@@ -2034,7 +2042,9 @@ footer {
     /* margin-right: -28%; */
     margin-top: 85%;
   }
-
+  .menu {
+    margin-top: 2%;
+}
   .ul-slid-1 {
     background-size: 5px 3px;
     /* background: #123; */
@@ -2046,25 +2056,12 @@ footer {
   margin-left: -13%;
 }
   }
-  .btn-slid {
-    /* text-align: center !important; */
-    margin-top: 8%;
-  }
   .une-solution-a-chaque-situation {
     margin-top: 13%;
 
   }
 
-  .btn-slid {
-    /* text-align: center !important; */
-    margin-top: 8%;
-    margin-left: 29%;
-    }
   
-  .btn-slid-0 {
-    margin-top: 118px;
-  } 
-
 
 @media(max-width: 770px) and (min-width:573px){
 
@@ -2151,7 +2148,7 @@ footer {
   .ul-slid-1{
     background-color: #E5E5E5;;
     display: none;
-  }
+  } 
   .bloc-ton-code{
     display: block !important;
   }

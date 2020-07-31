@@ -102,9 +102,6 @@ height: 70px;
 }
 
 
-.menu{
-  margin-top: -21%;
-}
 .btn-dropdonw{
   width: 72px;
 height: 70px;
@@ -149,33 +146,28 @@ height: 70px;
     margin-left: -1px !important;
   }
   
-
-}
-
-@media (max-width: 1454px){
-
   .btn-connexion {
     width: 179.32px;
     height: 49px;
-    font-size: 19px !important;
+    font-size: 17px !important;
   }
 
   .btn-school{
     width: 120.06px;
     height: 48.3px;
-    font-size: 19px !important;
+    font-size: 17px !important;
   }
 
   .btn-agency{
     width: 120.06px;
     height: 48.3px;
-    font-size: 19px !important;
+    font-size: 17px !important;
   }
 
   .btn-factory-menu{
     width: 120.06px;
     height: 48.3px;
-    font-size: 19px !important;
+    font-size: 17px !important;
   }
 
   .btn-dropdonw{
