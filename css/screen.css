@@ -266,6 +266,25 @@ color: #000000;
 }
 }
 
+@media(max-width:1299px) and (min-width: 1250px) {
+	.au-program {
+line-height: 206.02%;
+color: #000000;
+}
+.menu >li{
+	list-style: none;
+	display: inline-block !important;
+	margin: 1.68%;
+}
+}
+
+@media(max-width:1385px) and (min-width: 1300px) {
+	.au-program {
+line-height: 236.02%;
+color: #000000;
+}
+}
+
 @media(max-width:1579px) and (min-width: 1491px) {
 	.au-program {
 line-height: 296.02%;
