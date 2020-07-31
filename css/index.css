@@ -1,7 +1,5 @@
 @import url('https://rsms.me/inter/inter.css');
-
-/* @import url("https://db.onlinewebfonts.com/c/75381a7b2320dd7176752c293d19298c?family=Antipasto"); */
-
+@import url("https://db.onlinewebfonts.com/c/75381a7b2320dd7176752c293d19298c?family=Antipasto");
 @import url("https://db.onlinewebfonts.com/c/62e84f8271d32eb452129a0b7d59540d?family=Antipasto+Pro");
 @import url("https://db.onlinewebfonts.com/c/9d942e0ff1014c476713a855710ce309?family=Lato");
 #background-body {
@@ -78,7 +76,7 @@
     height: 31.05px;
     left: 126.27px;
     top: 630.66px;
-    font-family: "Antipasto";
+    font-family: Antipasto pro;
     font-style: normal;
     font-weight: 900;
     font-size: 2em;
