@@ -1,21 +1,18 @@
 @import url('https://rsms.me/inter/inter.css');
 @import url("https://db.onlinewebfonts.com/c/9d942e0ff1014c476713a855710ce309?family=Lato");
 @import url("https://db.onlinewebfonts.com/c/62e84f8271d32eb452129a0b7d59540d?family=Antipasto+Pro");
-
-
-
-[class*="col"] { 
+[class*="col"] {
     margin-bottom: 25px;
-  }
+}
 
-  .form1-school {
+.form1-school {
     position: relative;
     width: 100%;
     left: -6.35%;
     margin-top: -1%;
 }
 
-.logo1-school{
+.logo1-school {
     position: absolute;
     width: 37%;
     height: 21%;
@@ -23,17 +20,14 @@
     top: 11%;
 }
 
-
-
-li{
+li {
     list-style: none;
-  }
+}
 
-
-  .girl-fly { 
-      float: right;
+.girl-fly {
+    float: right;
     margin-top: -31%;
-  }
+}
 
 .groupe-294 {
     position: relative;
@@ -41,7 +35,7 @@ li{
     height: auto;
 }
 
-.formons-des-heros{
+.formons-des-heros {
     margin-left: 8%;
     left: 114px;
     margin-top: 4px;
@@ -56,7 +50,8 @@ li{
     text-transform: uppercase;
     color: #000000;
 }
-.des-heros{
+
+.des-heros {
     position: absolute;
     height: 96px;
     margin-top: -1%;
@@ -72,14 +67,11 @@ li{
     letter-spacing: -0.08em;
     text-transform: uppercase;
     color: #000000;
-    
 }
 
-
-.heros{
+.heros {
     color: #FFCC00;
-  }
-
+}
 
 .integre-la-meilleure {
     position: absolute;
@@ -95,8 +87,6 @@ li{
     color: #6E6E6E;
     /* letter-spacing: 0.05em; */
 }
-
-
 
 .hate-de-nous-rencontrer {
     position: relative;
@@ -114,17 +104,15 @@ li{
     margin-top: 161px;
 }
 
-
-.couleur-jaune-opacity{
+.couleur-jaune-opacity {
     background: rgba(255, 204, 0, 0.57);
+    padding: 0;
 }
-
 
 
 /* Tu as hâte de nous rencontrer ? Nous aussi ! */
 
-
-.lettre-noir{
+.lettre-noir {
     font-family: Inter;
     font-style: normal;
     font-weight: 900;
@@ -134,30 +122,29 @@ li{
     color: #000000;
 }
 
-.tu-as-hate-de-nous-rencontrer{
+.tu-as-hate-de-nous-rencontrer {
     margin-top: 18%;
-    width: 512px;    
+    width: 512px;
     text-align: center;
 }
 
-
-.etape-1{
+.etape-1 {
     text-transform: uppercase;
 }
 
-.choisis-parcours{
+.choisis-parcours {
     width: 100%
 }
 
-.je-remplis-mon-formulaire{
+.je-remplis-mon-formulaire {
     width: 60%;
 }
 
-.je-passe-mon-test{
+.je-passe-mon-test {
     width: 44%;
 }
 
-.etape-rose{
+.etape-rose {
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -167,23 +154,19 @@ li{
     letter-spacing: 0.017em;
     text-transform: uppercase;
     color: #FB5875;
-    
 }
 
-.ellipse{
+.ellipse {
     font-size: 1.3em !important;
     color: #FB5875;
 }
-
 
 .rectangle-28 {
     margin-top: 165px;
     background: #FFCC00;
     border-radius: 6px;
-
     position: absolute;
 }
-
 
 .rectangle-28a {
     width: 90%;
@@ -203,7 +186,6 @@ li{
     left: -13%;
 }
 
-
 .rectangle-28d {
     width: 100%;
     height: 12px;
@@ -222,7 +204,6 @@ li{
     left: -13%;
 }
 
-
 .group {
     margin-top: 52px;
 }
@@ -231,49 +212,51 @@ li{
     margin-top: 270px;
 }
 
-
 .rectangle-28x {
     margin-top: 385px;
     background: #FFCC00;
     border-radius: 6px;
-
     position: absolute;
 }
 
-
-.group-5{
+.group-5 {
     width: 171px;
     position: absolute;
     margin-left: 51%;
 }
 
-.group-6{
-    width: 361px;/* 378px; */
+.group-6 {
+    width: 361px;
+    /* 378px; */
     position: absolute;
 }
 
-.group-7{
-    width: 361px/* 379px */;
+.group-7 {
+    width: 361px/* 379px */
+    ;
     position: absolute;
     margin-left: -32%;
 }
 
-.group-8{
+.group-8 {
     width: 243px;
     position: absolute;
     margin-left: 44%;
 }
 
-.group-9{
-    width: 361px;/* 378px; */
+.group-9 {
+    width: 361px;
+    /* 378px; */
     position: absolute;
 }
 
-.group-10{
-    width: 361px; /* 379px; */
+.group-10 {
+    width: 361px;
+    /* 379px; */
     position: absolute;
     margin-left: -32%;
 }
+
 
 /* .group-6, .group-7, .group-9, .group-10{
 
@@ -283,7 +266,7 @@ li{
 
 /* Rectangle 15 */
 
-.rectangle-15{
+.rectangle-15 {
     width: 387px;
     height: 60px;
     background: #FB5875 !important;
@@ -303,13 +286,11 @@ li{
     letter-spacing: 0.1em;
 }
 
-
-.fleche-inscris{
+.fleche-inscris {
     margin-left: 26px;
 }
 
-
-.sous-titre-rose{
+.sous-titre-rose {
     font-family: Inter;
     font-style: normal;
     font-weight: 600;
@@ -319,12 +300,13 @@ li{
     text-transform: uppercase;
     color: #FB5875;
 }
+
+
 /* choisissez votre parcours */
 
-.choisissez-votre-parcours{
+.choisissez-votre-parcours {
     margin-top: 57px;
     margin-left: 6%;
-    
 }
 
 .sous-titre-noir {
@@ -336,16 +318,17 @@ li{
     letter-spacing: 0.01em;
     color: #000000;
 }
+
+
 /* Apprends les fondamentaux du métier de développeur web. */
 
-.apprends-les-fondamentaux{
+.apprends-les-fondamentaux {
     margin-top: 10px;
     margin-left: 6%;
     width: 46%;
 }
 
-
-.paragraphe-normal{
+.paragraphe-normal {
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -355,17 +338,17 @@ li{
     color: #000000;
 }
 
+
 /* Les structures de nos cours sont divisées en deux parties : le tronc commun que l’on appelle « les fondamentaux du web » et la spécialisation. Le but est donc d’acquérir un socle de compétences digitales solide avant de se spécialiser sur un métier. Les fondamentaux du web nécessitent une fourchette de temps étant de 1 à 2 mois. */
 
-.les-structures-de-nos-cours{
+.les-structures-de-nos-cours {
     width: 33%;
     /* height: 231px; */
     margin-left: 6%;
     margin-top: 19px;
 }
 
-
-.rectangle-15-a{
+.rectangle-15-a {
     width: 221px;
     height: 39px;
     margin-top: 4%;
@@ -388,12 +371,11 @@ li{
     letter-spacing: 0.1em;
 }
 
-.fleche-inscris-mtnant{
+.fleche-inscris-mtnant {
     margin-left: 17px;
 }
 
-
-.rectangle-18{    
+.rectangle-18 {
     width: 329px;
     height: 307px;
     background: #F7F7F9;
@@ -401,7 +383,7 @@ li{
     margin-top: 20px;
 }
 
-.soft-skills{
+.soft-skills {
     width: 79%;
     padding-top: 6%;
     height: 87px;
@@ -435,7 +417,7 @@ li{
     color: #898989;
 }
 
-.travaill-dans-les-metiers{
+.travaill-dans-les-metiers {
     position: relative;
     width: 76%;
     /* left: 9%; */
@@ -451,7 +433,7 @@ li{
     color: #898989;
 }
 
-.adapter{
+.adapter {
     position: relative;
     width: 79%;
     /* left: 9%; */
@@ -467,7 +449,7 @@ li{
     color: #898989;
 }
 
-.aujourd-hui-les-utilisateurs{
+.aujourd-hui-les-utilisateurs {
     margin-top: -12%;
     position: relative;
     width: 79%;
@@ -484,7 +466,7 @@ li{
     color: #898989;
 }
 
-.devenir-un-bon-developpeur{
+.devenir-un-bon-developpeur {
     position: relative;
     width: 83%;
     /* left: 9%; */
@@ -500,7 +482,7 @@ li{
     color: #898989;
 }
 
-.techniques-de-base{
+.techniques-de-base {
     margin-top: 16%;
     position: relative;
     width: 79%;
@@ -517,58 +499,53 @@ li{
     color: #898989;
 }
 
-.bloc-rect-18{
+.bloc-rect-18 {
     margin-top: 43px;
 }
-.rectangle-18-a{
+
+.rectangle-18-a {
     margin-left: 42%;
 }
 
-.rectangle-18-b{
-    
-}
+.rectangle-18-b {}
 
-.rectangle-18-c{
-    
-}
+.rectangle-18-c {}
 
-.rectangle-18-d{
+.rectangle-18-d {
     margin-left: 56%;
 }
 
-.rectangle-18-e{
+.rectangle-18-e {
     margin-left: 6%;
 }
 
-.sit-reading{
+.sit-reading {
     position: absolute;
     width: 100%;
     height: 425px;
     margin-top: 7%;
-
     margin-left: -3%;
 }
 
-.bloc-sitReading{
+.bloc-sitReading {
     margin-left: 30%;
 }
 
-.bloc-specialisation{
+.bloc-specialisation {
     margin-top: 15%;
     margin-right: 7%;
-
 }
-.specialisation{
+
+.specialisation {
     text-align: right;
-
 }
 
-.specialise-toi{
+.specialise-toi {
     text-align: right;
     width: 90%;
 }
 
-.apres-avoir-appris{
+.apres-avoir-appris {
     text-align: right;
     width: 62%;
 }
@@ -603,109 +580,101 @@ li{
     width: 50%;
     text-align: center;
     left: 25%;
-    
     position: relative;
     margin-top: 5%;
-
     padding-bottom: 12%;
-  }
-  
-  .icon-grp-service-3 {
+}
+
+.icon-grp-service-3 {
     width: 50%;
     text-align: center;
     left: 25%;
-    
     position: relative;
     margin-top: 5%;
-  }
-  
-  .developpeur-front-end{
-  
+}
+
+.developpeur-front-end {
     line-height: 19px;
-  }
-  
-  .bloc-designer{
+}
+
+.bloc-designer {
     padding-bottom: 28px !important;
-  }
-  .stroke-1 {
+}
+
+.stroke-1 {
     width: 16%;
     position: relative;
-  }
-  
-  .stroke-2 {
+}
+
+.stroke-2 {
     width: 5%;
     left: -3%;
     position: relative;
-  }
-  
+}
 
-
-.bloc-data-engineer{
+.bloc-data-engineer {
     padding-bottom: 0px !important;
 }
- /* Rectangle */
- .rectangle{
 
-  background: #F7F7F9;
-  border-radius: 20px;
-  height: 95%;
-  margin-top: 13px;
-  width: 67%;
-  padding-bottom: 81px;
+
+/* Rectangle */
+
+.rectangle {
+    background: #F7F7F9;
+    border-radius: 20px;
+    height: 95%;
+    margin-top: 13px;
+    width: 67%;
+    padding-bottom: 81px;
 }
 
+.rectangle-3-derniers {}
 
-.rectangle-3-derniers{
-
+.service-1-1a {
+    margin-left: 44%;
 }
-.service-1-1a{
-    margin-left: 44% ;
-} 
 
-.icon-ruby{
+.icon-ruby {
     top: 12% !important;
-  }
+}
 
 .service-1-3a {
-  margin-left: -34px;
-}
- /* développeur web Ruby On Rails */
- 
- .developpeur{
-   
-  padding-top: 10.58%;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 109%;
-  line-height: 146%;
-  align-items: center;
-  text-align: center;
-  text-transform: uppercase;
-  color: #FB5875;
+    margin-left: -34px;
 }
 
+
+/* développeur web Ruby On Rails */
+
+.developpeur {
+    padding-top: 10.58%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 109%;
+    line-height: 146%;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FB5875;
+}
 
 .apprends-a-aller-chercher {
-  
     margin-top: 12% !important;
-  }
-  
-  .icon-grp-service-1 {
+}
+
+.icon-grp-service-1 {
     width: 50%;
     text-align: center;
     left: 25%;
     position: relative;
     top: -15%;
-  }
-  
-  .developpeur-front-end{
+}
+
+.developpeur-front-end {
     line-height: 18px;
-  }
+}
 
-
- .deviens-un-developpeur-web{
- 
+.deviens-un-developpeur-web {
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -716,17 +685,15 @@ li{
     text-align: center;
     letter-spacing: -0.025em;
     color: #898989;
-  
     margin-top: 14%;
-  
-  }
-  
-  .deviens-un-expert-du-Front{
+}
+
+.deviens-un-expert-du-Front {
     margin-top: 12%;
     width: 81%;
-  }
+}
 
-  .icon-grp-service {
+.icon-grp-service {
     width: 50%;
     text-align: center;
     left: 25%;
@@ -734,7 +701,7 @@ li{
     top: 6%
 }
 
-.bloc-rectangle{
+.bloc-rectangle {
     margin-top: 5%;
 }
 
@@ -749,9 +716,7 @@ li{
     margin-top: 19px;
 }
 
-
-
-.rectangle-15-b{
+.rectangle-15-b {
     width: 221px;
     height: 39px;
     margin-top: 4%;
@@ -774,7 +739,7 @@ li{
     letter-spacing: 0.1em;
 }
 
-.forme-4-a{
+.forme-4-a {
     width: 53%;
     position: absolute;
     margin-top: 13%;
@@ -785,44 +750,39 @@ li{
     margin-left: -5%; */
 }
 
-.group-48{
+.group-48 {
     position: absolute;
     width: 68%;
     margin-left: 29%;
-    margin-top: 14%;/* 
+    margin-top: 14%;
+    /* 
     position: absolute;
     width: 81%;
     margin-left: 31%;
     margin-top: 10%; */
 }
 
-
-.bloc-specialisation-1{
-
+.bloc-specialisation-1 {
     margin-top: 7%;
     margin-right: 7%;
-
 }
 
-.atteins-excellence{
-
+.atteins-excellence {
     text-align: right;
     width: 92%;
 }
 
-.notre-objectif{
+.notre-objectif {
     text-align: right;
     width: 82%;
 }
 
-.rectangle-soft{
+.rectangle-soft {
     width: 147px;
     height: 35px;
-
-    background: #FB5875;
+    /* background: #FB5875; */
     border-radius: 100px;
 }
-
 
 .hard-skills-1 {
     /* padding-left: 17%; */
@@ -844,52 +804,45 @@ li{
     border-radius: 100px;
 }
 
-.code-fonctionnel{
+.code-fonctionnel {
     align-items: center;
     text-align: center;
     width: 90%;
 }
 
-.bloc-hard-skills{
+.bloc-hard-skills {
     margin-top: 7%;
 }
 
-.ton-code-fonctionnel{
+.ton-code-fonctionnel {
     margin-top: 36%;
 }
 
-.attendra-de-toi{
+.attendra-de-toi {
     margin-top: 26%;
     width: 72%;
 }
 
-.attendra-de-toi-assidue{
+.attendra-de-toi-assidue {
     margin-top: 19%;
     width: 74%;
 }
 
-.bon-vocabulaire{
+.bon-vocabulaire {
     margin-top: 6%;
     width: 80%;
 }
 
-.attendra-implique{
+.attendra-implique {
     margin-top: 24%;
     width: 80%;
 }
-
-
-
-
-
 
 .la-journee-type {
     margin-left: 4%;
 }
 
-
-
-.sous-titre-9-noir{
+.sous-titre-9-noir {
     font-family: Inter;
     font-style: normal;
     font-weight: 900;
@@ -898,20 +851,20 @@ li{
     letter-spacing: 0.01em;
     color: #000000;
 }
-.choisis-le-parcours{
+
+.choisis-le-parcours {
     margin-left: 4%;
     width: 42%;
 }
 
-
-
-.ellipse-7a{
+.ellipse-7a {
     margin-top: -3%;
     margin-left: 61.5%;
     position: absolute;
     width: 11%;
 }
-.bloc-shift-jour{
+
+.bloc-shift-jour {
     /* position: absolute; */
     background: url(../image/Rectangle\ 151.png);
     height: 60%;
@@ -920,13 +873,11 @@ li{
     border-radius: 0 20px 20px 0;
     background-repeat: no-repeat;
     background-size: 100% 83%;
-
 }
 
 .shift-jour {
     padding-left: 28px;
     padding-top: 18%;
-
     font-family: Inter;
     font-style: normal;
     font-weight: 900;
@@ -942,10 +893,8 @@ li{
 .rectangle-154 {
     /* position: absolute; */
     margin-top: -12px;
-    
     width: 309px;
     height: 210px;
-
     border-width: medium;
     background: #E9EAEF;
     box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.15);
@@ -955,9 +904,10 @@ li{
     margin-left: 19px;
 }
 
+
 /* #shift à dominante jour - 9 semaines */
 
-.shift-a-dominante{
+.shift-a-dominante {
     margin-top: 21px;
     font-family: Inter;
     font-style: normal;
@@ -972,15 +922,14 @@ li{
 }
 
 
-
 /* Rectangle 154 */
-.rectangle-154-a{
+
+.rectangle-154-a {
     /* position: absolute; */
     margin-top: -12px;
-
     width: 192px;
     height: 206px;
-/*     width: 144px;
+    /*     width: 144px;
     height: 169px; */
     border-width: medium;
     background: #E9EAEF;
@@ -991,11 +940,9 @@ li{
     margin-left: 4px;
 }
 
-.morning-routine{
-    
-}
+.morning-routine {}
 
-.heure{
+.heure {
     padding-left: 51px;
     padding-top: 50px;
     font-family: Inter;
@@ -1007,7 +954,7 @@ li{
     color: #000000;
 }
 
-.cours{
+.cours {
     width: 121px;
     margin-top: 17px;
     font-family: Inter;
@@ -1020,58 +967,55 @@ li{
     color: #000000;
 }
 
-.heure-1{
+.heure-1 {
     padding-top: 21px;
 }
 
-.cours-1{
+.cours-1 {
     margin-top: 0px;
 }
 
-.heure-2{
+.heure-2 {
     margin-top: -21px;
 }
 
-.cours-2{
+.cours-2 {
     margin-top: 3px;
 }
-.rectangle-154-a1{
+
+.rectangle-154-a1 {
     margin-left: 85px;
 }
 
-.rectangle-154-a2{
+.rectangle-154-a2 {
     margin-left: 54px;
 }
 
-.rectangle-154-a3{
+.rectangle-154-a3 {
     margin-left: 24px;
 }
 
-.rectangle-154-a4{
+.rectangle-154-a4 {
     margin-left: -6px;
 }
 
-.rectangle-154-a5{
+.rectangle-154-a5 {
     margin-left: -38px
 }
 
-.cours-magistraux{
+.cours-magistraux {
     width: 145px;
 }
 
-.challenges{
+.challenges {
     width: 138px;
 }
 
-.yoga{
+.yoga {
     width: 137px;
 }
 
-
-
-
-
-.bloc-shift-soir{
+.bloc-shift-soir {
     /* position: absolute; */
     background: url(../image/Rectangle\ 154.png);
     height: 60%;
@@ -1080,10 +1024,9 @@ li{
     border-radius: 0 20px 20px 0;
     background-repeat: no-repeat;
     background-size: 100% 83%;
-
 }
 
-.shift-soir{
+.shift-soir {
     padding-top: 18%;
     padding-left: 28px;
     font-family: Inter;
@@ -1098,7 +1041,7 @@ li{
     text-transform: uppercase;
 }
 
-.shift-du-soir{
+.shift-du-soir {
     margin-left: 13px !important;
     margin-right: 17px;
     margin-top: 21px;
@@ -1115,19 +1058,17 @@ li{
 }
 
 
-
 /* Rectangle 154 */
-.rectangle-154-1{
+
+.rectangle-154-1 {
     box-shadow: 11px 11px 0px #FFCC00;
 }
 
 .rectangle-154-1-a {
     /* position: absolute; */
     margin-top: -12px;
-    
     width: 192px;
     height: 206px;
-
     border-width: medium;
     background: #E9EAEF;
     box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.15);
@@ -1137,10 +1078,7 @@ li{
     margin-left: 4px;
 }
 
-
-
-
-.cours-soir{
+.cours-soir {
     width: 121px;
     margin-top: 58px;
     font-family: Inter;
@@ -1153,15 +1091,12 @@ li{
     color: #000000;
 }
 
-
-
-.ellipse-8{
+.ellipse-8 {
     margin-top: 50%;
     margin-left: -16px;
 }
 
-
-.modalites-de-financement{
+.modalites-de-financement {
     font-family: Inter;
     font-style: normal;
     font-weight: 600;
@@ -1174,8 +1109,7 @@ li{
     margin-top: 79px;
 }
 
-
-.plusieurs-financements{
+.plusieurs-financements {
     width: 55%;
     /* top: 7797px; */
     font-family: Inter;
@@ -1190,21 +1124,19 @@ li{
     color: #000000;
 }
 
-.couleur-jaune-opacity{
-  background: rgba(255, 204, 0, 0.57);
+.couleur-jaune-opacity {
+    background: rgba(255, 204, 0, 0.57);
 }
 
-
-.groupe-266{
+.groupe-266 {
     margin-top: 330px;
     width: 140%;
     /* width: 559px; */
 }
 
-footer{
+footer {
     margin-top: -8.5%;
 }
-
 
 .btn-school {
     width: 209px;
@@ -1227,26 +1159,40 @@ footer{
     color: #F2F2F7 !important;
 }
 
-
-.bloc-etap{
+.bloc-etap {
     margin-left: 12% !important;
 }
 
-
-.menu{
+.menu {
     margin-top: -21%;
-  }
-@media (max-width: 1674px){
+}
+
+.slider-parallax-group {
+    position: relative !important;
+}
+
+.txt-right-par,
+.txt-left-par {
+    width: 86% !important;
+    left: 10% !important;
+    color: #898989 !important;
+}
+
+.btn-right-para {
+    width: 46% !important;
+}
+
+@media (max-width: 1674px) {
     .formons-des-heros {
-      font-size: 90px;
+        font-size: 90px;
     }
     .des-heros {
-      font-size: 124px;
+        font-size: 124px;
+        margin-top: -3%;
+    }
+}
 
-    margin-top: -3%;
-    } 
-  
-  }
+
 /* 
 @media (max-width: 1674px) {
 
@@ -1258,10 +1204,6 @@ footer{
         font-size: 137px;
     } */
 
-
-   
-
-
 @media (min-width: 1264px) {
     .rectangle-28d {
         width: 146%;
@@ -1271,10 +1213,9 @@ footer{
 }
 
 @media (max-width: 1826px) {
-    .bloc-etap{
-        margin-left: 0% !important; 
+    .bloc-etap {
+        margin-left: 0% !important;
     }
-
 }
 
 @media (max-width: 1608px) {
@@ -1283,126 +1224,106 @@ footer{
     }
 }
 
-
 @media (max-width: 1564px) {
-    
-    .form1-school{
+    .form1-school {
         position: relative;
         width: 100%;
         left: -16.35%;
         margin-top: -3%;
     }
-
 }
 
 @media (max-width: 1500px) {
-    
-    .rectangle-18-a{
+    .rectangle-18-a {
         margin-left: 17%;
     }
-
-    .rectangle-18-d{
+    .rectangle-18-d {
         margin-left: 43%;
     }
-
-    .rectangle-18-e{
+    .rectangle-18-e {
         margin-left: 0%;
     }
 }
 
-
 @media (min-width: 1262px) {
     .icon-grp-service-3 {
-    margin-top: 10%;
+        margin-top: 10%;
     }
 }
+
 @media (max-width: 1454px) {
     .rectangle-15 {
         margin-top: 36%;
     }
-    .btn-school{
+    .btn-school {
         width: 136.06px;
         height: 58.3px;
         margin-top: 36px;
         font-size: 21px !important;
     }
-
-.girl-fly{
-   
-    /* top: -30%;   */   
-    margin-top: -34%;   
+    .girl-fly {
+        /* top: -30%;   */
+        margin-top: -34%;
+    }
 }
-  }
-  
-  
+
 @media (max-width: 1412px) {
     .icon-data-eng {
         margin-top: 63px;
     }
 }
 
-@media  (min-width: 882px) and (max-width: 1119px){
-
+@media (min-width: 882px) and (max-width: 1119px) {
     .groupe-266 {
         margin-top: 385px;
     }
 }
 
-@media screen and (max-width: 795px){
-
+@media screen and (max-width: 795px) {
     .rectangle-18-d {
         margin-left: 4% !important;
     }
-    
 }
 
-
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
     .bloc-specialisation {
         margin-top: 468px;
     }
-    
 }
 
-@media (max-width: 1168px )  and (min-width: 765px){
-    
-    footer{
+@media (max-width: 1168px) and (min-width: 765px) {
+    footer {
         margin-top: -9.5%;
     }
 }
 
 @media (max-width: 1698px) {
-    .shift-jour{    
+    .shift-jour {
         padding-top: 13%;
         padding-left: 0%;
     }
-
-    .shift-soir{    
+    .shift-soir {
         padding-top: 13%;
         padding-left: 0%;
     }
-
-    .heure{
+    .heure {
         padding-left: 25px;
         padding-top: 25px;
     }
-
     /* Rectangle 154 */
-    .rectangle-154{
+    .rectangle-154 {
         /* position: absolute; */
         margin-top: -12px;
         width: 244px;
         height: 169px;
     }
-
     /* Rectangle 154 */
-    .rectangle-154-a{
+    .rectangle-154-a {
         width: 144px;
         height: 169px;
     }
-
     /* Rectangle 154 */
-    .rectangle-154-1-a{
+    .rectangle-154-1-a {
         width: 144px;
         height: 169px;
     }
@@ -1415,15 +1336,13 @@ footer{
     }
 }
 
-@media (max-width: 773px){
+@media (max-width: 773px) {
     .rectangle-28a {
         width: 82%;
     }
-
     .etape-rose {
         font-size: 10px;
     }
-
     .group-8 {
         width: 202px;
     }
@@ -1439,7 +1358,6 @@ footer{
     .je-passe-mon-test {
         width: 39%;
     }
-    
     .lettre-noir {
         font-size: 30px;
     }
@@ -1447,11 +1365,10 @@ footer{
 
 @media (max-width: 577px) {
     .rectangle-154-min {
-        margin-left: auto; 
+        margin-left: auto;
         margin-right: auto;
     }
 }
-
 
 @media (max-width: 765px) {
     .groupe-266 {
@@ -1460,101 +1377,99 @@ footer{
     }
 }
 
-
-
-@media (max-width: 1195px)  {
+@media (max-width: 1195px) {
     .ellipse-8 {
         margin-top: 11%;
     }
-    .bloc-shift-soir, .bloc-shift-jour  {
+    .bloc-shift-soir,
+    .bloc-shift-jour {
         background-size: 100% 91%;
     }
 }
 
-
-
-
 @media (max-width: 573px) {
-    .bloc-shift-soir, .bloc-shift-jour  {
+    .bloc-shift-soir,
+    .bloc-shift-jour {
         background-size: 100% 96%;
     }
 }
 
-@media (max-width: 881px) and (min-width:768px){
-.groupe-266 {
-    margin-top: 389px;
-    width: 140%;
-}
+@media (max-width: 881px) and (min-width:768px) {
+    .groupe-266 {
+        margin-top: 389px;
+        width: 140%;
+    }
 }
 
-@media (max-width: 767px) and (min-width: 753px){ 
+@media (max-width: 767px) and (min-width: 753px) {
     .groupe-266 {
         margin-top: 423px;
         width: 100%;
     }
 }
 
-@media (max-width: 767px){ 
-    .bloc-specialisation-1{
+@media (max-width: 767px) {
+    .bloc-specialisation-1 {
         margin-top: 100%;
     }
- 
 }
 
-@media (max-width: 985px) and (min-width: 576px){ 
-.icon-grp-service-1 {
-    top: -21%;
-}
-}
-@media (max-width: 1259px){
-
-    .rectangle{ 
-     width: 270px;
+@media (max-width: 985px) and (min-width: 576px) {
+    .icon-grp-service-1 {
+        top: -21%;
     }
-   }
-
-@media(max-width: 1103px){
-
-  .plusieurs-financements {
-    width: 67%;
-  }
 }
 
-@media (max-width: 925px){ 
-.plusieurs-financements {
-    width: 92%;
+@media (max-width: 1259px) {
+    .rectangle {
+        width: 270px;
+    }
 }
-}
-@media (max-width: 497px){
 
+@media(max-width: 1103px) {
+    .plusieurs-financements {
+        width: 67%;
+    }
+}
+
+@media (max-width: 925px) {
+    .plusieurs-financements {
+        width: 92%;
+    }
+}
+
+@media (max-width: 497px) {
     .plusieurs-financements {
         width: 100%;
     }
 }
-   @media(max-width: 1137px) and (min-width:1103px){
+
+@media(max-width: 1137px) and (min-width:1103px) {
     .service-1-1a {
-      margin-left: 29%;
-  }
-  }
-  
-  @media(max-width: 1102px) and (min-width:576px){
+        margin-left: 29%;
+    }
+}
+
+@media(max-width: 1102px) and (min-width:576px) {
     .service-1-1a {
-      margin-left: 24%;
-  }
-  }
-  
-  /* @media(max-width: 992px) and (min-width:576px){
+        margin-left: 24%;
+    }
+}
+
+
+/* @media(max-width: 992px) and (min-width:576px){
     .service-1-3a,  .bloc-developpeur-front{
       margin-left: 192px;
     }
   } */
-  
-  @media(max-width: 991px) and (min-width:57px){
+
+@media(max-width: 991px) and (min-width:57px) {
     .service {
-      margin-left: auto;
-      margin-right: auto;
-  }
-  }
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 
 /* 
   .group-10 {
@@ -1563,18 +1478,19 @@ footer{
     .group-7 {
         width: 261px */
 
-
-  @media (max-width: 1338px){
-
+@media (max-width: 1338px) {
     .apprends-a-aller-chercher {
-        margin-top: 22% !important;
+        margin-top: 27% !important;
     }
-  }
+}
 
 
-   /****/
-@media screen and (max-width: 1199px){
-    .rectangle-18-e, .rectangle-18-a, .rectangle-18-c  {
+/****/
+
+@media screen and (max-width: 1199px) {
+    .rectangle-18-e,
+    .rectangle-18-a,
+    .rectangle-18-c {
         margin-left: 33%;
     }
     .rectangle-18-d {
@@ -1582,52 +1498,49 @@ footer{
     }
 }
 
-
-@media screen and (max-width: 897px){
-    .rectangle-18-e, .rectangle-18-a, .rectangle-18-c {
+@media screen and (max-width: 897px) {
+    .rectangle-18-e,
+    .rectangle-18-a,
+    .rectangle-18-c {
         margin-left: 3%;
     }
 }
 
-@media screen and (max-width: 768px){
-    .rectangle-18-e, .rectangle-18-a, .rectangle-18-c, .rectangle-18-b, .rectangle-18-d {
+@media screen and (max-width: 768px) {
+    .rectangle-18-e,
+    .rectangle-18-a,
+    .rectangle-18-c,
+    .rectangle-18-b,
+    .rectangle-18-d {
         margin-left: auto !important;
         margin-right: auto;
     }
 }
 
-
-
-@media (max-width: 992px){
+@media (max-width: 992px) {
     .group-5 {
-        position: relative; 
+        position: relative;
     }
     .group-7 {
-       margin-left: 0%;
+        margin-left: 0%;
     }
-
-
     .group-8 {
-        position: relative; 
+        position: relative;
     }
-    .group-10, .group-6 {
-
+    .group-10,
+    .group-6 {
         margin-left: -3%
         /* margin-left: 0%; -3%*/
     }
 }
 
-
-
-@media (min-width: 576px) and (max-width: 992px){
-
+@media (min-width: 576px) and (max-width: 992px) {
     .dropdown {
         margin-top: -55% !important;
         margin-right: 1% !important;
         /* margin-top: -47% !important; */
     }
-    .rectangle-28d{
-
+    .rectangle-28d {
         margin-top: 165px;
         width: 100%;
         margin-left: -11px;
@@ -1639,27 +1552,21 @@ footer{
     .rectangle-28e-f {
         margin-top: 157px;
     }
-
-    .group-9-10{
+    .group-9-10 {
         margin-top: 44px;
     }
-
     .rectangle-28f {
         width: 98%;
     }
 }
 
-
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
     .groupe-294 {
         margin-top: 19%;
     }
 }
 
-
-
-
-@media screen and (max-width: 575px){
+@media screen and (max-width: 575px) {
     .dropdown {
         margin-top: -95% !important;
     }
@@ -1672,44 +1579,33 @@ footer{
         margin-left: 13%;
         margin-top: 384px;
     }
-
     .group-7 {
         margin-left: 0%;
         margin-top: 204px;
     }
-
     .rectangle-28d {
         margin-top: 521px;
     }
     .group-9 {
         margin-top: 565px;
     }
-
     .rectangle-28e {
         margin-top: 702px;
     }
-
     .group-10 {
         margin-top: 750px;
     }
-
     .rectangle-28f {
         margin-top: 887px;
     }
-    
 }
 
-
-
-@media screen and (max-width: 537px){
-
-
+@media screen and (max-width: 537px) {
     .group-6 {
-        position: relative; 
+        position: relative;
     }
-
     .group-9 {
-        position: relative; 
+        position: relative;
     }
     .rectangle-28a {
         width: 82%;
@@ -1723,76 +1619,65 @@ footer{
     .group-8 {
         margin-top: 225px;
     }
-
     .rectangle-28d {
         margin-top: 338px;
     }
-
     .group-9 {
         margin-top: 400px;
     }
-
     .rectangle-28e {
         margin-top: 513px;
     }
-
-
     .group-10 {
         margin-top: 45px;
     }
-
     .rectangle-28f {
         margin-top: 158px;
         width: 88%;
     }
-    
 }
 
-@media (max-width: 1120px){
-
+@media (max-width: 1120px) {
     .rectangle-15 {
         margin-top: 44%;
     }
 }
 
-
-@media (max-width: 989px){
+@media (max-width: 989px) {
     .rectangle-15 {
         margin-top: 193px;
     }
 }
 
-@media (max-width: 575px) and (min-width: 538px){
+@media (max-width: 575px) and (min-width: 538px) {
     .rectangle-15 {
         margin-top: 166%;
     }
-} 
+}
 
-
-@media (min-width: 1260px) and (max-width: 1454px){
+@media (min-width: 1260px) and (max-width: 1454px) {
     .integre-la-meilleure {
         margin-top: 25%;
     }
 }
 
-@media (min-width: 1120px) and (max-width: 1259px){
+@media (min-width: 1120px) and (max-width: 1259px) {
     .formons-des-heros {
-        font-size:  78px;
+        font-size: 78px;
     }
     .des-heros {
         font-size: 107px;
-        margin-top: -6%;    
+        margin-top: -6%;
     }
     .integre-la-meilleure {
         margin-top: 25%;
     }
 }
 
-@media (min-width: 853px) and (max-width: 1119px){
+@media (min-width: 853px) and (max-width: 1119px) {
     .integre-la-meilleure {
         margin-top: 25%;
     }
-
     .formons-des-heros {
         font-size: 57px;
     }
@@ -1805,25 +1690,23 @@ footer{
     }
 }
 
-
-@media (min-width: 623px) and (max-width: 852px){
+@media (min-width: 623px) and (max-width: 852px) {
     .integre-la-meilleure {
         margin-top: 30%;
         font-size: 25px;
     }
 }
 
-@media (min-width: 545px) and (max-width: 622px){
+@media (min-width: 545px) and (max-width: 622px) {
     .integre-la-meilleure {
         /* margin-top: 38%;
         font-size: 25px; */
-
         margin-top: 38%;
         font-size: 23px;
     }
 }
 
-@media (min-width: 423px) and (max-width: 544px){
+@media (min-width: 423px) and (max-width: 544px) {
     .integre-la-meilleure {
         /* margin-top: 38%;
         font-size: 25px; */
@@ -1832,25 +1715,25 @@ footer{
     }
 }
 
-
 @media (min-width: 435px) and (max-width: 867px) {
     .apprends-les-fondamentaux {
         width: 68%;
     }
-    .les-structures-de-nos-cours, .retrouvez-challenges {
+    .les-structures-de-nos-cours,
+    .retrouvez-challenges {
         width: 55%;
     }
 }
 
-
-@media (max-width: 435px){
-    .apprends-les-fondamentaux, .les-structures-de-nos-cours, .retrouvez-challenges {
+@media (max-width: 435px) {
+    .apprends-les-fondamentaux,
+    .les-structures-de-nos-cours,
+    .retrouvez-challenges {
         width: 100%;
     }
-
-
 }
-@media (min-width: 423px) and (max-width: 852px){
+
+@media (min-width: 423px) and (max-width: 852px) {
     .formons-des-heros {
         font-size: 49px;
     }
@@ -1872,15 +1755,12 @@ footer{
         font-size: 52px;
         margin-top: -20%;
     }
-
     .girl-fly {
         margin-top: -55%;
     }
 }
 
-
 @media (max-width: 323px) {
-
     .des-heros {
         font-size: 38px;
         margin-top: -20%;
@@ -1889,20 +1769,17 @@ footer{
         font-size: 26px;
     }
 }
-@media (min-width: 423px) and (max-width: 768px){
-  
+
+@media (min-width: 423px) and (max-width: 768px) {
     .des-heros {
         margin-top: -8%;
     }
-
     .girl-fly {
         margin-top: -55%;
     }
 }
 
-
-@media screen and (max-width: 576px){
-  
+@media screen and (max-width: 576px) {
     .girl-fly {
         margin-top: 12px;
     }

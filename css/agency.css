@@ -166,7 +166,8 @@ li button{
   left: 25%;
   
   position: relative;
-  top: -4%;
+
+  margin-bottom: 12%;
 }
 
 .icon-grp-service-2 {
@@ -489,8 +490,8 @@ width: 47%;
   background: #F7F7F9;
   border-radius: 20px;
   margin-top: 13px;
-  width: 67%;
-  padding-bottom: 81px;
+  width: 68%;
+  height: 100%;
 }
 
 .service-1-1a{
@@ -502,11 +503,11 @@ width: 47%;
 }
 
 .service-1-2a, .service-1-3a{
-  height: 86% !important;
+  /* height: 86% !important; */
 } 
 
 .icon-ruby{
-  top: 12% !important;
+  top: 9% !important;
 }
 
 .service-3-derniers{
@@ -531,7 +532,7 @@ width: 47%;
 
 .apprends-a-aller-chercher {
   
-  margin-top: 12% !important;
+  margin-top: 24% !important;
 }
 
 .icon-data-eng {
@@ -542,7 +543,7 @@ width: 47%;
   text-align: center;
   left: 25%;
   position: relative;
-  top: -15%;
+  top: 4%;
   padding-bottom: 12%;
 }
 
@@ -565,6 +566,11 @@ width: 47%;
   color: #898989;
 
   margin-top: 18%;
+
+}
+
+.ensemble-developpeur{
+  margin-top: 17%;
 
 }
 
@@ -1409,6 +1415,20 @@ footer {
   color: #F2F2F7 !important;
 }
 
+
+
+@media (max-width: 1713px){
+  .rectangle{
+    margin-bottom: 0% !important;
+  }
+
+.icon-grp-service {
+  /* margin-bottom: 14%; */
+}
+
+
+}
+
 @media (max-width: 1454px){
   .menu {
       margin-top: 1%;
@@ -1487,11 +1507,11 @@ footer {
 }
 
 
-@media(max-width: 1290px){
+@media(max-width: 1445px){
   
 
   .icon-ruby {
-    top: 6%;
+    top: 1% !important;
   }
 
   

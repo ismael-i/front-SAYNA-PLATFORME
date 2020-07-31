@@ -1,5 +1,7 @@
 @import url('https://rsms.me/inter/inter.css');
-@import url("https://db.onlinewebfonts.com/c/75381a7b2320dd7176752c293d19298c?family=Antipasto");
+
+/* @import url("https://db.onlinewebfonts.com/c/75381a7b2320dd7176752c293d19298c?family=Antipasto"); */
+
 @import url("https://db.onlinewebfonts.com/c/62e84f8271d32eb452129a0b7d59540d?family=Antipasto+Pro");
 @import url("https://db.onlinewebfonts.com/c/9d942e0ff1014c476713a855710ce309?family=Lato");
 #background-body {
@@ -78,10 +80,10 @@
     top: 630.66px;
     font-family: "Antipasto";
     font-style: normal;
-    font-weight: n;
+    font-weight: 900;
     font-size: 2em;
     line-height: 30.36px;
-    letter-spacing: -0.01em;
+    letter-spacing: 0.05em;
     text-transform: uppercase;
     color: #6E6E6E;
 }
@@ -204,6 +206,7 @@
     height: 200PX;
     top: 10%;
     text-align: -webkit-center;
+    text-align: -moz-center;
     padding-left: 0 !important;
     padding-right: 0 !important;
     /* left: 28%; */
@@ -268,7 +271,7 @@
     width: 130px !important;
     height: 33.8px;
     /* left: 271px; */
-    display: inline-table;
+    display: table-cell;
     top: 0px;
     ;
     background: url("../imageModification/logo_maltem_groupe-HD-e1473777081392\ 1.png") no-repeat;
@@ -279,7 +282,7 @@
     width: 43.9px !important;
     height: 40px;
     /* left: 410.1px; */
-    display: inline-table;
+    display: table-cell;
     top: 0px;
     background: url("../imageModification/1022px-Orange_logo\ 1\ 1.png") no-repeat;
 }
@@ -289,9 +292,9 @@
     width: 171.8px !important;
     height: 43.5px;
     /* left: 462.74px; */
-    display: inline-table;
+    display: table-cell;
     top: 0px;
-    background: url("../imageModification/AccèsBanque\ Madagascar\ 1.png");
+    background: url("../image/AccèsBanque\ Madagascar.png");
 }
 
 .logo-axiangroup {
@@ -299,7 +302,7 @@
     width: 94.3px !important;
     height: 42.1px;
     /* left: 643.35px; */
-    display: inline-table;
+    display: table-cell;
     top: 0px;
     background: url("../imageModification/Axian\ 1.png");
 }
@@ -309,7 +312,7 @@
     width: 303.45px !important;
     height: 35.98px;
     /* left: 751.56px; */
-    display: inline-table;
+    display: table-cell;
     top: 0px;
     background: url("../imageModification/logo-wb-header-fr-newsletter\ 1.png") no-repeat;
 }
@@ -1158,6 +1161,7 @@
     /* left: 300px; */
     /* top: 3px; */
     text-align: -webkit-center;
+    text-align: -moz-center;
     margin-top: 124px;
     position: absolute !important;
 }
@@ -1222,7 +1226,7 @@
     position: relative;
     width: 172px;
     /* height: 378.92px; */
-    left: 71px;
+    left: 70.5px;
     border-radius: 20px;
     /* transform: rotate(19.43deg);*/
 }
@@ -1756,6 +1760,7 @@
     position: relative;
     /* left: 42%; */
     text-align: -webkit-center;
+    text-align: -moz-center;
     /* right: 47.29%; */
     /* top: -36px; */
     width: 100%;
