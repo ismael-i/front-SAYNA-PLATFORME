@@ -417,8 +417,8 @@ header {
 
 
 .onsoccupe  {
-	position: relative;
-top: -20px;	
+    position: relative;
+top: -20px; 
 text-align: right;
 font-family: Inter;
 font-style: normal;
@@ -517,8 +517,8 @@ color: #000000;
 }
 
 .aurai-je {
-	position: relative;
-	font-family: Inter;
+    position: relative;
+    font-family: Inter;
 font-style: normal;
 font-weight: 600;
 font-size: 18px;
@@ -535,7 +535,7 @@ left: 2%;
 
 
 .en48h{
-	font-family: Inter;
+    font-family: Inter;
 font-style: normal;
 font-weight: 900;
 font-size: 29px;
@@ -548,35 +548,16 @@ color: #000000;
 padding-bottom: 4px;
 left: 2%;
 position: relative;
-
-    position: relative;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
+    
+   
     letter-spacing: -0.025em;
-    text-transform: uppercase;
-    color: #FB5875;
+    
+   
     padding-bottom: 10px;
-    padding-top: ;
-    left: 2%;
-}
-
-.en48h {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 29px;
-    line-height: 149.52% !important;
-    /* or 60px */
-    letter-spacing: 0.01em;
-    line-height: 59px;
-    color: #000000;
-    padding-bottom: 4px;
-    left: 2%;
-    position: relative;
 
 }
+
+
 
 .bli4 {
     position: relative;
@@ -650,10 +631,10 @@ position: relative;
 
 .btn-rdv {
 
-	left: 5%;
-	position: relative;
-	width: 40% !important;
-	top: -30px !important;
+    left: 5%;
+    position: relative;
+    width: 40% !important;
+    top: -30px !important;
 
     left: 5%;
     position: relative;
