@@ -74,12 +74,11 @@
 .digital-school {
     /* sayna, l‘école DIGITALE innovante. */
     /* position: absolute; */
-    /* position: absolute; */
     width: 50%;
     height: 31.05px;
     left: 126.27px;
     top: 630.66px;
-    font-family: Antipasto Pro;
+    font-family: "Antipasto";
     font-style: normal;
     font-weight: 900;
     font-size: 2em;
@@ -295,7 +294,7 @@
     /* left: 462.74px; */
     display: table-cell;
     top: 0px;
-    background: url("../imageModification/AccèsBanque\ Madagascar\ 1.png");
+    background: url("../image/AccèsBanque\ Madagascar.png");
 }
 
 .logo-axiangroup {

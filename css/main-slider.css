@@ -488,7 +488,7 @@ top: 4608px; */
         height: 16.9px;
         /* left: 906px;
 top: 5094px; */
-        top: 2.6px;
+        bottom: 2px;
         font-family: "Lato";
         font-style: normal;
         font-weight: bold;
@@ -600,7 +600,7 @@ top: 4670px; */
         z-index: 2;
         /* left: 523px;
  */
-        top: 2.6px;
+        bottom: 2px;
         font-family: "Lato";
         font-style: normal;
         font-weight: normal;
@@ -645,7 +645,8 @@ top: 4670px; */
         height: 15.9px;
         /* left: 1286px;
 top: 5060px; */
-        top: 2.6px;
+        /* top: 2.6px; */
+        bottom: 2px;
         font-family: "Lato";
         font-style: normal;
         font-weight: normal;
