@@ -8,6 +8,7 @@
 
 .underligne {
     background: #f6d966;
+    padding: 0;
 }
 
 .btn {
@@ -15,10 +16,6 @@
     display: inline-flex;
     justify-content: space-between;
     border: none;
-}
-
-.dropdown {
-    display: none;
 }
 
 .logo {
@@ -43,8 +40,8 @@
     margin-right: none !important;
     margin-left: auto;
     margin-right: auto;
-    left: 5%;
-    margin-top: 2% !important;
+    left: 9%;
+    margin-top: -2% !important;
 }
 
 .madiver {
@@ -110,7 +107,36 @@ header {
     color: #000000;
 }
 
-.Groupe-8 {
+.btn-school,
+.btn-agency,
+.btn-connexion,
+.btn-factory-menu {
+    justify-content: center;
+}
+
+.btn-factory-menu {
+    width: 164px;
+    height: 61px;
+    left: 614.1px;
+    margin-top: 31.64px;
+    background-color: #FFCC00 !important;
+    box-shadow: 0px 0px 20px rgba(255, 204, 0, 0.35);
+    border-radius: 20px !important;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold !important;
+    font-size: 18px !important;
+    line-height: 24px !important;
+    display: inline-grid !important;
+    align-items: center;
+    text-align: center !important;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+    color: #F2F2F7 !important;
+}
+
+
+/* .Groupe-8 {
     color: #575F6B;
     font-size: 28px !important;
     margin-top: auto !important;
@@ -218,7 +244,7 @@ header {
     background: #FFCC00;
     box-shadow: 0px 0px 20px rgba(255, 204, 0, 0.35);
     border-radius: 20px;
-}
+} */
 
 .nos-heros {
     font-family: Inter;

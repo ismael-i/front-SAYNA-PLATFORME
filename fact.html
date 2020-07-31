@@ -7,6 +7,7 @@
     <title>factory</title>
     <link rel="stylesheet" type="text/css" media="screen" href="./bootstrap-4.5.0/css/bootstrap.css" />
     <link rel="stylesheet" href="./bootstrap-4.5.0-dist/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="./css/menu-home.css">
     <link rel="stylesheet" type="text/css" href="./css/fact.css">
     <link rel="stylesheet" type="text/css" href="./css/screen.css">
     <link rel="stylesheet" type="text/css" href="./css/footer-index.css">
@@ -23,53 +24,88 @@
     <div class="container-fluid haute">
         <header class="row">
 
-            <div class=" col-xl-2 col-md-2 col-lg-2 col-sm-12 col-12">
+            <div class=" col-xl-4 col-md-2 col-lg-4 col-sm-12 col-12">
                 <img src="./images/logo sayna 1.png" class="logo">
             </div>
 
-            <div class="col-xl-8 offset-xl-2 col-md-8 offset-md-2 col-lg-8 offset-lg-2 col-sm-12 col-12 menu">
+            <div class="col-md-7 col-xl-7 col-lg-7 col-sm-7 col-5">
+                <nav class="navbar navbar-expand-lg navbar-dark">
 
-                <li><button class="btn btn-menu"><a href="#"class="teext-menu">SCHOOL</a></button></li>
-                <li><button class="btn btn-menu"><a href="#"class="teext-menu">AGENCY</a></button></li>
-                <li><button class="btn btn-factory"><a href="#"class="teext-factory">FACTORY</a></button></li>
-                <li><button class="btn btn-connexion"><a href="#" class="teext-connex">CONNEXION<i class='fas fa-arrow-right fleche-connexion'></i></a></button></li>
-                <li><button class="btn btn-dropdown"><i class="fa fa-bars Groupe-8"></i></button></li>
+                    <ul class="navbar-nav ml-auto menu">
 
-            </div>
-            <div class="dropdown">
+                        <!-- <div class="menu"> -->
+                        <li class="nav-item">
+                            <a href="./school.html" class=" btn btn-school ">
+                                school
+                                <!-- <span class="txt-btn"></span>  -->
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./agency.html" class=" btn btn-agency">
+                                <span class="txt-agency">Agency</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class=" btn btn-factory-menu">
+                                <span class="txt-agency">factory</span>
+                            </a>
+                        </li>
+                        <li>
 
-                <button class="btn btn-dropdown dropbtn">
-					        <img src="./images/Group 8.png" class="fas fa-bars Groupe-8" alt="">
-					    </button>
-                <div class="dropdown-content">
-                    <li class="nav-item">
-                        <a href="" class=" btn btn-menu ">
+                            <a href="" class=" btn btn-connexion">
 
-                            <span class="teext-menu">school</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" class=" btn btn-menu">
-                            <span class="teext-menu">Agency</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" class=" btn btn-factory">
-                            <span class="teext-factory">factory</span>
-                        </a>
-                    </li>
-                    <li>
+                                <!-- <i class=''>connexion<i class='fas fa-arrow-right fleche-connexion'></i></i> -->
+                                <span class="txt-connexion">connexion
+                                    <i class="fas fa-arrow-right fleche-connexion"></i>
+                                </span>
 
-                        <a href="" class=" btn btn-connexion">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="btn btn-dropdonw ">
+                                <i class="fas fa-bars Groupe-8" alt=""> </i>
+                            </a>
 
-                            <!-- <i class=''>connexion<i class='fas fa-arrow-right fleche-connexion'></i></i> -->
-                            <span class="teext-connex">connexion
-					                    <i class="fas fa-arrow-right fleche-connexion"></i>
-					                </span>
+                        </li>
+                    </ul>
 
-                        </a>
-                    </li>
-                </div>
+
+                    <div class="dropdown">
+
+                        <button class="btn btn-dropdonw dropbtn">
+                <img src="./image/Group 8.png" class="fas fa-bars Groupe-8" alt="">
+            </button>
+                        <div class="dropdown-content">
+                            <li class="nav-item">
+                                <a href="./school.html" class=" btn btn-school ">
+                        school
+                        <!-- <span class="txt-btn"></span>  -->
+                    </a>
+                            </li>
+                            <li>
+                                <a href="./agency.html" class=" btn btn-agency">
+                                    <span class="txt-agency">Agency</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class=" btn btn-factory-menu">
+                                    <span class="txt-agency">factory</span>
+                                </a>
+                            </li>
+                            <li>
+
+                                <a href="" class=" btn btn-connexion">
+
+                                    <!-- <i class=''>connexion<i class='fas fa-arrow-right fleche-connexion'></i></i> -->
+                                    <span class="txt-connexion">connexion
+                            <i class="fas fa-arrow-right fleche-connexion"></i>
+                        </span>
+
+                                </a>
+                            </li>
+                        </div>
+                    </div>
+                </nav>
             </div>
 
 
